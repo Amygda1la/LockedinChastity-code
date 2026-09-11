@@ -7,21 +7,28 @@ init python:
 
 
     class GalleryItem:
-        def __init__(self, name, images, locked="locked"):
+        def __init__(self, name, images, locked="locked",image_number = None):
             self.name = name
             self.images = images
             self.locked = locked
             self.refresh_lock()
-        #changed the refresh lock function is changed, so now it will open the gallery for the scene
-        # if it seen only first image of that scene
-        #This can cause errors when two scenes first images are the same, but if you make a copy of the same image a
-        #copy of the same image and just change the name, the problem will be fixed
-        # and also it can be changed if one more condition will be addee to line 22 for ex last image of that scene
-        #but the last image can also be already seen so i found it a bit complicated
-        #also deleted the number of unlocked counter(im sorry)
+            # changed. Added this field to the GalleryItem object because it is being used
+            # in the gallery_thumbnail_info screen.
+            # Every CG in the gallery now has a unique number.
+            # The number is basically the i iterator in the for loop
+            # that creates the layout for the gallery menu.
+            self.image_number = image_number
+        # changed. The refresh_lock() function has been changed, so now the gallery
+        # will unlock a scene if the player has seen the first image of that scene.
+        #
+        # This can cause errors if the first images of two scenes are the same.
+        # However, if you make a copy of the same image and give it a different name,
+        # the problem will be fixed.
+        #
+        # Also deleted the unlocked counter(im sorry).
         def refresh_lock(self):
             lockme = True
-            if renpy.seen_image(self.images[0]) and renpy.seen_image(self.images[-1]):
+            if renpy.seen_image(self.images[0]):
              lockme = False
             self.is_locked = lockme
     #changed just added all cgs from the first script to the massive in order they are shown in the game, including the animation

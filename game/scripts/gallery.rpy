@@ -70,9 +70,15 @@ screen gallery_A():
         xalign 0.5
         yalign 0.98
         background "#fff8"
-#changed this is transform that you can replace the lock image with the blur like on value 80 it can work like an option
-# transform gallery_blur:
-#  blur 10
+
+
+
+
+
+#changed this transform is being used as censor for locked images instead of lock image
+#so now it just blures thumbnail image and not replaces it with lock image
+transform gallery_blur:
+ blur 150
 screen gallery_B():
 
     tag menu
@@ -103,21 +109,42 @@ screen gallery_B():
         xspacing 100
         yspacing - 160
         for i in range(start, end + 1):
-            #changed to lock the images if unlock_gallery is false and it works with prev unlocked images
-            #(the code below doesnt close them)
-            #also deleted the  if gallery_items[i].is_locked: before add because it works without it
+            # changed. I just moved the refresh_lock() call,
+            # so now it is called regardless of the condition.
+            #
+            # The second line is needed for the gallery_thumbnail_info screen.
+            # It changes the value of the GalleryItem object,
+            # so the screen can show the text for the image.
+            $gallery_items[i].image_number = i + 1
+            $gallery_items[i].refresh_lock()
+            #changed. unlockes the cg if unlock_gallery is true and locks if player havent seen
+            #them yet.
             if gallery_items[i].is_locked and not persistent.unlock_gallery:
-                $gallery_items[i].refresh_lock()
-                add gallery_items[i].locked:
-                    xalign 0.5
-                    yalign 0.5
-                    at imageThumb
+                # changed. Now the locked image is an imagebutton.
+                # It is needed because the hover state works only with imagebuttons,
+                # and I wanted the hover state to show the name of the locked CG to the player.
+                # Btw, the hover state of this imagebutton works only if it already has an action,
+                # even if the action is NullAction().
+                # Without the action statement, the hover effect will not work.
+                imagebutton:
+                 idle gallery_items[i].images
+                 style "gallery_button"
+                 xalign 0.5
+                 yalign 0.5
+                 action NullAction()
+                 #changed. I Deleted the grid for the text, bc it is no longer needed and
+                 #now gallery_thumbnail_info screen show the text for player
+                 hovered Show("gallery_thumbnail_info", dissolve, gallery_items[i].name, gallery_items[i].image_number)
+                 unhovered Hide("gallery_thumbnail_info")
+                 #applying the gallery_blur to hide the thumbnail from player
+                 at imageThumb, gallery_blur
             else:
                 imagebutton:
                     idle gallery_items[i].images
-                    #changed added hover image so this line make sense now
                     style "gallery_button" #delete this line to remove hover
                     action Show("gallery_closeup", dissolve, gallery_items[i].images)
+                    hovered Show("gallery_thumbnail_info", dissolve, gallery_items[i].name, gallery_items[i].image_number)
+                    unhovered Hide("gallery_thumbnail_info")
                     xalign 0.5
                     yalign 0.5
                     at imageThumb
@@ -125,33 +152,8 @@ screen gallery_B():
         #required to fill in empty grid items
         for i in range(end - start + 1, maxperpage):
             null
-    #grid for info
-    grid maxnumx maxnumy:
-        pos (gx2, gy2)
-        yfill True
-        #changed to adjust the info with previously displaced thumbs xspcing changed fromm 25 to 100
-        xspacing 100
-        yspacing - 160
-
-        for i in range(start, end + 1):
-        ## changed it so it unlocks info with images if unlock all cgs is clicked
-        #the if statement is just reversed version of if statement in grid for images code
-         if not (gallery_items[i].is_locked) or persistent.unlock_gallery:
-            hbox:
-                style_prefix "name"
-                spacing maxthumbx - 20
-                xalign 0.0
-                yalign 0.1
-                text gallery_items[i].name
-                xysize(sx, sy)
-         else:
-          null
-
-        #required to fill in empty grid items
-        for i in range(end - start + 1, maxperpage):
-            null
-
     #previous and next buttons
+    #changed. slightly adjusted the position of next and previous buttons
     if gallery_page > 0:
         textbutton "{color=#000}Previous{/color}":
             action SetVariable("gallery_page", gallery_page - 1)
@@ -170,11 +172,18 @@ screen gallery_B():
      xalign 0.6
      yalign 0.98
      background "#fff8"
-#changed What it does: 1)persistent thing saves the state in some file and technically unlock_gallery
-#is just a field of persistent object that renpy somehow saves
-# default (i think you know how it works but bc you used it)(im sorry i dont know a thing)
-# default just tells renpy to create variable if it was not created and not eveerwrite it if it was created already
-#this variable is created to make the unlock all cgs button
+# changed. What it does:
+# 1) The persistent object saves its data to a file, so technically,
+# unlock_gallery is just an attribute of the persistent object that Ren'Py saves.
+#
+# 2) default (I think you know how it works because you used it.
+# I'm sorry, I don't really know how to explain it.)
+#
+# default tells Ren'Py to create the variable if it hasn't been created yet,
+# and not overwrite it if it already exists.
+#
+# This variable is used to create the "Unlock All CGs" button.
+default persistent.unlock_gallery = False
 default persistent.unlock_gallery = False
 init python:
     maxnumx = 3

@@ -4,10 +4,9 @@
 #define sx = 384
 #define sy = 216
 
-# 1280x720 gallery B
+# # 1280x720 gallery B
 define sx = 550
 define sy = 310
-
 # 1920x1080 gallery A
 #define sx = 600
 #define sy = 338
@@ -15,7 +14,26 @@ define sy = 310
 # 1920x1080 gallery B
 #define sx = 450
 #define sy = 253
-
+# changed. Added these two variables. They are arrays containing
+# the predefined positions for the thumbnail text.
+#
+# These are the formulas I used to calculate the text positions.
+#
+# info_xspacing and info_yspacing are the spacing values that you used
+# when creating the info text grid in the gallery code.
+#
+# info_xspacing = 100
+# info_yspacing = 160
+#
+# gx2 + (sx + info_xspacing) * column - for info_pos_x
+# gy2 + (sy + info_yspacing) * row - for info_pos_y
+#
+# I slightly adjusted the final positions manually because
+# the positions calculated by the formulas didn't look quite right.
+#
+# The column and row variables are created in the screen definition.
+define info_pos_y = [150, 580, 1000]
+define info_pos_x = [640, 1290, 1940]
 #pos positions pixel close enough!
 default gx1 = 640 #1280x720
 #changed to lift all thumbs a bit app to make place for buttons
@@ -50,7 +68,7 @@ transform imageThumb: #images to thumbnail re-sizer
 
 #the locked image for the galleries
 image locked = "images/lock.jpg"
-#changed this is just quick transform that happens when idle images[image_index] happens
+#changed this is just quick transform for the action on cg in gallery
 transform gallery_fade:
     alpha 0.0
     linear 0.3 alpha 1.0
@@ -76,7 +94,27 @@ screen gallery_closeup(images): #shows full sized image as a button on top of ev
      xalign 0.5
      yalign 0.98
      background "#fff8"
-
+#changed. This screen displays the name of the GalleryItem object as text
+# when the player hovers over a thumbnail.
+#
+# The second argument is used to determine the position of the hovered thumbnail
+# and place the text correctly.
+screen gallery_thumbnail_info(name, image_number):
+#changed. image_number - 1 is needed because it allows us to correctly calculate
+#the row and column values for the grid system.
+ $remainder = (image_number-1) % 9
+ $row = remainder // 3
+ $column = remainder % 3
+ text "[name]":
+  style_prefix "name"
+  #changed.  Instead of calculating the text position,
+  #we pick one of the predefined positions using the row and column values.
+  #with the rown and column variables
+  pos(info_pos_x[column], info_pos_y[row])
+ # сhanged. Limit the text size so that it wraps to a new line
+ # if it doesn't fit within the thumbnail.
+  xmaximum 550
+  ymaximum 310
 init python:
     maxnumx = 3
     maxnumy = 3
