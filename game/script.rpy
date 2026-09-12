@@ -31,7 +31,7 @@ label animated:
         pause 0.3
         "kim sucking4"
         pause 0.3
-        repeat 
+        repeat
     image kim and jamie missionary a1:
         "kim and jamie missionary 4"
         pause 0.5
@@ -200,7 +200,7 @@ label animated:
         "william kim missionary 5"
         pause 0.5
         repeat
-    image kim and will missionary 2: 
+    image kim and will missionary 2:
         "william kim missionary 4"
         pause 0.2
         "william kim missionary 5"
@@ -229,7 +229,7 @@ label animated:
         pause 0.5
         "william kim shower sex 2"
         pause 0.5
-        repeat 
+        repeat
     image kim and will shower 2:
         "william kim shower sex peek 1"
         pause 0.5
@@ -244,7 +244,7 @@ label animated:
         repeat
 
 
-    image diane and will handjob 1:        
+    image diane and will handjob 1:
         "diane handjob 1"
         pause 0.5
         "diane handjob 2"
@@ -252,7 +252,7 @@ label animated:
         "diane handjob 3"
         pause 0.5
         repeat
-    image diane and will handjob 2:        
+    image diane and will handjob 2:
         "diane handjob 1"
         pause 0.2
         "diane handjob 2"
@@ -260,7 +260,7 @@ label animated:
         "diane handjob 3"
         pause 0.2
         repeat
-    image diane and will handjob 3:        
+    image diane and will handjob 3:
         "diane handjob 1"
         pause 0.1
         "diane handjob 2"
@@ -268,7 +268,7 @@ label animated:
         "diane handjob 3"
         pause 0.1
         repeat
-    
+
     image diane and will reverse cowgirl 1:
         "diane reverse cowgirl 1"
         pause 0.5
@@ -277,7 +277,7 @@ label animated:
         "diane reverse cowgirl 3"
         pause 0.5
         repeat
-    
+
     image diane and will reverse cowgirl 2:
         "diane reverse cowgirl 4"
         pause 0.2
@@ -293,7 +293,7 @@ label animated:
         "diane will carry 2"
         pause 0.5
         repeat
-    
+
     image diane and will carry 2:
         "diane will carry 1"
         pause 0.2
@@ -362,9 +362,8 @@ init python:
     renpy.music.register_channel("climax", "sfx", loop=False)
     renpy.music.register_channel("ambience", "sfx", loop=True)
 
-
 # The game starts here.
-    
+
 label start:
 
     # Show a background. This uses a placeholder by default, but you can
@@ -372,8 +371,8 @@ label start:
     # images directory to show it.
 
     scene black
-    
-    
+
+
     "Heya!!  Gelatomusume here talking to ya!"
 
     "Welcome to my game!"
@@ -431,9 +430,9 @@ label start:
     "Or maybe...I was just too much of a stupid teenager..."
 
     "I miss him, I wish I could change the past... I wish I could have told him my true feelings...I wish I could've told him that I lo-"
-    
+
     stop music
-    
+
     "*SMACK!*"
 
     scene characterroom morning
@@ -454,10 +453,10 @@ label start:
     play music "audio/happy jazz.mp3" volume 0.5
 
     scene station morning
-    
+
     "Man...I wish I could just go back right now and jack off all day, those porn videos are too good..."
 
-    "Damn what am I thinking...I might be addicted" 
+    "Damn what am I thinking...I might be addicted"
 
     "*Phone Vibrates*"
 
@@ -751,7 +750,7 @@ label start:
 
     a "Like...."
 
-    a "There! William...I'll ask him out, maybe he'll be better company than both of you dweebs haha!" 
+    a "There! William...I'll ask him out, maybe he'll be better company than both of you dweebs haha!"
 
     a "See ya looosers!!"
 
@@ -778,7 +777,7 @@ label start:
     k "I never got the chance to get close to him and catch up..."
 
     "As William is talking to the girls around him, he notices me and Kim"
-    
+
     "He shows a little smirk and walks towards us"
 
     stop music
@@ -814,7 +813,7 @@ label start:
     w "Ahh cmon now Kimmie, ...you know I won't leave you out like that, you know I miss your smartass too"
 
     k "Yeah yeah... whatever you say Musclebrain!"
-    
+
     "The three of us laugh and catch up on what's been happening on our lives"
 
     hide kim happy
@@ -1005,7 +1004,7 @@ label start:
 
     j "Ahhh I'll eat later!"
 
-    "I'm too busy hunting this monster...I just need a couple more minutes!" 
+    "I'm too busy hunting this monster...I just need a couple more minutes!"
 
     d "You come down here this instant young man or else!"
 
@@ -1043,7 +1042,7 @@ label start:
     scene characterroom night
 
     "Oh It's already late...I need to sleep or Kim will scold me tomorrow for being late again..."
-    
+
     "But..."
 
     "I'm so horny right now..."
@@ -1073,7 +1072,7 @@ label start:
     "Hypno porn...?"
 
     "...Hmmmmm...."
- 
+
     "Well...whatever... might as well give it a try..."
 
     scene hypno 1
@@ -1128,7 +1127,7 @@ label start:
     stop music
 
     scene black
-    
+
     play music "audio/malicious.mp3" volume 0.5
 
     play music2 "audio/fast plap.mp3" volume 0.9
@@ -1189,7 +1188,7 @@ label start:
 
     a "Ah! Ah! Ah! Ah! Ah! AHHHNNN!!"
 
-    w "Fuck! Fuck! Fuck! Fuck! Fuck!!" 
+    w "Fuck! Fuck! Fuck! Fuck! Fuck!!"
 
     "Plap* *plap* *plap* *plap* *plap* *plap* *plap* *plap* *plap* *plap* *plap* *plap* *plap* *plap* *plap* *plap* *plap* *plap* *plap!*"
 
@@ -1240,7 +1239,7 @@ label start:
     k "*Jamiieeeee you're still in class right???"
 
     k "*Jamiieeeee you're still in class right???"
-    
+
     k "*when you see me later buy me snacks hehehehehe"
 
     j "*sure2 what do you want?"
@@ -1303,7 +1302,7 @@ label start:
 
     show lily at right
 
-    show sophia at left 
+    show sophia at left
 
     play music "audio/malicious.mp3" volume 0.5
 
@@ -1356,7 +1355,7 @@ label start:
     "Time goes by until late afternoon..."
 
     play music "audio/melancholy.mp3" volume 0.5
-    
+
     scene gymnasium
 
     "Kim is on her way to the locker room to get changed..."
@@ -1401,7 +1400,7 @@ label start:
 
     "And as the conversation goes on..."
 
-    hide kim ghappy 
+    hide kim ghappy
 
     show kim gshy at left
 
@@ -1476,7 +1475,7 @@ label start:
     j "...I uhhh...don't think so?"
 
     hide kim shy
-    
+
     show kim gflusteredpout at left
 
     k "...The sweets..."
@@ -1656,7 +1655,7 @@ label start:
     d "Come in, come in!"
 
     scene livingroom night
-    
+
     play music "audio/melancholy.mp3" volume 0.5
 
     "William and I enter the house and sit at the sofa..."
@@ -1868,20 +1867,20 @@ label start:
 
     "Leaving me to wallow in my own guilt..."
 
-    menu: 
-        "Jamie Pov": 
+    menu:
+        "Jamie Pov":
             jump jamie_pov1
 
         "Kim Pov":
             jump kim_pov1
 
-label jamie_pov1: 
-        
+label jamie_pov1:
+
         scene black
-        
+
         "...I messed up"
 
-        "I should've really worked on that project..." 
+        "I should've really worked on that project..."
 
         "Now Kim is mad at me..."
 
@@ -1890,13 +1889,13 @@ label jamie_pov1:
         "Why am I like this?"
 
         "Just stop fucking up and do the fucking work..."
-        
+
         "....I'm a piece of shit.."
 
         "Was it really hard to just stop jacking off for like an hour to work on the thing?"
 
         "Am I really that pathetic?"
-        
+
         "I can't even do a simple project without fucking it up?"
 
         "I'm trash..."
@@ -1913,7 +1912,7 @@ label jamie_pov1:
 
         "...I'll do better...I promise...."
 
-        "........................"  
+        "........................"
 
         "............................................"
 
@@ -2448,7 +2447,7 @@ label kim_pov1:
             k "You did save me earlier a-after all...so....w-why not?"
 
             k "(Besides....this is just a joke right? like friends m-messing around...ha..haha)"
-            
+
             "Kim knows she shouldn't do this...but for some reason..she lets William fondle her breasts...."
 
             scene kim fondle 2
@@ -2526,7 +2525,7 @@ label kim_pov1:
             "It's a standard room...filled with medals and trophies of William's career as an athlete"
 
             "And a picture of his mom in the bedstand.."
-            
+
             k "(Hmmm....wow...that's was such a long time ago...)"
 
             k "(I wonder what would Will be like if his mom was still here....)"
@@ -2739,7 +2738,7 @@ label kim_pov1:
             k "(What the frick is that...thing!??)"
 
             k "(Is that his....?)"
-            
+
             k "(No...no way....it can't go that big can it!?)"
 
             "Kim's imagination runs wild...unable to comprehend the massive eldritch monster almost poking at her..."
@@ -2748,14 +2747,14 @@ label kim_pov1:
 
             w "Yo...Kim? I need to get dressed so can you like scooch over?"
 
-            k "Oh right! Right...." 
+            k "Oh right! Right...."
 
             w "There's a towel on that shelf over there, and just put the t-shirt on that laundry basket"
 
             w "And you clothes are over there, they're already dry so don't worry about that"
 
             k "Oh...oh yeah..um thanks I am gonna take a bath now too haha...ha.."
-            
+
             "After taking a bath Kim readies herself for school...still distracted by her thoughts about Will..."
 
             stop music
@@ -2779,7 +2778,7 @@ label kim_pov1:
             k "(Last night was too much for me...)"
 
             k "(Almost got sexually assaulted, Will...touching my...breasts, the condom...)"
-            
+
             k "(And this morning too in his bathroom...)"
 
             k "(*Sigh* I should've responded last night...)"
@@ -2942,7 +2941,7 @@ label reconciliation:
     k "Hahahaha! Your face is covered in lipstick..."
 
     k "I like it tho ..hehe~ it looks good on you"
-    
+
     hide kim shy
 
     scene schoolback morning
@@ -2988,7 +2987,7 @@ label reconciliation:
     k "It's okay...It was raining heavy, and Will's car was getting repaired so...."
 
     k "I went to his place..."
-    
+
     k "It was safer that way..."
 
     j "Oh...."
@@ -3132,7 +3131,7 @@ label reconciliation:
     j "Ahhh shut up..."
 
     k "Hahahaha~"
-    
+
     "Kim gets up from her seat and leaves the room"
 
     "I wipe the drool from my face and pack my stuff and head out..."
@@ -3198,7 +3197,7 @@ label reconciliation:
     "But even if the food was good..."
 
     "It wasn't healthy for me and my wallet.."
-    
+
     "But it's all worth to see Kim's smile..."
 
     "We walk home to Kim's place"
@@ -3264,7 +3263,7 @@ label reconciliation:
     j "Hmmm... no why?"
 
     k "I was wondering if you could come in and y'know....stay for the night?"
-    
+
     k "I'm still scared from the other day..."
 
     k "Who knows....that guy might show up unexpectedly and y'know...."
@@ -3309,7 +3308,7 @@ label reconciliation:
 
     j "Y-yes...hahhhh!!"
 
-    j "Nngggh...Kim!!" 
+    j "Nngggh...Kim!!"
 
     "Rub Rub Rub Rub Rub Rub Rub Rub Rub Rub Rub Rub"
 
@@ -3470,7 +3469,7 @@ label reconciliation:
     "A bit unsatisfied from her sex with Jamie"
 
     "She decides to scroll through her phone for a bit"
-    
+
     scene kim and alex chat 2
 
     "...Kim browses her phone, looking at her friend's posts, laughing at stupid cat photos"
@@ -3491,7 +3490,7 @@ label reconciliation:
 
     a "*Hehe~ heard you had a fight with Jamieeeeeee"
 
-    "A nuisance comes in...." 
+    "A nuisance comes in...."
 
     k "(This girl.....)"
 
@@ -3526,7 +3525,7 @@ label reconciliation:
     a "*And you tell me....nothing happened???"
 
     a "*Puhleease Kim, I'm a bimbo but I'm not a complete idiot haha lolololololol"
-    
+
     scene kim and alex chat 31
 
     k "(Something did happen...but....)"
@@ -3770,7 +3769,7 @@ label reconciliation:
     k "Is someone masturbating again?"
 
     k "Jees....at least lower your voice...how unladylike..."
-    
+
     "As she enters the shower room..."
 
     play music2 "audio/fast plap.mp3" volume 0.3
@@ -3882,7 +3881,7 @@ label reconciliation:
     w "It's trying to drain my cock!"
 
     "Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap"
-   
+
     "Mfghhhhhhh....hahh.."
 
     a "More!!"
@@ -3916,7 +3915,7 @@ label reconciliation:
     w "FUCK!!!"
 
     "Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap Plap"
-    
+
     a "Ahhh I can feel it!! You're cock is throbbing wildly inside me~!!"
 
     a "Give it to me~!"
@@ -4023,7 +4022,7 @@ label reconciliation:
 
     show kim tflusteredpout at left
 
-    show william naked 
+    show william naked
     show alex nsmirk at right
 
     k "I- uhh...I'm so sorry I didn't mean too uhhh"
@@ -4036,7 +4035,7 @@ label reconciliation:
 
     w "I gotta go haha...ha"
 
-    hide william naked 
+    hide william naked
 
     "William hastily leaves the women's locker room..."
 
@@ -4067,8 +4066,8 @@ label reconciliation:
     a "Oh c'mon bitch...don't play dumb with me"
 
     a "You liked it didn't you..."
-    
-    a "Having his massive cock throb right beside your face?" 
+
+    a "Having his massive cock throb right beside your face?"
 
     k "Ngh!"
 
@@ -4122,7 +4121,7 @@ label reconciliation:
 
     "A couple days later..."
 
-    show william smile at left 
+    show william smile at left
 
     show diane at right
 
@@ -4144,7 +4143,7 @@ label reconciliation:
 
     "I have to admit, hearing somebody challenge mom like that was surprising..."
 
-    "It's too late but I noticed myself smiling a bit and my face getting warmer..."    
+    "It's too late but I noticed myself smiling a bit and my face getting warmer..."
 
     d "Hmph..."
 
@@ -4169,7 +4168,7 @@ label reconciliation:
     d "That's madness!"
 
     d "......hmmmm"
-    
+
     d "Tell you what...every night you're free...just come right here and I'll make dinner for you"
 
     d "Understood?"
@@ -4214,7 +4213,7 @@ label reconciliation:
 
     show diane at right
 
-    show william smile at left 
+    show william smile at left
 
     "Diane is washing the dishes when Will approaches..."
 
@@ -4258,7 +4257,7 @@ label reconciliation:
 
     w "Looking for someone that genuinely loves me for me yknow?"
 
-    d "Hmmmm okay"    
+    d "Hmmmm okay"
 
     w "But that doesn't mean I'm not down for a couple hook-ups here and there!"
 
@@ -4332,7 +4331,7 @@ label reconciliation:
 
     stop music
 
-    
+
 
 
 
@@ -4418,7 +4417,7 @@ label reconciliation:
 
     w "Than game was janky as hell, but I loved it anyways "
 
-    j "Hahaha so you're saying that you, basically the celebrity in our school, has played VTMB:2" 
+    j "Hahaha so you're saying that you, basically the celebrity in our school, has played VTMB:2"
 
     w "Celebrity really? Hahahaha fuck off man"
 
@@ -4499,11 +4498,11 @@ label reconciliation:
     stop music
 
 label sleepover:
-    
+
     play music "audio/melancholy.mp3" volume 0.5
 
     scene jamieandwill cuddlenight
-    
+
     "Hesitantly...I hop on the bed with William"
 
     "The bed can fit two people, even with someone as big as Will..."
@@ -4596,7 +4595,7 @@ label sleepover:
 
     j "Be careful next time you idiot hahaha"
 
-    j "I swear to god you're gonna accidentally kill me one day..." 
+    j "I swear to god you're gonna accidentally kill me one day..."
 
     w "Just don't haunt me hahahaha"
 
@@ -4650,7 +4649,7 @@ label sleepover:
 
     "Ahhh!!"
 
-    "Jeez ..how did this even happen?" 
+    "Jeez ..how did this even happen?"
 
     "Ah whatever..."
 
@@ -4669,9 +4668,9 @@ label sleepover:
     j "...Wha...w-what is that?"
 
     "Despite my outward expression of confusion..."
-    
+
     "Deep inside.....
-    
+
     'I knew what it was..."
 
     "But...I was in denial from the sudden shock...."
@@ -4810,7 +4809,7 @@ label kim_date2:
     scene schoolback morning
 
     play music "audio/happy jazz.mp3" volume 0.5
-    
+
     "Time went by"
 
     "And It's the usual boring lecture"
@@ -4887,7 +4886,7 @@ label kim_date2:
 
     j "He forgot I wasn't one of his football friends"
 
-    k "Hahahahahaha! That's hilarious" 
+    k "Hahahahahaha! That's hilarious"
 
     k "And yeah...I can see that idiot doing that to you hahahaha"
 
@@ -5021,7 +5020,7 @@ label kim_date2:
 
     k "Huhhh?? What's not to love about it!?"
 
-    k "I could literally write a whole essay on the things that make it sooo good!" 
+    k "I could literally write a whole essay on the things that make it sooo good!"
 
     j "oh? Then give an example then?"
 
@@ -5151,7 +5150,7 @@ label will_and_diane_text1:
     scene dianeroom
 
     play music "audio/melancholy.mp3" volume 0.5
-    
+
     "Diane mulls over what Will said to her..."
 
     "Despite her lax demeanor, she is conscious about her age and appearance.."
@@ -5170,7 +5169,7 @@ label will_and_diane_text1:
 
     "Despite a few wrinkles here and there....Diane does still look gorgeous"
 
-    d "(I mean look at me...I still look hot as hell!)" 
+    d "(I mean look at me...I still look hot as hell!)"
 
     d "(I'm definitely not that old...)"
 
@@ -5186,7 +5185,7 @@ label will_and_diane_text1:
 
     d "(Name....age...hobbies...hmmm I mean...I like gardening?)"
 
-    d "(No...no!! I'm here to bait some guy to call me hot....not find a husband!)" 
+    d "(No...no!! I'm here to bait some guy to call me hot....not find a husband!)"
 
     d "(Let's just put...going to the beach...yeah...that's normal enough without being boring...)"
 
@@ -5347,7 +5346,7 @@ label will_and_diane_text1:
     scene characterroom night
 
     play music "audio/happy jazz.mp3" volume 0.5
-    
+
     "Oh....Shadow of the Birdtree just came out..."
 
     "Aaaaaand I'm gonna download that"
@@ -5511,7 +5510,7 @@ label will_and_diane_text1:
     scene kim text5
 
     stop music2
-    
+
     play music2 "audio/mnc17.mp3" volume 5.0
 
     k "Hohhh....hohh ...hahhh....what the....hahhh"
@@ -5528,7 +5527,7 @@ label will_transfer:
     scene house
 
     play music "audio/happy jazz 2.mp3" volume 0.5
-    
+
     "A few days later"
 
     "Even on days without work, Diane is still busy..."
@@ -5724,7 +5723,7 @@ label will_transfer:
     j "Well...that was weird..."
 
     scene characterroom night
-    
+
 
     "A while later..."
 
@@ -5836,8 +5835,8 @@ label will_transfer:
 
     stop music
 
-    menu: 
-        "Jamie Pov": 
+    menu:
+        "Jamie Pov":
             jump jamie_pov2
 
         "Diane Pov":
@@ -6059,7 +6058,7 @@ label kim_pov2:
     ".....To her....nothing exists outside...."
 
     "It's just her.... and the monster cock she's indulging"
-    
+
     k "(I can feel...it hah...I can...I can feel it...)"
 
     k "(I can feel it throbbing...)"
@@ -6212,7 +6211,7 @@ label diane_pov1:
 
     jump knock
 
-label jamie_pov2: 
+label jamie_pov2:
     scene livingroom night
 
     "A few days later"
@@ -6355,7 +6354,7 @@ label jamie_pov2:
 
     jump knock
 
-label knock: 
+label knock:
 
     scene hallway night
 
@@ -6471,7 +6470,7 @@ label kim_date3:
 
     show kim evilcheerful
 
-    k "Hmph....whatever...come here and give momma a kith" 
+    k "Hmph....whatever...come here and give momma a kith"
 
     k "Mmmwahh!!"
 
@@ -6909,7 +6908,7 @@ label kim_date3:
 
     j "....I love you too Kim..."
 
-    k "I hope we can open that sweet store one day....when we're older fufufu..." 
+    k "I hope we can open that sweet store one day....when we're older fufufu..."
 
     "After our date...I decided to take Kim to her house..."
 
@@ -6929,19 +6928,19 @@ label kim_date3:
 
     k "Hehehe nice..."
 
-    menu: 
-        "Jamie Pov": 
+    menu:
+        "Jamie Pov":
             jump kim_and_jamie_sex1
 
         "Kim Pov":
             jump kim_and_jamie_sex1_kim_pov1
 
 label kim_and_jamie_sex1:
-    
+
     scene kim and jamie standing
 
     play music "audio/melancholy.mp3" volume 0.5
-    
+
     "It's not my first time doing the deed with Kim..."
 
     "Although...we don't really do it a lot so...having sex with her is still as nerve racking as the first time..."
@@ -6972,7 +6971,7 @@ label kim_and_jamie_sex1:
 
     k "Oh you ...come kiss me"
 
-    scene kim and jamie kiss 1 
+    scene kim and jamie kiss 1
 
     "I come closer to Kim's red blushing face..."
 
@@ -7002,7 +7001,7 @@ label kim_and_jamie_sex1:
 
     "From her kiss I can feel the heat her body as well..."
 
-    scene kim and jamie kiss 1 
+    scene kim and jamie kiss 1
 
     k "Jamie....please fuck me..."
 
@@ -7295,7 +7294,7 @@ label kim_and_jamie_sex1:
     "This time I don't get the luxury to slow down..."
 
     j "Kim...hah...hah...hah..fuck..."
-    
+
     "*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*..........."
 
     k "Hahh...hah...cmon baby...cmon...."
@@ -7544,7 +7543,7 @@ label kim_and_jamie_sex1_kim_pov1:
 
     k "Oh you ...come kiss me"
 
-    scene kim and jamie kiss 1 
+    scene kim and jamie kiss 1
 
     k "(Jamie' face come closer to mine...)"
 
@@ -7576,7 +7575,7 @@ label kim_and_jamie_sex1_kim_pov1:
 
     "From her kiss I can feel the heat her body as well..."
 
-    scene kim and jamie kiss 1 
+    scene kim and jamie kiss 1
 
     k "Jamie....please fuck me..."
 
@@ -7864,7 +7863,7 @@ label kim_and_jamie_sex1_kim_pov1:
     scene kim and jamie ride 2
 
     k "(I lower my body into Jamie's....devouring his cock with my pussy...)"
-    
+
     j "Hahh...haha...oh shit..."
 
     k "Hmmmm...still nothing huh.."
@@ -7890,7 +7889,7 @@ label kim_and_jamie_sex1_kim_pov1:
     k "Hah...hah...hah...."
 
     j "Kim...hah...hah...hah..fuck..."
-    
+
     "Plap...........*Plap*..........*Plap*...........*Plap*..........*Plap*..........."
 
     k "Hahh...hah...cmon baby...cmon...."
@@ -7924,7 +7923,7 @@ label kim_and_jamie_sex1_kim_pov1:
     k "(But even then....nothing pleasure me..)"
 
     k "(No matter how fast my strokes was getting....I still felt nothing...)"
-    
+
     "*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*....."
 
     k "(Fuck...was I always like this?)"
@@ -8107,7 +8106,7 @@ label will_and_diane_text2:
 
     "Text after text becoming more daring than the last.."
 
-    "Diane has sent her lover a couple raunchy picture by now..." 
+    "Diane has sent her lover a couple raunchy picture by now..."
 
     "And her lover sends a few pictures back too"
 
@@ -8204,7 +8203,7 @@ label will_and_diane_text2:
     j "I'm sorry I didn't know!"
 
     scene schoolback morning
-    
+
 
     show kim angrytalking
 
@@ -8342,14 +8341,14 @@ label jamie_meet_diane:
 
     "I grab my snacks downstairs and then go back to my room..."
 
-    "After a few minutes I hear Will outside saying goodbye to me..." 
+    "After a few minutes I hear Will outside saying goodbye to me..."
 
     "I return the gesture and then go back to my game.."
 
-    menu: 
+    menu:
         "Jamie Pov":
             jump will_and_diane_sex1_aftermath_jamie_pov
-        
+
         "Diane Pov":
             jump will_and_diane_sex1
 
@@ -8620,7 +8619,7 @@ label will_and_diane_sex1:
 
     w "Well if you say so...anyways let's take these clothes off shall we?"
 
-    hide diane style shy 
+    hide diane style shy
 
     hide william smile
 
@@ -9133,7 +9132,7 @@ label kim_dildo1:
     k "(I'm about to masturbate with a dildo...hah...hah...)"
 
     k "(God it's so huge....even it's head is almost as big as...Jamie...)"
-    
+
     k "(And it's poking through my pussy...Oh God...)"
 
     "As Kim puts her pussy lips on the tip of the dildo...the sensation making her legs weak..."
@@ -9235,7 +9234,7 @@ label kim_dildo1:
     "She still needed to relieve herself after all.."
 
     k "(Okay...now let me go back down....)"
-    
+
     scene kim dildo ride 4
 
     k "(And ...hah ..fuck....the veins ...feels so good....and ...hah...how much it stretches me...)"
@@ -9332,7 +9331,7 @@ label kim_dildo1:
 
     "The room is filled with noises of wet flesh and Kim's erotic moans.."
 
-    "*Schlick!*...*Schlick!*....*Squelch!*....*Schlick!*.....*Schlick!*....*Schlick!*....*Schlick!*....*Squelch!*....*Schlick!*.....*Schlick!*....*Schlick!*....*Schlick!*....*Schlick!*...." 
+    "*Schlick!*...*Schlick!*....*Squelch!*....*Schlick!*.....*Schlick!*....*Schlick!*....*Schlick!*....*Squelch!*....*Schlick!*.....*Schlick!*....*Schlick!*....*Schlick!*....*Schlick!*...."
 
     k "Hahh...mmnnghh hah...fuck!!"
 
@@ -9404,8 +9403,8 @@ label kim_dildo1:
 
     k "(How can I even face him from now on...)"
 
-    menu: 
-        "Jamie and Kim Pov": 
+    menu:
+        "Jamie and Kim Pov":
             jump will_and_diane_sex2_kim_and_jamie_pov
 
         "Diane Pov":
@@ -9623,7 +9622,7 @@ label will_and_diane_sex1_aftermath:
 label will_and_diane_sex1_aftermath_jamie_pov:
 
     scene characterroom night
-    
+
     "Uwahhhhhh my back hurts....swear to God I feel like an old man..."
 
     "Hmm? Oh it's already late...I've been playing all day"
@@ -9739,7 +9738,7 @@ label will_and_diane_sex1_aftermath_jamie_pov:
     "What the hell is wrong with me..."
 
     "*ding dong*..."
-    
+
     "Shit that must be either mom or Will.."
 
     "I need to clean up and open the door..."
@@ -9799,7 +9798,7 @@ label frontdoor:
     d "Mmmph..."
 
     "Diane has a fllustered look"
-    
+
     j "Right...haha..."
 
     w "Like you should have seen her man, she was a fucking baddi-"
@@ -9812,8 +9811,8 @@ label frontdoor:
 
     "They then come in the house and wind down for the night.."
 
-    menu: 
-        "Jamie and Kim Pov": 
+    menu:
+        "Jamie and Kim Pov":
             jump will_and_diane_sex2_kim_and_jamie_pov
 
         "Diane Pov":
@@ -9936,7 +9935,7 @@ label will_and_diane_sex2_kim_and_jamie_pov:
     k "What...well...uh..."
 
     a "Hahahaha don't think about it too hard now Kimmie"
-    
+
     a "You're barely included anyway so it's no biggie right? anyways we gotta go and get fucked!"
 
     "Alex gets closer to Kim and whispers into her ear"
@@ -10078,7 +10077,7 @@ label will_and_diane_sex2_kim_and_jamie_pov:
     "I can't stop..."
 
     scene house night
-    
+
     play music "audio/malicious.mp3" volume 0.5
 
     play music2 "audio/muffle bed.mp3" volume 1.0
@@ -10100,13 +10099,13 @@ label will_and_diane_sex2_kim_and_jamie_pov:
     scene diane and will roomdoor 1
 
     "After a bit...Mom peeks out the door..."
-    
+
     "She greets me with an erotic expression..."
-    
+
     "Her breath ragged and her hair undone..."
-    
+
     "Fuck why does she look hot..."
-    
+
     d "Oh hi! uhmmm...I was just actually having an exercise"
 
     j "Oh really? uhmmm sure"
@@ -10160,9 +10159,9 @@ label will_and_diane_sex2_kim_and_jamie_pov:
     stop music2
 
     "Diane then slams the door...."
-    
+
     "That was a weird interaction...."
-    
+
     "But I have no time to think more about that...and I rush to my room..."
 
     "Diane's....mom's lewd expression and demeanor fueling my arousal..."
@@ -10207,13 +10206,13 @@ label will_and_diane_sex2_kim_and_jamie_pov:
 
     "And as that thought comes to me...I then slowly start stroking...."
 
-    menu: 
-        "Jamie Pov": 
+    menu:
+        "Jamie Pov":
             jump game_day_jamie_pov
 
         "Kim Pov":
             jump game_day_kim_pov
-    
+
 label will_and_diane_sex2:
 
     play music "audio/sexy.mp3" volume 0.5
@@ -10224,7 +10223,7 @@ label will_and_diane_sex2:
 
     "Diane is at home...currently doing house chores..when suddenly"
 
-    hide diane nightgown 2 
+    hide diane nightgown 2
 
     show diane nightgown shock at left
 
@@ -10240,7 +10239,7 @@ label will_and_diane_sex2:
 
     show william smile at right
 
-    hide diane nightgown shock 
+    hide diane nightgown shock
 
     show diane blush nightgown at left
 
@@ -10379,11 +10378,11 @@ label will_and_diane_sex2:
     scene will and diane doggy 2
 
     "And with that...William puts on one of his massive condoms..."
-    
+
     "And then he places his massive cock between Diane's asscheeks..."
 
     "Showing how massive it is and how deep it will go into Diane.."
-    
+
     w "Get ready now..."
 
     scene will and diane doggy 3
@@ -10442,7 +10441,7 @@ label will_and_diane_sex2:
 
     "The lovemaking becoming more intense..."
 
-    w "Look at you squealing like a fucking pig hahahaha!" 
+    w "Look at you squealing like a fucking pig hahahaha!"
 
     d "Ohhhh ohhh!! ohhhhhh~!"
 
@@ -10616,7 +10615,7 @@ label will_and_diane_sex2:
 
     scene dianeroom
 
-    show diane nude shy at left 
+    show diane nude shy at left
 
     show william naked at right
 
@@ -10645,7 +10644,7 @@ label will_and_diane_sex2:
     scene diane and will secret 1
 
     j "Mom are you alright?"
-    
+
     d "Oh hi! uhmmm...I was just actually having an exercise"
 
     j "Oh really? uhmmm sure"
@@ -10782,8 +10781,8 @@ label will_and_diane_sex2:
 
     "Will walks out...treating Diane like a used whore..."
 
-    menu: 
-        "Jamie Pov": 
+    menu:
+        "Jamie Pov":
             jump game_day_jamie_pov
 
         "Kim Pov":
@@ -10912,7 +10911,7 @@ label game_day_jamie_pov:
     r "And I'm assuming your girlfriend is here to cheer you as well..?"
 
     "The reporter points at Kim"
-    
+
     hide kim gshy
 
     show kim gflusteredpout at left
@@ -10930,7 +10929,7 @@ label game_day_jamie_pov:
     k "Uhmm uhhh hahaha..."
 
     hide kim gflusteredpout
-    
+
     show kim gshy at left
 
     "I feel a tug in my heart...Kim? William's girlfriend? all of it gives me a deep sense of pain..."
@@ -11106,7 +11105,7 @@ label game_day_kim_pov:
     k "Uhmm uhhh hahaha..."
 
     hide kim gflusteredpout
-    
+
     show kim gshy at left
 
     "Kim laughs nervously...the whole stadium's eyes are on her..."
@@ -11227,13 +11226,13 @@ label football_aftermath:
 
     k "fufufu okay then~"
 
-    menu: 
-        "Jamie Pov": 
+    menu:
+        "Jamie Pov":
             jump game_day_aftermath_jamie_pov
 
         "Kim Pov":
             jump game_day_aftermath_kim_pov
-    
+
 label game_day_aftermath_kim_pov:
 
     play music "audio/malicious.mp3" volume 0.3
@@ -11311,7 +11310,7 @@ label game_day_aftermath_kim_pov:
     k "(I...have to provoke him....or he won't try his best..."
 
     j "Y-yes mistress!"
-    
+
     scene kim and jamie doggy kim pov 2
 
     play music2 "audio/wetfuck1.mp3" volume 2.0
@@ -11345,7 +11344,7 @@ label game_day_aftermath_kim_pov:
     k "Mnmfff..."
 
     scene kim and jamie doggy kim pov 3
-    
+
     "*Plap*...........*Plap*..........*Plap*...........*Plap*.........."
 
     "Kim's imagination runs wild....for a bit she fantasizes what it would've been liked if she was getting fucked by her dildo instead..."
@@ -11433,7 +11432,7 @@ label game_day_aftermath_jamie_pov:
     "I move forward...slowly and carefully sliding my cock inside Kim..."
 
     "*Plap*...........*Plap*..........*Plap*...........*Plap*.........."
-    
+
     j "Mfff hah...hah..hah..."
 
     "She's warm...she feels too good...I need to watch out or I might bust immediately..."
@@ -11483,7 +11482,7 @@ label game_day_aftermath_jamie_pov:
     j "Hahh fuck...ahh..hahhh"
 
     k "Mnmfff..."
-    
+
     scene kim and jamie doggy jamie pov 3
 
     "*Plap*...........*Plap*..........*Plap*...........*Plap*.........."
@@ -11497,7 +11496,7 @@ label game_day_aftermath_jamie_pov:
     k "Mnfff....."
 
     j "Hahh..ah.hahh..hah...."
-    
+
     scene kim and jamie doggy 7
 
     stop music2
@@ -11505,7 +11504,7 @@ label game_day_aftermath_jamie_pov:
     play sound "audio/spurt.mp3" volume 0.5
 
     "*Spurt*.....*Spurt*....*Spurt*.."
-    
+
     "After cumming my brain out...I take a moment to compose myself.."
 
     k "Hmmm...you did...good..baby...."
@@ -11817,7 +11816,7 @@ label party:
 
     hide kim cheerfultalking
 
-    show kim angrytalking 
+    show kim angrytalking
 
     k "Let me go!!Let me go Jamie!!"
 
@@ -11901,7 +11900,7 @@ label party:
 
     hide william serious
 
-    show william smile 
+    show william smile
 
     hide kim flusteredpout
 
@@ -11952,8 +11951,8 @@ label party:
     w "Anytime bro..."
 
     "Will leaves and follows Kim"
-    menu: 
-        "Jamie Pov": 
+    menu:
+        "Jamie Pov":
             jump jamie_reflection
 
         "Kim Pov":
@@ -12041,7 +12040,7 @@ label party_kim_and_will:
 
     k "Just sit down on the couch, I'll grab us something to drink..."
 
-    w "Okay..." 
+    w "Okay..."
 
     hide kim shy at left
 
@@ -12061,7 +12060,7 @@ label party_kim_and_will:
 
     k "Wow that tastes great..."
 
-    hide william serious 
+    hide william serious
 
     show william smile at right
 
@@ -12483,7 +12482,7 @@ label party_kim_and_will:
 
     "*Crack!*"
 
-    hide kim flusteredpout 
+    hide kim flusteredpout
 
     show kim cheerfultalking at left
 
@@ -12518,7 +12517,7 @@ label party_kim_and_will:
     show kim happy at left
 
     k "Lets goooooo wohoooo!!!!!"
-    
+
     w "Hahahahaha all right you win"
 
     k "Hehehe suck it!"
@@ -12840,7 +12839,7 @@ label kim_and_will_blowjob:
     k "Kim's tears run down her cheek...and she smiles...like a good little girl"
 
     "But Kim runs her limit...and she realizes she can't take it anymore..."
-    
+
     k "mfffff"
 
     w "Fuck...damn"
@@ -13035,8 +13034,8 @@ label kim_and_will_blowjob:
 
     "William exits the apartment with Kim having tears in her eye, and regret in her heart...."
 
-    menu: 
-        "Diane and Will Pov": 
+    menu:
+        "Diane and Will Pov":
             jump diane_and_will_breastmilk
 
         "Kim Pov":
@@ -13086,7 +13085,7 @@ label diane_and_will_breastmilk:
     d "And you know what...I know of a way to cheer you up fufu~"
 
     "Will's ears perk up..."
- 
+
     w "Oh...what is that?"
 
     "Sensing Diane's advances, Will leans forward..his face coming closer and closer to Diane's"
@@ -13714,7 +13713,7 @@ label diane_and_will_breastmilk:
     "And Will's cock throbs erratically"
 
     d "Hahh...fuck.....and when I'm pregnant.."
-    
+
     d "You can suck on my boobs...and milk comes out...fufufu~"
 
     d "Isn't that what hah...what you want?"
@@ -13793,7 +13792,7 @@ label diane_and_will_breastmilk:
 label kim_browsing:
 
     play music "audio/melancholy.mp3" volume 0.3
-    
+
     scene schoolfield afternoon
 
     show kim flusteredpout
@@ -13841,10 +13840,10 @@ label kim_browsing:
     play music "audio/malicious.mp3" volume 0.3
 
     play music2 "audio/fingering3.mp3" volume 5.0
-    
+
     "At Kim's house..."
-    
-    "Ahn~ Ahn~ Ahn~ Plap Plap Plap"    
+
+    "Ahn~ Ahn~ Ahn~ Plap Plap Plap"
 
     "Lewd sounds permeate the room as Kim watches video intensely"
 
@@ -13855,7 +13854,7 @@ label kim_browsing:
     "*Schlick*.....*Schlick*.....*Schlick*........*Schlick*...*Schlick*...........*Schlick*"
 
     k "(Fuck...it looks so intense....the way he's pounding her..)"
-    
+
     k "(And his cock too....fuck.....it's so big....)"
 
     k "(I should be doing homework right now...but....)"
@@ -13866,8 +13865,8 @@ label kim_browsing:
 
     "The man in the video intensifies his thrusting...clearly getting ready to unload all his seed into her..."
 
-    "*Plap!*..*Plap!*..*Plap!*..*Plap!*..*Plap!*..*Plap!*.*Plap!*" 
-    
+    "*Plap!*..*Plap!*..*Plap!*..*Plap!*..*Plap!*..*Plap!*.*Plap!*"
+
     "*Spluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuurt*"
 
     k "Hmphh....Hahh......"
@@ -13939,7 +13938,7 @@ label kim_browsing:
     "*Shlick*...*Shlick*..*Shlick*..*Shlick*......*Shlick*...*Shlick*..*Shlick*...*Shlick*"
 
     b "Ohhhooooooooooo!!!!!! Im cumming ohooooooooo!!!!!!!!!!"
-    
+
     "The woman in the video screams like an animal....losing all her self-control and dignity.....and squals like a pig....."
 
     "*Spluuuuuuuurttttttttttttttttt* *Spluuurt*"
@@ -14223,7 +14222,7 @@ label kim_and_will_date:
     k "Hahaha...sure..Alex..."
 
     "They continue with practice...but after some time..."
-    
+
     stop music
 
     k "(What.....oh...)"
@@ -14473,7 +14472,7 @@ label kim_and_will_date:
     k "T-thank you...I'm uh....you sure about this? you spent all this money and all and I-"
 
     w "Ah don't worry about it, It's my cheat day today anyway...and this is what I usually do"
-    
+
     w "Now I just have someone to share it with...now stop yapping and let's eat!"
 
     "Kim immediately starts munching...her voracious appetite almost makes her lose her sense of manners..."
@@ -14575,7 +14574,7 @@ label kim_and_will_party:
     play music "audio/sexy.mp3" volume 0.3
 
     scene kimlounge
-    
+
     show kim tflusteredpout
 
     "A couple of days later..."
@@ -14665,7 +14664,7 @@ label kim_and_will_party:
     w "Hey I can't help it hahahaha!"
 
     k "Whatever you jackass fufufu~"
-    
+
     scene house party 2
 
     play music "audio/stadium music.mp3" volume 0.3
@@ -14842,7 +14841,7 @@ label kim_and_will_party:
 
     "Kim doesn't notice the amount of alcohol she's consuming...having too much fun to care.."
 
-    hide kim party happy 
+    hide kim party happy
 
     show kim party shy
 
@@ -14997,9 +14996,9 @@ label kim_and_will_party:
     "And in the heat of passion...without removing their lips from each other...they both start taking their clothes off one by one..."
 
     "Kim removes William's shirt...as William removes Kim's dress....."
-    
+
     "She then loosens the string around William's pants...as Wiliam then takes off his pants. shoes. and socks off..."
-    
+
     "Kim kicks her feet backwards as her heels fly off into the corner of the room...not giving a care in the world if it would've hit something or not..."
 
     "And then they are both naked...William the picks Kim up with ease....making Kim blush...in awe of William's raw strength"
@@ -15029,7 +15028,7 @@ label kim_and_will_party:
     k "Fuck....hah...*chu*  ....William..."
 
     "William then carries Kim close to the bed...without breaking their lips apart..."
-    
+
     scene william kim missionary 1
 
     "After a bit....William the drops Kim to the bed....with her body exposed...all of it for William to see..."
@@ -15075,7 +15074,7 @@ label kim_and_will_party:
     k "Hah...hah...."
 
     k "Her breathing is ragged...nervous on what awaits her.."
-    
+
     k "Fuck..."
 
     w "Kim...."
@@ -15092,7 +15091,7 @@ label kim_and_will_party:
 
     w "Get ready baby....here it comes..."
 
-    scene william kim missionary 4  
+    scene william kim missionary 4
 
     "William slides it in..which flares up every sensation in Kim's body.."
 
@@ -15171,7 +15170,7 @@ label kim_and_will_party:
     "Kim can't prevent her moans escaping her mouth..."
 
     "The sheer amount of pleasure...overriding Kim's bodily controls..."
-    
+
     "*Schlick*.....*Schlick*.....*Schlick*.....*Schlick*.....*Schlick*.....*Schlick*.....*Schlick*.....*Schlick*.....*Schlick*....."
 
     w "Hnnnn fuck...fuck"
@@ -15242,10 +15241,10 @@ label kim_and_will_party:
 
     "Desperate to fill Kim with his seed..."
 
-    k "Ohhhhh Ohhhh ohhh!!" 
-    
+    k "Ohhhhh Ohhhh ohhh!!"
+
     k "Ohhhh fuck!!! too much ahhhh!!!"
-    
+
     k "Hahhhh!!! Hhhahhh!!! I'm...I-I'm coming!!!"
 
     w "Fuck!!! Kim I''m gonna cum!!"
@@ -15309,7 +15308,7 @@ label kim_and_will_party:
     k "(no way i'm juzz gonna cum frum the connom. hah. )"
 
     "William pulls and pulls. As Williams does so...the pleasure inside Kim builds..."
-    
+
     "And eventually..."
 
     scene william kim missionary 8
@@ -15367,7 +15366,7 @@ label kim_and_will_party:
     w "Hahhhh hahh...fuck Kim...hah...you ready for round two? "
 
 
-
+    scene william kim doggy 1
     scene kim and will doggy 1
 
     play music2 "audio/fastf.mp3" volume 9.0
@@ -15440,7 +15439,7 @@ label kim_and_will_party:
 
     k "Ohhhhhhhhhhhhhhhhhhh Ohhhhhhhhhhhhhhhhhhhhhh!!!!!!!"
 
-    
+    scene william kim bj 1
     scene kim and will bed bj 1
 
     play music2 "audio/blowjob2.mp3" volume 2.0
@@ -15495,7 +15494,7 @@ label kim_and_will_party:
 
     k "Hehehehehe *Gawk*...*Suck*.......*Suck*"
 
-
+    scene william kim mating press 1
     scene kim and will mating press 1
 
     play music2 "audio/bed sound.mp3" volume 1.0
@@ -15565,7 +15564,7 @@ label kim_and_will_party:
     k "(His body ishooo big)"
 
     k "(I wanna feel his chest againzz me. I wanna toush it. I wanna kizz it)"
- 
+
     k "(it mace me feel sooo safe. bein' dominaded by a shtroong man liyke himm hehe~)"
 
     k "(Fuckk. I-i cannd stopp myself frum moaning!!)"
@@ -15745,7 +15744,7 @@ label kim_and_will_party:
     w "Hahahaha what a bummer....okay then...."
 
     "William then grabs a condom and then comes back behind Kim..."
-    
+
     scene william kim shower sex 1
 
     "Kim can feel William's cock poking around her entrance...."
@@ -15819,7 +15818,7 @@ label kim_and_will_party:
     "Kim and William are locked in ther passionate shower sex when..."
 
     b "H-hello?"
-    
+
     b "Uh-uhmmm uhh...room service..."
 
     k "(O-Oh shit!!)"
@@ -15937,7 +15936,7 @@ label kim_and_will_party:
     "*Spuuuuuuuuuuurt*"
 
     k "OHHHHHH hohhhhhhhhhhhhhhhhhhhhhhhhhhhh ohhhhhh God!!"
-     
+
     w "NGHHHHHHHHH!!! GRRRRRRRRRR!! ghhhhhhhhr!"
 
     "*Spuuuuuuuuuuuuurt*"
@@ -15977,33 +15976,33 @@ label kim_and_will_party:
     scene love hotel
 
     "After a while, the heat of passion has finally dissipated...and Kim can think more clearly now..."
-    
+
     "She stares at both of their naked bodies huddled together...like lovers..."
-    
+
     "She ponders about the mess they made of this room, of what they made that poor cleaning boy go through"
-    
+
     "The sex...the moans...the amount of body fluids shared..."
-    
+
     "It just dawned on her that...they just had sex..."
-    
+
     "Not just any normal sex...but true passionate, primal, and intimate lovemaking..."
-    
+
     "One that you can only share with a lover..."
-    
+
     "Was William her lover? she pondered..."
-    
+
     "No...she had a boyfriend...and his name was Jamie..."
-    
+
     "From the alcohol and haze of lust....her mind forgets for a moment...that she belonged to someone else.."
-    
+
     "And she feels a deep pit in her stomach...she feels.....regret"
-    
+
     k "(Oh God....)"
-    
+
     "As she stares at both of their naked bodies...her feelings of regret turn to shame..."
-    
+
     "Shame thats she did something horrible..."
-    
+
     "And all she want to do right now is to leave..."
 
     show kim nflusteredpout at left
@@ -16017,29 +16016,29 @@ label kim_and_will_party:
     w "Why, what are you hurrying up for?"
 
     k "Mngh...It's nothing"
-    
+
     k "I just wanna go home right now..."
-    
+
     w "All right, let's get changed real quick..."
 
     hide kim nflusteredpout at left
 
     hide william naked smile at right
-    
+
     "As Will puts on his clothes, Kim walks to the bathroom to wear hers..."
-    
+
     "Every single piece of clothing she puts on makes her guilt wear heavier and heavier.."
-    
+
     "She feels like she's about to hurst into tears..."
-    
+
     "But she can't, not right now...she needs to get out of here first..."
-    
+
     "Kim walks out the bathrook fully clothed...and she is greeted by Will"
 
     show kim party pout at left
 
     show william serious at right
-    
+
     w "You took a while in there...were yo-"
 
     k "I just....let's just go"
@@ -16051,11 +16050,11 @@ label kim_and_will_party:
     w "Alright alright calm down hahaha..."
 
     k "Good..."
-    
+
     "William gets confused on how Kim is acting..."
-    
+
     "30 minutes ago she was acting normal...but now it's like she's a different person..."
-    
+
     "But he ignores it anyway...sometimes women elude him..."
 
     scene sky morning
@@ -16168,12 +16167,12 @@ label kim_and_will_party:
 
     k "I'm gonna go to sleep...."
 
-    menu: 
-        "Diane and Will Pov": 
+    menu:
+        "Diane and Will Pov":
             jump will_and_diane_date
         "Jamie Pov":
             jump jamie_necklace
-    
+
 
 
 
@@ -16559,7 +16558,7 @@ label william_and_jamie_talk:
     w "W-wow..."
 
     j "And she said that tomorrow, she was gonna take me 'hunting'....I asked her what she meant by that...and she said that, we were gonna locate people who didn't return their books and burn their houses down..."
-    
+
     w "W....wow....that's...does she abuse you or anything like?"
 
     j "Oh no...she's nice to me...I think....she said she was gonna have me marry her and have 21 kids or else..."
@@ -16648,15 +16647,15 @@ label william_and_jamie_talk:
 
     "I put my headphones on and then continue the game by myself..."
 
-    menu: 
-        "Diane and Will Pov": 
+    menu:
+        "Diane and Will Pov":
             jump diane_and_will_breastmilk
 
         "Jamie Pov":
             jump jamie_library
 
 label jamie_library:
-    
+
     play music "audio/happy jazz 2.mp3" volume 0.3
 
     scene schoolback morning
@@ -16752,7 +16751,7 @@ label jamie_library:
     "I accidentally drop the box..."
 
     j "O-ow...."
-    
+
     stop music
 
     scene library morning
@@ -16871,8 +16870,8 @@ label jamie_library:
 
     "Kim is hiding something? ....but what?"
 
-    menu: 
-        "Diane and Will Pov": 
+    menu:
+        "Diane and Will Pov":
             jump diane_and_will_hiding_sex
 
         "Jamie Pov":
@@ -17000,7 +16999,7 @@ label diane_and_will_hiding_sex:
     "And then fix themselves as fast as they can before Jamie arrives..."
 
     jump jamie_arrives2
-    
+
 label jamie_arrives1:
 
     scene kitchen
@@ -17115,8 +17114,8 @@ label jamie_arrives_jamie_pov:
 
     "I then continue making my way to the library..."
 
-    menu: 
-        "Kim Pov": 
+    menu:
+        "Kim Pov":
             jump kim_and_will_party
 
         "Jamie Pov":
@@ -17131,7 +17130,7 @@ label jamie_arrives_diane_pov:
     show diane sweaty nightgown at left
 
     show william smile at right
-    
+
     d "Jesus christ that was close..."
 
     d "We almost got caught, did you really have to take your sweet ass time buttoning up your pants?"
@@ -17155,9 +17154,9 @@ label jamie_arrives_diane_pov:
     w "Awww you aren't gonna finish me off? Aww bummer.."
 
     "Diane then heads upstairs to take a shower and get ready for work..."
-    
-    menu: 
-        "Kim Pov": 
+
+    menu:
+        "Kim Pov":
             jump kim_and_will_party
 
         "Jamie Pov":
@@ -17179,7 +17178,7 @@ label jamie_phone:
     "I've been so busy lately that I've never been in my room a lot..."
 
     "I'm pulled out by my thought when Mom knocks on the door..."
-    
+
     "I answer..."
 
     d "Can you tell William to pick up these? it's groceries..."
@@ -17282,7 +17281,7 @@ label jamie_phone:
 
     "...God...why does hearing William get sucked on the phone turn me on?"
 
-label jamie_peek: 
+label jamie_peek:
 
     scene black
 
@@ -17363,7 +17362,7 @@ label jamie_peek:
     "The shower is running.... and I can hear the pounding behind the door as well...."
 
     j "H-hello?"
-    
+
     j "Uh-uhmmm uhh...room service..."
 
     b "Hey man! you here to clean the room?"
@@ -17391,7 +17390,7 @@ label jamie_peek:
     "Behind this door is a couple having intense shower sex..."
 
     "I know I shouldn't peek but..."
-   
+
     "I can't help myself....my curiosity and my arousal gets the better of me...."
 
     "I then peek at the door..."
@@ -17509,7 +17508,7 @@ label jamie_peek:
     "But I wouldn't know...Kim hasn't moaned like that...ever..."
 
     "But...with a cock so big, it needs a massive condom..."
-    
+
     "Any girl would squeal like a pig..."
 
     "Even Kim...probably..."
@@ -17552,8 +17551,8 @@ label jamie_peek:
 
     "I pick myself up and then go to the library...another busy day awaits me..."
 
-    menu: 
-        "Diane and Will Pov": 
+    menu:
+        "Diane and Will Pov":
             jump will_and_diane_date
         "Jamie Pov":
             jump jamie_necklace
@@ -17860,7 +17859,7 @@ label kim_and_jamie_date_again:
     k "I don't really care about them..so I don't know about them too much though..."
 
     hide kim necklace smile
-    
+
     show kim necklace shy happy
 
     "That was her not caring????"
@@ -17952,7 +17951,7 @@ label kim_and_jamie_date_again:
     "Apparently she loved my cheesy line..."
 
     k "Hehehe...you cutie...but seriously though...I'm not part of the museum..."
-    
+
     k "So stop staring at me and look at the dinosaurs fufu~"
 
     j "Now you're just asking for the impossile hahaha"
@@ -18520,7 +18519,7 @@ label will_and_diane_date:
     scene diane and will boobjob 1
 
     play music2 "audio/fingering1.mp3" volume 8.0
-     
+
     "Diane then moves her tits up and down...maintaining a consistent rhythm"
 
     "*Schlick*...*Schlick*...*Schlick*...*Schlick*..."
@@ -18590,7 +18589,7 @@ label will_and_diane_date:
     scene diane boobjob 2
 
     "But Diane suddenly stops..."
-    
+
     d "Fufufufu you think I'd just let you cum like that? No way..I'm gonna keep playing with you~"
 
     w "You fucking...bitch...hah..."
@@ -18608,7 +18607,7 @@ label will_and_diane_date:
     d "Well suit yourself~"
 
     "Diane continues teasing William...rushing for a bit...until she can feel William about to burst...but then stopping before he gets to feel the climax.."
-     
+
     w "Hah...fuck..."
 
     d "Fufufu~ you know the magic words my dear..."
@@ -18778,7 +18777,7 @@ label will_and_diane_date:
     "And as his tip touches her opening...stimulating the bundles of nerves in her vagina...flaring up every single sensation in her body"
 
     "Stretching her pussy wide open, William's cock penetrates her more and more...and her legs tremble from anxiety"
-    
+
     d "Ohhhh fuck..."
 
     w "Yeah that's right...drop that fat ass"
@@ -18982,7 +18981,7 @@ label will_and_diane_date:
     "Diane screams with primal intensity...she squirts as her senses gets overloaded with euphoria"
 
     "Her legs trembles like it's about to give...but Diane holds on for dear life..."
-    
+
     d "Oghhhh...hogghhh"
 
     w "NGhhh...fuckk...."
@@ -19472,8 +19471,8 @@ label jamie_and_kim_invite:
     d "Good! anyways I'm gonna go to my bedroom, that wine is making me woozy"
 
     k "Hehe okay ma'am good night~"
-    menu: 
-        "Diane and Will Pov": 
+    menu:
+        "Diane and Will Pov":
             jump dianewill
 
         "Kim and Jamie Pov":
@@ -19508,7 +19507,7 @@ label kim_jamie_room:
     "I flail around trying to get her off"
 
     j "Pwahh!!! jesus christ those boobs are deadly..."
-    
+
     k "Fufufu~ hey...at least you're lucky enough to be smothered by breasts~"
 
     j "Pftt that's true..."

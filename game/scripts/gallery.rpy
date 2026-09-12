@@ -86,21 +86,18 @@ screen gallery_B():
     $ end = min(start + maxperpage - 1, len(gallery_items) - 1)
     use game_menu(_("Gallery"), scroll="viewport"):
         style_prefix "about"
-#changed it is just temp gallery page buttons that are coded manually cause i got bored
-# (will be replaced with the normal one)
+#changed this frame generates button for the quick switch between pages in the 5 buttons format
+#has one problem (the page, when the lopp ends is coded manually, in this if page < 30 condition)
+#the code is a bit complicated (chat gpt wrote it for me), but it is understandable
     frame:
      xalign 0.6
      has hbox spacing 30
-     textbutton "1":
-       action SetVariable("gallery_page", 0)
-     textbutton "2":
-       action SetVariable("gallery_page", 1)
-     textbutton "3":
-       action SetVariable("gallery_page", 2)
-     textbutton "4":
-       action SetVariable("gallery_page", 3)
-     textbutton "5":
-       action SetVariable("gallery_page", 4)
+     $start_page = max(0, gallery_page - 2)
+     for i in range(5):
+      $page = start_page + i
+      if page < 30:
+       textbutton str(page + 1):
+        action SetVariable("gallery_page", page)
     #grid for images
     grid maxnumx maxnumy:
         pos (gx1, gy1)
