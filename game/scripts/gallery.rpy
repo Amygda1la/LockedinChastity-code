@@ -145,10 +145,9 @@ screen gallery_B():
                     xalign 0.5
                     yalign 0.5
                     at imageThumb
-
         #required to fill in empty grid items
-        for i in range(end - start + 1, maxperpage):
-            null
+        # for i in range(end - start + 1, maxperpage):
+        #     null
     #previous and next buttons
     #changed. slightly adjusted the position of next and previous buttons
     if gallery_page > 0:
