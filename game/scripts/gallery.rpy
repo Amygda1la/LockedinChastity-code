@@ -131,7 +131,7 @@ screen gallery_B():
                  action NullAction()
                  #changed. I Deleted the grid for the text, bc it is no longer needed and
                  #now gallery_thumbnail_info screen show the text for player
-                 hovered Show("gallery_thumbnail_info",gallery_items[i].name, gallery_items[i].image_number)
+                 hovered Show("gallery_thumbnail_info", dissolve,gallery_items[i].name, gallery_items[i].image_number)
                  unhovered Hide("gallery_thumbnail_info")
                  #applying the gallery_blur to hide the thumbnail from player
                  at imageThumb, gallery_blur
