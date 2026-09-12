@@ -115,6 +115,8 @@ screen gallery_thumbnail_info(name, image_number):
  # if it doesn't fit within the thumbnail.
   xmaximum 550
   ymaximum 310
+  color "#FFFFFF"
+  outlines [(3, "#000000", 2, 2)]
 init python:
     maxnumx = 3
     maxnumy = 3
