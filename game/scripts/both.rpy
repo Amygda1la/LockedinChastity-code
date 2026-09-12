@@ -117,6 +117,29 @@ screen gallery_thumbnail_info(name, image_number):
   ymaximum 310
   color "#FFFFFF"
   outlines [(3, "#000000", 2, 2)]
+#changed. this screen is used to ask the player if he wants to
+# unlock locked scene he clicked on
+screen unlock_confirmation(image_number):
+ modal True
+ frame:
+  xalign 0.5
+  yalign 0.5
+  padding (60, 40)
+  vbox:
+   spacing 40
+   text "Unlock this scene?":
+    xalign 0.5
+   fixed:
+    xsize 500
+    ysize 60
+    textbutton "Yes":
+     xalign 0.0
+     yalign 0.5
+     action [Function(unlock_gallery_scene, image_number),Hide("unlock_confirmation")]
+    textbutton "No":
+     xalign 1.0
+     yalign 0.5
+     action Hide("unlock_confirmation")
 init python:
     maxnumx = 3
     maxnumy = 3
@@ -124,3 +147,7 @@ init python:
     maxthumby = config.screen_height / (maxnumy + 1)
     maxperpage = maxnumx * maxnumy
     gallery_page = 0
+    #changed. This function just adds image number of scene to set that was
+    #created in gallery file
+    def unlock_gallery_scene(image_number):
+     persistent.unlocked_gallery_items.add(image_number)

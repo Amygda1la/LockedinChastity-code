@@ -10,7 +10,6 @@ init python:
         def __init__(self, name, images, image_number = None):
             self.name = name
             self.images = images
-            self.refresh_lock()
             # changed. Added this field to the GalleryItem object because it is being used
             # in the gallery_thumbnail_info screen.
             # Every CG in the gallery now has a unique number.
@@ -23,11 +22,13 @@ init python:
         # This can cause errors if the first images of two scenes are the same.
         # However, if you make a copy of the same image and give it a different name,
         # the problem will be fixed.
-        #
-        # Also deleted the unlocked counter(im sorry).
         def refresh_lock(self):
             lockme = True
-            if renpy.seen_image(self.images[0]):
+            #changed. Added a check for manually unlocked gallery scenes
+            # if this scene was manually unlocked by the player, it will remain unlocked.
+            if self.image_number in persistent.unlocked_gallery_items:
+             lockme = False
+            elif renpy.seen_image(self.images[0]):
              lockme = False
             self.is_locked = lockme
         #changed. THis is for thumbnail work-in-progress thing, so dont look
