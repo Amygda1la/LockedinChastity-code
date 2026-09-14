@@ -70,6 +70,9 @@ image locked = "images/lock.jpg"
 transform gallery_fade:
     alpha 0.0
     linear 0.3 alpha 1.0
+style gallery_vertical_bar:
+    bar_vertical True
+    bar_invert True
 #changed this screen now can switch images and it response to click and mousewheel up and down
 screen gallery_closeup(images): #shows full sized image as a button on top of everything!
     zorder 10
@@ -92,6 +95,28 @@ screen gallery_closeup(images): #shows full sized image as a button on top of ev
      xalign 0.5
      yalign 0.98
      background "#fff8"
+    # Mobile slider
+    if renpy.variant("touch"):
+     frame:
+      xalign 0.97
+      yalign 0.5
+      xsize 90
+      ysize 500
+      background "#0008"
+      padding (25, 25)
+      vbox:
+       spacing 15
+       xalign 0.5
+       yalign 0.5
+       text "[image_index + 1] / [len(images)]":
+        xalign 0.5
+        size 24
+        color "#ffffff"
+       bar:
+        value ScreenVariableValue("image_index", range=max(0, len(images) - 1) )
+        xsize 35
+        ysize 400
+        style "gallery_vertical_bar"
 #changed. This screen displays the name of the GalleryItem object as text
 # when the player hovers over a thumbnail.
 #
