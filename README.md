@@ -1,1 +1,17 @@
-Files i changed: 2nd script, script, gallery_setup, both, gallery, so you need to change only these files in your game to make gallery menu work
+# Gallery Menu
+
+## Files Changed
+
+The following files have been modified to make the gallery menu work:
+
+* `2nd script`
+* `script`
+* `gallery_setup`
+* `both`
+* `gallery`
+
+**To use this gallery system, you only need to replace these files in your game.**
+
+---
+
+## Thumbnail Images
