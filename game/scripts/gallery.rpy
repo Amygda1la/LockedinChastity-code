@@ -114,6 +114,7 @@ screen gallery_B():
             # so the screen can show the text for the image.
             $gallery_items[i].image_number = i + 1
             $gallery_items[i].refresh_lock()
+            $hover_image = get_gallery_hover(gallery_items[i].images[0])
             #changed. unlockes the cg if unlock_gallery is true and locks if player havent seen
             #them yet.
             if gallery_items[i].is_locked and not persistent.unlock_gallery:
@@ -122,23 +123,25 @@ screen gallery_B():
                 # when player clicks, the unlock confirmation screen appears, so
                 # no player can unlock each scene manually
                 imagebutton:
-                 idle gallery_items[i].images
-                 style "gallery_button"
+                 idle gallery_items[i].thumbnail_image
+                 # style "gallery_button" #delete this line to remove hover
+                 hover_foreground hover_image
                  xalign 0.5
                  yalign 0.5
-                 action Show("unlock_confirmation", dissolve, gallery_items[i].image_number)
+                 action Show("unlock_confirmation", None, gallery_items[i].image_number)
                  #changed. I Deleted the grid for the text, bc it is no longer needed and
                  #now gallery_thumbnail_info screen show the text for player
-                 hovered Show("gallery_thumbnail_info", dissolve, gallery_items[i].name, gallery_items[i].image_number)
+                 hovered Show("gallery_thumbnail_info", None, gallery_items[i].name, gallery_items[i].image_number)
                  unhovered Hide("gallery_thumbnail_info")
                  #applying the gallery_blur to hide the thumbnail from player
                  at imageThumb, gallery_blur
             else:
                 imagebutton:
-                    idle gallery_items[i].images
-                    style "gallery_button" #delete this line to remove hover
+                    idle gallery_items[i].thumbnail_image
+                    # style "gallery_button" #delete this line to remove hover
+                    hover_foreground hover_image
                     action Show("gallery_closeup", dissolve, gallery_items[i].images)
-                    hovered Show("gallery_thumbnail_info", dissolve, gallery_items[i].name, gallery_items[i].image_number)
+                    hovered Show("gallery_thumbnail_info", None, gallery_items[i].name, gallery_items[i].image_number)
                     unhovered Hide("gallery_thumbnail_info")
                     xalign 0.5
                     yalign 0.5

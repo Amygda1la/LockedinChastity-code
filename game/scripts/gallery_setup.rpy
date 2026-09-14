@@ -1,8 +1,4 @@
 #a very simple gallery
-#"kim and alex chat 2" in the kim rides a dildo gallery
-#diane and will first house sex diane and will video
-# wiliam kim doggy 3
-# william kim mating press kiss 1
 init python:
 
 
@@ -13,7 +9,7 @@ init python:
             # changed. Added this field to the GalleryItem object because it is being used
             # in the gallery_thumbnail_info screen.
             # Every CG in the gallery now has a unique number.
-            # The number is basically the i iterator in the for loop
+            # The number is basically the i+1 iterator in the for loop
             # that creates the layout for the gallery menu.
             self.image_number = image_number
         # changed. The refresh_lock() function has been changed, so now the gallery
@@ -29,18 +25,16 @@ init python:
             if self.image_number in persistent.unlocked_gallery_items:
              lockme = False
             elif renpy.seen_image(self.images[0]):
+             persistent.unlocked_gallery_items.add(self.image_number)
              lockme = False
             self.is_locked = lockme
-        #changed. THis is for thumbnail work-in-progress thing, so dont look
-        # @property
-        # def thumbnail_image(self):
-        #  thumbnail = self.images[0] + "_t"
-        #  if renpy.has_image(thumbnail):
-        #     return thumbnail
-        #  return self.images[0]
-
-
-    #changed just added all cgs from the first script to the massive in order they are shown in the game, including the animation
+        @property
+        def thumbnail_image(self):
+         thumbnail = "images/gallery thumbnails/" + self.images[0] + ".png"
+         if renpy.loadable(thumbnail):
+          return thumbnail
+         return self.images[0]
+    #changed just added all cgs from the first and second scripts to the massive in order they are shown in the game, including the animation
     gallery_items = []
     gallery_items.append(GalleryItem("Alex doggy", ["alex doggy1", "alex doggy2", "alex doggy3", "alex doggy4"]))
     gallery_items.append(GalleryItem("Kim selfie", ["kim selfie"] ))
@@ -136,7 +130,7 @@ init python:
     gallery_items.append(GalleryItem("Diane afterparty", ["diane afterparty 2","diane afterparty 1","diane will balloons 1","diane will balloons 2","diane afterparty 3"]))
     gallery_items.append(GalleryItem("gelatomoosoomay", ["gelatomoosoomay"]))
     gallery_items.append(GalleryItem("Jamie wears dildo", ["kim jamie dildo 1","kim jamie dildo 2","kim jamie dildo 3","jamie dildo 1","jamie dildo 2","kim jamie dildo 4"]))
-    gallery_items.append(GalleryItem("Kim and Jamie makeup sex (ntr route", ["kim and jamie makeup sex 0", "kim and jamie makeup sex 2"]))
+    gallery_items.append(GalleryItem("Kim and Jamie makeup sex (ntr route)", ["kim and jamie makeup sex 0", "kim and jamie makeup sex 2"]))
     gallery_items.append(GalleryItem("Jamie suck's dildo", ["jamie succ 1","jamie succ 2","jamie succ 4","jamie succ 5","jamie sucking 1", "jamie sucking 2","jamie succ 3"]))
     gallery_items.append(GalleryItem("Yelena bear costume", ["yelena costume"]))
     gallery_items.append(GalleryItem("Kim and Will christmas fuck", ["kim will christmas 1","kim will christmasfuck 1","kim will christmasfuck 2","kim will christmas 3", "william kim kiss 2"]))

@@ -52,9 +52,7 @@ default gy2 = 110 #75  #1280x720 gallery_B
 #default gx2 = 460 #1920x1080 gallery_B
 #default gy2 = 83 #1920x1080 gallery_B
 
-style gallery_button: # hover overlay it must be 4 pixels bigger then the images
-#changed because i place my placeholder hover to test how it works
-    hover_foreground "images/hover.png"
+# style gallery_button: # hover overlay it must be 4 pixels bigger then the images
     #hover_foreground "images/gallery/hover 1924x1084.png"
 
 style name_text: #text color and outlines please change
@@ -151,3 +149,9 @@ init python:
     #created in gallery file
     def unlock_gallery_scene(image_number):
      persistent.unlocked_gallery_items.add(image_number)
+
+    def get_gallery_hover(image):
+     thumbnail = "images/gallery thumbnails/" + image + ".png"
+     if not renpy.loadable(thumbnail):
+        return "images/hover_2560.png"
+     return "images/hover_550.png"
