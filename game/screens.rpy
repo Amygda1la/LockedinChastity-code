@@ -94,12 +94,19 @@ style frame:
 ## and id "window" to apply style properties.
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
+#changed. added text_hidden check
+default text_hidden = False
+transform hide_say:
+    alpha 0.0
 
 screen say(who, what):
     style_prefix "say"
 
     window:
         id "window"
+
+        if text_hidden:
+            at hide_say
 
         if who is not None:
 
@@ -1525,6 +1532,7 @@ style pref_vbox:
 
 ## Since a mouse may not be present, we replace the quick menu with a version
 ## that uses fewer and bigger buttons that are easier to touch.
+#changed added hide and show buttons
 screen quick_menu():
     variant "touch"
 
@@ -1541,6 +1549,10 @@ screen quick_menu():
             textbutton _("Back") action Rollback()
             textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Auto") action Preference("auto-forward", "toggle")
+            if text_hidden:
+                textbutton _("Show") action SetVariable("text_hidden", False)
+            else:
+                textbutton _("Hide") action SetVariable("text_hidden", True)
             textbutton _("Menu") action ShowMenu()
 
 
