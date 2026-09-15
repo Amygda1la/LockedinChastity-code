@@ -82,6 +82,13 @@ style name_text: #text color and outlines please change
      size 44 # 1280x720
     #size 30 #1920x1080
 
+
+#changed this transform is being used as censor for locked images instead of lock image
+#so now it just blures thumbnail image and not replaces it with lock image
+transform locked_blur:
+ blur 150
+
+
 transform imageThumb: #images to thumbnail re-sizer
     size (sx, sy) #for 1920x1080 and 1280x720 DO NOT CHANGE
 
@@ -143,7 +150,7 @@ screen gallery_closeup(images): #shows full sized image as a button on top of ev
 #
 # The second argument is used to determine the position of the hovered thumbnail
 # and place the text correctly.
-screen gallery_thumbnail_info(name, image_number):
+screen thumbnail_info(name, image_number):
 #changed. image_number - 1 is needed because it allows us to correctly calculate
 #the row and column values for the grid system.
  $remainder = (image_number-1) % 9
@@ -185,14 +192,14 @@ screen unlock_confirmation(image_number):
 
 
 
-screen page_list_bar(page_index):
+screen page_list_bar(page_index, max_pages, menu_name):
  frame:
   xalign 0.6
   has hbox spacing 50
   $start_page = max(0, page_index - 4)
   for i in range(10):
    $page = start_page + i
-   if page < 17:
+   if page < max_pages:
     textbutton str(page + 1):
-     action SetVariable("gallery_page", page)
+     action SetVariable(menu_name, page)
 

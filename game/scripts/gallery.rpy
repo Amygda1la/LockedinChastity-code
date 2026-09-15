@@ -20,12 +20,6 @@ init python:
     gallery_page = 0
 
 
-#changed this transform is being used as censor for locked images instead of lock image
-#so now it just blures thumbnail image and not replaces it with lock image
-transform gallery_blur:
- blur 150
-
-
 
 screen gallery_B():
     tag menu
@@ -34,8 +28,8 @@ screen gallery_B():
     use game_menu(_("Gallery"), scroll="viewport"):
         style_prefix "about"
 #changed this frame generates button for the quick switch between pages in the 10 buttons format
-#has one problem (the page, when the loop ends is coded manually, in this [if page < 17] condition)
-    use page_list_bar(gallery_page)
+#has one problem (the page, when the loop ends is coded manually the max_pages variable, in this [if page < max_pages] condition)
+    use page_list_bar(gallery_page, 17, menu_name = "gallery_page")
     #grid for images
     grid maxnumx maxnumy:
         pos (gx1, gy1)
@@ -48,9 +42,9 @@ screen gallery_B():
             $hover_image = get_gallery_hover(gallery_items[i].images[0])
             $is_locked = gallery_items[i].is_locked and not persistent.unlock_gallery
             if is_locked:
-             $ gallery_idle = At(gallery_items[i].thumbnail_image, gallery_blur)
+             $gallery_idle = At(gallery_items[i].thumbnail_image, locked_blur)
             else:
-             $ gallery_idle = gallery_items[i].thumbnail_image
+             $gallery_idle = gallery_items[i].thumbnail_image
             imagebutton:
              idle gallery_idle
              # style "gallery_button" #delete this line to remove hover
@@ -59,9 +53,9 @@ screen gallery_B():
              yalign 0.5
              action ( Show("unlock_confirmation", None, gallery_items[i].image_number) if is_locked else Show("gallery_closeup", dissolve, gallery_items[i].images))
              #changed. I Deleted the grid for the text, bc it is no longer needed and
-             #now gallery_thumbnail_info screen show the text for player
-             hovered Show("gallery_thumbnail_info", None, gallery_items[i].name, gallery_items[i].image_number)
-             unhovered Hide("gallery_thumbnail_info")
+             #now thumbnail_info screen show the text for player
+             hovered Show("thumbnail_info", None, gallery_items[i].name, gallery_items[i].image_number)
+             unhovered Hide("thumbnail_info")
              at imageThumb
 
 

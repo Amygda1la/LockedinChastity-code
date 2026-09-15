@@ -7,7 +7,7 @@ init python:
             self.name = name
             self.images = images
             # changed. Added this field to the GalleryItem object because it is being used
-            # in the gallery_thumbnail_info screen.
+            # in the thumbnail_info screen.
             # Every CG in the gallery now has a unique number.
             # The number is basically the i+1 iterator in the for loop
             # that creates the layout for the gallery menu.

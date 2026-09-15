@@ -9,19 +9,31 @@ init python:
     replay_page = 0
 
     class ReplayItem:
-        def __init__(self, thumbs, replay, name, locked="locked"):
+        def __init__(self, thumbs, replay, name, replay_number = None):
             self.thumbs = thumbs
             self.replay = replay
             self.name = name
-            self.locked=locked
+            self.replay_number = replay_number
 
     #add replay items here format below
     #Replay_items.append(ReplayItem(["the thumbnail"], "the_label_from_code", "brief description"))
     Replay_items = []
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
     Replay_items.append(ReplayItem("alex sex 1", "party_alex_invite_ntr", "Alex and Kim's island party"))
     Replay_items.append(ReplayItem("trio party 1", "party_alex_invite_nts", "Kim missing out on the party"))
     Replay_items.append(ReplayItem("jamie ponder 1", "foreign_date", "Jamie's Date with the foreigner"))
-    Replay_items.append(ReplayItem("ky plane 1", "kim_vs_yelena_plane", "Kim and Yelena's battle of wits")) 
+    Replay_items.append(ReplayItem("ky plane 1", "kim_vs_yelena_plane", "Kim and Yelena's battle of wits"))
     Replay_items.append(ReplayItem("diane plane bj 1", "diane_plane_bj", "Diane airplane BJ"))
     Replay_items.append(ReplayItem("diane door mad", "missing_william_jamie", "Diane misses William (Jamie POV)"))
     Replay_items.append(ReplayItem("diane door mad", "missing_william", "Diane misses William (Diane POV)"))
@@ -34,9 +46,22 @@ init python:
     Replay_items.append(ReplayItem("raven pic 1", "axe", "The group goes to a convention while cosplaying"))
     Replay_items.append(ReplayItem("kim succumb 1", "kim_touch", "Kim's First Creampie"))
     Replay_items.append(ReplayItem("kim succumb 1", "jamie_delivery", "Kim's First Creampie (Jamie POV)"))
-
-
-
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
+    # Replay_items.append(ReplayItem("","",""))
 
 # a black background screen for the selection
 image black = "#000000"
