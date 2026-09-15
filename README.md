@@ -2,14 +2,16 @@
 
 ## Files Changed (search for "changed" word in code)
 
-The following files have been modified to make the gallery menu work:
+The following files have been modified to make the gallery and replay menus work:
 
 * `2nd script`
 * `script`
 * `gallery_setup`
 * `both`
 * `gallery`
-
+* `screens (added hide and show buttons for mobile)`
+* `replay_setup`
+* `replay`
 **To use this gallery system, you only need to replace these files in your game and update the `images` folder with the images from this repository.**
 
 ---
