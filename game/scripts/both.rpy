@@ -1,3 +1,24 @@
+init python:
+    maxnumx = 3
+    maxnumy = 3
+    maxthumbx = config.screen_width / (maxnumx + 1)
+    maxthumby = config.screen_height / (maxnumy + 1)
+    maxperpage = maxnumx * maxnumy
+    gallery_page = 0
+    #changed. This function just adds image number of scene to set that was
+    #created in gallery file
+    def unlock_gallery_scene(image_number):
+     persistent.unlocked_gallery_items.add(image_number)
+    #changed. this function is used  to decide which hover we need to use when player hovers over a thumbnail
+    #it first checks whether the thumbnail exists in the gallery thumbnails folderm if the thumbnail is not found, it uses the 2560 hover image instead
+    def get_gallery_hover(image):
+     thumbnail = "images/gallery thumbnails/" + image + ".png"
+     if not renpy.loadable(thumbnail):
+        return "images/hover_2560.png"
+     return "images/hover_550.png"
+
+
+
 #here are the styles and transforms used in both the replay and gallery screens
 
 # 1280x720 gallery A
@@ -56,9 +77,9 @@ default gy2 = 110 #75  #1280x720 gallery_B
     #hover_foreground "images/gallery/hover 1924x1084.png"
 
 style name_text: #text color and outlines please change
-    color "#fc0390"
-    outlines [ (1, "#000000", 0, 0) ]
-    size 44 # 1280x720
+     color "#FFFFFF"
+     outlines [(3, "#000000", 2, 2)]
+     size 44 # 1280x720
     #size 30 #1920x1080
 
 transform imageThumb: #images to thumbnail re-sizer
@@ -95,7 +116,7 @@ screen gallery_closeup(images): #shows full sized image as a button on top of ev
      xalign 0.5
      yalign 0.98
      background "#fff8"
-    # Mobile slider
+    #changed.  Mobile slider frame
     if renpy.variant("touch"):
      frame:
       xalign 0.97
@@ -138,8 +159,6 @@ screen gallery_thumbnail_info(name, image_number):
  # if it doesn't fit within the thumbnail.
   xmaximum 550
   ymaximum 310
-  color "#FFFFFF"
-  outlines [(3, "#000000", 2, 2)]
 #changed. this screen is used to ask the player if he wants to
 # unlock locked scene he clicked on
 screen unlock_confirmation(image_number):
@@ -163,20 +182,17 @@ screen unlock_confirmation(image_number):
      xalign 1.0
      yalign 0.5
      action Hide("unlock_confirmation")
-init python:
-    maxnumx = 3
-    maxnumy = 3
-    maxthumbx = config.screen_width / (maxnumx + 1)
-    maxthumby = config.screen_height / (maxnumy + 1)
-    maxperpage = maxnumx * maxnumy
-    gallery_page = 0
-    #changed. This function just adds image number of scene to set that was
-    #created in gallery file
-    def unlock_gallery_scene(image_number):
-     persistent.unlocked_gallery_items.add(image_number)
 
-    def get_gallery_hover(image):
-     thumbnail = "images/gallery thumbnails/" + image + ".png"
-     if not renpy.loadable(thumbnail):
-        return "images/hover_2560.png"
-     return "images/hover_550.png"
+
+
+screen page_list_bar(page_index):
+ frame:
+  xalign 0.6
+  has hbox spacing 50
+  $start_page = max(0, page_index - 4)
+  for i in range(10):
+   $page = start_page + i
+   if page < 17:
+    textbutton str(page + 1):
+     action SetVariable("gallery_page", page)
+
