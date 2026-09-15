@@ -9014,6 +9014,7 @@ label will_and_diane_sex1:
     d "No..I....hah....I...hah....I think...I'm good for now...."
 
     w "Hahahaha...sure thing"
+    $ renpy.end_replay()
 
     jump will_and_diane_sex1_aftermath
 
@@ -16471,6 +16472,7 @@ label jamie_and_yelena:
     y "this library caters to everyone my little bird...now stop yapping and start searching!"
 
     "I spend my entire afternoon helping Yelena"
+    $ renpy.end_replay()
 
 label william_and_jamie_talk:
 
@@ -16869,7 +16871,7 @@ label jamie_library:
     "Yelena then lets go of me...leaving me confused on what she meant..."
 
     "Kim is hiding something? ....but what?"
-
+    $ renpy.end_replay()
     menu:
         "Diane and Will Pov":
             jump diane_and_will_hiding_sex

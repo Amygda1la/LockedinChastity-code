@@ -4208,6 +4208,7 @@ label yelena_moves:
     "Yelena walks away...her hips swaying more than usual..."
 
     "What the hell just happened to me....?"
+    $ renpy.end_replay()
 
     jump diane_and_jamie_date
 
@@ -6387,6 +6388,7 @@ label library_hangout:
     "After mulling it over...I then go to look for the books Will asked for and then gave it to him"
 
     "The afternoon passed while we were in the library and then we all went home afterwards"
+    $ renpy.end_replay()
 
 label camping_start:
 
@@ -11518,6 +11520,7 @@ label cabin_timelapse:
     k "Y-yeah let's go..."
 
     "They then set off to go meet Jamie and Diane"
+    $ renpy.end_replay()
 
     jump meetup
 
@@ -11893,6 +11896,7 @@ label yelena_proposal:
 
     "We continue on walking down the hallway"
 
+
     jump collide
 
 label kim_depresso:
@@ -12132,6 +12136,7 @@ label collide:
     stop ambience
 
     stop music
+    $ renpy.end_replay()
 
     menu:
         "Kim and Will POV":
@@ -14667,7 +14672,7 @@ label yelena_fam:
     "The erection between my pants won't die down from the lewd sight of my sweaty mother...."
 
     "Despite the taboo nature...I couldn't help it and jacked off to MILF porn and then went to sleep..."
-
+    $ renpy.end_replay()
     jump  kim_anxious
 
 
@@ -15532,6 +15537,7 @@ label yelena_arrives:
     k "Man...she is...something..."
 
     j "*sigh* I know..."
+    $ renpy.end_replay()
 
 
 label ice_cream:
@@ -18181,7 +18187,7 @@ label yelena_christmas:
     j "M-mmhmm sure"
 
     stop music
-
+    $ renpy.end_replay()
     jump christmas_eve
 
 label jamie_christmas:
@@ -20759,7 +20765,7 @@ label yelena_date:
     j "Bye...."
 
     stop music
-
+    $ renpy.end_replay()
     menu:
         "See Diane and Will Valentine' Date":
             jump diane_valentine_date
@@ -22964,7 +22970,7 @@ label diane_discovers_jamie_yelena:
     "*sigh* What the hell am I doing grinning like an idiot?"
 
     stop music
-
+    $ renpy.end_replay()
     menu:
         "See what Kim, Diane, and Will's been doing":
             jump diane_discovers
@@ -27345,7 +27351,7 @@ label yelena_boxes:
     j "Okay I will"
 
     stop music
-
+    $ renpy.end_replay()
     jump island_vacay
 
 label will_bonding:
@@ -34670,7 +34676,7 @@ label yelena_island:
     g "Bye~!!!"
 
     "We wave Yelena's family goodbye and then go back to the resort"
-
+    $ renpy.end_replay()
     jump plane_home
 
 label island_fifth_day:

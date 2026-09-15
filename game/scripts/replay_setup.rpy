@@ -14,22 +14,10 @@ init python:
             self.replay = replay
             self.name = name
             self.replay_number = replay_number
-
     #add replay items here format below
     #Replay_items.append(ReplayItem(["the thumbnail"], "the_label_from_code", "brief description"))
     Replay_items = []
-    # Replay_items.append(ReplayItem("","",""))
-    # Replay_items.append(ReplayItem("","",""))
-    # Replay_items.append(ReplayItem("","",""))
-    # Replay_items.append(ReplayItem("","",""))
-    # Replay_items.append(ReplayItem("","",""))
-    # Replay_items.append(ReplayItem("","",""))
-    # Replay_items.append(ReplayItem("","",""))
-    # Replay_items.append(ReplayItem("","",""))
-    # Replay_items.append(ReplayItem("","",""))
-    # Replay_items.append(ReplayItem("","",""))
-    # Replay_items.append(ReplayItem("","",""))
-    # Replay_items.append(ReplayItem("","",""))
+    Replay_items.append(ReplayItem("cabin art","kim_and_will_camp","Kim and will cabin romance"))
     Replay_items.append(ReplayItem("alex sex 1", "party_alex_invite_ntr", "Alex and Kim's island party"))
     Replay_items.append(ReplayItem("trio party 1", "party_alex_invite_nts", "Kim missing out on the party"))
     Replay_items.append(ReplayItem("jamie ponder 1", "foreign_date", "Jamie's Date with the foreigner"))
@@ -46,6 +34,19 @@ init python:
     Replay_items.append(ReplayItem("raven pic 1", "axe", "The group goes to a convention while cosplaying"))
     Replay_items.append(ReplayItem("kim succumb 1", "kim_touch", "Kim's First Creampie"))
     Replay_items.append(ReplayItem("kim succumb 1", "jamie_delivery", "Kim's First Creampie (Jamie POV)"))
+    Replay_items.append(ReplayItem("gelatomoosoomay","jamie_and_yelena","Jamie finds a job"))
+    Replay_items.append(ReplayItem("gelatomoosoomay","jamie_library","jamie month anniversary"))
+    Replay_items.append(ReplayItem("yelena kabedon 1","yelena_moves","Yelena vs cass"))
+    Replay_items.append(ReplayItem("gelatomoosoomay","library_hangout","Yelena genius intuition"))
+    Replay_items.append(ReplayItem("gelatomoosoomay","yelena_proposal","yelena's proposal"))
+    Replay_items.append(ReplayItem("yelena kiss 1","yelena_fam","dinner with Yelena's family"))
+    Replay_items.append(ReplayItem("gelatomoosoomay","yelena_arrives","Yelena trip invite"))
+    Replay_items.append(ReplayItem("yelena costume","yelena_christmas","Yelena christmas"))
+    Replay_items.append(ReplayItem("yelena dinner grin","yelena_date","Yelena valentine date"))
+    Replay_items.append(ReplayItem("gelatomoosoomay","diane_discovers_jamie_yelena","Jamie chats with Yelena"))
+    Replay_items.append(ReplayItem("yelena fit","yelena_boxes","Yelena spends time with Jamie"))
+    Replay_items.append(ReplayItem("yelena lotion 0","island_vacay","island vacay"))
+    Replay_items.append(ReplayItem("yelena davui 1","yelena_island_accept","Yelena with family at vacay"))
     # Replay_items.append(ReplayItem("","",""))
     # Replay_items.append(ReplayItem("","",""))
     # Replay_items.append(ReplayItem("","",""))
