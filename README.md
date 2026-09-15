@@ -12,7 +12,8 @@ The following files have been modified to make the gallery and replay menus work
 * `screens (added hide and show buttons for mobile)`
 * `replay_setup`
 * `replay`
-**To use this gallery system, you only need to replace these files in your game and update the `images` folder with the images from this repository.**
+  
+**To use this gallery and replay  systems, you only need to replace these files in your game and update the `images` folder with the images from this repository.**
 
 ---
 
