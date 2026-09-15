@@ -1,6 +1,6 @@
 # Gallery Menu
 
-## Files Changed
+## Files Changed (search for "changed" word in code)
 
 The following files have been modified to make the gallery menu work:
 
