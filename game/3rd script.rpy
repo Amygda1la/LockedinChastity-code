@@ -1,3 +1,5 @@
+
+
 label animated_stuff:
 
     image kimmie nelson 1:
@@ -78,10 +80,237 @@ label animated_stuff:
         pause 0.2
         repeat
 
+label animated_shit:
+    image jamie first nts 1:
+        "jamie help 4"
+        pause 0.2
+        "jamie help 5"
+        pause 0.2
+        "jamie help 6"
+        pause 0.3
+        repeat
+
+    image jamie first nts 2:
+        "jamie help 7"
+        pause 0.1
+        "jamie help 8"
+        pause 0.1
+        "jamie help 9"
+        pause 0.2
+        repeat
+
+    image jamie watches diane doggy 1:
+        "diane jamie watch 3"
+        pause 0.5
+        "diane jamie watch 4"
+        pause 0.6
+        repeat
+
+    image jamie watches diane doggy 2:
+        "diane jamie watch 3"
+        pause 0.3
+        "diane jamie watch 4"
+        pause 0.2
+        repeat
+
+    image diane 69s will 1:
+        "diane will 69 5"
+        pause 0.2
+        "diane will 69 6"
+        pause 0.2
+        "diane will 69 7"
+        pause 0.3
+        repeat
+
+    image diane 69s will 2:
+        "diane will 69 5"
+        pause 0.1
+        "diane will 69 6"
+        pause 0.1
+        "diane will 69 7"
+        pause 0.2
+        repeat
+
+    image diane first raw 1:
+        "diane horsey 4"
+        pause 0.2
+        "diane horsey 5"
+        pause 0.2
+        "diane horsey 6"
+        pause 0.3
+        repeat
+
+    image diane first raw 2:
+        "diane horsey 7"
+        pause 0.1
+        "diane horsey 8"
+        pause 0.1
+        "diane horsey 9"
+        pause 0.2
+        repeat
+
+    image diane first raw 3:
+        "diane horsey 10"
+        pause 0.3
+        "diane horsey 11"
+        pause 0.2
+        repeat
+
+    image kim diane throatfuck 1:
+        "kim diane throatswab 2"
+        pause 0.2
+        "kim diane throatswab 3"
+        pause 0.2
+        "kim diane throatswab 4"
+        pause 0.3
+        repeat
+
+    image kim diane throatfuck 2:
+        "kim diane throatswab 2"
+        pause 0.1
+        "kim diane throatswab 3"
+        pause 0.1
+        "kim diane throatswab 4"
+        pause 0.2
+        repeat
+
+    image kim diane throatfuck 3:
+        "kim diane throatswab 7"
+        pause 0.2
+        "kim diane throatswab 8"
+        pause 0.2
+        "kim diane throatswab 9"
+        pause 0.3
+        repeat
+
+    image kim diane throatfuck 4:
+        "kim diane throatswab 7"
+        pause 0.1
+        "kim diane throatswab 8"
+        pause 0.1
+        "kim diane throatswab 9"
+        pause 0.2
+        repeat
+
+    image diane uma 1:
+        "diane hiyah 1"
+        pause 0.2
+        "diane hiyah 2"
+        pause 0.2
+        "diane hiyah 3"
+        pause 0.3
+        repeat
+
+    image diane uma 2:
+        "diane hiyah 1"
+        pause 0.1
+        "diane hiyah 2"
+        pause 0.1
+        "diane hiyah 3"
+        pause 0.2
+        repeat
+
+    image kim submitting to will 1:
+        "kim cheating whore 1"
+        pause 0.2
+        "kim cheating whore 2"
+        pause 0.2
+        "kim cheating whore 3"
+        pause 0.3
+        repeat
+
+    image kim submitting to will 2:
+        "kim cheating whore 1"
+        pause 0.1
+        "kim cheating whore 2"
+        pause 0.1
+        "kim cheating whore 3"
+        pause 0.2
+        repeat
+
+    image kim submitting to will 3:
+        "kim cheating whore 5"
+        pause 0.2
+        "kim cheating whore 6"
+        pause 0.2
+        "kim cheating whore 7"
+        pause 0.3
+        repeat
+
+    label tv_thing:
+
+        image tv ntr 1:
+            "tv tease 9"
+            pause 0.5
+            "tv tease 10"
+            pause 0.6
+            repeat
+
+        image tv ntr 2:
+            "tv tease 13"
+            pause 0.5
+            "tv tease 14"
+            pause 0.6
+            repeat
+
+        image tv ntr 3:
+            "tv tease 19"
+            pause 0.5
+            "tv tease 20"
+            pause 0.6
+            repeat
+
+        image tv ntr 4:
+            "tv tease 24"
+            pause 0.5
+            "tv tease 25"
+            pause 0.6
+            repeat
+
+        image tv ntr 5:
+            "tv tease 26"
+            pause 0.5
+            "tv tease 27"
+            pause 0.6
+            repeat
+
+                image tv ntr 1:
+            "tv tease 9"
+            pause 0.5
+            "tv tease 10"
+            pause 0.6
+            repeat
+
+        image tv ntrs 1:
+            "tv tease 7"
+            pause 0.5
+            "tv tease 8"
+            pause 0.6
+            repeat
+
+        image tv ntrs 2:
+            "tv tease 11"
+            pause 0.5
+            "tv tease 12"
+            pause 0.6
+            repeat
+
+        image tv ntrs 3:
+            "tv tease 17"
+            pause 0.5
+            "tv tease 18"
+            pause 0.6
+            repeat
+
+
+
+
+
 define n1 = Character(_("Hex"), color="#ffffffff")
 define n2 = Character(_("Twister"), color="#ffffffff")
 define n3 = Character(_("Random Worker"), color="#ffffffff")
 define n4 = Character(_("Random Person"), color="#ffffffff")
+define r1 = Character(_("Mike"), color="#39f0e7e0")
 
 
 label catselfie:
@@ -108,7 +337,7 @@ label catselfie:
 
     j "Haha good"
 
-    hide william 
+    hide william
 
     "I continue playing my game"
 
@@ -382,7 +611,7 @@ label catselfie:
 
     w "So uh... I guess that went well?"
 
-    j "N-no it didn't! Now mom knows I c-cross-dress!" 
+    j "N-no it didn't! Now mom knows I c-cross-dress!"
 
     w "Yeah, we're gonna have to be more careful next time"
 
@@ -623,13 +852,13 @@ label kimignored:
 
     k "(Ngh...and I-I'm so horny...)"
 
-    menu: 
+    menu:
 
         "Call Will":
             jump kimignored1
 
-        "Call Jamie": 
-            jump kimignored2   
+        "Call Jamie":
+            jump kimignored2
 label kimignored1:
 
     show kim blueshirt shy
@@ -679,7 +908,7 @@ label kimignored2:
 
     j "Oh yeah... I've just been busy"
 
-    k "Mmhmm I know, uhm... so you know like, do you wanna hang out tomorrow? You know... do some freaky stuff? Hehe~" 
+    k "Mmhmm I know, uhm... so you know like, do you wanna hang out tomorrow? You know... do some freaky stuff? Hehe~"
 
     j "Ah uhmm... sorry Kim but I can't"
 
@@ -818,7 +1047,7 @@ label tcg_cont:
     "I can't help but think that every time someone walks by and see us, they must think we are an actual couple"
 
     "I d-don't hate it, but my heart does skip a beat every time it happens"
-    
+
     scene card shop
 
     "After a short walk, we reach the game shop"
@@ -906,7 +1135,7 @@ label tcg_cont:
 
     play ambience "audio/ambience school crowd.mp3" fadein 1.0 volume 1.0
 
-    "We spend 40 minutes or so opening the cards and building our deck" 
+    "We spend 40 minutes or so opening the cards and building our deck"
 
     show will sweat smile at left
 
@@ -1085,7 +1314,7 @@ label tcg_cont:
 
     j "Ahhhh, that sucks"
 
-    n2 "Hehe~ Cheer up, even though you lost. You can take pride in the fact that you fought valiantly!" 
+    n2 "Hehe~ Cheer up, even though you lost. You can take pride in the fact that you fought valiantly!"
 
     j "Hehe yeah, sucks I couldn't win, but I had fun!"
 
@@ -1095,7 +1324,7 @@ label tcg_cont:
 
     "Twister then walks away"
 
-    "I check my phone again to see who I'm matched next to and... Shadowmancer227"
+    "I check my phone again to see who I'm matched next to and... Shadowmanced27"
 
     "Shadowma- Isn't that Will's"
 
@@ -1299,7 +1528,7 @@ label tcg_cont:
 
     n3 "Ah~ nice! And the young lady is blushing so hard, fufu~"
 
-    show will sweat grin 
+    show will sweat grin
 
     w "Don't worry about her, she's just not used to kissing and all"
 
@@ -1463,7 +1692,7 @@ label wplaps:
 
     scene black
     "Two days later"
-    
+
     scene kimlounge
 
     show kim necklace smile
@@ -1503,7 +1732,7 @@ label wplaps:
     "We decided to eat ice-cream while watching a documentary together. It was all about drama, especially about cheating"
 
     "And after all that, we finally decide to move to her bedroom"
-    
+
     scene kimbed
 
     play music "audio/smooth.ogg" volume 0.3
@@ -1677,7 +1906,7 @@ label wplaps:
 
     scene jamie vibe 1
 
-    "As I feel myself almost reach the peak of my climax, suddenly Kim pulls the vibrator away" 
+    "As I feel myself almost reach the peak of my climax, suddenly Kim pulls the vibrator away"
 
     j "E-ehh? Ha...hah...hah W-why?"
 
@@ -1718,11 +1947,11 @@ label wplaps:
     "Oh, she's gonna shove it right my a-"
 
     scene black
- 
+
     "*slap* *slap*"
 
     scene jamie plap 2
-    
+
     j "A-ahnn~!!!!"
 
     scene jamie plap 1
@@ -1775,7 +2004,7 @@ label wplaps:
 
     j "N-no~"
 
-    k "Hmmm you can't fool me, your cock is twitching~" 
+    k "Hmmm you can't fool me, your cock is twitching~"
 
     j "O-oh fuck..."
 
@@ -1801,7 +2030,7 @@ label wplaps:
 
     j "Mmmf..."
 
-    k "You like that? you like it when I call your balls...Useless?" 
+    k "You like that? you like it when I call your balls...Useless?"
 
     j "I-I don't know!"
 
@@ -1921,7 +2150,7 @@ label wplaps:
 
     k "Pfft...Turbo masochist"
 
-    j "H-hey!" 
+    j "H-hey!"
 
     k "Hehe~"
 
@@ -2174,7 +2403,7 @@ label rocknstone:
     w "Like I said, motion of the ocean"
 
     j "Sure..."
- 
+
     "My heart beats out of my chest, as I feel his cock against me"
 
     w "But really though, is that the full length?"
@@ -2285,7 +2514,7 @@ label rocknstone:
 
     "But even with my full size, mine doesn't even compare to his massive black cock..."
 
-    scene jamie frott 1 
+    scene jamie frott 1
 
     w "So that's it, huh?"
 
@@ -2346,7 +2575,7 @@ label rocknstone:
     w "You good?"
 
     stop coom
-    stop climax 
+    stop climax
 
     j "H-hnngh...hgnnh...hah...h-hah...hah..."
 
@@ -2408,7 +2637,7 @@ label kim_punishment:
 
     k "What's wrong?"
 
-    j "I...I" 
+    j "I...I"
 
     k "Speak clearly baby, I can't hear you"
 
@@ -2449,7 +2678,7 @@ label kim_punishment:
     "I get off the train and take a brisk walk to Kim's house"
 
     "I ring the bell and wait, my heart pounding loudly until Kim opens the door"
-    
+
     scene house
 
     k "Hey baby"
@@ -2463,9 +2692,9 @@ label kim_punishment:
     k "Hmmm well~"
 
     scene black
-    
+
     "......"
-    
+
     scene downtown morning
 
     play music "audio/happy jazz.mp3" volume 0.3
@@ -2847,7 +3076,7 @@ label kim_punishment:
     "I stumble my way downtown while following Kim"
 
     "Despite being a punishment, today wasn't that bad..."
-    
+
     "Maybe I'm slowly getting used to this crossdessing thing...?"
 
 label yelenaignore:
@@ -2902,7 +3131,7 @@ label yelenaignore:
 label axe:
 
     play music "audio/panama.mp3" volume 0.3
-    
+
     scene characterroom morning
 
     "...."
@@ -2948,7 +3177,7 @@ label axe:
     show will night grin at right
 
     w "Wataa!!"
-    
+
     "William breaks in and starts doing dance moves"
 
     show jamie raven smile
@@ -3015,7 +3244,7 @@ label axe:
 
     k "Don't steal my boyfriend now~"
 
-    show will night aw 
+    show will night aw
 
     w "I-I won't"
 
@@ -3148,7 +3377,7 @@ label axe:
     show jamie raven o
 
     j "E-eh?"
-    
+
     show kim starfire smile at left
 
     k "Oh her? yeah!! come here!!"
@@ -3178,8 +3407,8 @@ label axe:
     j "O-okay"
 
     hide kim
-    
-    show jamie raven smile 
+
+    show jamie raven smile
 
     "Snother person sits beside the lady, this time someone with a professional camera"
 
@@ -3211,7 +3440,7 @@ label axe:
 
     j "0-oh fuck"
 
-    scene con inside 
+    scene con inside
 
     show will night smile at left
 
@@ -3223,7 +3452,7 @@ label axe:
     w "Jealous?"
 
     k "N-no...why would I?"
-    
+
     scene con inside
 
     show jamie raven shy
@@ -3271,7 +3500,7 @@ label axe:
     j "Oh right!"
 
     w "Let's book it, Hiyah!!"
- 
+
     scene black
 
     "We take a seat amongst the crowds and we watch the program. They showed voice actor panels, interviews, and trailers for anime announcements"
@@ -3307,7 +3536,7 @@ label axe:
     "We go to more panels and booths, including the D.A.D.S one, where Kim talks with one of the sponsored cosplayers. Especially the Gale cosplayer"
 
     k "Hehehehehe~"
-    
+
     show will night n at right
 
     show jamie raven shy
@@ -3343,9 +3572,9 @@ label axe:
     show will night smile at right
 
     w "Sup dude"
-    
+
     "William taps me in the shoulder"
-    
+
     j "H-hah~"
 
     j "O-oh!! Will...it's you"
@@ -3428,7 +3657,7 @@ label axe:
     show kim starfire flustered
 
     "Kim pinches Will"
-    
+
     show will night n
 
     w "O-ow!"
@@ -3649,7 +3878,7 @@ label kim_touch:
     "She groans in frustration..."
 
     k "(Dammit, I need something more! I need....Him)"
-        
+
     "As she closes her eyes, she can almost feel the sensation of his member deep in her ass.."
 
     k "(I can't forget the feeling of his warm cum inside me... But, that was dangerous... It wasn't a safe day so I could've gotten pregnant"
@@ -3891,7 +4120,7 @@ label kim_touch:
     w "This means this pussy belongs to me right?"
 
     k "N-no....hhah..."
-    
+
     w "Tell me bitch, tell me who this pussy belongs to!"
 
     k "Hnnnghh....yours!! My pussy belongs to you!!!"
@@ -4030,7 +4259,7 @@ label kim_touch:
 
 
     "The bed creaks, as if its crying, that it is about to break"
-
+    scene pronebone 1
     scene kimmie pronebone 1
 
     play squelch "audio/fingering1.mp3" volume 8.0
@@ -4202,7 +4431,7 @@ label kim_touch:
 
     "After eating a warm meal, Kim and William fuck all night. And Kim enjoys the pleasure of getting cramping repeatedly..."
 
-    jump goodbye
+    jump jamie_relieved
 
 label jamie_delivery:
 
@@ -4248,8 +4477,10 @@ label jamie_delivery:
 
     "I had to fricking eat instant noodles the other night...Whatever, I'll just bring this to him so she doesn't get mad at me"
 
+    jump jamie_delivery_2
+
 label jamie_delivery_2:
-    
+
     scene hotel hall
 
     play music "audio/malicious.mp3" volume 0.3
@@ -4333,16 +4564,3674 @@ label jamie_delivery_2:
     "There's no way she would do thy...no way..."
 
     "I take a deep breath and start heading home."
-    
+
     "My thoughts still linger on the idea of Kim cheating on me..."
 
-    jump goodbye
+    jump jamie_suspicious
 
 
 
 
 
 
+
+
+label gaming_time:
+
+    play music "audio/ponder.ogg" volume 0.3
+
+    scene characterroom night
+
+    w "Motherfucker!"
+
+    j "I'm coming, I'm coming"
+
+    w "Yeah yeah come come come"
+
+    j "Yeah I'm here, I'm fucking him, I'm fucking him in the ass!"
+
+    w "Yeah fuck him, fuck him hard!"
+
+    j "Aaaanddd yeah! Get owned motherfucker!"
+
+    w "Hell yeah! two wins in a row baby"
+
+    j "Take this teabag, bitch.. ughh..yeah, suck on my nuts!"
+
+    w "Hahaha sick... *yawn* Bro it's so fucking late"
+
+    j "I've been wondering about that, don't you have shit to do tomorrow?"
+
+    w "Nahh it's fine, I'm just gonna tank it later... It's not like people here are early birds anyway. Wait, can you hear that banging?"
+
+    j "Kind of?"
+
+    w "Yeah, that's my mate next door banging his girl... or another girl, I don't know"
+
+    j "O-oh..."
+
+    w "Hahaha yeah, I know"
+
+    j "But really man... you need to go to sleep"
+
+    w "Huh, why?"
+
+    j "I don't know, it's bad for you to be staying up this late?"
+
+    w "Motherfucker, you stay up later than me"
+
+    j "Ah shut up"
+
+    w "Hahaha you're giving off, concerned girlfriend vibes right now"
+
+    j "W-what? N-no!! I'm not...."
+
+    w "What, you getting shy?"
+
+    j "N-no... I-it's just... I'm not into you...and stuff..."
+
+    w "H-haha... I know, I was just messing with you..."
+
+    j "Mnghh..."
+
+    w "....."
+
+    w "Anyways, wanna play another game?"
+
+    j "Yeah, why not? But you better sleep before 1:00 AM"
+
+    w "Yeah yeah, come on loser"
+
+    stop music
+
+    jump tv_tease
+
+
+label tv_tease:
+
+    play music "audio/smooth.ogg" volume 0.3
+
+    scene black
+
+    "......"
+
+    scene characterroom night
+
+    "A few days later"
+
+    "I fiddle with my fingers, as I hear my the rhythmic thumping of my heart in my eardrums"
+
+    "And I sit nervously on her bed, while Kim takes off her clothes"
+
+    show kim nshy
+
+    k "You okay? You looks nervous, fufu~"
+
+    j "Y-yeah...it's just you know"
+
+    k "Nerve-wracking?"
+
+    j "Y-yeah...."
+
+    k "Aww come here"
+
+    show kim ngrin
+
+    "Kim gives me a reassuring hug"
+
+    k "It's gonna be okay~"
+
+    j "Thanks, Kim"
+
+    k "Now go lay down, I'm gonna play the video~"
+
+    j "M-mmhmmm"
+
+    scene characterroom night
+
+    "Kim streams the video on her phone to the tv, and she lays on top of me"
+
+    k "Ah, you really are nervous, I can feel your heart beating so much!"
+
+    j "Of course I was! You thought I was lying?"
+
+    k "Hehe, anyways... wanna start?"
+
+    j "M-mmhmm..."
+
+    scene tv tease 1
+
+    "Kim presses the play button...And it shows Kim in a hotel bathroom"
+
+    k "\"Okay...There, now I hope that doesn't fall\""
+
+    k "\"Uhh... Hello baby~ I'm just getting ready in the bathroom~\""
+
+    "Kim, does her makeup, and adjusts her lingerie in the mirror"
+
+    k "\"So, yeah... The guy is waiting outside, and there's another girl with us too\""
+
+    k "\"And I am just finishing up my makeup! Hehe I look like Mistress Valeria... So, do I look pretty?\""
+
+    scene tv tease 2
+
+    "Kim turns around, and shows off her voluptuous body..."
+
+    k "\"Oh right, you can't respond... Fufu~ Sorry\""
+
+    k "\"Anyways, I'm so excited~ Are you?\""
+
+
+    k "Are you excited, baby?"
+
+    j "M-mmhmm..."
+
+    scene tv tease 4
+
+    "Kim gets out of the bathroom"
+
+    k "\"Ehhh, ya'll are already making out? That's so unfair!\""
+
+    r1 "\"Haha, sorry I couldn't help it\""
+
+    "Kim faces the camera towards a man wearing a dark-skinned, muscular man wearing mask, and a mature looking woman, wearing glasses and dark makeup"
+
+    j "S-she kinda looks like..."
+
+    k "Ms. Diane?"
+
+    j "Y-yeah..."
+
+    k "Fufu~ Does that turn you on?"
+
+    j "W-what?"
+
+    k "You heard me, does the idea of your mom fucking a guy together with your girlfriend, turn you on?"
+
+    j "I-I...."
+
+    k "Fufu~ looks like your cock is fully awake, that certainly answers my question"
+
+    j "N-nghh..."
+
+    k "She deosn't have a name... But how about we call her Ms. Diane for now?"
+
+    j "O-okay..."
+
+    k "\"Then give me a kiss too then...\""
+
+    r1 "\"With your fine ass? My pleasure\""
+
+    scene tv tease 5
+
+    "The guy starts kissing Kim, and she gladly lets him"
+
+    "They both explore each other's mouths, as their tongues intertwine, and sloppily exchange saliva"
+
+    "I've never kissed Kim in such a way before, but they both shared a raw passionate kiss, with such familiarity. I couldn't help but feel extreme jealousy"
+
+    k "\"Mmfff....\""
+
+    r1 "\"Fuck, I love that new lipstick...\""
+
+    k "\"Of course you do~\""
+
+    d "\"Okay you had your turn, what do we do now?\""
+
+    k "\"Well we can start, but you look kind of nervous\""
+
+    d "\"I'm just not used to cameras... And it also doesn't help, that the one who's gonna watch this video is my so-\""
+
+    r1 "\"Ehem! So uhhh come on, let's start. My cock's throbbing like crazy\""
+
+    d "\"*sigh* Fine, you horndog...\""
+
+
+    scene tv tease 6
+    "The video skips ahead, as Kim and the woman who will be temporarily called \"Diane\" lay prone to the bed, showing off their asses to the bull"
+
+    r1 "\"Yeah... shake that shit for me\""
+
+    k "\"Fufu~"
+
+    d "\"Mnghh...\""
+
+    w "\"Fuck, that shit gonna be jiggling like water... Now which one's gonna get this hammer first?\""
+
+    k "\"Well, since it's my video... I think I should go first~\""
+
+    d "\"W-what? You can't just decide that!\""
+
+    k "\"Well, it's up to him~\""
+
+    "Kim looks at the bull"
+
+    k "\"So who will be first?\""
+
+    r1 "\"Fuck, it's hard to choose... But you right, for the video, you're gonna get this dick first\""
+
+    d "\"Tch...\""
+
+    "Kim gives Diane a smug smile, as the bull aims his cock against her wet slit"
+
+    r1 "\"This pussy is wet as fuck... Bet your boyfriend never got you this wet\""
+
+    k "\"H-hey... don't talk about him\""
+
+    r1 "\"Haha, alright... that answers my question, now come here\""
+
+    menu:
+
+        "Kim gives Jamie a fingerjob":
+            jump tv_tease_hand
+
+        "Kim doesn't touch Jamie":
+            jump tv_tease_no_hand
+
+label tv_tease_hand:
+
+    "The bull starts inserting his massive cock, spreading his pussy more than I ever could"
+
+    "Kim shifts and trembles, as he slides his long, thick, veiny shaft inside her... Effortlessly reaching places I never could"
+
+    "And I could only stand by and watch in hopelessness, as he moves and starts fucking the love of my life"
+
+    j "H-hah..."
+
+    k "Oh, you're twitching~"
+
+    j "I-it's just... seeing you like that.. I-I feel-"
+
+    k "Jealous? ...Angry? or..... Excited~?"
+
+    j "N-nghh, I-I don't.. know"
+
+    scene tv tease 9
+    scene tv ntr 1
+
+    play moan "audio/kim muffled moan.mp3" volume 1.0
+
+    play bed "audio/muffle bed.mp3" volume 0.7
+
+    k "Just listen baby..."
+
+    k "\"Ahhnnn~ ahnn~ hahhhn~!!!\""
+
+    k "Listen to my moans, and tell me how it makes you feel..."
+
+    j  "N-nghh..."
+
+    k "Are you angry at me?"
+
+    j "N-no..."
+
+    k "I feel like you're not telling me the truth, I can see how frustrated you are~"
+
+    k "But can you blame me though? Did you see the way his cock swung, when I entered the bedroom?"
+
+    k "It was really huge, wasn't it?"
+
+    j "Y-yeah..."
+
+    k "Now, imagine that massive black veiny cock, sliding inside me"
+
+    k "You can't blame me for moaning like an animal, can you?"
+
+    j "K-Kim..."
+
+    k "Watch the video, and listen closely..."
+
+    r1 "\"You like that big black dick, don't you!?\""
+
+    k "\"Y-yes~!! Yes~!!!\""
+
+    r1 "\"Tell me, which dick you like better, huh? This big long black dick, or your boyfriend's\""
+
+    k "\"N-noooo...I..H-hah... I-I can't tell youu~!!!\""
+
+    r1 "\"Nahh get real with me, you fucking slut! Tell me which dick is better!?\""
+
+    k "\"Y-yours~!!!\""
+
+    j "N-no..."
+
+    r1 "\"I wanna hear it out your mouth, bitch... Say it! Say you love my big black dick\""
+
+    k "\"I...I-I love your big black dick~!!\""
+
+    r1 "\"Yeah, now say it straight to the camera, how much better this shit is, than your boyfriend\""
+
+    k "\"I-it's better than...h-hah~!! It's better than my boyfriend's pea sized dick~!!\""
+
+    r1 "\"Oh yeah, and what else?\""
+
+    k "\"A-ahn~!! You're bigger! Y-you fuck me harder and deeper...T-than Jamie ever c-could~!! ahhnn~!!\""
+
+    r1 "\"Yeah, that's fucking right\""
+
+    j "O-oh...fuck..."
+
+    k "Oh...what's wrong, you didn't like hearing that?"
+
+    j "Y-yes...*sniffle*"
+
+    k "Awww baby, it's okay..."
+
+    "Kim caresses me"
+
+    scene tv ntr 2
+
+    k "But don't lie to me, I saw your cock twitch"
+
+    j "N-nghh!"
+
+    k "Yeah that's right... When you saw him absolutely dominate me, sliding his big black cock inside me, churning up my insides and making me moan in ways you never could... You liked it"
+
+    k "You liked it when you heard me say my true feelings to the camera, that he was better than you in every way, you wanna know why?"
+
+    k "That's because you're nothing but a loser, and a perverted little cuck"
+
+    j "N-nghh K-Kim!"
+
+    k "No, don't deny it now...Only a cuck would be this rock hard while watching his girlfriend getting railed"
+
+    j "Hah...but but.."
+
+    k "No buts...just admit it, tell me you're nothing but a perverted little cuck... Come on, say it~"
+
+    j "I-I..."
+
+    k "Yes?"
+
+    j "I am a p-perverted...little cuck"
+
+    k "Come again?"
+
+    j "I am a perverted little cuck!"
+
+    k "That you are~"
+
+    j "H-hnngh~!!"
+
+    "The video continues, and I listened to Kim getting pleasured by another man, for what seemed like hours"
+
+    r1 "\"Fck, this ass jiggling like water! This shit is gonna drain me dry! You ready for my nut, bitch?\""
+
+    k "\"Yes~!! Give it to me~!! Give me your hot sticky cum~!!\""
+
+    r1 "\"Since you asked for it, take it!!\""
+
+    scene tv tease 15
+
+    play climax "audio/kim muffled cum.mp3" volume 1.0
+
+    stop moan
+
+    stop bed
+
+    "Kim squirts as they both climax together... Something I've never seen her do with me"
+
+    k "\"Ohhh~!!!!!!!\""
+
+    r1 "\"Ohhh fuck!\""
+
+    k "He filled me up so much... See?"
+
+    "The bull pulls the condom out of her pussy"
+
+    stop climax
+
+    k "See all that cum? He filled up a condom that huge..."
+
+    k "Imagine if all of that warm sticky cum went inside me... I bet I would be pregnant in an instant~"
+
+    j "N-no....nghh~"
+
+    "My cock twitches, as a small amount of cum leaks out"
+
+    k "Awww look at that~ Such a tiny dribble, and I didn't even touch you... So pathetic~"
+
+    k "Now compare this tiny amount to THAT... You're nothing compared to him~"
+
+    j "Hah....hah...."
+
+    k "Fufu~ But you're not allowed to cum yet, there's still a lot of video left!"
+
+    scene tv ntr 3
+
+    play moan "audio/diane muffled moan.mp3" volume 1.0
+
+    play bed "audio/muffle bed.mp3" volume 0.7
+
+    d "\"Ahn~!! Ahhnnn~!!! Yes!!\""
+
+    r1 "\"Yeah, make that ass jiggle, you old bitch!\""
+
+    d "\"Hoghh~!!\""
+
+    k "Look at her she looks so much like Ms. Diane doesn't she?"
+
+    j "Y-yeah..."
+
+    k "Funnily enough, she's kinda similar to Ms. Diane... She's also a single mother to a son your age... She thinks her son is useless though, he spends all day being a loser"
+
+    k "That sounds like the real Ms. Diane, don't you agree?"
+
+    j "H-hah...hah...hah"
+
+    k "Fufu~ Are you imagining it? Your mom spreading her legs for a big black cock~"
+
+    j "Hah..hah... *gulp*"
+
+    k "Yes you are~ Your're soooo fucking pathetic, you really want to be cucked by your mom? Wow... You're actually really fucking disgusting, fufu~"
+
+    k "You're more of a loser than I realized... fucking loser....loooserrrrr"
+
+    j "N-noo..."
+
+    k "Loserrrr...fucking loserrrrr~ You're so fucking disgusting, fufu~"
+
+    j "H-hah...hah...hah....fuck"
+
+    k "You know... I could convince Ms. Diane"
+
+    j "W-what?"
+
+    k "I can convince her to have sex with a bull, do you want that?"
+
+    j "I-I..."
+
+    k "Fufu~ You do! Oh, you're such a pathetic cuck..."
+
+    j "*whine* Mnghh...shit"
+
+    k "Fufu~ I'm just kidding... But, you can always imagine"
+
+    k "Think about it, her stomach bulging, pregnant with a baby... It'd be sooo hot, wouldn't it?"
+
+    k "Maybe he'd have a son that wasn't so pathetic"
+
+    play climax "audio/diane muffled cum.mp3" volume 1.0
+
+    stop moan
+
+    stop bed
+
+    scene tv tease 21
+    d "\"OGHHH~!!!! YESHHH~!! BREED ME~!!!!\""
+
+    r1 "\"OHHH FUCK!!!\""
+
+    stop climax
+
+    k "Oh look at that, he really filled her up~"
+
+    j "K-Kim, I'm gonna!"
+
+    k "Nuh-uh, you're not allowed to cum...yet"
+
+    j "D-damn...nghh"
+
+    scene tv ntr 4
+
+    play moan "audio/combined muffle moan.mp3" volume 1.0
+
+    play squelch "audio/shower.mp3" volume 1.0
+
+    "The video skips ahead to an empty bed littered with condoms, but the moans continue, albeit muffled"
+
+    k "Oh yeah, we moved to the shower and fucked like animals~"
+
+    k "We fucked so much, that I kind of forgot about the video... Sorry about that"
+
+    k "But I bet you like this too, don't you? I bet your mind is going haywire right now"
+
+    k "\"How much time has passed, what's their position, and how hard is he fucking her?\" Those must be the thoughts running around your head~ \"Did they even remember to put a condom on?\" I honestly kinda forgot about that, fufu~"
+
+    j "H-hah...w-what?"
+
+    k "Ohhh, that made you excited~ \"Did he creampie her, what if she gets pregnant?\" Yes... I want those thoughts to run around your head and slowly make you crazy, hehehe~"
+
+    j "K-Kim... P-please! I...hah..."
+
+    k "Ewww, you liked that? You're picturing me with a pregnant belly, carrying a baby that's not yours, and you like it? You're such a disgusting looooserrrrrr~"
+
+    j "Nghhhahh..hah..h-hha...hah..."
+
+    k "Loooser~ loooooser~ Disgusting loserrrr~"
+
+    j "*gulp* Hah...hah...n-no..."
+
+    k "Fufu~ I was just kidding! Of course we wore a condom, you silly…  But I bet that almost made you cum, didn't it?"
+
+    j "W-why... W-why would you do that?"
+
+    k "Because I like seeing your pathetic face squirm~"
+
+    j "Nghhhkk..."
+
+    stop squelch
+
+
+    scene tv ntr 5
+
+    play moan "audio/combined muffle bj.mp3" volume 1.0
+
+    k "\"Mnngghff~ *chu* Hah...mmnfggh~"
+
+    d "\"Ahnn...*slurp* Hahh....hmpph~\""
+
+    r1 "\"Yeah...fuck! Use those damn lips and make that dick shine\""
+
+    k "\"Fufu~ His massive cock's kinda hypnotizing isn't it? You can do nothing but stare at it in awe...or of course, worship it"
+
+    k "Fufu~ This is when we were servicing his long black cock... See those condoms in the background? We've been fucking so much at this point, but he's still harder than ever"
+
+    k "He's amazing isn't he? Still being able to keep it up after fucking us non-stop all night... So of course, for making us feel good, we showed our gratitude by using our lips to good use... to worship his long...thick...black cock~"
+
+    k "You could never have something like that... Not with such a tiny little nub, you can't even manage to stay conscious after cumming once"
+
+    k "You wanna know why? That's because you're a looooserrrrr~ A pathetic inferior loooserrrrrr~"
+
+    j "Hah...hah...hah..h-hah..."
+
+    k "Your girlfriend is being stolen in front of you, and you do nothing but squirm helplessly...Because you're a cuck and a pathetic loser~"
+
+    j "N-no...n-no!"
+
+    k "No don't deny it... You're a fucking loserrr.. loserrr...loserrrrrrr~"
+
+    j "K-Kim...I-I hahh~!!!"
+
+    stop moan
+
+    scene tv tease 30
+
+    play sound "audio/spurt.mp3" volume 1.0
+
+    "*spurt~*"
+
+    scene tv tease 32
+
+    k "Ohh my~ You came more than usual, but its still nothing compared to him, fufu~"
+
+    j "Hanh...hah..~!"
+
+    stop sound
+
+    k "looks like that was too much, huh?"
+
+    j "M-mmhmm...hgnhhh *sniffle*"
+
+    k "Awwww come here~"
+
+    j "*sniffle*..."
+
+    k "Did I tease you too much?"
+
+    j "A-a bit..."
+
+    k "You didn't like it when I called you a loser?"
+
+    j "N-nghh, I...I kinda did"
+
+    k "Fufu you pervert...Was it the part where I told you that I'd get stolen?"
+
+    j "Y-yeah..."
+
+    k "Awwwww, no way~ I still love you!"
+
+    j "Mmhmm... I-I know"
+
+    k "But you're still a perverted little cuck though~"
+
+    j "N-nghh!"
+
+    k "Fufu, but did you enjoy it?"
+
+    j "Y-yeah...I guess"
+
+    k "I tried mimicking what Mistress Val was doing in her videos, but I was worried that I overdid it... I'm glad to hear that you liked it"
+
+    j "No y-you did great"
+
+    k "Hehe, I guess that means, I should be harsher next time"
+
+    j "N-no!"
+
+    k "Ehhhh don't lie! You like it when I'm mean"
+
+    j "Mnnghh.. I guess"
+
+    k "Anyways, uhmmm... I have a proposal, and it's okay if you wanna say no"
+
+    j "W-what is it?"
+
+    k "Since you've watched the video... Do you wanna try seeing it...in real time?"
+
+    j "Y-you mean-"
+
+    k "Like being in the room..."
+
+    j "H-hah...."
+
+    k "It's okay if you wanna say-"
+
+    j "I-I'm okay with it!"
+
+    k "O-oh...that was fast"
+
+    j "Y-yeah I'm okay with it..."
+
+    k "Hehe, did the idea turn you on?"
+
+    j "Y-yes..."
+
+    "Finally being able to see it with my own eyes, as her bull fucks her in front of me..."
+
+    "I know I should say no, but... I can't help myself"
+
+    k "I'm glad you're being honest with me~"
+
+    j "Y-yeah...I'm sorry for making you do all this stuff"
+
+    k "No, it's okay... I kinda like it~ I will always do anything for you"
+
+    j "T-thanks Kim"
+
+    k "Hehe.. perv"
+
+    j "W-what was that?"
+
+    k "You're a perv!!!"
+
+    j "I-I'm..."
+
+    k "You can't deny now...pervert pervert pervert!"
+
+    j "Y-you...come here!"
+
+    stop music
+
+    jump jamie_witnesses
+
+label tv_tease_no_hand:
+
+    "The bull starts inserting his massive cock, spreading his pussy more than I ever could"
+
+    "Kim shifts and trembles, as he slides his long, thick, veiny shaft inside her... Effortlessly reaching places I never could"
+
+    "And I could only stand by and watch in hopelessness, as he moves and starts fucking the love of my life"
+
+    j "H-hah..."
+
+    k "Oh, you're twitching~"
+
+    j "I-it's just... seeing you like that.. I-I feel-"
+
+    k "Jealous? ...Angry? or..... Excited~?"
+
+    j "N-nghh, I-I don't.. know"
+
+    scene tv tease 7
+    scene tv ntrs 1
+
+    play moan "audio/kim muffled moan.mp3" volume 1.0
+
+    play bed "audio/muffle bed.mp3" volume 0.7
+
+    k "Just listen baby..."
+
+    k "\"Ahhnnn~ ahnn~ hahhhn~!!!\""
+
+    k "Listen to my moans, and tell me how it makes you feel..."
+
+    j  "N-nghh..."
+
+    k "Are you angry at me?"
+
+    j "N-no..."
+
+    k "I feel like you're not telling me the truth, I can see how frustrated you are~"
+
+    k "But can you blame me though? Did you see the way his cock swung, when I entered the bedroom?"
+
+    k "It was really huge, wasn't it?"
+
+    j "Y-yeah..."
+
+    k "Now, imagine that massive black veiny cock, sliding inside me"
+
+    k "You can't blame me for moaning like an animal, can you?"
+
+    j "K-Kim..."
+
+    k "Watch the video, and listen closely..."
+
+    r1 "\"You like that big black dick, don't you!?\""
+
+    k "\"Y-yes~!! Yes~!!!\""
+
+    r1 "\"Tell me, which dick you like better, huh? This big long black dick, or your boyfriend's\""
+
+    k "\"N-noooo...I..H-hah... I-I can't tell youu~!!!\""
+
+    r1 "\"Nahh get real with me, you fucking slut! Tell me which dick is better!?\""
+
+    k "\"Y-yours~!!!\""
+
+    j "N-no..."
+
+    r1 "\"I wanna hear it out your mouth, bitch... Say it! Say you love my big black dick\""
+
+    k "\"I...I-I love your big black dick~!!\""
+
+    r1 "\"Yeah, now say it straight to the camera, how much better this shit is, than your boyfriend\""
+
+    k "\"I-it's better than...h-hah~!! It's better than my boyfriend's pea sized dick~!!\""
+
+    r1 "\"Oh yeah, and what else?\""
+
+    k "\"A-ahn~!! You're bigger! Y-you fuck me harder and deeper...T-than Jamie ever c-could~!! ahhnn~!!\""
+
+    r1 "\"Yeah, that's fucking right\""
+
+    j "O-oh...fuck..."
+
+    k "Oh...what's wrong, you didn't like hearing that?"
+
+    j "Y-yes...*sniffle*"
+
+    k "Awww baby, it's okay..."
+
+    "Kim caresses me"
+
+    scene tv ntrs 2
+
+    k "But don't lie to me, I saw your cock twitch"
+
+    j "N-nghh!"
+
+    k "Yeah that's right... When you saw him absolutely dominate me, sliding his big black cock inside me, churning up my insides and making me moan in ways you never could... You liked it"
+
+    k "You liked it when you heard me say my true feelings to the camera, that he was better than you in every way, you wanna know why?"
+
+    k "That's because you're nothing but a loser, and a perverted little cuck"
+
+    j "N-nghh K-Kim!"
+
+    k "No, don't deny it now...Only a cuck would be this rock hard while watching his girlfriend getting railed"
+
+    j "Hah...but but.."
+
+    k "No buts...just admit it, tell me you're nothing but a perverted little cuck... Come on, say it~"
+
+    j "I-I..."
+
+    k "Yes?"
+
+    j "I am a p-perverted...little cuck"
+
+    k "Come again?"
+
+    j "I am a perverted little cuck!"
+
+    k "That you are~"
+
+    j "H-hnngh~!!"
+
+    "The video continues, and I listened to Kim getting pleasured by another man, for what seemed like hours"
+
+    r1 "\"Fck, this ass jiggling like water! This shit is gonna drain me dry! You ready for my nut, bitch?\""
+
+    k "\"Yes~!! Give it to me~!! Give me your hot sticky cum~!!\""
+
+    r1 "\"Since you asked for it, take it!!\""
+
+    scene tv tease 16
+
+    play climax "audio/kim muffled cum.mp3" volume 1.0
+
+    stop moan
+
+    stop bed
+
+    "Kim squirts as they both climax together... Something I've never seen her do with me"
+
+    k "\"Ohhh~!!!!!!!\""
+
+    r1 "\"Ohhh fuck!\""
+
+    k "He filled me up so much... See?"
+
+    "The bull pulls the condom out of her pussy"
+
+    stop climax
+
+    k "See all that cum? He filled up a condom that huge..."
+
+    k "Imagine if all of that warm sticky cum went inside me... I bet I would be pregnant in an instant~"
+
+    j "N-no....nghh~"
+
+    "My cock twitches, as a small amount of cum leaks out"
+
+    k "Awww look at that~ Such a tiny dribble, and I didn't even touch you... So pathetic~"
+
+    k "Now compare this tiny amount to THAT... You're nothing compared to him~"
+
+    j "Hah....hah....I-I'm about to"
+
+    k "Really? I'm not even touching you...No no no, that won't do"
+
+    j "B-but..."
+
+    k "Fufu~ you're not allowed to cum yet, there's still a lot of video left!"
+
+    scene tv ntrs 3
+
+    play moan "audio/diane muffled moan.mp3" volume 1.0
+
+    play bed "audio/muffle bed.mp3" volume 0.7
+
+    d "\"Ahn~!! Ahhnnn~!!! Yes!!\""
+
+    r1 "\"Yeah, make that ass jiggle, you old bitch!\""
+
+    d "\"Hoghh~!!\""
+
+    k "Look at her she looks so much like Ms. Diane doesn't she?"
+
+    j "Y-yeah..."
+
+    k "Funnily enough, she's kinda similar to Ms. Diane... She's also a single mother to a son your age... She thinks her son is useless though, he spends all day being a loser"
+
+    k "That sounds like the real Ms. Diane, don't you agree?"
+
+    j "H-hah...hah...hah"
+
+    k "Fufu~ Are you imagining it? Your mom spreading her legs for a big black cock~"
+
+    j "Hah..hah... *gulp*"
+
+    k "Yes you are~ Your're soooo fucking pathetic, you really want to be cucked by your mom? Wow... You're actually really fucking disgusting, fufu~"
+
+    k "You're more of a loser than I realized... fucking loser....loooserrrrr"
+
+    j "N-noo..."
+
+    k "Loserrrr...fucking loserrrrr~ You're so fucking disgusting, fufu~"
+
+    j "H-hah...hah...hah....fuck"
+
+    k "You know... I could convince Ms. Diane"
+
+    j "W-what?"
+
+    k "I can convince her to have sex with a bull, do you want that?"
+
+    j "I-I..."
+
+    k "Fufu~ You do! Oh, you're such a pathetic cuck..."
+
+    j "*whine* Mnghh...shit"
+
+    k "Fufu~ I'm just kidding... But, you can always imagine"
+
+    k "Think about it, her stomach bulging, pregnant with a baby... It'd be sooo hot, wouldn't it?"
+
+    k "Maybe he'd have a son that wasn't so pathetic"
+
+    play climax "audio/diane muffled cum.mp3" volume 1.0
+
+    stop moan
+
+    stop bed
+
+    scene tv tease 22
+    d "\"OGHHH~!!!! YESHHH~!! BREED ME~!!!!\""
+
+    r1 "\"OHHH FUCK!!!\""
+
+    stop climax
+
+    k "Oh look at that, he really filled her up~"
+
+    j "K-Kim, I'm gonna!"
+
+    k "Nuh-uh, you're not allowed to cum still~"
+
+    j "D-damn...nghh"
+
+    scene tv tease 23
+
+    play moan "audio/combined muffle moan.mp3" volume 1.0
+
+    play squelch "audio/shower.mp3" volume 1.0
+
+    "The video skips ahead to an empty bed littered with condoms, but the moans continue, albeit muffled"
+
+    k "Oh yeah, we moved to the shower and fucked like animals~"
+
+    k "We fucked so much, that I kind of forgot about the video... Sorry about that"
+
+    k "But I bet you like this too, don't you? I bet your mind is going haywire right now"
+
+    k "\"How much time has passed, what's their position, and how hard is he fucking her?\" Those must be the thoughts running around your head~ \"Did they even remember to put a condom on?\" I honestly kinda forgot about that, fufu~"
+
+    j "H-hah...w-what?"
+
+    k "Ohhh, that made you excited~ \"Did he creampie her, what if she gets pregnant?\" Yes... I want those thoughts to run around your head and slowly make you crazy, hehehe~"
+
+    j "K-Kim... P-please! I...hah..."
+
+    k "Ewww, you liked that? You're picturing me with a pregnant belly, carrying a baby that's not yours, and you like it? You're such a disgusting looooserrrrrr~"
+
+    j "Nghhhahh..hah..h-hha...hah..."
+
+    k "Loooser~ loooooser~ Disgusting loserrrr~"
+
+    j "*gulp* Hah...hah...n-no..."
+
+    k "Fufu~ I was just kidding! Of course we wore a condom, you silly...  But I bet that almost made you cum, didn't it?"
+
+    j "W-why... W-why would you do that?"
+
+    k "Because I like seeing your pathetic face squirm~"
+
+    j "Nghhhkk..."
+
+    stop squelch
+
+
+    scene tv tease 28
+
+    play moan "audio/combined muffle bj.mp3" volume 1.0
+
+    k "\"Mnngghff~ *chu* Hah...mmnfggh~"
+
+    d "\"Ahnn...*slurp* Hahh....hmpph~\""
+
+    r1 "\"Yeah...fuck! Use those damn lips and make that dick shine\""
+
+    k "\"Fufu~ His massive cock's kinda hypnotizing isn't it? You can do nothing but stare at it in awe...or of course, worship it"
+
+    k "Fufu~ This is when we were servicing his long black cock... See those condoms in the background? We've been fucking so much at this point, but he's still harder than ever"
+
+    k "He's amazing isn't he? Still being able to keep it up after fucking us non-stop all night... So of course, for making us feel good, we showed our gratitude by using our lips to good use... to worship his long...thick...black cock~"
+
+    k "You could never have something like that... Not with such a tiny little nub, you can't even manage to stay conscious after cumming once"
+
+    k "You wanna know why? That's because you're a looooserrrrr~ A pathetic inferior loooserrrrrr~"
+
+    j "Hah...hah...hah..h-hah..."
+
+    k "Your girlfriend is being stolen in front of you, and you do nothing but squirm helplessly...Because you're a cuck and a pathetic loser~"
+
+    j "N-no...n-no!"
+
+    k "No don't deny it... You're a fucking loserrr.. loserrr...loserrrrrrr~"
+
+    j "K-Kim...I-I hahh~!!!"
+
+    stop moan
+
+    scene tv tease 29
+
+    play sound "audio/spurt.mp3" volume 1.0
+
+    "*spurt~*"
+
+    scene tv tease 31
+
+    k "Ohh my~ "
+
+    j "H-hah...fuck"
+
+    k "I didn't even touch you, but you came more than usual. And its still nothing compared to him..."
+
+    j "Hanh...hah..."
+
+    stop sound
+
+    k "looks like that was too much, huh?"
+
+    j "M-mmhmm...hgnhhh *sniffle*"
+
+    k "Awwww come here~"
+
+    j "*sniffle*..."
+
+    k "Did I tease you too much?"
+
+    j "A-a bit..."
+
+    k "You didn't like it when I called you a loser?"
+
+    j "N-nghh, I...I kinda did"
+
+    k "Fufu you pervert...Was it the part where I told you that I'd get stolen?"
+
+    j "Y-yeah..."
+
+    k "Awwwww, no way~ I still love you!"
+
+    j "Mmhmm... I-I know"
+
+    k "But you're still a perverted little cuck though~"
+
+    j "N-nghh!"
+
+    k "Fufu, but did you enjoy it?"
+
+    j "Y-yeah...I guess"
+
+    k "I tried mimicking what Mistress Val was doing in her videos, but I was worried that I overdid it... I'm glad to hear that you liked it"
+
+    j "No y-you did great"
+
+    k "Hehe, I guess that means, I should be harsher next time"
+
+    j "N-no!"
+
+    k "Ehhhh don't lie! You like it when I'm mean"
+
+    j "Mnnghh.. I guess"
+
+    k "Anyways, uhmmm... I have a proposal, and it's okay if you wanna say no"
+
+    j "W-what is it?"
+
+    k "Since you've watched the video... Do you wanna try seeing it...in real time?"
+
+    j "Y-you mean-"
+
+    k "Like being in the room..."
+
+    j "H-hah...."
+
+    k "It's okay if you wanna say-"
+
+    j "I-I'm okay with it!"
+
+    k "O-oh...that was fast"
+
+    j "Y-yeah I'm okay with it..."
+
+    k "Hehe, did the idea turn you on?"
+
+    j "Y-yes..."
+
+    "Finally being able to see it with my own eyes, as her bull fucks her in front of me..."
+
+    "I know I should say no, but... I can't help myself"
+
+    k "I'm glad you're being honest with me~"
+
+    j "Y-yeah...I'm sorry for making you do all this stuff"
+
+    k "No, it's okay... I kinda like it~ I will always do anything for you"
+
+    j "T-thanks Kim"
+
+    k "Hehe.. perv"
+
+    j "W-what was that?"
+
+    k "You're a perv!!!"
+
+    j "I-I'm..."
+
+    k "You can't deny now...pervert pervert pervert!"
+
+    j "Y-you...come here!"
+
+    stop music
+    $ renpy.end_replay()
+
+    jump jamie_witnesses
+
+
+
+
+
+
+
+label jamie_witnesses:
+
+    play music "audio/sexy.mp3" volume 0.3
+
+    scene restaurant
+
+    "A few days later"
+
+    "Kim and I are having dinner in a restaurant"
+
+    show kim gothdress cgrin
+
+    k "this soup's so good~!"
+
+    j "...."
+
+    "Kim looks beautiful today... Especially after wearing dark makeup and dressing in all black..."
+
+    "But I can't help feeling jealous... Knowing I'll have to share her later"
+
+    "Those dark lips... I can't help but imagine another man indulging in them..."
+
+    show kim gothdress o
+
+    k "Baby, is something wrong?"
+
+    j "O-oh nothing, it's just..."
+
+    show kim gothdress shy
+
+    k "You're worried about the thing later?"
+
+    j "Y-yeah kind of?"
+
+    k "Awww don't be, I understand that it may be scary... But it'll be the first time you'll get to see the real deal, shouldn't you be excited?"
+
+    j "Y-yeah of course, haha"
+
+    k "Well, if it makes things easier... Just know that I'll always love you, okay?"
+
+    j "Thanks Kim"
+
+    show kim gothdress grin
+
+    k "Okay now gimme those peas!"
+
+    j "Ehhhh these are mine, not my fault you already ate yours"
+
+    show kim gothdress worried
+
+    k "But..b-but...Peas..."
+
+    j "Mmphh fine... you can have em, but only half"
+
+    k "Hehehehehe deal~!!!!!"
+
+    scene hotel hall
+
+    "After dinner, we finally arrive at the hotel"
+
+    "I come face to face with the door and my stomach feels like it's about to turn inside out"
+
+    "Kim senses my unease and gives my hand a squeeze"
+
+    "She knocks on the door, and a man wearing only a mask greets us and lets us in"
+
+    scene hotel room night
+
+    play music "audio/malicious.mp3" volume 0.3
+
+
+    "I stand there awkwardly as both the strangers introduce themselves"
+
+    show will mask smile
+
+    show kim gothdress shy at right
+
+    show diane long shy at left
+
+    r1 "Yo, what's up... Name's W- I mean Mike"
+
+    j "H-hello Mike, I'm Jamie... Uhm, you sound kind of familiar, haha..."
+
+    show kim gothdress shyo
+
+    k "!"
+
+    r1 "Oh really? Nahhh that's prolly because I have a generic ass voice"
+
+    j "H-haha probably"
+
+    show kim gothdress shy
+
+    k "Oh, and that's the lady you've seen in the video with me"
+
+    d "H-hey..."
+
+    show diane long sad
+
+    "She looks away and fidgets as we make eye contact"
+
+    k "Hehe, she's also kind of shy like you... And she doesn't wanna use her name, so let's stick with what we called her last time... \"Diane\""
+
+    d "N-nghh..."
+
+    j "O-okay..."
+
+    k "Fufu~"
+
+    scene black
+
+    "...."
+
+    scene hotel room night
+
+    show kim gothdress shyo
+
+    k "So the thing about us doing it raw... A-are you sure about it?"
+
+    j "Y-yeah, as long as you're fine with it"
+
+    k "Yeah it's okay"
+
+    j "M-mmhmm..."
+
+    show kim gothdress shy
+
+    k "Can you help me undress?"
+
+    j "S-sure..."
+
+    hide kim
+
+    "I slowly unzip the dress from behind her back, unveiling the voluptuous body hiding underneath... The body that will belong to another man for tonight"
+
+    r1 "Damn..."
+
+    show kim goth nshy
+
+    k "Fufu~ Now can you take off this necklace for me?"
+
+    j "M-mmhmm"
+
+    hide kim
+
+    "My hands start trembling as I try to take off her necklace, the necklace I gave her as a sign of our love"
+
+    show kim goth shy
+
+    k "Thank you, baby"
+
+    hide kim
+
+    "She gives me one last kiss on the cheek before she lets go of my hand and leaves my touch"
+
+    scene will flex 1
+
+    "She then slowly walks to Mike, his massive body towering over hers..."
+
+    "He puts his hand on her ass and gives it a tight squeeze, letting me know that she belongs to him now"
+
+    r1 "Come here..."
+
+    scene will flex 2
+
+    k "Mnnghhh~ *chu*"
+
+    "They give each other a passionate kiss, making my heart ache like never before"
+
+    k "Mfahh~ ...ahha...hah.."
+
+    r1 "Cherries again...my favorite"
+
+    d "H-hey... don't forget about me"
+
+    scene will flex 3
+
+    r1 "Of course...*chu*"
+
+    d "Mnnnfggh~~ ...hmphh~ *chu*"
+
+    r1 "You ladies ready?"
+
+    scene jamie help 1
+
+    "Kim lays down and spreads her legs... Mike then gets on top, his dark massive body looming over her"
+
+    "His massive cock swings in front of her entrance"
+
+    k "B-baby, can you help put it in?"
+
+    j "M-me?"
+
+    k "M-mmhmm..."
+
+    j "W-well... okay"
+
+    scene jamie help 2
+
+    "I reluctantly grab his massive cock, feeling its weight within my tiny hands..."
+
+    "And I aim it to her slit, completing my surrender to him as a man"
+
+    r1 "Good cuck..."
+
+    j "*gulp*"
+
+    scene jamie help 3
+
+    "He slides it in slowly, as if he's provoking me for never having fucked her raw before"
+
+    scene jamie help 5
+
+    "And now, he will be her first time, and he's savoring it to the fullest"
+
+    k "A-ahnn F-fuck~!"
+
+    scene jamie help 6
+
+    "He slides more and more until he reaches balls deep inside her"
+
+    r1 "That's a perfect fit right there..."
+
+    k "Nghhkk~! M-my belly feels so..f-full~!"
+
+    r1 "Damn right!"
+
+    scene jamie help 4
+
+    "Mike then pulls his hips, unsheathing his massive rod and then slams down"
+
+    scene jamie help 6
+
+    k "Oghh~!!!"
+
+    r1 "Haha, bitches love when I do that... Now come take this hammer!"
+
+    scene jamie first nts 1
+
+    play squelch "audio/fingering1.mp3" volume 8.0
+
+    play moan "audio/kim wobbly moan.mp3" volume 1.0
+
+
+    "Mike gives Kim a steady pounding, her body responding by quivering with every slam"
+
+    k "Ohghhh~!! ohghh~~!!!!"
+
+    r1 "Yeah...fucking clamp on that dick, you bitch!"
+
+    k "W-wait slow down~!! oghoohooo~!!!"
+
+    r1 "Slow down? What the fuck do you mean, slow down!? I'm not slowing down you slut!"
+
+    k "J-Jamieeee~!! J-Jamieee w-will hear me~!!!"
+
+    r1 "Who gives a fuck about your boyfriend, huh? This pussy belongs to me. You belong to me now!!"
+
+    k "N-noo~!!!!"
+
+    r1 "You're still tryna deny it, when you're screaming like a fucking pig! And your face... if only your boyfriend could see the type of face you're making right now!!"
+
+    k "A-aghhhh~!! agahhha~!!!"
+
+    r1 "Yeah that's right, only I can make you like this, only I can see this version of you! You fucking whore!!"
+
+    k "Oghhhoooghhh~!!!!!"
+
+    scene jamie first nts 2
+
+    play squelch "audio/fastf.mp3" volume 8.0
+
+    play moan "audio/kim loud moan.mp3" volume 1.0
+
+    "Her primal-like moans caused by being done by another man, furthers my arousal to an unbearable degree..."
+
+    "And I couldn't help but bring out my cock, and start stroking it"
+
+    r1 "Come on... scream louder! Tell him who you like more, huh? Say it straight to his face"
+
+    k "N-noooo~!!! I-I caaaaan't~!! hah..hahh"
+
+    r1 "Say it! Say which dick you like, mine or your boyfriend's?"
+
+    k "N-nghhh~!!"
+
+    r1 "Tell him, bitch!"
+
+    k "Y-youurss~!!!"
+
+    r1 "Oh yeah, and why is that?"
+
+    k "H-hahhnnnh~ It's because...i-it's because your big black cock is...l-longer~!!"
+
+    r1 "Oh yeah?"
+
+    k "Thicker~!!"
+
+    r1 "Oh yeah!?"
+
+    k "And you fuck me harder than my boyfriend ever could~!!!"
+
+    r1 "Yeah that's fucking right!!!"
+
+    j "K-Kim...."
+
+    k "N-nghhh~!! N-not there!!! D-don't pound that spot! That place is too s-sensitive~!!!"
+
+    r1 "Heh, like hell I wouldn't... Tell me, has your boyfriend ever made you cum?"
+
+    k "N-nghhkk!!!"
+
+    r1 "Better yet, has he ever made you feel good?"
+
+    k "N-no...p-pleaase~!!!"
+
+    r1 "Come on, say it!"
+
+    j "No..."
+
+    k "N-no~!!! J-Jamie hasn't made me f-feel good~!!"
+
+    k "H-his cock was too small... A-and he was always..h-hah...Tired after~!!!"
+
+    r1 "So when you had sex-"
+
+    k "I-I've always been faking it~!! I-I've always lied to him~!!!!!!"
+
+    j "N-no....."
+
+    "My heart sinks, as I feel an overwhelming sense of defeat..."
+
+    "This whole time, Kim has been faking it for me... And the first time she's ever felt good, was not by me but..."
+
+    "But...with another man..."
+
+    r1 "You feel that, huh!?"
+
+    k "Y-your cock~ Your cock is throbbing~!!!"
+
+    r1 "You know what that means right? That means I'm about to cum!"
+
+    k "Nnghhh~!!"
+
+    r1 "And I'm not wearing a condom... But I can always pull out, you know? Tell me...Where do you want it, huh!?"
+
+    k "Hah..hah...hah...hah...F-fuck...please~!!"
+
+    r1 "Say it!!"
+
+    k "I-inside~"
+
+    r1 "Louder!"
+
+    k "I-inside~!!!!!!!!!!!!!"
+
+    r1 "Good answer!"
+
+    "Mike increases his thrust, churning her insides up until"
+
+    scene jamie help 10
+
+    stop squelch
+
+    stop moan
+
+    stop bed
+
+
+    play coom "audio/cum1.mp3" volume 0.5
+
+    play climax "audio/kim open cum.mp3" volume 1.0
+
+    "*Spluuurtt~!!!!!!!!*"
+
+    k "Oghhhhooooooo~!!!!!!!!!!!!!!!!!!!"
+
+    r1 "Ughhhhh fuck!!!!"
+
+    stop climax
+
+    stop coom
+
+    "Her squirts splash into my face and I get a clear view of his cock throbbing and pumping hot sticky load inside her"
+
+    "He came so much that most of it leaked out... And I can't help but compare it to the paltry amount that I produce"
+
+    "The amount of his thick virile seed triggers a dark thought... With this much cum, if Kim doesn't take a pill later...She might end up pregnant"
+
+    "Her belly...bulging with life that isn't mine.... The thought makes my chest tighten...But my hand goes faster and faster, and I bust into a tissue"
+
+    "A pathetic amount... His cum gets to swim around my girlfriend's womb, while mine gets thrown into the trash..."
+
+    "I feel like vomiting from the amount of humiliation, but a part of me likes it too..."
+
+    k "O-oghhh...oghhhh.....hoghh....."
+
+    r1 "Aughh...fuck that was good"
+
+    scene hotel room night
+
+    show will mask smile
+
+    show diane long shy at left
+
+    "Mike then gets up and looks at Diane..."
+
+    d "I guess i-it's my turn..."
+
+    r1 "Hell yeah it is, ready that pussy up, you hag"
+
+    d "N-nghh..."
+
+    "I look at his cock swinging, amazed how it's managed to keep it's length despite cumming such a huge amount"
+
+    "By this time, I would've struggled to stay awake... But he looks like he's still able to go all night"
+
+    r1 "Show me that ass"
+
+    d "O-okay..."
+
+    scene black
+
+    "..."
+
+    scene diane jamie watch 1
+
+    "Diane gets on all fours, and I finally get to look closely at her face..."
+
+    "She reminds me so much of mom"
+
+    "The thought rouses me up again... I never would've thought of it, but my tiny cock managed to get up one more time..."
+
+    "I really am a sick freak... The only time I managed to get up twice in a row, is when I'm getting cucked..."
+
+    "Will positions himself behind her and gives her ass a squeeze"
+
+    r1  "Fuck... I'm about to breed a hag"
+
+    d "D-don't call me that"
+
+    r1 "I thought you liked it when I call you a hag, I mean look... Your pussy is leaking like crazy"
+
+    d "N-nghhh..."
+
+    scene diane jamie watch 2
+
+    "William aims his cock and then slowly inserts it inside her"
+
+    d "O-ohh...fuck~"
+
+    d "O-oghhh...s-shit..w-wait~!!!"
+
+    scene jamie watches diane doggy 1
+
+    play moan "audio/diane stuffed moan.mp3" volume 1.0
+
+    play squelch "audio/fingering1.mp3" volume 8.0
+
+    "Mike doesn't give her a warning before giving her a pounding"
+
+    d "W-wait...f-fuck...a-ahh~!!!"
+
+    r1 "How you like that raw dick, huh?"
+
+    d  "N-nghh~!!!"
+
+    r1 "Tell me, when's the last time someone had this pussy raw?"
+
+    d "K-kkhh~!!"
+
+    r1 "Answer me, you whore!"
+
+    d "Not since befire m-my son was born!!!"
+
+    r1 "Haha, and how old is he now?"
+
+    d "N-nghh...2-21!!"
+
+    w "And isn't he a shut-in too?"
+
+    d "H-hah...hah...hah~! YES~!"
+
+    r1 "Fwoo! Doesn't that sound familiar, Jamie?"
+
+    j "H-hah....hah...."
+
+    r1 "Kim told me you wanted to see your mom getting fucked, is that true?"
+
+    j "S-shit..."
+
+    r1 "Come on, give us your answer"
+
+    "I struggle to face Ms. Diane, her face reminding me too much of mom"
+
+    j "Y-yes..."
+
+    r1 "What was that? I'm not sure she heard it"
+
+    j "Y-yes!"
+
+    r1 "Hear that shit, What if your son said that.. wouldn't you find it pathetic?"
+
+    d "M-mgnnhh~!!!"
+
+    r1 "What if you pretended Jamie was your son, huh?"
+
+    d "Hah....hah...nghh~!"
+
+    r1 "Now...tell him how you really feel!"
+
+    d "N-no.... I-I can't do that!!"
+
+    r1 "Hahaha, why?"
+
+    d "B-because...I..hah...I don't want him to see me like this~!!"
+
+    scene jamie watches diane doggy 2
+
+    play moan "audio/diane clenched moan.mp3" volume 1.0
+
+    play squelch "audio/fastf.mp3" volume 9.0
+
+    r1 "That's too late you old hag, your son's already seen your face!"
+
+    d "N-nooo~!!!"
+
+    r1  "Come on, you want this big black dick, right!?"
+
+    d "Y-yess~!!!"
+
+    r1 "Now tell him how you feel!!"
+
+    d "J-Jamie~! I-I'm sorry..."
+
+    j "M-mom..."
+
+    d "I'm sorry...but...I wish I never had..y-you!! Y-you were noting but a p-pathetic useless wimp!!!"
+
+    j "N-nghhk!!"
+
+    r1 "Wow, you're an awful mother!!"
+
+    d "I-I don't care about being a mother anymore~!! I-I belong to you now~!!"
+
+    d  "My love...my body... E-everything~!!"
+
+    r1 "You damn right!! Now come get tighten that pussy up, cause I'm about to breed you, you fucking hag!!"
+
+    d "Oghghhhooo~!!!"
+
+    r1 "I'm gonna give you a son, someone that wouldn't be a pathetic little cuck!!"
+
+    d "Y-yessss~!! give it to me~!! fill me up and breed me~!!!!"
+
+    r1 "then take this!!!!!"
+
+    scene diane jamie watch 5
+
+    stop moan
+
+    stop squelch
+
+    play coom "audio/spurt.mp3" volume 0.5
+
+    play climax "audio/diane cum 1.mp3" volume 1.0
+
+    "*Splurt~!!!*"
+
+    d "OOHHHHH~!!!!!!!!!!!"
+
+    r1 "Aghh fuck!!"
+
+    stop coom
+
+    stop climax
+
+    "Despite already cumming once, Mike's thick cock pulsates as it fills her womb up"
+
+    d "Oghhhho...o-ohhh fuck~!! O-ohh god~!!"
+
+    r1 "Hnnhhh!! fuck!!!"
+
+    scene black
+
+    "They then spent all night having sex, while I had to watch..."
+
+    "They went on for so long that I eventually passed out..."
+
+    "Sometimes I'd get awoken in the night by their moans. It doesn't help that I had to sleep on the floor while they had the bed to themselves..."
+
+    stop music
+    $ renpy.end_replay()
+    jump yelena_secret
+
+
+
+
+label jamie_suspicious:
+
+    scene station night
+
+    "I can't shake off the feeling as I leave the hotel building, so I decided to stop by Kim's house on the way home..."
+
+    "The train ride was short but excruciating, my unease grows as the minutes go by"
+
+    scene road night
+
+    "As soon as I hop off the train, I walk as fast as I can, the only thing I want is to see Kim's face again"
+
+    scene house night
+
+    "And I finally reach her house...But now I'm even more nervous than before..."
+
+    "I take a deep breath and ring the bell...and there's no answer"
+
+    j "Huh?"
+
+    "I ring the bell again and....nothing. I try twisting the doorknob, only to find that it's locked.."
+
+    j "T-that's odd...is she asleep?"
+
+    "Kim is usually awake at this time..."
+
+    "I tried calling her phone but she won't answer..."
+
+    j "*sigh*...This is stupid"
+
+    "What am I even doing? There's no way she would cheat on me...there's no way"
+
+    "S-she's probably asleep... I should stop bothering her..."
+
+    "I take a look at her house one last time, before deciding to get home..."
+
+    scene black
+
+    "...."
+
+    scene livingroom night
+
+    show diane camp neutral
+
+    d "Oh, what took you so long?"
+
+    j "Oh, I uhh...I had to drop by Kim's house"
+
+    d "Really, then why didn't you just sleep there?"
+
+    j "Her house was locked, she probably fell asleep early or something..."
+
+    d "Hmmm...alright"
+
+    j "I'm gonna go to my room..."
+
+    d "Okay goodnight"
+
+    scene characterroom night
+
+    "......"
+
+    j "Kim....there's no way... She wouldn't..."
+
+    "I try to shake my dark thoughts away, and close my eyes and think about her as I fall asleep"
+
+    stop music
+
+label jamie_relieved:
+
+    scene characterroom morning
+
+    play music "audio/nights.ogg" volume 0.3
+
+    "..."
+
+    d "Jamie, breakfast's ready!"
+
+    j "Nghh...."
+
+    "I lift myself out of bed, and grab my phone..."
+
+    j "It's 7:00... Oh...K-Kim responded!"
+
+    k "\"Sorry, I was busy last night, I didn't notice my phone vibrating hehe\""
+
+    j "O-oh..."
+
+    j "\"What were you doing last night?"
+
+    "I wait a couple of minutes, and get a respond"
+
+    k "\"Hello~!!! gummorning!!! I was watching a show!!! hehehe sorry\""
+
+    j "Oh...so she was watching a show, that's prolly why she didn't hear me..."
+
+    j "\"Oh okay, wanna come by later?\""
+
+    k "\"Sure!! gonna be there for lunch!!\""
+
+    j "\"Okay, see you then, love you\""
+
+    "She sees the text but doesn't respond..."
+
+    scene livingroom day
+
+    "Lunch time"
+
+    "Mom sets the lunch in the table, hamburgers"
+
+    show kim necklace glad
+
+    show diane camp smile at left
+
+    k "Yum~! Oh Ms. Diane, I should've helped you make these"
+
+    d "Oh please, it's not like burgers are hard to make, go ahead and help yourselves"
+
+    show kim necklace smile
+
+    k "Thank you~"
+
+    "Kim takes a big bite"
+
+    show kim necklace cgrin
+
+    k "Mffff~"
+
+    d "Say, Jamie told me you weren't in your house last night, did you go somewhere?"
+
+    show kim necklace shy
+
+    k "O-oh me? No, I was just at home"
+
+    show diane camp neutral
+
+    d "Jamie told me that you didn't answer the doorbell though"
+
+    show lies again
+    $ renpy.pause(0.15)
+    hide lies again
+
+    k "O-oh yeah, I was watching a movie last night and had my headphones on"
+
+    k "I was so invested in it, that I kinda forgot to check my surroundings...haha"
+
+    show kim necklace smile
+
+    j "Oh, what movie was it?"
+
+    k "The one that's famous right now, \"Obsessed\" It's a horror movie"
+
+    j "Ah, that sounds interesting, might watch it later"
+
+    show diane camp smile
+
+    d "Okay, so uhh... how's the burger?"
+
+    k "It's pretty good, like always Ms. Diane"
+
+    k "I should probably cook sometime, I wanna make this Korean dish called \"Yukhoe\" for ya'll"
+
+    j "Oh what's that?"
+
+    show kim necklace glad
+
+    k "Seasoned raw beef!"
+
+    j "Really, is it safe?"
+
+    show kim necklace smile
+
+    k "Yeah, if the meat is high quality and well-prepared"
+
+    j "I didn't know you liked raw stuff"
+
+    show kim necklace cgrin
+
+    k "Fufu~ I do like taking it raw"
+
+    show kim necklace smile
+
+    "Kim gives Diane a look"
+
+    show diane camp mad
+
+    d "H-huh?"
+
+    show kim necklace grin
+
+    k "I like taking it raw. Raw vegetables, raw eggs... Stuff like that"
+
+    k "That's why I like Yukhoe, afterwards I pair it with a cream pie too, hehe"
+
+    d "...?"
+
+    j "Okay stop with the innuendo jokes hahaha"
+
+    show kim necklace cgrin
+
+    k "Fufu~ sorry.. I just had Yukhoe and Cream-ppang last night and thought of the joke... So you can say I had raw meat and creampie last night"
+
+    j "K-Kim!"
+
+    k "Hahaha, sorry~"
+
+    d "Tch..."
+
+    scene kitchen
+
+    "Diane and Kim are washing the dishes..."
+
+    show kim necklace neutral
+
+    show diane camp mad at left
+
+    d "What were you trying to say back there?"
+
+    k "Hmm, what do you mean?"
+
+    d "Don't play dumb I saw the way you looked at me... Where were you really last night?"
+
+    show kim necklace shy
+
+    k "Well... I was at Will's, and yes you're right... I was trying to hint at something"
+
+    k "I was trying to say that Will came inside me"
+
+    show diane camp worried at left
+
+    d "W-what?"
+
+    k "He was really insistent, and besides it was bound to happen... It was really intimidating at first but I figured, what was I even scared of?"
+
+    show kim necklace grin
+
+    k "So I just did, and it was....really good"
+
+    d "Nghh...."
+
+    k "Was that all, Ms. Diane?"
+
+    show kim necklace smile
+
+    d "Y-yes..."
+
+    k "Oh, I'll be staying here for tonight, is that fine Ms. Diane?"
+
+    d "Yes..."
+
+    stop music
+
+label diane_wwe_before:
+
+    play music "audio/happy jazz.mp3" volume 0.3
+
+    scene hallway night
+
+    "..."
+
+    "Diane finishes doing her makeup and gets out the door"
+
+    j "Oh Mom, Are you going somewhere?"
+
+    show diane coat sad
+
+    d "Yeah, I just have to attend this business party thing... I'll be back late so don't wait for me"
+
+    j "Okay, take care"
+
+    d "Mmhmm"
+
+    hide diane
+
+    "Diane then walks out the door"
+
+    show kim necklace neutral
+
+    k "Where did she say she was going?"
+
+    j "Oh like a business party thing, I don't know"
+
+    k "Hmmm....okay"
+
+    menu:
+
+        "Kim and Jamie POV":
+            jump diane_wwe_jamie
+
+        "Diane and Will POV":
+            jump diane_wwe
+
+label diane_wwe_jamie:
+
+    scene characterroom night
+
+    j "I don't think adding another character and focusing on them was the move tbh... Don't you think so?"
+
+    "Kim doesn't respond, and is focused on her phone and scrolling instead?"
+
+    j "Kim?"
+
+    show kim necklace sad
+
+    k "O-oh what?"
+
+    j "Nothing haha"
+
+    show kim necklace shy happy
+
+    k "Oh sorry, I was just too invested on this online beef"
+
+    j "Oh, what's it about?"
+
+    k "Pssh it's nothing, if I explained it to you, we'd be here for hours"
+
+    j "Ehhh, you usually do that anyway"
+
+    show kim necklace grin
+
+    k "Ahhh shut up, you silly~"
+
+    j "Oh you told me about that movie you watched last night...\"Obsessed\" was it? Was it good?"
+
+    show kim necklace shy
+
+    k "Uhmmmm... This may sound silly, but I kinda forgot...h-haha..."
+
+    j "Really? but you said you just watched it last night, and that you were really invested"
+
+    show lies again
+    $ renpy.pause(0.15)
+    hide lies again
+
+
+    k "Y-yeah haha...stupid me"
+
+    j "Oh...anyways uh..."
+
+    j "I'm in the mood so... You wanna do freaky time?"
+
+    show kim necklace sad
+
+    k "Right now? Hmmmm... I'm kinda not in the mood"
+
+    j "O-oh okay..."
+
+    show kim necklace worried
+
+    k "Sorry... maybe tomorrow, okay baby?"
+
+    j "Mmhmm, how about we rewatch \"Obsessed\" then, sound good?"
+
+    k "Yeah, that sounds good~"
+
+    hide kim
+
+    "We then watched the movie... Kim was really engaged, but it seemed odd..."
+
+    "It was like this was the first time she's seen it"
+    $ renpy.end_replay()
+    jump yelena_secret
+
+label diane_wwe:
+
+    play music "audio/malicious.mp3" volume 0.3
+
+    scene hotel hall
+
+    show diane coat sad
+
+    "Diane walks through the halls again, ignoring the lustful stares of men around her"
+
+    "She then knocks on the door..."
+
+    w "Hmm... What are you-?"
+
+    show diane flash sad
+
+    d "..."
+
+    w "Oh shit..."
+
+    d "H-hey are you just gonna stare at me, or are you gonna let me in?"
+
+    w "Hmmm I don't know... Maybe I should leave you out here like this?"
+
+    show diane flash worried
+
+    d "H-hey! That's not funny"
+
+    w "Hahaha, come on in"
+
+    show diane flash sad
+
+    d "Mnghh...."
+
+    scene black
+
+    ".............."
+
+    scene hotel room night
+
+    show diane nshy
+
+    show william naked smile at left
+
+    w "So what's the reason you came here all of a sudden, did you miss me?"
+
+    d "Shut up... *sigh*"
+
+    d "Hey, is it true?"
+
+    w "Is what true?"
+
+    d "Did you actually... c-cum inside Kim?"
+
+    show william naked grin
+
+    w "Oh is that what all this is?"
+
+    show diane nworried
+
+    d "Answer me you idiot"
+
+    w "Hahaha yeah yeah, I did cum inside her... So what, are you jealous?"
+
+    d "Grr... You brat"
+
+    hide diane
+
+    hide william
+
+    w "W-woah!"
+
+    "Diane pushes Will unto the bed"
+
+    w "Damn, so you really were jealo="
+
+    d "Shut up... It's time for you to remember who you belong to"
+
+    "She crawls on the bed, coming face to face with Will"
+
+    "But before Will can kiss her, she turns around... Showing him her backside instead"
+
+    scene diane will 69 1
+
+    w "Woah, I like this view... Damn old lady, when'd you learn this?"
+
+    d "Shut up and start licking, you brat"
+
+    w "My pleasure~"
+
+    "William buries his face, making Diane yelp in response"
+
+    d "O-ohh~!! fuck~"
+
+    scene diane will 69 2
+
+    "Her eyes rolls back from the sudden euphoria, but she toughens it out and sucks his cock in retaliation"
+
+    scene diane will 69 3
+
+    d "Mnnghhhhfff~ *gulp*"
+
+    scene diane will 69 4
+
+    "She uses her tongue and her experience to make his toes curl"
+
+    w "Mnghhh!!"
+
+    d "*suck* *suck* Hgnhh~!"
+
+    scene diane 69s will 1
+
+    play squelch "audio/fingering1.mp3" volume 8.0
+
+    play moan "audio/diane bj 1.mp3" volume 1.0
+
+    "William, not wanting to lose... Starts poking and prodding around her most sensitive spots"
+
+    d "Hnnghhhnghhh~!!!"
+
+    w "Haha...take this you old bitch!"
+
+    d "Mnnfggg~!!"
+
+    d "(M-my legs are about to g-give out...B-but I can't lose~!!!)"
+
+    scene diane 69s will 2
+
+    play squelch "audio/fastf.mp3" volume 8.0
+
+    play moan "audio/diane bj 2.mp3" volume 1.0
+
+    "Struck with determination, she bobs her head even faster"
+
+    d "(I-I can't breathe...my pussy feels too good~!!)"
+
+    d "(I-I'm gonna...I'm gonna c-cum~!!!!)"
+
+    "She floods Will's face while he fills her throat with cum"
+
+    scene diane will 69 8
+
+    stop squelch
+    stop moan
+    play coom "audio/spurt.mp3" volume 0.5
+
+    play climax "audio/diane swallow.mp3" volume 1.0
+
+
+    d "Mffnghhhnghhhh~!!!!! *spluurt!*"
+
+    w "Ahhhh fuck!!"
+
+    d "(T-too much!!) nghh...*gulp*"
+
+    stop coom
+
+    stop climax
+
+    scene hotel room night
+
+    show diane nshy
+
+    show william naked smile at left
+
+    "Diane licks her teeth and swallows the last remaining load that painted her mouth"
+
+    w "You need a tissue?"
+
+    d "N-no"
+
+    w "Fwoo~! I almost couldn't breathe when you squirted on my face, didn't know women could squirt that much!"
+
+    d "Tch... (I'm lucky that didn't go any much longer... Otherwise I would've lost my mind)"
+
+    show william naked grin
+
+    w "Maybe it's because I'm the best at eating pussy, huh?"
+
+    d "Oh please...now lay down, you brat"
+
+    w "Ohhh taking control again?"
+
+    d "S-stay down there..."
+
+    scene diane horsey 1
+
+    "Diane raises her hips... Her pussy lips touching the tip of his massive cock"
+
+    d "S-shit... *gulp*"
+
+    w "Having cold feet? Hahaha are you sure you're ready to take this thing raw?"
+
+    d "O-of course...I'm sure..."
+
+    w "Hahaha doesn't look like it to be honest, you're trembling like crazy"
+
+    d "S-shut up!!"
+
+    scene diane horsey 2
+
+    "Diane takes a deep breath, and lowers her body..."
+
+    d "F-fuck..."
+
+    w "Haha...steady now"
+
+    d "(O-Ohhh fuck, I-I can feel his raw cock... H-his veins!)"
+
+    scene diane horsey 3
+
+    "She goes lower and lower, pushing past her womb"
+
+    d "(I-It's so different from using a condom... I-I can feel it throbbing against my womb!!)"
+
+    d "Ohhh...f-fuck my legs~"
+
+    w "Fwooo! So this is what it's really like inside your pussy, you're tight as a bitch, especially for being an old lady"
+
+    d "Nghhh...hgnngnhhh hah...hah..."
+
+    w "So how's feeling a raw dick after such a long time, huh?"
+
+    d "H-hah...hah...h-hah..i-it's h-hah, oh fuck~"
+
+    w "Hahaha! You talked all that hot shit, and now you can't even talk, and you're still trembling like before!"
+
+    d "S-shut up... I-it's just because I-I'm not used to...nghhh~!!"
+
+    scene diane first raw 1
+
+    play moan "audio/diane stuffed moan.mp3" volume 1.0
+
+    play squelch "audio/fingering1.mp3" volume 8.0
+
+    "Diane brushes it off, grits her teeth and starts moving"
+
+    d "I-I'm gonna...I'm gonna make you submit...y-you damn brat!"
+
+    w "Hahaha I like that attitude... Were you really that jealous that I creampied Kim first?"
+
+    d "N-no...no.... I-I'm just mad... Because you belong to me!"
+
+    w "Ohh, I belong to you? What a bold claim"
+
+    d "J-just you wait... I-I'm gonna drain you dry!"
+
+    scene diane first raw 2
+
+    w "Hahaha too bad"
+
+    d "Hah...h-hah...huh, w-what are you talking about?"
+
+    w "I'm saying you won't get me to submit"
+
+    d "H-hah...hah...w-why?"
+
+    w "Because I can just do this!"
+
+    stop moan
+    stop squelch
+
+    play sound "audio/diane tongue cum 1.mp3" volume 1.0
+
+    scene diane horsey 11
+
+    d "OGHHHHH~!!!!!!!!!!!!!!!"
+
+    "Will pushes his monster cock deep against the most sensitive spot of her womb"
+
+    d "H-hahghhh~ A-ACKK~!! W-waittt~!!"
+
+    w "Hahaha, gotcha"
+
+    stop sound
+
+    scene diane horsey 10
+
+    play moan "audio/diane tongue moan.mp3" volume 1.0
+
+    play squelch "audio/fastf.mp3" volume 9.0
+
+    d "Ohohh...ghhohhh....hohhghhh~!!"
+
+    w "Too bad for you, I know which buttons to push!"
+
+    scene diane horsey 11
+
+    d "OGHHHH~!!!!!!!!!!!"
+
+    scene diane horsey 10
+
+    w "You never had a chance you fucking whore!"
+
+    scene diane horsey 11
+
+    d "Oghhh nooo~!!!!!!!"
+
+    w "Come on bitch, work on it... Bounce on it!"
+
+    d "Oghhhh fuckk..OH FUCK~!!!"
+
+    scene diane first raw 3
+
+    "Like an obedient dog, Diane follows his every command"
+
+    d "Nghhh~!!! Hgnnnghhh~!!!!"
+
+    w "Yeah that's it, you wanted to dominate me right? You dumb bitch!!"
+
+    d "HAGHHH~~!!!!! HAGGHHH!!!"
+
+    d "P-pleasee~~!!! Pleaseee~!!!"
+
+    w "Please what?"
+
+    d "P-please.. m-make me stop~!!! m-make me stop~!!!"
+
+    w "Nahh, this is what you get for trying to test me!"
+
+    d "Oghhhhhohhhh~!!!! I'm sorry~!!! I-I'm sorry I'm sorry I'm sorrryyyy~!!!!!"
+
+    w "Fucking whore, don't stop!!"
+
+    d "y-yesss~!!! y-yes~!!!!"
+
+    w "That's fucking right... You feel that, huh? You feel that throbbing right there?"
+
+    d "Y-yess...y-yesshhh~!!"
+
+    w "Yeah, that's my dick about to burst"
+
+    d "Nghhhh~!!? W-wait~!!!!"
+
+    w "Without the condom, you know what that means right? That means I'm gonna have to cum inside!!!"
+
+    d "W-wait...h-hahah~!!!!"
+
+    w "Tell me, you want me to cum inside your old hag pussy, huh?"
+
+    d "O-oghhh..o-oghhh~!!!"
+
+    w "Answer me!"
+
+    d "Y-yess~!!! I-I want you t-to fill up my hag pussy~!!"
+
+    w "But that means you might get pregnant, you know?"
+
+    d "N-ngkk... I-I don't care~!!! B-breed meee~!! F-fill my inside~!!!!!"
+
+    w "Hahaha, beg for it then, beg for it like a good bitch!"
+
+    d "P-please..please please please~! I'm your good bitch!! Please cum inside your good bitch~!!!"
+
+    w "Good!! Now take this!!!"
+
+    d "Oghhhh~!!!!!!!!!!!!!!!!!!!"
+
+    scene diane horsey 12
+
+    stop moan
+
+    stop squelch
+
+    play coom "audio/cum1.mp3" volume 0.5
+
+    play climax "audio/diane tongue cum 2.mp3" volume 1.0
+
+
+    "After so many years, Cum floods her womb for the first time"
+
+    d "OGHHHH~!! AHIIIIIIIIII~!!!!"
+
+    "The sheer amount of cum overflowing her pussy fries her brain"
+
+    w "Oghhhh fuck!!"
+
+    d "Oghhhhghhoghh~~ hgoohhhh~"
+
+    stop coom
+
+    stop climax
+
+    w "Fuck! With that amount, you're gonna give Jamie a sibling!"
+
+    d "H-hahhh...hahnnn~ H-hahnnnn~!!"
+
+    w "Hey hey, don't you dare pass out... you know I'm not just gonna stop after one round, right?"
+
+    d "H-hahh...y-yesshhh~"
+
+    w "You want more of this dick?"
+
+    d "Y-yeshhhh~!!"
+
+    w "Then beg for it, tell me what you are"
+
+    d "I-I'm your bitch... I'm your good loyal bitch~"
+
+    w "You don't think it's messed up to be beggin someone half your age to fuck you?"
+
+    d  "N-nooo~!! B-because I'm your good bitch~"
+
+    w "You fucking whore... get on all fours!! I'm gonna ride you like the bitch you are, and fuck you stupid!!"
+
+    d "Ahhnn yeshhh~!!"
+
+    stop music
+    $ renpy.end_replay()
+    jump yelena_secret
+
+
+label yelena_secret:
+
+    play music "audio/happy jazz.mp3" volume 0.3
+
+    scene characterroom morning
+
+    "Morning, a few days later..."
+
+    j "Mnghh...."
+
+    "My phone's ringing...Who's that?"
+
+    "I pick up my phone...It's Yelena"
+
+    j "Yelena, what's up?"
+
+    y "The ceiling"
+
+    j "I's 7:00 in the morning, I just woke up"
+
+    y "Well I already woke up 3 hours ago for my shooting practice"
+
+    j "Of course you did...Wait, shooting practice? And why so early in the-?"
+
+    y "Nevermind that. Hello, it's been a while~"
+
+    j "Yeah it has been, need anything?"
+
+    y "Your hand in marriage"
+
+    j "Wait, I thought you already claimed me as your husband?"
+
+    y "Fufu~ You already know your place! Such a good doggy"
+
+    j "Haha okay, what do you actually want?"
+
+    y "I just wanted to hear your voice, that's all"
+
+    j "WAWOOOWOOOWAOOOWAOOO... How's that?"
+
+    y "Hahaha, you sound like my pet bear"
+
+    j "P-pet bear?"
+
+    y "I also wanted to invite you for later"
+
+    j "Why, is there an occasion?"
+
+    y "No, but I... I do want to talk to you, I wanted to say something"
+
+    j "Well you can say it now"
+
+    y "Jamie...this is important"
+
+    j "O-okay...that sounds ominous, but sure... I'll meet you at-?"
+
+    y "At the park at 11:00"
+
+    j "Sounds good, I'll meet you there"
+
+    menu:
+
+        "Jamie and Yelena POV":
+            jump yelena_date_starto
+
+        "Kim, Diane and Will POV":
+            jump jamie_finds_out
+
+
+label yelena_date_starto:
+
+
+    scene park bench
+
+    "The Park"
+
+    "I arrive at the park and start looking for Yelena"
+
+    j "I wonder where she is..."
+
+    "I see her sitting at a bench and start approaching her"
+
+    j "Yelena!"
+
+    show yelena smile
+
+    y "Jamie"
+
+    "She runs up to me and gives me a hug"
+
+    hide yelena
+
+    j "Oop!"
+
+    show yelena smile
+
+    y "It is good to see you, it has been long"
+
+    j "Yeah it's good to see you too, Sorry I'm a bit late"
+
+    y "Oh no, it is okay... I knew you were coming anyway, The tracker said so"
+
+    j "W-what tracker?"
+
+    y "Nothing"
+
+    j "*sigh* Why am I even surprised..."
+
+    y "Fufu~ Let us take a walk"
+
+    scene park
+
+    "We take a nice walk in the park..  The sun is shining, the wind is blowing, and the birds are twerking and all that jazz... It's a nice day"
+
+    show yelena neutral
+
+    y "...."
+
+    j "Hm, why are you staring at me like that?"
+
+    show yelena smile
+
+    y "What, is it illegal to admire my spouse?"
+
+    j "*Sigh* I guess not, but man.... You're really such a manic pixie dream girl"
+
+    show yelena neutral
+
+    y "Manic pixie dream girl, what is that?"
+
+    j "Well it's a trope, where a quirky, optimistic, carefree girl comes in a boring dude's life... And her only role is to make his life interesting"
+
+    j "Most of the time, the main character falls in love with them too"
+
+    show yelena smile
+
+    y "Oh come on, you are not boring. You are the funniest person I know"
+
+    j "You need to meet more people"
+
+    y "Says the one who spends all his time in his room all day"
+
+    j "A-ack! You got me..."
+
+    y "Fufu~ But this manic pixie dream girl does not sound so bad... I can be one for you"
+
+    j "Hahaha thanks for the offer, but as you already know... I'm taken"
+
+    show yelena neutral
+
+    y "I know..."
+
+    "...."
+
+    "........"
+
+    y "Jamie..."
+
+    j "What?"
+
+    y "If...if you were single when we met at that library..."
+
+    y "Do you think.... we could've been... together?"
+
+    j "E-eh?"
+
+    show yelena shy
+
+    y "I mean if Kim didn't exist... do you think we would have gotten in a relationship?"
+
+    j "W-well.... I.. I think so, yeah"
+
+    show yelena smile
+
+    y "T-thank you...hearing that makes me happy"
+
+    j "Mmhmm..."
+
+    scene park 3
+
+    "...."
+
+    show yelena smile
+
+    y "The library... it has been a while since then, huh?"
+
+    j "Yep... it's almost been a year"
+
+    y "And we have made some good memories..."
+
+    j "I would say so, you've made mine interesting at least"
+
+    show yelena neutral
+
+    y "Mine as well... Sometimes I wish things stayed the same forever"
+
+    j "What do you mean?"
+
+    y "I wish everyday was just us... being alone at the library..."
+
+    y "I just wish I could spend every waking moment with you..."
+
+    j "..."
+
+    y "Well that will change soon anyway"
+
+    j "What do you-"
+
+    show yelena smile
+
+    y "Let's check that out!"
+
+    scene pink boutique 1
+
+    "Yelena grabs my hand to go to  what looks like a fashion boutique"
+
+    y "It's a clothes shop"
+
+    j "Yeah I can see that"
+
+    y "Let us go inside"
+
+    play music "audio/deep house.mp3" volume 0.3
+
+    scene pink boutique 2
+
+    "We go in and we were instantly hit with house music and rows and rows of clothing"
+
+    show yelena smile
+
+    b "Oh my gosh!"
+
+    y "Hm?"
+
+    b "Darling, you look like a doll!"
+
+    y "O-oh hello, we are just looking around for clothes"
+
+    b "This place is perfect then, come come and have a look around~!"
+
+    y "Okay"
+
+    show yelena grin
+
+    b "Is he your boyfriend? ...Wallet? Hehehe"
+
+    j "E-eh..."
+
+    y "Hahaha, he's my husband and no I will be paying"
+
+    b "Ohhh I love me an independent girlie, anyways come right here~"
+
+    "The lady recommends clothes that cater to what Yelena wants"
+
+    b "The changing room is right there, if you need any help, just call me over~"
+
+    y "Sure!"
+
+    scene pink boutique 3
+
+    "Yelena grabs my hand and drags me to the dressing room"
+
+    show yelena grin
+
+    y "I'm gonna try these on... Wanna come inside?"
+
+    j "You know I'm gonna say no to that"
+
+    y "Fufu~ What a shame, but you are free to take a peek anyways if you wish~"
+
+    j "Nghh..."
+
+    hide yelena
+
+    "The curtain slides, and I hear the ruffling of her changing her clothes"
+
+    y "This fits quite perfectly... Well it is kind of tight in the chest area"
+
+    j "Nghhh..."
+
+    y "Husband, I was trying to seduce you"
+
+    j "I know"
+
+    y "Fufu~"
+
+    scene yelena dressup 1
+
+    "The curtain slides off, and she reveals herself"
+
+    y "Rise for the most beatiful woman in the world. Clap your hands people!"
+
+    j "Wowww *clap* *clap*"
+
+    y "Thank you, thank you! How do I look?"
+
+    "She's wearing a tight-fitting sleveless green top. Paired with flared jeans"
+
+    "The whole outfit makes her look like a 2000's popstar"
+
+    j "You look like a 2000s Eurodance singer"
+
+    y "I know, doesn't it look good?"
+
+    j "Y-yeah I'd say you look great"
+
+    y "Heh, I thank you... But this isn't what I want for today"
+
+    "Yelena gets back inside and wears another set of clothes"
+
+    scene yelena dressup 2
+
+    y "How about this?"
+
+    "She comes out in a black expensive looking fur coat"
+
+    j "You look like a rich Slavic woman, what do they call it... Slavic doll?"
+
+    y "Uh-huh~ what else?"
+
+    j "Uhmmm... you look like the type that would be mean to me"
+
+    y "Oh come on little one, I would never do that... Unless you want me to be of course"
+
+    j "N-no..."
+
+    y "Fufu~ I'm glad you like this, but it's not appropriate for the season"
+
+    "She then goes back inside to wear another set of clothes again"
+
+    scene yelena dressup 3
+
+    y "How about this?"
+
+    j "Uhmmm"
+
+    "She comes out in full gothic lolita"
+
+    y "I have to admit, I've never worn this style before... So how do I look?"
+
+    j "Uhmm...i-it looks good"
+
+    y "Fufu~ was that a stutter?"
+
+    j "Nghhh..."
+
+    y "Hahaha, I like seeing you like this, little one... I think I'm gonna wear this one"
+
+    j "O-okay"
+
+    y "Come on, let's pay"
+
+    scene pink boutique 2
+
+    show yelena goth smile
+
+    b "Ooooh you're getting all of them?"
+
+    y "Yes"
+
+    b "Perfect! Oh and you two look like a cute couple, how long have you been married? ya'll look really young"
+
+    y "A year ago"
+
+    b "Oh that's cute, a newlywed!"
+
+    show yelena goth grin
+
+    y "Hear that? We look really cute"
+
+    j "Y-yeah...."
+
+    play music "audio/happy jazz.mp3" volume 0.3
+
+    scene brunch
+
+    "After the store, we take another walk to a restaurant nearby"
+
+    show yelena goth n
+
+    j "So back to that thing you said earlier, you had bears as pets?"
+
+    y "Yes, two of them actually. One is named Grigory, and the other is Ilya. I used to feed them fish back home"
+
+    j "And they weren't aggressive?"
+
+    y "Not really... They did eat this one guy though, I think he was a burglar or a spy? I forgot"
+
+    y "No wait, that was the Tiger that ate him"
+
+    j "A-a tiger?"
+
+    y "Yes, her name was Pandora"
+
+    j "Shouldn't have opened Pandora's box, I guess? haha..."
+
+    show yelena goth grin
+
+    y "Was that a joke? If so, that was a really good one. I will remember that the next time he snacks on someone"
+
+    j "Right..."
+
+    show yelena goth smile
+
+    y "Are you enjoying your cake?"
+
+    j "Yep, but before I forget... what did you bring me here for again?"
+
+    play music "audio/malicious.mp3" volume 0.3
+
+    show yelena goth n
+
+    y "Ah..."
+
+    "Yelena's face turns sour"
+
+    y "Jamie..."
+
+    j "What, is there something wrong?"
+
+    y "Well I invited you to this because... I figured, with what I am about to tell you..."
+
+    y "I think you might need some time for yourself. And we might not see each other for a while"
+
+    j "W-what?"
+
+    y "It's gonna be heavy, but just remember that I am always here to help you, okay?"
+
+    j "You're kinda scaring me.."
+
+    y "Well..."
+
+    j "What?"
+
+    show yelena goth mad
+
+    y "Jamie... your girlfriend is cheating on you, with your friend... William"
+
+    j "W-what?"
+
+    y "And they have been doing it... for a long time now"
+
+    show yelena goth n
+
+    j "No way... I don't..."
+
+    y "I have proof, Jamie..."
+
+    j "P-proof, What are you talking about?!"
+
+    y "Mnnghh... This is up to you, but I can show you if you want"
+
+    j "N-nghh!"
+
+    hide yelena
+
+    "Kim is cheating on me... with Will!? There's no way..."
+
+    "But proof... What proof? W-what proof does she have?"
+
+    "She's probably lying to me, she must be... She must be doing this to take me away from Kim... B-but I want to see this proof..."
+
+    j "F-fine.. show it"
+
+    show yelena goth n
+
+    y "Okay"
+
+    "Yelena pulls out her phone"
+
+    y "Remember when we were back on the island?"
+
+    j "Yeah"
+
+    y "I didn't tell anyone... But I had cameras set on your bedrooms"
+
+    j "What!?"
+
+    y "Do not worry, I didn't put one in yours... But I did have one on the room Kim didn't use and William's"
+
+    j "Fuck..."
+
+    y "And on one of the nights...This is what I found"
+
+    scene pussy stack 2
+
+    play squelch "audio/fastf.mp3" volume 8.0
+
+    play moan "audio/kim loud moan.mp3" volume 1.0
+
+    k "\"N-nghhh~!! I....hah~!\""
+
+    w "\"Say it bitch! say how much you love this dick!\""
+
+    k "\"I-I love your dick, Will!! I love getting fucked by your big dick~!!!\""
+
+    w "\"Yeah, that's right!\""
+
+    k "\"ahhn~!\""
+
+    j "No... T-that's... NO!"
+
+    j "It's her and...t-that's-"
+
+    stop moan
+
+    stop squelch
+
+    scene brunch
+
+    show yelena goth mad
+
+    y "Yes, it is your mother"
+
+    j "No that's a lie.. that's...Ngurkk I-I'm gonna vomit"
+
+    show yelena goth sad
+
+    y "Jamie, please calm down"
+
+    j "N-no... no way that's real.. T-that's fake!"
+
+    y "*sigh* I figured you wouldn't believe me... The reason why we took our time walking around was.. because I was waiting for something"
+
+    j "W-what?"
+
+    y "Jamie...I have someone spying on your house right now, and this is what is going on currently"
+
+    "Yelena shows me her phone again"
+    scene diane hiyah 1
+    scene diane uma 1
+
+    play moan "audio/diane clenched moan.mp3" volume 1.0
+
+    play squelch "audio/fastf.mp3" volume 9.0
+
+    w "\"Let them know, let them know that you're my bitch!!\""
+
+    d "\"I'M HIS GOOD BITCH!! I'M HIS GOOD LITTLE BITCH~!!\""
+
+    w "\"You're a whore that likes fucking on your son's bed! Don't you care about him at all?\""
+
+    d "\"N-noooo...NOO~!!!!\""
+
+    "Oh my god.. oh my god.. Oh my...oh my...f-fuck.."
+
+    scene brunch
+
+    stop moan
+
+    stop squelch
+
+    show yelena goth sad
+
+    j "That's them in my...in my bedroom!"
+
+    y "Jamie..."
+
+    j "I'm gonna...I-I feel sick..."
+
+    y "I'm sorry Jamie, but... I had to tell you the truth"
+
+    "I don't know what to do... My head is in a twist and my heart feels like its about to explode..."
+
+    j "I-I can't breathe"
+
+    y "Jamie..."
+
+    j "Yelena... w-why would she do this, why would they do this?"
+
+    y "I do not know Jamie, I do not know..."
+
+    j "......."
+
+    j "............"
+
+    y "J-Jamie?"
+
+    j "...I-I'm gonna go"
+
+    y "Jamie, wait"
+
+    j "Please Yelena... I promise I'm not gonna do anything drastic"
+
+    j "I just... I just wanna talk to them"
+
+    y "Okay.. Take care..."
+
+    j "Yes..."
+
+    y "I love you.."
+
+    j "............."
+
+    j "Thank you..."
+
+    scene black
+
+    ".........................."
+
+    "................................."
+
+
+    if netorase:
+        jump entropy_nts
+
+    if netorare:
+        jump entropy_ntr
+
+
+
+label entropy_ntr:
+
+    scene house
+
+    play bed "audio/muffle bed.mp3" volume 0.5
+
+    "........"
+
+    "...Yelena was right"
+
+    "I come face to face with our front door, and I hear the repetitive banging inside"
+
+    "I enter and I can hear their faint moans upstairs"
+
+    "Each step I make makes the sounds grow louder and louder"
+
+    "When did she start doing all of this, and why?"
+
+    "Was it because I'm such a pathetic excuse of a boyfriend? Was it because Will was a better man than me?"
+
+    "And mom... Did she hate having a useless son like me?"
+
+    "Did she regret having me? She knew Kim was cheating on me... Why didn't she tell me? Did she really hate me that much?..."
+
+    "How could I have not seen this a long time ago?"
+
+    "Maybe I really am an idiot..."
+
+    "No... I did know..."
+
+    "Deep down I knew... But I was too scared to face the truth"
+
+    "I was scared to lose the life I had"
+
+    "I was scared to lose Kim"
+
+    scene hallway
+
+    play moan "audio/kim muffled moan.mp3" volume 1.0
+
+    play bed "audio/muffle bed.mp3" volume 0.7
+
+    "............................."
+
+    "In front of me is the door to my bedroom... In all of places they could've done it..."
+
+    "They did it in the place I was most comfortable with..."
+
+    "Behind this door... Are all the people in my life...betraying me and indulging in debauchery..."
+
+    "I twist the doorknob"
+
+    "Hahh.."
+
+    j "Kim?"
+
+    stop moan
+
+    stop bed
+
+    stop music
+
+label entropy_nts:
+
+    scene house
+
+    play bed "audio/muffle bed.mp3" volume 0.5
+
+    "........"
+
+    "...Yelena was right"
+
+    "I come face to face with our front door, and I hear the repetitive banging inside"
+
+    "I enter and I can hear their faint moans upstairs"
+
+    "Each step I make makes the sounds grow louder and louder"
+
+    "When did she start doing all of this, and why?"
+
+    "I know I like the cuckolding stuff we do, but this..."
+
+    "This is cheating...."
+
+    "Did she plan all this? Did she just trick me into cuckolding so she could have sex with Will?"
+
+    "But why?"
+
+    "Was it because I'm such a pathetic excuse of a boyfriend? Was it because Will was a better man than me?"
+
+    "And mom... Did she hate having a useless son like me?"
+
+    "Did she regret having me? She knew Kim was cheating on me... Why didn't she tell me? Did she really hate me that much?..."
+
+    "How could I have not seen this a long time ago?"
+
+    "Maybe I really am an idiot..."
+
+    "No... I did know..."
+
+    "Deep down I knew... But I was too scared to face the truth"
+
+    "I was scared to lose the life I had"
+
+    "I was scared to lose Kim"
+
+    scene hallway
+
+    play moan "audio/kim muffled moan.mp3" volume 1.0
+
+    play bed "audio/muffle bed.mp3" volume 0.7
+
+    "............................."
+
+    "In front of me is the door to my bedroom... In all of places they could've done it..."
+
+    "They did it in the place I was most comfortable with..."
+
+    "Behind this door... Are all the people in my life...betraying me and indulging in debauchery..."
+
+    "I twist the doorknob..."
+
+
+    stop moan
+
+    stop bed
+
+    stop music
+
+
+
+
+
+
+
+label jamie_finds_out:
+
+    play music "audio/malicious.mp3" volume 0.3
+
+    scene characterroom morning
+
+    show diane nworried
+    show kim nshy at left
+
+
+    d "So where's Jamie again?"
+
+    k "He said he was going somewhere. I didn't ask where though, he said it might take a while..."
+
+    "William comes in bringing tissues and water"
+
+    show william naked smile at right
+
+    w "Ohhh ya'll are naked already, sweet!"
+
+    d "Why are we doing this in Jamie's room again?"
+
+    show diane nshy
+
+    w "Well it's air conditioned and his bed is the comfiest. My room doesn't have AC and your bed is gonna break from all the fucking we did"
+
+    show william naked grin
+
+    w "Plus it kinda feels scandalous doesn't it?"
+
+    show kim nflusteredpout
+
+    d "*sigh* Fine... But you're cleaning the mess later"
+
+    w "Yeah yeah, now lets get started!"
+
+    scene black
+
+    "..."
+
+    scene kim diane throatswab 1
+
+    "William rests his cock against Diane's face"
+
+    d "(Nghhh it's so heavy... and the smell... It's making my pussy wet)"
+
+    w "Fuck... I can't wait to see your throat expand"
+
+    d "*sigh* this position is stupid"
+
+    w "Nah ya'll gonna like this shit, now open wide!"
+
+    scene kim diane throatswab 2
+
+    d "Nnghh-ngh~!"
+
+    "Diane opens her mouth as wide as she can, letting William slide his cock in her warm mouth"
+
+    w "Fuck this throat is tight!"
+
+    scene kim diane throatfuck 1
+
+    play squelch "audio/fingering1.mp3" volume 8.0
+
+    play moan "audio/diane bj 2.mp3" volume 1.0
+
+    d "Hnghhh~!!"
+
+    w "Ohhh yeah... take that dick deep"
+
+    "William thrusts in and out, using her throat like his own sex toy"
+
+    d "Nghhhk nghhhk nghkkk *gulp!*"
+
+    w "Yeah can't talk now, can't you?"
+
+    w "Graghh! You want this shit deep!? You like this shit, huh?"
+
+    w "Yeah take it! Eat this fucking dick!!"
+
+    d "*Gawk* *Gawk* Ggnhhgkk gnghghh~!!!"
+
+    w "Your throat is my fleshlight now...And I love fucking my fleshlights fast. You ready for that!?"
+
+    d "Mgnghgh~!"
+
+    w "I'll take that as a yes!"
+
+    scene kim diane throatfuck 2
+
+    play squelch "audio/fastf.mp3" volume 8.0
+
+    d "W-waittnghkkk~!!"
+
+    w "Yeah take that shit, hah hah HAH!!...Fuck!!"
+
+    d "(I can't breathe!!!)"
+
+    w "Yeah Kim, just keep watching! This is what you gon get later!"
+
+    w "Come on...tighten that fucking throat... I'm gonna drown you with my fucking nut!"
+
+    d "Mnghhhhghh~!"
+
+    w "You ready bitch, huh!? You ready to swallow this nut!?"
+
+    d "Yeahshshhhngkkk Hmghhnhghhff~~"
+
+    w "That's right, now swallow this shit!"
+
+    w "Fuck fuck fuck! FUCK!!!"
+
+    scene kim diane throatfuck 1
+
+    stop squelch
+    stop moan
+    play coom "audio/spurt.mp3" volume 0.5
+
+    play climax "audio/diane swallow.mp3" volume 1.0
+
+    d "MGNGHHHH~!!!!!!"
+
+    w "Yeah......fuck! Nothing like releasing my load in some good throat"
+
+    stop coom
+
+    stop climax
+
+    scene kim diane throatswab 6
+
+    k "...Mmf"
+
+    w "Haha, looks like she's gonna be knocked out for a while... Guess it's your turn"
+
+    k "Nghh yes"
+
+    scene kim diane throatfuck 3
+
+    play squelch "audio/fingering1.mp3" volume 8.0
+
+    play moan "audio/diane bj 2.mp3" volume 1.0
+
+    w "Now open wide"
+
+    k "Mnghhh! hnghh~"
+
+    "William doesn't waste any time, as he thrusts in and out of her tight throat"
+
+    w "Fwooooo damn!"
+
+    k "Hnhhh~ *gulp*"
+
+    w "Granted, Diane knows how to use her tongue but man... This shit is perfect!"
+
+    k "*suck* *sluuurp*"
+
+    w "Can't believe Jamie never got to experience this. Well I don't think he could if he tried!"
+
+    w "That's why this throat belongs to me now, isn't that right? only I could fuck your throat this good!"
+
+    k "Yesshhhnbhhghhh~"
+
+    w "That's right, now come on, tighten that bitch up!"
+
+    scene kim diane throatfuck 4
+
+    play squelch "audio/fastf.mp3" volume 8.0
+
+    k "Hgnhh hgnhhh gawkk nghhnghhkkkk~!!!!"
+
+    w "Yeah fuck!!"
+
+    w "Hot damn!! I can't stop my hips! I need to fuck this throat like a jackhammer!"
+
+    w "You bitches are draining me good.. I feel like I'm about to cum again!!"
+
+    w "You want this cum right!? Because I'm about to paint your throat white!!"
+
+    k "Hgnhhkkk Nghhkkk nghhgkk Yesssghhffmfff~!!"
+
+    w "That's a good girl, come on!"
+
+    w "Fuck Fuck FUCK GRAGHHHH!!!!!!!!"
+
+    scene kim diane throatswab 10
+
+    stop squelch
+    stop moan
+    play coom "audio/spurt.mp3" volume 0.5
+
+    play climax "audio/kim swallow 1.mp3" volume 1.0
+
+    k "NGHHH~!!!!!!!!!!!!!"
+
+    w "Shit!!!"
+
+    stop coom
+
+    stop climax
+
+    w "My legs were about to give out...you two are bunch of semen demons"
+
+    k "HAnnhghhh *cough* hah...hah.."
+
+
+    scene black
+
+    play moan "audio/diane stuffed moan.mp3" volume 1.0
+
+    play squelch "audio/fingering1.mp3" volume 8.0
+
+
+
+    w "Come on! Come on!"
+
+    d "Oghhoghhh~!!"
+    scene diane uma 1
+
+    w "Hiyah hiyah! Come on horsie!"
+
+    d "Oghhhghhh~!"
+
+    w "You damn whore! You're not concerned that your neighbors might hear you!?"
+
+    w "Don't you know they think you're a slut!?"
+
+    w "Don't you feel ashamed? How can you even show your face, when they know you've been squealing like a pig!?"
+
+    d "Nooo~!!!"
+
+    w "Admit it! Scream it! Let them know how much of a whore you are!!"
+
+    d "YESSHH YESHH YEAHSHHHH~!!!"
+
+    w "Let them know, let them know that you're my bitch!!"
+
+    d "I'M HIS GOOD BITCH!! I'M HIS GOOD LITTLE BITCH~!!"
+
+    w "You're a whore that likes fucking on your son's bed! Don't you care about him at all?"
+
+    d "N-noooo...NOO~!!!!"
+
+    w "You fucking WHORE! You're a horrible mother!"
+
+    d "Y-yess~!! I'm a horrible mother~!!"
+
+    scene diane uma 2
+
+    play moan "audio/diane clenched moan.mp3" volume 1.0
+
+    play squelch "audio/fastf.mp3" volume 9.0
+
+    w "Graghh! fucking hell you got even tighter!"
+
+    w "Do you want this dick bad?"
+
+    d "Yes~!! I need your dick!! I can't live without your dick!"
+
+    w "What if your son saw this huh, what if Jamie saw you begging like a slut!"
+
+    d "I don't care anymore~ I don't care!! Just fuck me~ Just keep FUCKING ME~!!"
+
+    w "Do you want this nut, huh?"
+
+    d "Y-yes~!"
+
+    w "Do you want to get pregnant you dumb bitch!?"
+
+    d "Yesss breed meeee~!! Give me a better son~!!!"
+
+    w "You're gonna be a fucking mother...You're gonna carry my babies aren't you?"
+
+    d "Yes Yes~ YES~!!!!"
+
+    w "RAGHH!! Tighten that pussy up bitch!"
+
+    d "Mghhhh give meee~!! Give it to mee~!!"
+
+    w "Then take this!!!!"
+
+    scene diane hiyah 4
+
+    stop moan
+
+    stop squelch
+
+    play coom "audio/cum1.mp3" volume 0.5
+
+    play climax "audio/diane clenched cum.mp3" volume 1.0
+
+    d "Mghhhhhhh NFGHH~!!!!!!"
+
+    "Cum floods her fertile womb, and her pussy squirts like broken dam"
+
+    stop coom
+
+    stop climax
+
+    w "FUCK!"
+
+    d "NGNHHH~!! GHNHHHH~!!! Nhnghhhhh~"
+
+
+    scene kim cheating whore 3
+
+    k "Nghhffh~ *chu* Nghhh~!!!"
+
+    w "Hah!! You ever kiss Jamie this passionately?"
+
+    k "Hahhh~!! No... n-noo~!!"
+
+    w "Since you love taking this dick so much... Why don't you become my girlfriend then, huh!?"
+
+    k "*chu* B-but..."
+
+    w "Jamie doesn't even have to know"
+
+    k "H-hah....*chu*"
+
+    w "come on....*chu*"
+
+    k "I-I... *chu* I can't"
+
+    w "Seems I have to teach you a fucking lesson..."
+
+    scene kim submitting to will 1
+
+    play moan "audio/kim kiss moan.wav" volume 1.0
+
+    play squelch "audio/fingering1.mp3" volume 8.0
+
+    k "Nghhh!!!! Ohh fuck! OHHH FUCK~!!!"
+
+    w "Yeah! like this!!"
+
+    k "Ohhhh~ s-shit *chu* shit shit!!!!!"
+
+    w "Your lewd fucking body and your huge tits.... You know how long I've been wanting to fuck you huh?"
+
+    k "MNGHHH~!!! MNGHHH~!!!"
+
+    w "Been a long ass time.. And now you're begging for my dick!!!"
+
+    k "Y-yess, right there~!! Ahhh fuck~!!"
+
+    w "You belong to me now Kim! Your body...everything belongs to me now!"
+
+    k "YES YES YES~!! ....I-I belong to you~!! Just k-keep fucking me~!!"
+
+    k "I-I love your cock~!! It fills me up so much~!"
+
+    w "And what about Jamie huh!?"
+
+    k "I-It's not even close~~!! he has a tiny dick and d-doesn't satisfy me!!!"
+
+    w "and you're all smiling and shit when you're with him, you're such a fake bitch!!"
+
+    scene kim submitting to will 2
+
+    play moan "audio/kim loud moan.mp3" volume 1.0
+
+    play squelch "audio/fastf.mp3" volume 9.0
+
+
+
+    k "Nghhhhh~!!! N-noooo~!!!"
+
+    w "Tell me huh, which do you love more.... Me or Jamie!?"
+
+    k "I-I can't~!!"
+
+    w "Come on, answer me!!"
+
+    k "I...I love you more!!! I love your cock more!!! I cant l-live without your cock~~!!!"
+
+    w "Hahaha both of you are fucking sluts!!!"
+
+    k "Nghhh~!! YES~!! I-i'm a slut! I-I'm a fucking SLUT!!"
+
+    w "Come on... You ready for this nut!?"
+
+    k "Yes~! C-cum inside me~!!"
+
+    w "You ready to get pregnant huh? You fucking whore!!?"
+
+    k "Yesss~~!! B-breed meeee~!! BREED ME WITH YOUR FUCKING C-COCK~!!!"
+
+    w "Then take this!!"
+
+    scene kim cheating whore 4
+
+    stop moan
+
+    stop squelch
+
+    play coom "audio/cum1.mp3" volume 0.5
+
+    play climax "audio/diane open ongue cum.mp3" volume 1.0
+
+    k "Nghhhhhh~!!!! N-nnghhh~!!!!!"
+
+    "*Splurt~!!!*"
+
+    k "O-ogghhhhhhh~!! OH GOD~!!!"
+
+    stop coom
+
+    stop climax
+
+    w "FUCK!!!"
+
+    k "O-oohhh....ohooh..ohh...f-fuckk~"
+
+    w "DAMN!! That was good"
+
+    stop music
 
 
 

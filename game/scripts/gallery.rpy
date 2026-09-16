@@ -29,7 +29,7 @@ screen gallery_B():
         style_prefix "about"
 #changed this frame generates button for the quick switch between pages in the 10 buttons format
 #has one problem (the page, when the loop ends is coded manually the max_pages variable, in this [if page < max_pages] condition)
-    use page_list_bar(gallery_page, 17, menu_name = "gallery_page")
+    use page_list_bar(gallery_page, 20, menu_name = "gallery_page")
     #grid for images
     grid maxnumx maxnumy:
         pos (gx1, gy1)
