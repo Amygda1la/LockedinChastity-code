@@ -24,7 +24,7 @@ screen replay_gallery_B():
     $end = min(start + 9 - 1, len(Replay_items) - 1)
     use game_menu(_("{size=-20}Replay Gallery{/size}"), scroll="viewport"):
         style_prefix "about"
-    use page_list_bar(replay_page, 4, menu_name = "replay_page")
+    use page_list_bar(replay_page, 6, menu_name = "replay_page")
     #grid for images
     grid maxnumx maxnumy:
         pos (gx1, gy1)

@@ -1040,6 +1040,7 @@ label start:
     stop music
 
     scene characterroom night
+label replay_alex_doggy:
 
     "Oh It's already late...I need to sleep or Kim will scold me tomorrow for being late again..."
 
@@ -1223,7 +1224,7 @@ label start:
     w "*pant* *pant* *pant* hah...fuck..."
 
     stop music
-
+    $ renpy.end_replay()
     scene schoolfield morning
 
     "A day later..."
@@ -2810,6 +2811,7 @@ label kim_pov1:
             "Walking alone...with a sad expression..."
 
             "As the car stops, Kim jumps out of the car and runs directly towards her lover..."
+            $ renpy.end_replay()
             jump reconciliation
 
 label reconciliation:
@@ -3137,6 +3139,8 @@ label reconciliation:
     "I wipe the drool from my face and pack my stuff and head out..."
 
     stop music
+label replay_kim_jamie_handjob:
+
 
     scene classroom2 morning
 
@@ -3461,9 +3465,10 @@ label reconciliation:
     k "Good night Jamie...."
 
     "Kim tucks Jamie in and puts some clothes on..."
+    $ renpy.end_replay()
 
     scene kim and alex chat 1
-
+label replay_kim_and_alex_chat:
     "Unable to sleep...."
 
     "A bit unsatisfied from her sex with Jamie"
@@ -3729,9 +3734,9 @@ label reconciliation:
     k "(Yeah....)"
 
     stop music
+    $ renpy.end_replay()
 
-
-
+label replay_kim_spies_on_will:
     scene schoolfield morning
 
     "Kim is busy with practice as usual..."
@@ -4116,7 +4121,7 @@ label reconciliation:
     k "Nghhhh"
 
     stop music
-
+    $ renpy.end_replay()
     scene livingroom night
 
     "A couple days later..."
@@ -4336,7 +4341,7 @@ label reconciliation:
 
 
 
-
+label replay_sleepover:
     scene characterroom night
 
     "I was in the middle of a game when I hear a knocking come from my door"
@@ -4804,7 +4809,7 @@ label sleepover:
     "After the breakfast...will eventually leaves to do his own thing.."
 
     "While me however has a class coming..."
-
+    $ renpy.end_replay()
 label kim_date2:
     scene schoolback morning
 
@@ -5342,7 +5347,7 @@ label will_and_diane_text1:
     d "Hahahaha glad you like it <3"
 
     "The casual flirting continues for a bit, Diane unexpectedly enjoying her conversation with the random person she found online..."
-
+    $ renpy.end_replay()
     scene characterroom night
 
     play music "audio/happy jazz.mp3" volume 0.5
@@ -6114,7 +6119,7 @@ label kim_pov2:
     k "(I just....I just let someone...cum inside my mouth...)"
 
     k "(What......am I doing....)"
-
+    $ renpy.end_replay()
     jump kim_date3
 
 label diane_pov1:
@@ -6437,6 +6442,7 @@ label knock:
     "I guess I'll just...go to bed too..."
 
     "After I masturbate of course...hehe"
+    $ renpy.end_replay()
 
 label kim_date3:
 
@@ -8091,7 +8097,7 @@ label kim_and_jamie_sex1_kim_pov1:
     k "Yeah..haha...I hear you..."
 
     j "Anyways...I'm gonna go drink some water and come back..."
-
+    $ renpy.end_replay()
 label will_and_diane_text2:
 
     scene dianeroom
@@ -8344,7 +8350,7 @@ label jamie_meet_diane:
     "After a few minutes I hear Will outside saying goodbye to me..."
 
     "I return the gesture and then go back to my game.."
-
+    $ renpy.end_replay()
     menu:
         "Jamie Pov":
             jump will_and_diane_sex1_aftermath_jamie_pov
@@ -9403,6 +9409,7 @@ label kim_dildo1:
     k "(I cheated on Jamie....)"
 
     k "(How can I even face him from now on...)"
+    $ renpy.end_replay()
 
     menu:
         "Jamie and Kim Pov":
@@ -9814,6 +9821,7 @@ label frontdoor:
 
     menu:
         "Jamie and Kim Pov":
+            $ renpy.end_replay()
             jump will_and_diane_sex2_kim_and_jamie_pov
 
         "Diane Pov":
@@ -10781,6 +10789,7 @@ label will_and_diane_sex2:
     d "Y-yeah...hahh..hahh.."
 
     "Will walks out...treating Diane like a used whore..."
+    $ renpy.end_replay()
 
     menu:
         "Jamie Pov":
@@ -11397,6 +11406,7 @@ label game_day_aftermath_kim_pov:
     k "(Hmmmm....)"
 
     "Both hug each other...as they fall asleep"
+    $ renpy.end_replay()
 
     jump kim_discovers
 
@@ -11521,6 +11531,7 @@ label game_day_aftermath_jamie_pov:
     k "(Hmmmm....)"
 
     "Both hug each other...as they fall asleep"
+    $ renpy.end_replay()
 
     jump kim_discovers
 
@@ -11954,6 +11965,7 @@ label party:
     "Will leaves and follows Kim"
     menu:
         "Jamie Pov":
+            $ renpy.end_replay()
             jump jamie_reflection
 
         "Kim Pov":
@@ -13987,6 +13999,7 @@ label kim_browsing:
     k "(This is stupid...I'm never gonna think about him for a long time, and that's final!)"
 
     k "(I'm gonna go to sleep..)"
+    $ renpy.end_replay()
 
 label kim_library:
 
@@ -16167,7 +16180,7 @@ label kim_and_will_party:
     k "*sob*....dammit...."
 
     k "I'm gonna go to sleep...."
-
+    $ renpy.end_replay()
     menu:
         "Diane and Will Pov":
             jump will_and_diane_date
@@ -17156,6 +17169,7 @@ label jamie_arrives_diane_pov:
     w "Awww you aren't gonna finish me off? Aww bummer.."
 
     "Diane then heads upstairs to take a shower and get ready for work..."
+    $ renpy.end_replay()
 
     menu:
         "Kim Pov":
@@ -17552,6 +17566,7 @@ label jamie_peek:
     y "Fufufu good boy...don't take too long..."
 
     "I pick myself up and then go to the library...another busy day awaits me..."
+    $ renpy.end_replay()
 
     menu:
         "Diane and Will Pov":
@@ -19049,6 +19064,7 @@ label will_and_diane_date:
     "Diane and Will share an intimate time together..."
 
     "After a short while...Diane regains her strength and composure...and they then leave the hotel"
+    $ renpy.end_replay()
 
 
 
@@ -19475,6 +19491,7 @@ label jamie_and_kim_invite:
     k "Hehe okay ma'am good night~"
     menu:
         "Diane and Will Pov":
+            $ renpy.end_replay()
             jump dianewill
 
         "Kim and Jamie Pov":
