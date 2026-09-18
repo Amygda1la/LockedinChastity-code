@@ -7733,15 +7733,14 @@ label entropy_ntr:
 
     "I twist the doorknob"
 
-    "Hahh.."
-
-    j "Kim?"
-
     stop moan
 
     stop bed
 
     stop music
+
+    jump goodbye
+
 
 label entropy_nts:
 
@@ -7809,6 +7808,8 @@ label entropy_nts:
     stop bed
 
     stop music
+
+    jump goodbye
 
 
 
@@ -8231,7 +8232,13 @@ label jamie_finds_out:
 
     w "DAMN!! That was good"
 
+    j "K-Kim?"
+
     stop music
+
+    jump goodbye
+
+    
 
 
 

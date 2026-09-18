@@ -37060,7 +37060,7 @@ label william_gone:
         jump caging_up
 
     if netorase:
-        jump goodbye
+        jump gaming_time
 
     if netorare:
         jump william_left_ntr
@@ -37833,9 +37833,15 @@ label goodbye:
 
     scene black
 
-    "Heya, Gelato here... Apologies for the late update"
+    "Heya, Gelato here... GG Fucking EZ"
 
-    "Won't happen again"
+    "Hey, don't say that"
+
+    "Ha, really?"
+
+    "Freaking easy"
+
+    "Okay I'll stop..."
 
     menu:
 
