@@ -6,7 +6,7 @@ init python:
     maxperpage = maxnumx * maxnumy
 
 
-    
+
     def get_gallery_hover(image):
      thumbnail = "images/gallery thumbnails/" + image + "_t" + ".webp"
      if not renpy.loadable(thumbnail):
@@ -176,7 +176,7 @@ transform gallery_open:
 
 
 
- transform gallery_fade:
+transform gallery_fade:
     alpha 0.0
     linear 0.3 alpha 1.0
 
