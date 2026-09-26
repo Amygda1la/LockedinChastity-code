@@ -1138,6 +1138,7 @@ label replay_alex_doggy:
     "Ah!! Ah!! Ah!! Ah!! Ah!! Fuck Fuck Fuck FUCK!!"
 
     "Plap* *plap* *plap*  *plap* *plap* *plap* "
+    $persistent.unlocked_gallery_scenes.add(1)
 
     scene alex doggy1
 
@@ -1272,7 +1273,7 @@ label replay_alex_doggy:
     "*ding!*"
 
     "Kim sent me a picture...."
-
+    $persistent.unlocked_gallery_scenes.add(2)
     scene kim selfie
 
     "It's her in her cheerleading outfit..."
@@ -2434,7 +2435,7 @@ label kim_pov1:
 
             stop music
             play music "audio/malicious.mp3" volume 0.5
-
+            $persistent.unlocked_gallery_scenes.add(3)
             scene kim fondle 1
 
             k "W-what?"
@@ -2598,7 +2599,6 @@ label kim_pov1:
             k "(I wonder....how many women William has....)"
 
             play music "audio/melancholy.mp3" volume 0.5
-
             scene kim masturbating 1
 
             k "(Hah......)"
@@ -3073,7 +3073,7 @@ label reconciliation:
     k "Heyyyyy~"
 
     k "Wake up dummy...."
-
+    $persistent.unlocked_gallery_scenes.add(4)
     scene kim window
 
     k "Hehehe there you are hahahaha!"
@@ -3293,7 +3293,7 @@ label replay_kim_jamie_handjob:
     "Schlick Schlick Schlick Schlick Schlick Schlick Schlick"
 
     "Schlick Schlick Schlick Schlick Schlick Schlick Schlick Schlick Schlick Schlick"
-
+    $persistent.unlocked_gallery_scenes.add(5)
     scene kim and jamie handjob 1
 
     j "Hahhh hahhh...hahhh.."
@@ -3467,8 +3467,9 @@ label replay_kim_jamie_handjob:
     "Kim tucks Jamie in and puts some clothes on..."
     $ renpy.end_replay()
 
-    scene kim and alex chat 1
 label replay_kim_and_alex_chat:
+    $persistent.unlocked_gallery_scenes.add(6)
+    scene kim and alex chat 1
     "Unable to sleep...."
 
     "A bit unsatisfied from her sex with Jamie"
@@ -3804,7 +3805,7 @@ label replay_kim_spies_on_will:
     k "(Just a little...peek....)"
 
     stop music2
-
+    $persistent.unlocked_gallery_scenes.add(7)
     scene kim spies on alex and will 1
 
     play music "audio/malicious.mp3" volume 0.5
@@ -4505,7 +4506,7 @@ label replay_sleepover:
 label sleepover:
 
     play music "audio/melancholy.mp3" volume 0.5
-
+    $persistent.unlocked_gallery_scenes.add(8)
     scene jamieandwill cuddlenight
 
     "Hesitantly...I hop on the bed with William"
@@ -5301,7 +5302,7 @@ label will_and_diane_text1:
     d "(Oh, what's this?)"
 
     "As Diane opens the image, she sees a picture of a crotch with a massive bulge stretching the grey sweatpants...."
-
+    $persistent.unlocked_gallery_scenes.add(9)
     scene will bulgeselfie
 
     o "*Is that enough proof for ya?"
@@ -5373,7 +5374,7 @@ label will_and_diane_text1:
     j "*Y....you monster!"
 
     k "*Hehehe I'm not a monster Jamie, but I...YES I!!! am a fair woman....so in exchange for these dumplings....I give you... jagajagajaaan......this!!!"
-
+    $persistent.unlocked_gallery_scenes.add(10)
     scene kim houseselfie
 
     j "*oh...ohh....TSKR...."
@@ -5777,7 +5778,7 @@ label will_transfer:
     a "*she found out cause she saw this video btw"
 
     "Alex sends a link of a twooter account...as I open the account I am greeted by an anonymous user...who posts his sex videos without his face..."
-
+    $persistent.unlocked_gallery_scenes.add(11)
     scene alex text1
 
     a "*Don't tell anyone....but that's Will Hahahahahaha"
@@ -5915,7 +5916,7 @@ label kim_pov2:
     k "(O..oh ..god it's rubbery...and thick...omg omg omg)"
 
     "Kim slowly pulls out the dildo from the box ....with each centimeter that comes out making her eyes wider and wider..."
-
+    $persistent.unlocked_gallery_scenes.add(12)
     scene kim dildo1
 
     "Eventually...the entirety of the dildo is revealed...stunning Kim immediately..."
@@ -6153,7 +6154,7 @@ label diane_pov1:
     d "*What if I want you to think about me, and ONLY me....100 percent"
 
     o "*Shit.... then you gonna have to be one fineee mama to convince me hahahaha"
-
+    $persistent.unlocked_gallery_scenes.add(13)
     scene diane lewd2
 
     d "*hahahaha what an arrogant bastard ...how about this then...does this convince you?"
@@ -6943,6 +6944,7 @@ label kim_date3:
 
 label kim_and_jamie_sex1:
 
+    $persistent.unlocked_gallery_scenes.add(14)
     scene kim and jamie standing
 
     play music "audio/melancholy.mp3" volume 0.5
@@ -7246,7 +7248,7 @@ label kim_and_jamie_sex1:
     "I can't even resist...my body being lethargic and all..."
 
     "She positions me on the bed...and gets on top of me..."
-
+    $persistent.unlocked_gallery_scenes.add(15)
     scene kim and jamie ride 1
 
     play music "audio/malicious.mp3" volume 0.5
@@ -7512,7 +7514,7 @@ label kim_and_jamie_sex1:
     jump will_and_diane_text2
 
 label kim_and_jamie_sex1_kim_pov1:
-
+    $persistent.unlocked_gallery_scenes.add(16)
     scene kim and jamie standing
 
     play music "audio/melancholy.mp3" volume 0.5
@@ -7841,7 +7843,7 @@ label kim_and_jamie_sex1_kim_pov1:
     k "(So I grabbed Jamie and positioned him on the bed...)"
 
     k "(I then get on top of him...)"
-
+    $persistent.unlocked_gallery_scenes.add(17)
     scene kim and jamie ride 1
 
     play music "audio/malicious.mp3" volume 0.5
@@ -8159,7 +8161,7 @@ label will_and_diane_text2:
     d "*hahaha you sly bastard"
 
     d "*Here's your present baby"
-
+    $persistent.unlocked_gallery_scenes.add(18)
     scene diane nude text
 
     "In the heat of the moment...fueled by her lust"
@@ -8724,7 +8726,7 @@ label will_and_diane_sex1:
     d "Will...come to me..."
 
     play music "audio/malicious.mp3" volume 0.5
-
+    $persistent.unlocked_gallery_scenes.add(19)
     scene diane and will side 1
 
     "Will, hearing those words full of lust...places his massive throbbing cock on to Diane's stomach..."
@@ -9025,7 +9027,7 @@ label will_and_diane_sex1:
     jump will_and_diane_sex1_aftermath
 
 label kim_dildo1:
-
+    $persistent.unlocked_gallery_scenes.add(20)
     scene kim and alex chat 2
 
     play music "audio/melancholy.mp3" volume 0.5
@@ -9584,7 +9586,6 @@ label will_and_diane_sex1_aftermath:
     w "Too late...already uploaded it"
 
     d "YOU WHAT!?"
-
     scene dianesextape
 
     hide diane style shy
@@ -9672,7 +9673,7 @@ label will_and_diane_sex1_aftermath_jamie_pov:
     "......................"
 
     play music "audio/malicious.mp3" volume 0.5
-
+    $persistent.unlocked_gallery_scenes.add(21)
     scene dianesextape
 
     "As I go to Will's secret page....I discover a new video..."
@@ -10094,7 +10095,7 @@ label will_and_diane_sex2_kim_and_jamie_pov:
     "Kim and I go our separate ways and I then go straight home...."
 
     "As I arrive home...I hear banging and squeaking noises inside mom's room"
-
+    $persistent.unlocked_gallery_scenes.add(22)
     scene diane and will roomdoor 6
 
     "What the hell is she doing?"
@@ -10361,7 +10362,7 @@ label will_and_diane_sex2:
     w "Hehehe good..."
 
     play music "audio/malicious.mp3" volume 0.3
-
+    $persistent.unlocked_gallery_scenes.add(23)
     scene will and diane doggy 1
 
     "Diane the goes on top of the bed and gets on all fours..."
@@ -10649,7 +10650,7 @@ label will_and_diane_sex2:
     "However...its hard to walk..her legs still weak from the intense breeding earlier..."
 
     "She reaches the door and opens it..."
-
+    $persistent.unlocked_gallery_scenes.add(24)
     scene diane and will secret 1
 
     j "Mom are you alright?"
@@ -11246,7 +11247,7 @@ label football_aftermath:
 label game_day_aftermath_kim_pov:
 
     play music "audio/malicious.mp3" volume 0.3
-
+    $persistent.unlocked_gallery_scenes.add(25)
     scene kim and jamie doggy 1
 
     "Kim turns around and gets on all fours...."
@@ -11413,7 +11414,7 @@ label game_day_aftermath_kim_pov:
 label game_day_aftermath_jamie_pov:
 
     play music "audio/malicious.mp3" volume 0.3
-
+    $persistent.unlocked_gallery_scenes.add(26)
     scene kim and jamie doggy 1
 
     "Kim turns around and gets on all fours...."
@@ -12164,7 +12165,7 @@ label party_kim_and_will:
     "She goes lower and lower...finally kneeling in front of William.."
 
     play music "audio/malicious.mp3" volume 0.3
-
+    $persistent.unlocked_gallery_scenes.add(27)
     scene kim and will bj bulge
 
     "Down near his crotch..."
@@ -12698,7 +12699,7 @@ label kim_and_will_blowjob:
     w "Woah Kim!"
 
     play music "audio/malicious.mp3" volume 0.3
-
+    $persistent.unlocked_gallery_scenes.add(28)
     scene kim and will bj bulge
 
     "Kim kneels directly in front of William...with her face in front of his crotch.."
@@ -13146,7 +13147,7 @@ label diane_and_will_breastmilk:
     "William then suddenly grabs Diane on her ass, and lifts her up"
 
     d "W-wait ah!"
-
+    $persistent.unlocked_gallery_scenes.add(29)
     scene diane will carry 0
 
     "William carries Diane with ease...pressing his cock near her wet slit.."
@@ -13516,7 +13517,7 @@ label diane_and_will_breastmilk:
     d "Fufu...let mommy make you feel better...."
 
     w "Woah wai-"
-
+    $persistent.unlocked_gallery_scenes.add(30)
     scene diane handjob 1
 
     "Just as William tries to get another word out...he stops as he realizes Diane grabs his cock..."
@@ -13847,7 +13848,7 @@ label kim_browsing:
     k "(I should probably get going...I still have homework to do..)"
 
     stop music
-
+    $persistent.unlocked_gallery_scenes.add(31)
     scene kim bbc masturbating
 
     play music "audio/malicious.mp3" volume 0.3
@@ -14904,7 +14905,7 @@ label kim_and_will_party:
     "As the drink slowly kicks in...Kim slightly loses herself...loses control"
 
     "All previous limits are slowly being broken..."
-
+    $persistent.unlocked_gallery_scenes.add(32)
     scene william kim dance 1
 
     "As the music goes on...her moves slowly become more daring...more....seductive..."
@@ -14990,7 +14991,7 @@ label kim_and_will_party:
     k "And....I want to be there always for you too..."
 
     w "Kim....I...."
-
+    $persistent.unlocked_gallery_scenes.add(33)
     scene william kim body kiss
 
     "In a flash....William kisses Kim....their lips lock in a passionate kiss..."
@@ -15042,7 +15043,7 @@ label kim_and_will_party:
     k "Fuck....hah...*chu*  ....William..."
 
     "William then carries Kim close to the bed...without breaking their lips apart..."
-
+    $persistent.unlocked_gallery_scenes.add(34)
     scene william kim missionary 1
 
     "After a bit....William the drops Kim to the bed....with her body exposed...all of it for William to see..."
@@ -15379,7 +15380,7 @@ label kim_and_will_party:
 
     w "Hahhhh hahh...fuck Kim...hah...you ready for round two? "
 
-
+    $persistent.unlocked_gallery_scenes.add(35)
     scene william kim doggy 1
     scene kim and will doggy 1
 
@@ -15452,7 +15453,7 @@ label kim_and_will_party:
     w "Damn! you're one hungry bitch! Take this big black dick!! RAGHHHH!"
 
     k "Ohhhhhhhhhhhhhhhhhhh Ohhhhhhhhhhhhhhhhhhhhhh!!!!!!!"
-
+    $persistent.unlocked_gallery_scenes.add(36)
     scene william kim bj 1
     scene kim and will bed bj 1
 
@@ -15507,7 +15508,7 @@ label kim_and_will_party:
     k "Gawk!"
 
     k "Hehehehehe *Gawk*...*Suck*.......*Suck*"
-
+    $persistent.unlocked_gallery_scenes.add(37)
     scene william kim mating press 1
     scene kim and will mating press 1
 
@@ -15652,7 +15653,7 @@ label kim_and_will_party:
     stop music2
 
     "6:20 AM"
-
+    $persistent.unlocked_gallery_scenes.add(38)
     scene william kim aftersex
 
     k "Hahhhhh....hah......ha......hah....."
@@ -15758,7 +15759,7 @@ label kim_and_will_party:
     w "Hahahaha what a bummer....okay then...."
 
     "William then grabs a condom and then comes back behind Kim..."
-
+    $persistent.unlocked_gallery_scenes.add(39)
     scene william kim shower sex 1
 
     "Kim can feel William's cock poking around her entrance...."
@@ -17360,7 +17361,7 @@ label jamie_peek:
     "The room's air is thick....clearly from the intense sex this couple had earlier..."
 
     "It's messy...the bed most of all....it's wet and full of bodily fluids..."
-
+    $persistent.unlocked_gallery_scenes.add(40)
     scene william kim room
 
     "Tissues and condoms scattered about....impossibly huge condoms too..."
@@ -18434,7 +18435,7 @@ label will_and_diane_date:
     d "Lay down William..."
 
     w "You mean like lay down on the be-?"
-
+    $persistent.unlocked_gallery_scenes.add(41)
     scene diane boobjob 1
 
     "Diane then immediately pushes William down on the bed..."
@@ -18756,7 +18757,7 @@ label will_and_diane_date:
     "Diane gets on top of William, her body glistening with sweat..."
 
     w "W-woah...what are you-"
-
+    $persistent.unlocked_gallery_scenes.add(42)
     scene diane reverse cowgirl 1
 
     "Her back is facing Will, afraid of letting her obscene face be shown to him for what she's about to do..."
@@ -19568,7 +19569,7 @@ label kim_jamie_room:
     k "Fufu~ come to mommy Jamie..."
 
     "As if possessed by something...I immediately jump unto Kim.."
-
+    $persistent.unlocked_gallery_scenes.add(43)
     scene kim and jamie makeup sex 0
 
     k "Anhh hahahah...so excited, you really missed me that much huh fufufu~"

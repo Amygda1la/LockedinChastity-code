@@ -1,39 +1,19 @@
 #a very simple gallery
+default persistent.unlocked_gallery_scenes = set()
 init python:
-
 
     class GalleryItem:
         def __init__(self, name, images, image_number = None):
             self.name = name
             self.images = images
-            # changed. Added this field to the GalleryItem object because it is being used
-            # in the thumbnail_info screen.
-            # Every CG in the gallery now has a unique number.
-            # The number is basically the i+1 iterator in the for loop
-            # that creates the layout for the gallery menu.
             self.image_number = image_number
-        # changed. The refresh_lock() function has been changed, so now the gallery
-        # will unlock a scene if the player has seen the first image of that scene.
-        #
-        # This can cause errors if the first images of two scenes are the same.
-        # However, if you make a copy of the same image and give it a different name,
-        # the problem will be fixed.
-        def refresh_lock(self):
-            lockme = True
-            #changed. Added a check for manually unlocked gallery scenes
-            # if this scene was manually unlocked by the player, it will remain unlocked.
-            if self.image_number in persistent.unlocked_gallery_items:
-             lockme = False
-            elif renpy.seen_image(self.images[0]):
-             persistent.unlocked_gallery_items.add(self.image_number)
-             lockme = False
-            self.is_locked = lockme
         @property
         def thumbnail_image(self):
-         thumbnail = "images/gallery thumbnails/" + self.images[0] + ".png"
+         thumbnail = "images/gallery thumbnails/" + self.images[0] + "_t" + ".webp"
          if renpy.loadable(thumbnail):
           return thumbnail
          return self.images[0]
+
     #changed just added all cgs from the first and second scripts to the massive in order they are shown in the game, including the animation
     gallery_items = []
     gallery_items.append(GalleryItem("Alex doggy", ["alex doggy1", "alex doggy2", "alex doggy3", "alex doggy4"]))
@@ -214,6 +194,10 @@ init python:
     gallery_items.append(GalleryItem("Jamie watches", ["diane hiyah 1", "diane uma 1", "diane uma 2", "diane hiyah 4"]))
     gallery_items.append(GalleryItem("Kim Diane throatswab ", ["kim diane throatswab 1","kim diane throatswab 2","kim diane throatfuck 1", "kim diane throatfuck 2","kim diane throatfuck 1","kim diane throatswab 6", "kim diane throatfuck 3","kim diane throatfuck 4","kim diane throatfuck 2","kim diane throatfuck 1","kim diane throatswab 6","kim diane throatfuck 3","kim diane throatfuck 4", "kim diane throatswab 10"]))
     gallery_items.append(GalleryItem("Kim cheating whore", ["kim cheating whore 3", "kim submitting to will 1","kim submitting to will 2","kim cheating whore 4"]))
+
+    
+    for gallery_item in gallery_items:
+     gallery_item.image_number = gallery_items.index(gallery_item) + 1
 
 #gallery background
 image gray = "#777"

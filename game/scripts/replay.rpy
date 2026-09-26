@@ -1,72 +1,48 @@
-## Replay Gallery screen ######################################
-## Take care when making changes to this file #################
-screen Replayexit():
-    zorder 100
-    imagebutton:
-        auto "images/replay/exit_%s.png"
-        action EndReplay()
-        yalign .99
-        xalign .99
-            #yes AUTO create 2 images titled exit_hover.png and exit_idle.png
-            #if you want to change the images for this screen
+init python:
+ replay_page = 0
 
-#add these 2 line below if you want an exit button during the replay(optional)
-#this must be added after every label used for replay
-# label replayOne
-#     if _in_replay:
-#         show screen Replayexit
 
 
 screen replay_gallery_B():
-
     tag menu
-    $start = replay_page * 9
-    $end = min(start + 9 - 1, len(Replay_items) - 1)
+    $start = replay_page * maxperpage
+    $end = min(start + maxperpage, len(Replay_items))
+    $max_pages =  (len(Replay_items)+8) // 9
     use game_menu(_("{size=-20}Replay Gallery{/size}"), scroll="viewport"):
         style_prefix "about"
-    use page_list_bar(replay_page, 7, menu_name = "replay_page")
+    use page_list_bar(replay_page, max_pages, menu_name = "replay_page")
+    # use menu_manager("replay_page",replay_manager_switch,Replay_items)
     #grid for images
     grid maxnumx maxnumy:
+        at gallery_open
         pos (gx1, gy1)
         yfill True
         xspacing 100
         yspacing - 160
-        for i in range(start, end + 1):
-            $Replay_items[i].replay_number = i + 1
+        for scene_index, i  in enumerate(range(start,end)):
             if renpy.seen_label(Replay_items[i].replay):
              imagebutton:
-              idle Replay_items[i].thumbs
-              hover_foreground "images/hover_2560.png"
+              idle Replay_items[i].thumbnail_image
+              hover_foreground  At("images/hover_550.webp", hover_blur)
               xalign 0.5
               yalign 0.5
               action Replay(Replay_items[i].replay)
-              hovered Show("thumbnail_info", None, Replay_items[i].name, Replay_items[i].replay_number)
+              hovered Show("thumbnail_info", None, Replay_items[i].name, Replay_items[i].replay_number,scene_index)
               unhovered Hide("thumbnail_info")
               at imageThumb
             else:
              imagebutton:
-              idle Replay_items[i].thumbs
-              hover_foreground "images/hover_2560.png"
+              idle Replay_items[i].thumbnail_image
+              hover_foreground  At("images/hover_550.webp", hover_blur)
               xalign 0.5
               yalign 0.5
               action NullAction()
-              hovered Show("thumbnail_info", None, Replay_items[i].name, Replay_items[i].replay_number)
+              hovered Show("thumbnail_info", None, Replay_items[i].name, Replay_items[i].replay_number, scene_index)
               unhovered Hide("thumbnail_info")
               at imageThumb, locked_blur
 
-
-
-    #previous/next buttons
-    if replay_page > 0:
-        textbutton "{color=#fff}Previous{/color}":
-            action SetVariable("replay_page", replay_page - 1)
-            xalign 0.3
-            yalign 0.98
-            background "#000"
-    if (replay_page + 1) * 9 < len(Replay_items):
-        textbutton "{color=#fff}Next{/color}":
-            action SetVariable("replay_page", replay_page + 1)
-            xalign 0.9
-            yalign 0.98
-            background "#000"
-
+    # frame:
+    #  xalign 0.5
+    #  yalign 0.98
+    #  textbutton "⇄":
+    #   action ToggleVariable("replay_manager_switch")

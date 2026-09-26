@@ -510,7 +510,7 @@ label catselfie:
     w "And I'm sure your future fans would love it"
 
     j "N-ngh....fine"
-
+    $persistent.unlocked_gallery_scenes.add(153)
     scene push down 1
 
     "I lay down on the bed, and then William gets on top"
@@ -1193,7 +1193,7 @@ label tcg_cont:
     w "I hope you die, my shitty master"
 
     j "Oh fuck off, haha"
-
+    $persistent.unlocked_gallery_scenes.add(154)
     scene hex 2
 
     "I approach my opponent named Hex"
@@ -1265,7 +1265,7 @@ label tcg_cont:
     n1 "*O-oh... thank you m'lady, I had a fun time playing against you too, but alas our time has to be cut short. I have to proceed to my next opponent"
 
     j "Fufu~ See you later --! Hope to see you soon~!"
-
+    $persistent.unlocked_gallery_scenes.add(155)
     scene twist 1
 
     "Hex goes away, and another one takes his place"
@@ -1337,7 +1337,7 @@ label tcg_cont:
     w "Haha so you lost your last one too?"
 
     j "Yeahhh, the guy was too good, or I don't know, maybe I'm just washed"
-
+    $persistent.unlocked_gallery_scenes.add(156)
     scene tcg jamie 3
 
     "...."
@@ -1541,7 +1541,7 @@ label tcg_cont:
     "I've already come this far, fuck it!!"
 
     n3 "OKay, get ready~"
-
+    $persistent.unlocked_gallery_scenes.add(157)
     scene jamie will diner 1
 
     "William cups my chin and pulls me close, his face inching closer and closer towards me"
@@ -1790,7 +1790,7 @@ label wplaps:
     k "Well, that's just the first part"
 
     j "Oh, boy..."
-
+    $persistent.unlocked_gallery_scenes.add(158)
     scene jamie vibe 3
 
     "Kim, lays on top of me and aims a vibrator at my caged cock"
@@ -1949,7 +1949,7 @@ label wplaps:
     scene black
 
     "*slap* *slap*"
-
+    $persistent.unlocked_gallery_scenes.add(159)
     scene jamie plap 2
 
     j "A-ahnn~!!!!"
@@ -2349,7 +2349,7 @@ label rocknstone:
     w "It's no about size man, it's about motion of the ocean"
 
     j "Yeah yeah"
-
+    $persistent.unlocked_gallery_scenes.add(160)
     scene jamie frott cage
 
     "I take off the cage with the spare key Kim gave me in case of emergencies"
@@ -2922,7 +2922,7 @@ label kim_punishment:
     "Kim wears hers on easily, while I take a bit of time"
 
     "Kim even had to help me since I'm not used to it, and eventually I get done changing"
-
+    $persistent.unlocked_gallery_scenes.add(161)
     scene jamie mirror lingerie
 
     k "Look, aren't we cute~?"
@@ -3413,7 +3413,7 @@ label axe:
     "Snother person sits beside the lady, this time someone with a professional camera"
 
     "O-oh god"
-
+    $persistent.unlocked_gallery_scenes.add(162)
     scene raven pic 1
 
     "I pose starting with a peace sign"
@@ -3841,7 +3841,7 @@ label axe:
     w "Jamie...*chu*"
 
     "I open my eyes and..."
-
+    $persistent.unlocked_gallery_scenes.add(163)
     scene jamie will smooch
 
     "I find myself with my arms around Will, my mouth against his"
@@ -4028,7 +4028,7 @@ label kim_touch:
     scene black
 
     "........."
-
+    $persistent.unlocked_gallery_scenes.add(164)
     scene nelson 1
 
     k "Mnghhh..."
@@ -4259,6 +4259,7 @@ label kim_touch:
 
 
     "The bed creaks, as if its crying, that it is about to break"
+    $persistent.unlocked_gallery_scenes.add(165)
     scene pronebone 1
     scene kimmie pronebone 1
 
@@ -4352,7 +4353,7 @@ label kim_touch:
     "But suddenly someone knocks on the door"
 
     "William gets up and opens the door, not caring even if he's in his naked form"
-
+    $persistent.unlocked_gallery_scenes.add(166)
     scene kim succumb 1
 
     j "Oh..."
@@ -4502,7 +4503,7 @@ label jamie_delivery_2:
     "Okay so there's no moaning..."
 
     "I knocked on the door and..."
-
+    $persistent.unlocked_gallery_scenes.add(166)
     scene kim succumb 1
 
     w "Hm?"
@@ -4698,7 +4699,7 @@ label tv_tease:
     k "Hehe, anyways... wanna start?"
 
     j "M-mmhmm..."
-
+    $persistent.unlocked_gallery_scenes.add(167)
     scene tv tease 1
 
     "Kim presses the play button...And it shows Kim in a hotel bathroom"
@@ -4845,7 +4846,7 @@ label tv_tease_hand:
     k "Jealous? ...Angry? or..... Excited~?"
 
     j "N-nghh, I-I don't.. know"
-
+    $persistent.unlocked_gallery_scenes.add(168)
     scene tv tease 9
     scene tv ntr 1
 
@@ -5272,7 +5273,7 @@ label tv_tease_no_hand:
     k "Jealous? ...Angry? or..... Excited~?"
 
     j "N-nghh, I-I don't.. know"
-
+    $persistent.unlocked_gallery_scenes.add(169)
     scene tv tease 7
     scene tv ntrs 1
 
@@ -5851,7 +5852,7 @@ label jamie_witnesses:
     hide kim
 
     "She gives me one last kiss on the cheek before she lets go of my hand and leaves my touch"
-
+    $persistent.unlocked_gallery_scenes.add(170)
     scene will flex 1
 
     "She then slowly walks to Mike, his massive body towering over hers..."
@@ -5879,7 +5880,7 @@ label jamie_witnesses:
     d "Mnnnfggh~~ ...hmphh~ *chu*"
 
     r1 "You ladies ready?"
-
+    $persistent.unlocked_gallery_scenes.add(171)
     scene jamie help 1
 
     "Kim lays down and spreads her legs... Mike then gets on top, his dark massive body looming over her"
@@ -6121,7 +6122,7 @@ label jamie_witnesses:
     scene black
 
     "..."
-
+    $persistent.unlocked_gallery_scenes.add(172)
     scene diane jamie watch 1
 
     "Diane gets on all fours, and I finally get to look closely at her face..."
@@ -6739,7 +6740,7 @@ label diane_wwe:
     "She crawls on the bed, coming face to face with Will"
 
     "But before Will can kiss her, she turns around... Showing him her backside instead"
-
+    $persistent.unlocked_gallery_scenes.add(173)
     scene diane will 69 1
 
     w "Woah, I like this view... Damn old lady, when'd you learn this?"
@@ -6842,7 +6843,7 @@ label diane_wwe:
     w "Ohhh taking control again?"
 
     d "S-stay down there..."
-
+    $persistent.unlocked_gallery_scenes.add(174)
     scene diane horsey 1
 
     "Diane raises her hips... Her pussy lips touching the tip of his massive cock"
@@ -7355,7 +7356,7 @@ label yelena_date_starto:
     j "I know"
 
     y "Fufu~"
-
+    $persistent.unlocked_gallery_scenes.add(175)
     scene yelena dressup 1
 
     "The curtain slides off, and she reveals herself"
@@ -7599,6 +7600,7 @@ label yelena_date_starto:
     y "Jamie...I have someone spying on your house right now, and this is what is going on currently"
 
     "Yelena shows me her phone again"
+    $persistent.unlocked_gallery_scenes.add(176)
     scene diane hiyah 1
     scene diane uma 1
 
@@ -7856,7 +7858,7 @@ label jamie_finds_out:
     scene black
 
     "..."
-
+    $persistent.unlocked_gallery_scenes.add(177)
     scene kim diane throatswab 1
 
     "William rests his cock against Diane's face"
@@ -8119,7 +8121,7 @@ label jamie_finds_out:
 
     d "NGNHHH~!! GHNHHHH~!!! Nhnghhhhh~"
 
-
+    $persistent.unlocked_gallery_scenes.add(178)
     scene kim cheating whore 3
 
     k "Nghhffh~ *chu* Nghhh~!!!"
@@ -8238,7 +8240,7 @@ label jamie_finds_out:
 
     jump goodbye
 
-    
+
 
 
 

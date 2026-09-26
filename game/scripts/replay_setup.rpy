@@ -1,12 +1,5 @@
-## Replay Gallery screen ######################################
-##
-## This is a simple screen that shows buttons that replay a scene from the game.
+default persistent.unlocked_replay_scenes = set()
 init python:
-
-    maxthumbx = config.screen_width / (3 + 1)
-    maxthumby = config.screen_height / (3 + 1)
-
-    replay_page = 0
 
     class ReplayItem:
         def __init__(self, thumbs, replay, name, replay_number = None):
@@ -14,6 +7,13 @@ init python:
             self.replay = replay
             self.name = name
             self.replay_number = replay_number
+        @property
+        def thumbnail_image(self):
+         thumbnail = "images/gallery thumbnails/" + self.thumbs + "_t" + ".webp"
+         if renpy.loadable(thumbnail):
+          return thumbnail
+         return self.thumbs
+
     #add replay items here format below
     #Replay_items.append(ReplayItem(["the thumbnail"], "the_label_from_code", "brief description"))
     Replay_items = []
@@ -39,6 +39,62 @@ init python:
     Replay_items.append(ReplayItem("william kim room","jamie_peek","Jamie cleaning job"))
     Replay_items.append(ReplayItem("gelatomoosoomay","jamie_necklace","Jamie necklace gift and date/afterdate"))
     Replay_items.append(ReplayItem("diane boobjob 1","will_and_diane_date","Will and Diane date"))
+    Replay_items.append(ReplayItem("diane blanket","dianewill","Will and Diane sleeping together"))
+    Replay_items.append(ReplayItem("ice cream 1","morning","Kim and Jamie spending the day together"))
+    Replay_items.append(ReplayItem("jamie bench 1","hangout","Jamie goes to the gym"))
+    Replay_items.append(ReplayItem("diane mirror selfie","will_and_diane_date2"," Will and Diane second date"))
+    Replay_items.append(ReplayItem("diane mirror selfie 2","jamie_date","Will and Diane second date Jamie pov"))
+    Replay_items.append(ReplayItem("kim cow 1","kim_cow_bikini","Kim tries cow set"))
+    Replay_items.append(ReplayItem("diane sweat","diane_and_jamie_date","Diane and Jamie convention"))
+    Replay_items.append(ReplayItem("will and jamie park","will_and_jamie_park","will and jamie at park together"))
+    Replay_items.append(ReplayItem("kim kabedon 1","kim_degrade","kim degrade Jamie"))
+    Replay_items.append(ReplayItem("diane cock kiss 1","diane_ass","Will scared Diane"))
+    Replay_items.append(ReplayItem("diane will tent 1","camping_start","camping day one"))
+    Replay_items.append(ReplayItem("nice view","day_2_morning","camping day two"))
+    Replay_items.append(ReplayItem("shadow doggy","split_jamie_pov","split Jamie's pov"))
+    Replay_items.append(ReplayItem("cabin art","kim_and_will_camp","split Kim's pov"))
+    Replay_items.append(ReplayItem("gelatomoosoomay","meetup","after camp"))
+    Replay_items.append(ReplayItem("car seggs 1","park_secret","Kim and Will signed a pact"))
+    Replay_items.append(ReplayItem("kim bathroom bj1","class_excuse","kim taking blowjob/storage classes"))
+    Replay_items.append(ReplayItem("kim love ho 1","kim_love_ho","Kim love hotel with Will"))
+    Replay_items.append(ReplayItem("diane first bj1","diane_bj","Diane first blowjob"))
+    Replay_items.append(ReplayItem("jamie finger 4","ice_cream","Jamie exploration"))
+    Replay_items.append(ReplayItem("will diane kiss 2","diane_party","Diane party"))
+    Replay_items.append(ReplayItem("gelatomoosoomay","kim_pissy","Branching pact"))
+    Replay_items.append(ReplayItem("gelatomoosoomay","christmas_party","christmas party"))
+    Replay_items.append(ReplayItem("kim will christmas 1","netorase_christmas","netorase christmas"))
+    Replay_items.append(ReplayItem("kim will christmas 1","netorare_christmas","netorare christmas"))
+    Replay_items.append(ReplayItem("gelatomoosoomay","christmas_eve","christmas eve"))
+    Replay_items.append(ReplayItem("diane christmas sex 1","diane_suspects","Diane christmas seggs"))
+    Replay_items.append(ReplayItem("kim dinner grin","valentine_intro","Valentine date"))
+    Replay_items.append(ReplayItem("diane dinner smile","diane_valentine_date","Diane valentine date"))
+    Replay_items.append(ReplayItem("jamie cheer shy","kim_jamie_valentines_sex","Kim and Jamie valentine sex"))
+    Replay_items.append(ReplayItem("kim cow bj 1","william_kim_valentines_nts","William and Kim valentine date NTS"))
+    Replay_items.append(ReplayItem("kim cow bj 1","william_kim_valentines_ntr","William and Kim valentine date NTR"))
+    Replay_items.append(ReplayItem("nts jamie 1","diane_discovers_jamie_ntr","Diane discovers Jamie NTR"))
+    Replay_items.append(ReplayItem("threesome cosplay","diane_discovers_jamie_sissy","Diane discovers Jamie SISSY"))
+    Replay_items.append(ReplayItem("diane peek","diane_discovers","Diane discovers"))
+    Replay_items.append(ReplayItem("jamie cowgirl 1","kim_convince_sissy","Jamie cowgirl"))
+    Replay_items.append(ReplayItem("kim cabin sleep 1","kim_convince_nts","Kim convince NTS"))
+    Replay_items.append(ReplayItem("kimdiane fit","family_park","Family park!"))
+    Replay_items.append(ReplayItem("kim diane bj 1","dinner_ntr","Dinner NTR"))
+    Replay_items.append(ReplayItem("kim diane kiss","dinner_ntr_jamie_pov","Dinner NTR Jamie pov"))
+    Replay_items.append(ReplayItem("nts restaurant","nts_arrangement","Kim NTS arrangement"))
+    Replay_items.append(ReplayItem("nts restaurant","ntr_start_jamie_pov","Kim NTR"))
+    Replay_items.append(ReplayItem("jamie lift 2","will bonding","Will and Jamie bonding"))
+    Replay_items.append(ReplayItem("gelatomoosoomay","island_vacay","Island vacay start"))
+    Replay_items.append(ReplayItem("kim quickie 1","plane_bj","Kim's plane blowjob"))
+    Replay_items.append(ReplayItem("gelatomoosoomay","airplane_cont","airplane landed to Island"))
+    Replay_items.append(ReplayItem("diane afterparty 1","diane_island_night","Diane island night"))
+    Replay_items.append(ReplayItem("volleyball yk","diane_day_two","Island day two"))
+    Replay_items.append(ReplayItem("isle bathroom sex 1","island_hideaway_jamie_pov","Island hideaway"))
+    Replay_items.append(ReplayItem("gelatomoosoomay","island_day_two_cont","Island day two continues"))
+    Replay_items.append(ReplayItem("gelatomoosoomay","island_day_three","Island day three"))
+    Replay_items.append(ReplayItem("french sex 1","diane_gangbang","Diane first gangbang"))
+    Replay_items.append(ReplayItem("skydive","island_day_four","Island day four"))
+    Replay_items.append(ReplayItem("island stack","kim_island_threesome_start_nts","Kim Island threesome NTS"))
+    Replay_items.append(ReplayItem("divided jamie ntr 1","kim_island_threesome_start_ntr","Kim Island threesome NTR"))
+    Replay_items.append(ReplayItem("green jamie 1","island_fifth_day","Island fifth day"))
     # Replay_items.append(ReplayItem("","",""))
     # Replay_items.append(ReplayItem("","",""))
     # Replay_items.append(ReplayItem("","",""))
@@ -50,12 +106,6 @@ init python:
     # Replay_items.append(ReplayItem("","",""))
     # Replay_items.append(ReplayItem("","",""))
     # Replay_items.append(ReplayItem("","",""))
-    # Replay_items.append(ReplayItem("","",""))
-    # Replay_items.append(ReplayItem("","",""))
-    # Replay_items.append(ReplayItem("","",""))
-    # Replay_items.append(ReplayItem("","",""))
-    # Replay_items.append(ReplayItem("","",""))
-    Replay_items.append(ReplayItem("cabin art","kim_and_will_camp","Kim and will cabin romance"))
     Replay_items.append(ReplayItem("alex sex 1", "party_alex_invite_ntr", "Alex and Kim's island party"))
     Replay_items.append(ReplayItem("trio party 1", "party_alex_invite_nts", "Kim missing out on the party"))
     Replay_items.append(ReplayItem("jamie ponder 1", "foreign_date", "Jamie's Date with the foreigner"))
@@ -92,10 +142,10 @@ init python:
     Replay_items.append(ReplayItem("kim diane throatswab 1","jamie_finds_out","Kim cheating whore"))
     # Replay_items.append(ReplayItem("","",""))
 
+
+    for replay_item in Replay_items:
+     replay_item.replay_number = Replay_items.index(replay_item) + 1
+
+     
 # a black background screen for the selection
 image black = "#000000"
-
-#replay thumbnails images setup defined here
-image alexpussy = ("images/cg/alex doggy1.png")
-image Rthumb1 = ("images/replay/replay_unlock.jpg")
-#image Rthumb2 = ("images/replay/anotherimage.jpg")
