@@ -1,6 +1,6 @@
 req for images: 
 
-webp format
+webp format (text me if you dont want to have webp format photos i will recode so it will work with png format, because i just realised that i decided for you the format for your game and i dont want that)
 
 thumbnails must end with _t and they must be placed inside gallery thumbnails folder (also they also must be .webp)
 
