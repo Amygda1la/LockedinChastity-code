@@ -13047,7 +13047,7 @@ label kim_and_will_blowjob:
     "William the fixes himself..."
 
     "William exits the apartment with Kim having tears in her eye, and regret in her heart...."
-
+    $ renpy.end_replay()
     menu:
         "Diane and Will Pov":
             jump diane_and_will_breastmilk
@@ -19762,7 +19762,6 @@ label kim_jamie_room:
 
     k "(Hmmm....I'm really thirsty..)"
 
-
 label sneak:
 
     scene characterroom night
@@ -19863,5 +19862,5 @@ label sneak:
     k "(Anyways...I need to sleep....)"
 
     "Kim's consciousness fades as the comfort of sleep takes her...."
-
+    $ renpy.end_replay()
     jump morning

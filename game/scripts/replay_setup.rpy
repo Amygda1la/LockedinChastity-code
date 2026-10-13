@@ -86,7 +86,7 @@ init python:
     Replay_items.append(ReplayItem("kim quickie 1","plane_bj","Kim's plane blowjob"))
     Replay_items.append(ReplayItem("gelatomoosoomay","airplane_cont","airplane landed to Island"))
     Replay_items.append(ReplayItem("diane afterparty 1","diane_island_night","Diane island night"))
-    Replay_items.append(ReplayItem("volleyball yk","diane_day_two","Island day two"))
+    Replay_items.append(ReplayItem("volleyball yk","island_day_two","Island day two"))
     Replay_items.append(ReplayItem("isle bathroom sex 1","island_hideaway_jamie_pov","Island hideaway"))
     Replay_items.append(ReplayItem("gelatomoosoomay","island_day_two_cont","Island day two continues"))
     Replay_items.append(ReplayItem("gelatomoosoomay","island_day_three","Island day three"))
@@ -95,7 +95,7 @@ init python:
     Replay_items.append(ReplayItem("island stack","kim_island_threesome_start_nts","Kim Island threesome NTS"))
     Replay_items.append(ReplayItem("divided jamie ntr 1","kim_island_threesome_start_ntr","Kim Island threesome NTR"))
     Replay_items.append(ReplayItem("green jamie 1","island_fifth_day","Island fifth day"))
-    # Replay_items.append(ReplayItem("","",""))
+    Replay_items.append(ReplayItem("yelena davui 1","yelena_island","Jamie with Yelena's family"))
     # Replay_items.append(ReplayItem("","",""))
     # Replay_items.append(ReplayItem("","",""))
     # Replay_items.append(ReplayItem("","",""))
@@ -122,6 +122,12 @@ init python:
     Replay_items.append(ReplayItem("raven pic 1", "axe", "The group goes to a convention while cosplaying"))
     Replay_items.append(ReplayItem("kim succumb 1", "kim_touch", "Kim's First Creampie"))
     Replay_items.append(ReplayItem("kim succumb 1", "jamie_delivery", "Kim's First Creampie (Jamie POV)"))
+    Replay_items.append(ReplayItem("tv tease 1","tv_tease","Kim TV tease"))
+    Replay_items.append(ReplayItem("diane jamie watch 5","jamie_witnesses","Jamie helps Will (NTS)"))
+    Replay_items.append(ReplayItem("diane will 69 1","diane_wwe_before","Diane WWE"))
+    Replay_items.append(ReplayItem("yelena dressup 3","yelena_secret","Yelena secret"))
+    Replay_items.append(ReplayItem("kim diane throatswab 1","jamie_finds_out","Kim cheating whore"))
+    # Replay_items.append(ReplayItem("","",""))
     Replay_items.append(ReplayItem("gelatomoosoomay","jamie_and_yelena","Jamie finds a job"))
     Replay_items.append(ReplayItem("gelatomoosoomay","jamie_library","Jamie month anniversary"))
     Replay_items.append(ReplayItem("yelena kabedon 1","yelena_moves","Yelena vs cass"))
@@ -133,19 +139,11 @@ init python:
     Replay_items.append(ReplayItem("yelena dinner grin","yelena_date","Yelena valentine date"))
     Replay_items.append(ReplayItem("gelatomoosoomay","diane_discovers_jamie_yelena","Jamie chats with Yelena"))
     Replay_items.append(ReplayItem("yelena fit","yelena_boxes","Yelena spends time with Jamie"))
-    Replay_items.append(ReplayItem("yelena lotion 0","island_vacay","island vacay"))
-    Replay_items.append(ReplayItem("yelena davui 1","yelena_island_accept","Yelena with family at vacay"))
-    Replay_items.append(ReplayItem("tv tease 1","tv_tease","Kim TV tease"))
-    Replay_items.append(ReplayItem("diane jamie watch 5","jamie_witnesses","Jamie helps Will (NTS)"))
-    Replay_items.append(ReplayItem("diane will 69 1","diane_wwe_before","Diane WWE"))
-    Replay_items.append(ReplayItem("yelena dressup 3","yelena_secret","Yelena secret"))
-    Replay_items.append(ReplayItem("kim diane throatswab 1","jamie_finds_out","Kim cheating whore"))
-    # Replay_items.append(ReplayItem("","",""))
 
 
     for replay_item in Replay_items:
      replay_item.replay_number = Replay_items.index(replay_item) + 1
 
-     
+
 # a black background screen for the selection
 image black = "#000000"

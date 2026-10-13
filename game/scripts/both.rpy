@@ -10,7 +10,7 @@ init python:
     def get_gallery_hover(image):
      thumbnail = "images/gallery thumbnails/" + image + "_t" + ".webp"
      if not renpy.loadable(thumbnail):
-      return "images/hover_2560.webp"
+      return "images/hover_550.webp"
      match characters[characters_index]:
       case "Kim":
        return "images/kim_hover.webp"
@@ -166,7 +166,6 @@ transform hover_blur:
     size (550,310)
     blur 110
     linear 0.15 alpha 1.0
-
 
 
 transform gallery_open:

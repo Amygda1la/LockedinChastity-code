@@ -169,7 +169,7 @@ init python:
     gallery_items.append(GalleryItem("Diane comes to will's place", ["diane cook 1", "diane cook 2","diane cook 3","diane cook 4","diane cook 5","diane cook 4","counter sex 1","counter sex 2","diane counter 5"]))
     gallery_items.append(GalleryItem("Jamie locked in chastity", ["kim jamie mirror 1","cage finger 1","cage finger 2", "kim whisper 3"]))
     gallery_items.append(GalleryItem("Jamie cat photos", ["push down 1","push down 2"]))
-    gallery_items.append(GalleryItem("Hex", ["hex 2", "hex 1"]))
+    gallery_items.append(GalleryItem("Hex", ["hex 2", "hex 1", "hex 3", "hex 4"]))
     gallery_items.append(GalleryItem("Twist", ["twist 1", "twist 2", "twist 3"]))
     gallery_items.append(GalleryItem("Tcg Jamie", ["tcg jamie 3","tcg jamie 2"]))
     gallery_items.append(GalleryItem("Jamie and Will dinner", ["jamie will diner 1", "jamie will diner 2"]))
@@ -195,7 +195,7 @@ init python:
     gallery_items.append(GalleryItem("Kim Diane throatswab ", ["kim diane throatswab 1","kim diane throatswab 2","kim diane throatfuck 1", "kim diane throatfuck 2","kim diane throatfuck 1","kim diane throatswab 6", "kim diane throatfuck 3","kim diane throatfuck 4","kim diane throatfuck 2","kim diane throatfuck 1","kim diane throatswab 6","kim diane throatfuck 3","kim diane throatfuck 4", "kim diane throatswab 10"]))
     gallery_items.append(GalleryItem("Kim cheating whore", ["kim cheating whore 3", "kim submitting to will 1","kim submitting to will 2","kim cheating whore 4"]))
 
-    
+
     for gallery_item in gallery_items:
      gallery_item.image_number = gallery_items.index(gallery_item) + 1
 

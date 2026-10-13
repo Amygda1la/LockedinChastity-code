@@ -27951,7 +27951,7 @@ label island_vacay:
 
     j "Do I have to join?"
 
-    w "Of course you do, you little shit, come here"\
+    w "Of course you do, you little shit, come here"
 
     hide alex
 
@@ -28024,7 +28024,7 @@ label island_vacay:
     "..........."
 
     ".............."
-
+    $ renpy.end_replay()
     menu:
 
         "Kim and Will POV":
@@ -29157,7 +29157,7 @@ label diane_island_night:
     stop climax
 
     stop music
-
+    $ renpy.end_replay()
     jump island_day_two
 
 label diane_island_night_jamie:
@@ -30324,7 +30324,7 @@ label island_hideaway:
     d "*sigh* You two are lucky I was here first... Just hurry up before someone comes and gets suspicious"
 
     w "Hahaha alright"
-
+    $ renpy.end_replay()
     jump island_day_two_cont
 
 
@@ -30664,7 +30664,7 @@ label island_day_two_cont:
     k "Hehehe good~"
 
     stop music
-
+    $ renpy.end_replay()
 
 
 

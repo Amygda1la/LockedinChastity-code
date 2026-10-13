@@ -20,10 +20,11 @@ screen replay_gallery_B():
         xspacing 100
         yspacing - 160
         for scene_index, i  in enumerate(range(start,end)):
+            $hover_image = get_gallery_hover(Replay_items[i].thumbnail_image)
             if renpy.seen_label(Replay_items[i].replay):
              imagebutton:
               idle Replay_items[i].thumbnail_image
-              hover_foreground  At("images/hover_550.webp", hover_blur)
+              hover_foreground  At(hover_image, hover_blur)
               xalign 0.5
               yalign 0.5
               action Replay(Replay_items[i].replay)
@@ -33,7 +34,7 @@ screen replay_gallery_B():
             else:
              imagebutton:
               idle Replay_items[i].thumbnail_image
-              hover_foreground  At("images/hover_550.webp", hover_blur)
+              hover_foreground  At(hover_image, hover_blur)
               xalign 0.5
               yalign 0.5
               action NullAction()
