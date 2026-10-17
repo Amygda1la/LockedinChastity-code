@@ -7,11 +7,13 @@ init python:
 
 
 
-    def get_gallery_hover(image):
+    def get_gallery_hover(image, is_replay = False):
      thumbnail = "images/gallery thumbnails/" + image + "_t" + ".webp"
-     if not renpy.loadable(thumbnail):
-      return "images/hover_550.webp"
-     match characters[characters_index]:
+     if is_replay:
+      character = characters_replay[characters_index_replay]
+     else:
+      character =  characters[characters_index]
+     match character:
       case "Kim":
        return "images/kim_hover.webp"
       case "Diane":

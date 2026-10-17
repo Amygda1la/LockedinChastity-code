@@ -2537,14 +2537,13 @@ label after_gym:
     w "Well sure thing..."
 
     "William then drives us off to a fast food chain to grab some food before we all head home"
+    $ renpy.end_replay()
 
     menu:
         "Diane and Will Pov":
-            $ renpy.end_replay()
             jump will_and_diane_date2
 
         "Jamie Pov":
-            $ renpy.end_replay()
             jump jamie_diane
 
 label will_and_diane_date2:
@@ -11717,6 +11716,7 @@ label ride_home:
     j "Pfft where'd that corny line come from?"
 
     w "Don't worry about it man, and focus on the puzzle hahaha"
+    $ renpy.end_replay()
     menu:
         "Kim and Will POV":
             jump kim_depresso
