@@ -11,6 +11,7 @@ No need to add images from image folder anymore. Instead dowload this folder:
 (https://drive.google.com/drive/folders/1DcdzzEKdvd-6Tb8BRdW_6_U2rkKnwUvf?usp=drive_link)
 
 just replace your images folder with this one. It has all photos converted to webp format and also hovers and thumbnails for gallery and replay menus
-Also replay gui images folder
+
+also replay gui images folder
 
 P.S I haven't commented anything (im sorry)
