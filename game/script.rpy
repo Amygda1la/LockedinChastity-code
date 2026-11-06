@@ -4,19 +4,19 @@
 # name of the character.
 
 
-define j = Character(_("Jamie"), color="#05f7ff77")
-define k = Character(_("Kim"), color="#feffae")
-define d = Character(_("Diane"), color="#892d2d")
-define w = Character(_("William"), color="#61486d")
-define a = Character(_("Alex"), color="#ff5cec")
-define s = Character(_("Sophia"), color="#572dff")
-define l = Character(_("Lily"), color="#2dff5a")
-define t = Character(_("Thug"), color="#fd1e4782")
-define b = Character(_("???"), color="#ffffffdc")
-define o = Character(_("M"), color="#ffffffdc")
-define r = Character(_("Reporter"), color="#f1ff59dc")
-define q = Character(_("Quinn"), color="#63ffbbdc")
-define y = Character(_("Yelena"), color="#63ffbbdc")
+# define j = Character(_("Jamie"), color="#05f7ff77", show_outline_color = "#05f7ff77" )
+# define k = Character(_("Kim"), color="#feffae", show_outline_color = "#feffae")
+# define d = Character(_("Diane"), color="#892d2d", show_outline_color = "#892d2d")
+# define w = Character(_("William"), color="#61486d", show_outline_color = "#61486d")
+# define a = Character(_("Alex"), color="#ff5cec", show_outline_color = "#ff5cec")
+# define s = Character(_("Sophia"), color="#572dff", show_outline_color = "#572dff")
+# define l = Character(_("Lily"), color="#2dff5a", show_outline_color = "#2dff5a")
+# define t = Character(_("Thug"), color="#fd1e4782", show_outline_color = "#fd1e4782")
+# define b = Character(_("???"), color="#ffffffdc", show_outline_color = "#ffffffdc")
+# define o = Character(_("M"), color="#ffffffdc", show_outline_color = "#ffffffdc")
+# define r = Character(_("Reporter"), color="#f1ff59dc", show_outline_color = "#f1ff59dc")
+# define q = Character(_("Quinn"), color="#63ffbbdc", show_outline_color = "#63ffbbdc")
+# define y = Character(_("Yelena"), color="#63ffbbdc", show_outline_color = "#63ffbbdc")
 
 
 label animated:
@@ -363,9 +363,7 @@ init python:
     renpy.music.register_channel("ambience", "sfx", loop=True)
 
 # The game starts here.
-
 label start:
-
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
@@ -1918,7 +1916,7 @@ label jamie_pov1:
 
         "............................................"
 
-        "................................................................."
+        "............................ ....................................."
 
         "I should say sorry...."
 
@@ -6099,9 +6097,9 @@ label kim_pov2:
 
     play sound "audio/cum1.mp3" volume 0.5
 
-    k "*SPLLLLLUUUUUUUUUUUUUUUUURTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT*"
+    k "*SPLLLLLUUUUUUUUUUUUUUUUURTTTTTTTTTTTTT TTTTTTTTTTTTTTTTTTTT*"
 
-    k "SPPFFFHHHHHHHHTTTTTTTT *SPLUUUURRRTTTTTTTTTTT* MGHHFMMGHHHHHHHHHHHHHHHH!...........*SPLUURRRTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT*"
+    k "SPPFFFHHHHHHHHTTTTTTTT *SPLUUUURRRTTTTTTTTTTT* MGHHFMMGHHHHHHHHHHHHHHHH!........... *SPLUURRRTTTTTTTTTTTTTTTTTTTTTTTTTT TTTTTTTTTTTTTT*"
 
     "Kim imagines herself being filled to the brim....by the massive dildo..."
 
@@ -6113,7 +6111,7 @@ label kim_pov2:
 
     stop sound
 
-    k "Mghhmfhhhhhhhhhhh......Hfmmghhhhhhh....Mfghhhhhhhh........mfhhhhh......mfhhmmmmmm"
+    k "Mghhmfhhhhhhhhhhh......Hfmmghhhhhhh.... Mfghhhhhhhh........ mfhhhhh......mfhhmmmmmm"
 
     k "(Fuck.....hah....hah...)"
 
@@ -7103,7 +7101,7 @@ label kim_and_jamie_sex1:
 
     "Thankfully...the condom is helping lessen the overwhelming sensations..."
 
-    "*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*.........."
+    "*Plap*...........*Plap*..........*Plap*........... *Plap*..........*Plap*...........*Plap*.......... *Plap*...........*Plap*..........*Plap*........... *Plap*..........*Plap*...........*Plap*.........."
 
     "I slowly thrust my hips repeatedly..."
 
@@ -7113,7 +7111,7 @@ label kim_and_jamie_sex1:
 
     j "Kim...I...hah .."
 
-    "*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*.........."
+    "*Plap*...........*Plap*.......... *Plap*...........*Plap*.......... *Plap*...........*Plap*.......... *Plap*...........*Plap*.........."
 
     "Though...I have to take breaks every now and then..."
 
@@ -7123,7 +7121,7 @@ label kim_and_jamie_sex1:
 
     j "Thanks Kim...hah...hah .."
 
-    "*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*.........."
+    "*Plap*........... *Plap*..........*Plap*...........*Plap*.......... *Plap*...........*Plap*..........*Plap*........... *Plap*..........*Plap*...........*Plap*.........."
 
     "I continue having sex with Kim....now daring myself to go even faster..."
 
@@ -7155,7 +7153,7 @@ label kim_and_jamie_sex1:
 
     k "It feels so good..."
 
-    "*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*.........."
+    "*Plap*........... *Plap*.......... *Plap*........... *Plap*.......... Plap*...........*Plap*.......... *Plap*........... *Plap*..........*Plap*...........*Plap*.........."
 
     j "It feels so good...hah...shit hah..hah.."
 
@@ -7173,7 +7171,7 @@ label kim_and_jamie_sex1:
 
     j "Kim...I'm about to...hahh..hah"
 
-    "*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*.........."
+    "*Plap*...........*Plap*..........*Plap*........... *Plap*..........*Plap*...........*Plap*.......... *Plap*...........*Plap*..........*Plap*...........*Plap*.......... *Plap*...........*Plap*.........."
 
     j "Kim I'm so close....hahh hah..."
 
@@ -7189,7 +7187,7 @@ label kim_and_jamie_sex1:
 
     j "Kim...I.."
 
-    "*Plap*...........*Plap*..........*Plap*...........*Plap*..........Plap*...........*Plap*..........Plap*...........*Plap*.........."
+    "*Plap*........... *Plap*..........*Plap*........... *Plap*..........Plap*........... *Plap*..........Plap*...........*Plap*.........."
 
     j "Yes baby that's it..."
 
@@ -7289,7 +7287,7 @@ label kim_and_jamie_sex1:
 
     play music2 "audio/wetfuck1.mp3" volume 0.5
 
-    "*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*"
+    "*Plap*...........*Plap*..........*Plap*........... *Plap*..........*Plap*........... *Plap*..........*Plap*"
 
     "Kim bounces on top of me..."
 
@@ -7303,7 +7301,7 @@ label kim_and_jamie_sex1:
 
     j "Kim...hah...hah...hah..fuck..."
 
-    "*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*..........."
+    "*Plap*........... *Plap*..........*Plap*........... *Plap*..........*Plap*..........."
 
     k "Hahh...hah...cmon baby...cmon...."
 
@@ -7321,7 +7319,7 @@ label kim_and_jamie_sex1:
 
     "She looks like a hungry predator that's munching on her meal..."
 
-    "*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*....."
+    "*Plap*.....*Plap*..... *Plap*.....*Plap*.....*Plap*..... *Plap*..... *Plap*.....*Plap*.....*Plap*..... *Plap*.....*Plap*.....*Plap*....."
 
     k "Cmon...cmon...that's it...I can feel something...hah.."
 
@@ -7331,7 +7329,7 @@ label kim_and_jamie_sex1:
 
     k "Fuck me baby...cmon...fuck me.."
 
-    "*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*....."
+    "*Plap*..... *Plap*.....*Plap*.....*Plap*..... *Plap*.....*Plap*.....*Plap*..... *Plap*.....*Plap*.....*Plap*....."
 
     "Kim never looked like this before"
 
@@ -7345,13 +7343,13 @@ label kim_and_jamie_sex1:
 
     "Was there a ravenous beast inside her this whole time, but never told me?"
 
-    "*Plap*..........*Plap*..........*Plap*..........*Plap*..........*Plap*"
+    "*Plap*..........*Plap*.......... *Plap*..........*Plap*..........*Plap*"
 
     k "Hah...hah...fuck why can't I...hah..."
 
     j "Shit...this is too much...hahh..."
 
-    "*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*....."
+    "*Plap*.....*Plap*..... *Plap*.....*Plap*..... *Plap*..... *Plap*.....*Plap*.....*Plap*..... *Plap*.....*Plap*.....*Plap*.....*Plap*....."
 
     k "But...hahh...I need more...hah.."
 
@@ -7361,7 +7359,7 @@ label kim_and_jamie_sex1:
 
     "Kim's bouncing become even faster and frantic..."
 
-    "*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*....."
+    "*Plap*.....*Plap*..... *Plap*..... *Plap*.....*Plap*.....*Plap*..... *Plap*.....*Plap*....."
 
     "Like she's desperately looking for something..."
 
@@ -7371,7 +7369,7 @@ label kim_and_jamie_sex1:
 
     "With her relentless pounding, and no sign of stopping...my body is quickly reaching it's limit..."
 
-    "*Plap*..........*Plap*..........*Plap*..........*Plap*..........*Plap*..........*Plap*..........*Plap*.........."
+    "*Plap*.......... *Plap*.......... *Plap*.......... *Plap*.......... *Plap*.......... *Plap*..........*Plap*.........."
 
     j "Kim....I'm about to..."
 
@@ -7381,7 +7379,7 @@ label kim_and_jamie_sex1:
 
     j "I can't...I...hahh...hah...Im gonna..."
 
-    "*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*....."
+    "*Plap*.....*Plap*..... *Plap*..... *Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*....."
 
     k "No...please wait...I need to..."
 
@@ -7683,13 +7681,13 @@ label kim_and_jamie_sex1_kim_pov1:
 
     k "(Every thrust is slow and deliberate....a cycle of struggle to not cum immediately...)"
 
-    "Plap...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*.........."
+    "Plap...........*Plap*.......... *Plap*...........*Plap*.......... *Plap*........... *Plap*..........*Plap*........... *Plap*..........*Plap*........... *Plap*..........*Plap*...........*Plap*.........."
 
     k "Yeah that's it good boy..."
 
     j "Kim...I...hah .."
 
-    "Plap...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*.........."
+    "Plap...........*Plap*.......... *Plap*........... *Plap*.......... *Plap*...........*Plap*.......... *Plap*........... *Plap*.........."
 
     k "(Due to his own stamina....he has to take breaks often...)"
 
@@ -7699,7 +7697,7 @@ label kim_and_jamie_sex1_kim_pov1:
 
     j "Thanks Kim...hah...hah .."
 
-    "Plap...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*.........."
+    "Plap...........*Plap*.......... *Plap*...........*Plap*.......... *Plap*........... *Plap*..........*Plap*........... *Plap*.......... *Plap*...........*Plap*.........."
 
     k "(Filled with determination..)"
 
@@ -7736,7 +7734,7 @@ label kim_and_jamie_sex1_kim_pov1:
 
     k "It feels so good..."
 
-    "Plap...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*.........."
+    "Plap........... *Plap*.......... *Plap*........... *Plap*..........*Plap*........... *Plap*.......... *Plap*........... *Plap*.......... *Plap*...........*Plap*.........."
 
     j "It feels so good...hah...shit hah..hah.."
 
@@ -7754,7 +7752,7 @@ label kim_and_jamie_sex1_kim_pov1:
 
     j "Kim...I'm about to...hahh..hah"
 
-    "Plap...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*.........."
+    "Plap...........*Plap*.......... *Plap*........... *Plap*..........*Plap*........... *Plap*..........*Plap*........... *Plap*..........*Plap*...........*Plap*..........*Plap*........... *Plap*.........."
 
     j "Kim I'm so close....hahh hah..."
 
@@ -7762,7 +7760,7 @@ label kim_and_jamie_sex1_kim_pov1:
 
     k "just give it all to me, that's right..."
 
-    "Plap...........*Plap*..........*Plap*...........*Plap*..........*Plap*..........*Plap*"
+    "Plap...........*Plap*..........*Plap*...........*Plap*.......... *Plap*..........*Plap*"
 
     k "(Is he really that close to cumming?...)"
 
@@ -7778,7 +7776,7 @@ label kim_and_jamie_sex1_kim_pov1:
 
     j "Kim...I.."
 
-    "Plap...........*Plap*..........*Plap*...........*Plap*..........Plap*...........*Plap*..........Plap*...........*Plap*.........."
+    "Plap...........*Plap*.......... *Plap*...........*Plap*..........Plap*........... *Plap*..........Plap*........... *Plap*.........."
 
     j "Yes baby that's it..."
 
@@ -7884,7 +7882,7 @@ label kim_and_jamie_sex1_kim_pov1:
 
     play music2 "audio/wetfuck1.mp3" volume 0.5
 
-    "*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*...........*Plap*..........*Plap*"
+    "*Plap*...........*Plap*.......... *Plap*........... *Plap*..........*Plap*........... *Plap*..........*Plap*"
 
     k "(I bounce on Jamie...riding him intensely)"
 
@@ -7898,7 +7896,7 @@ label kim_and_jamie_sex1_kim_pov1:
 
     j "Kim...hah...hah...hah..fuck..."
 
-    "Plap...........*Plap*..........*Plap*...........*Plap*..........*Plap*..........."
+    "Plap........... *Plap*..........*Plap*........... *Plap*..........*Plap*..........."
 
     k "Hahh...hah...cmon baby...cmon...."
 
@@ -7916,7 +7914,7 @@ label kim_and_jamie_sex1_kim_pov1:
 
     k "(But I feel like something is missing..)"
 
-    "*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*....."
+    "*Plap*.....*Plap*..... *Plap*..... *Plap*.....*Plap*..... *Plap*.....*Plap*..... *Plap*.....*Plap*.....*Plap*..... *Plap*.....*Plap*....."
 
     k "Cmon...cmon...that's it...I can feel something...hah.."
 
@@ -7926,13 +7924,13 @@ label kim_and_jamie_sex1_kim_pov1:
 
     k "Fuck me baby...cmon...fuck me.."
 
-    "*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*....."
+    "*Plap*.....*Plap*.....*Plap*..... *Plap*..... *Plap*..... *Plap*..... *Plap*.....*Plap*.....*Plap*.....*Plap*....."
 
     k "(But even then....nothing pleasure me..)"
 
     k "(No matter how fast my strokes was getting....I still felt nothing...)"
 
-    "*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*....."
+    "*Plap*.....*Plap*..... *Plap*..... *Plap*..... *Plap*.....*Plap*.....*Plap*....."
 
     k "(Fuck...was I always like this?)"
 
@@ -7942,25 +7940,25 @@ label kim_and_jamie_sex1_kim_pov1:
 
     k "(To get fucked...hard)"
 
-    "*Plap*..........*Plap*..........*Plap*..........*Plap*..........*Plap*"
+    "*Plap*..........*Plap*.......... *Plap*.......... *Plap*..........*Plap*"
 
     k "Hah...hah...fuck why can't I...hah..."
 
     j "Shit...this is too much...hahh..."
 
-    "*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*....."
+    "*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*..... *Plap*.....*Plap*..... *Plap*.....*Plap*..... *Plap*.....*Plap*.....*Plap*....."
 
     k "But...hahh...I need more...hah.."
 
     k "(More.....hah...more I need fucking...more)"
 
-    "*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*....."
+    "*Plap*.....*Plap*.....*Plap*..... *Plap*.....*Plap*.....*Plap*..... *Plap*.....*Plap*....."
 
     k "(Why can't I feel fucking anything...?)"
 
     k "Fucking...shit hahh..."
 
-    "*Plap*..........*Plap*..........*Plap*..........*Plap*..........*Plap*..........*Plap*..........*Plap*.........."
+    "*Plap*..........*Plap*.......... *Plap*.......... *Plap*..........*Plap*.......... Plap*..........*Plap*.........."
 
     j "Kim....I'm about to..."
 
@@ -7970,7 +7968,7 @@ label kim_and_jamie_sex1_kim_pov1:
 
     j "I can't...I...hahh...hah...Im gonna..."
 
-    "*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*.....*Plap*....."
+    "*Plap*..... *Plap*.....*Plap*..... *Plap*.....*Plap*..... *Plap*..... *Plap*.....*Plap*....."
 
     k "No...please wait...I need to..."
 
@@ -8871,13 +8869,13 @@ label will_and_diane_sex1:
 
     "Overwhelmed by the pounding, Diane's pussy becomes drenched...love juices wet the bed with each slam of William's hips..."
 
-    "*Squelch*.....*Squelch*.....*Squelch*.....*Schlick*.....*Schlick*.....*Squelch*.....*Squelch*....."
+    "*Squelch*..... *Squelch*..... *Squelch*..... *Schlick*..... *Schlick*..... *Squelch*..... *Squelch*....."
 
     d "Oh! oh! Fuck me!!"
 
     w "Fuck! you like this dick huh!?"
 
-    "*Squelch!*.....*Squelch!*.....*Squelch!*.....*Squelch!*.....*Squelch!*.....*Schlick!*.....*Schlick!*.....*Schlick!*....."
+    "*Squelch!*..... *Squelch!*..... *Squelch!*..... *Squelch!*..... *Squelch!*..... *Schlick!*..... *Schlick!*..... *Schlick!*....."
 
     d "Ohhhhhhhhhhhhhhh AHH AHH ahhaaaa fuck!!"
 
@@ -9362,11 +9360,11 @@ label kim_dildo1:
 
     k "(He's about to cum.....fuck!....he's going to cum inside me!)"
 
-    "*Squelch!*....*Schlick!*.....*Schlick!*....*Schlick!*....*Schlick!*....*Squelch!*....*Squelch!*....*Schlick!*.....*Schlick!*....*Schlick!*....*Schlick!*....*Squelch!*....*Squelch!*....*Schlick!*.....*Schlick!*....*Schlick!*....*Schlick!*....*Squelch!*...."
+    "*Squelch!*....*Schlick!*..... *Schlick!*....*Schlick!*.... *Schlick!*.... *Squelch!*....*Squelch!*....*Schlick!*.....*Schlick!*....*Schlick!*....*Schlick!*....*Squelch!*....*Squelch!*....*Schlick!*.....*Schlick!*....*Schlick!*....*Schlick!*....*Squelch!*...."
 
     k "Oh god .. almost there!"
 
-    "*Squelch!*....*Schlick!*.....*Schlick!*....*Schlick!*....*Schlick!*....*Squelch!*....*Squelch!*....*Schlick!*.....*Schlick!*....*Schlick!*....*Schlick!*....*Squelch!*....*Squelch!*....*Schlick!*.....*Schlick!*....*Schlick!*....*Schlick!*....*Squelch!*....*Squelch!*....*Schlick!*.....*Schlick!*....*Schlick!*....*Schlick!*....*Squelch!*...."
+    "*Squelch!*....*Schlick!*..... *Schlick!*.... *Schlick!*.... *Schlick!*....*Squelch!*.... *Squelch!*.... *Schlick!*.....*Schlick!*....*Schlick!*....*Schlick!*....*Squelch!*....*Squelch!*....*Schlick!*.....*Schlick!*....*Schlick!*....*Schlick!*....*Squelch!*....*Squelch!*....*Schlick!*.....*Schlick!*....*Schlick!*....*Schlick!*....*Squelch!*...."
 
     k "Oh fuck! fuck! fuck! fuck! fuck!"
 
@@ -9378,9 +9376,9 @@ label kim_dildo1:
 
     play music2 "audio/cum1.mp3" volume 5.0
 
-    "*Spuuuurttt!!*....*Spuurt!!*.....*Spuuurt!!* *Spuuuurt!!*"
+    "*Spuuuurttt!!*....*Spuurt!!*..... *Spuuurt!!* *Spuuuurt!!*"
 
-    "*Spuurt!!*....*Spuurt!!*.........*Spuurt!!*"
+    "*Spuurt!!*.... *Spuurt!!*.........*Spuurt!!*"
 
     "Kim deludes herself into being filled to the brim with cum."
 
@@ -10435,7 +10433,7 @@ label will_and_diane_sex2:
 
     play music2 "audio/fingering1.mp3" volume 5.0
 
-    "*Squelch*.....*Squelch*.....*Squelch*.....*Schlick*.....*Schlick*.....*Squelch**Squelch*.....*Squelch*.....*Squelch*.....*Schlick*.....*Schlick*.....*Squelch*"
+    "*Squelch*..... *Squelch*..... *Squelch*..... *Schlick*..... *Schlick*..... *Squelch* *Squelch*..... *Squelch*..... *Squelch*..... *Schlick*..... *Schlick*..... *Squelch*"
 
     "William starts moving...her strokes deep and strong..."
 
@@ -10445,7 +10443,7 @@ label will_and_diane_sex2:
 
     w "Just like that yeah..bitch back it up"
 
-    "*Squelch*.....*Squelch*.....*Squelch*.....*Schlick*.....*Schlick*.....*Squelch*.....*Schlick*.....*Squelch* "
+    "*Squelch*..... *Squelch*..... *Squelch*..... *Schlick*..... *Schlick*..... *Squelch*..... *Schlick*..... *Squelch* "
 
     "Will's strokes become faster and faster.."
 
@@ -11274,7 +11272,7 @@ label game_day_aftermath_kim_pov:
 
     "Jamie moves forward...slowly sliding his cock inside Kim..."
 
-    "*Plap*...........*Plap*..........*Plap*...........*Plap*.........."
+    "*Plap*........... *Plap*..........*Plap*........... *Plap*.........."
 
     j "Mfff hah...hah..hah..."
 
@@ -11302,7 +11300,7 @@ label game_day_aftermath_kim_pov:
 
     scene kim and jamie doggy kim pov 2
 
-    "*Plap*...........*Plap*..........*Plap*...........*Plap*.........."
+    "*Plap*...........*Plap*.......... *Plap*...........*Plap*.........."
 
     "Jamie is clearly struggling...he's doing his best to catch his breath..."
 
@@ -11356,7 +11354,7 @@ label game_day_aftermath_kim_pov:
 
     scene kim and jamie doggy kim pov 3
 
-    "*Plap*...........*Plap*..........*Plap*...........*Plap*.........."
+    "*Plap*...........*Plap*.......... *Plap*...........*Plap*.........."
 
     "Kim's imagination runs wild....for a bit she fantasizes what it would've been liked if she was getting fucked by her dildo instead..."
 
@@ -11497,7 +11495,7 @@ label game_day_aftermath_jamie_pov:
 
     scene kim and jamie doggy jamie pov 3
 
-    "*Plap*...........*Plap*..........*Plap*...........*Plap*.........."
+    "*Plap*........... Plap*.......... *Plap*........... *Plap*.........."
 
     j "Hahh...Kim I'm almost there!"
 
@@ -13875,11 +13873,11 @@ label kim_browsing:
 
     k "(I can't...I won't be able to focus....shit....)"
 
-    "*Plap!*...*Plap!*..*Plap!*...*Plap!*..*Plap!*....*Plap!*"
+    "*Plap!*... *Plap!*.. *Plap!*... *Plap!*.. *Plap!*.... *Plap!*"
 
     "The man in the video intensifies his thrusting...clearly getting ready to unload all his seed into her..."
 
-    "*Plap!*..*Plap!*..*Plap!*..*Plap!*..*Plap!*..*Plap!*.*Plap!*"
+    "*Plap!*.. *Plap!*.. *Plap!*.. *Plap!*..*Plap!*.. *Plap!*. *Plap!*"
 
     "*Spluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuurt*"
 
@@ -13899,7 +13897,7 @@ label kim_browsing:
 
     k "(It's not as big as William's but...if I was her....)"
 
-    k "*Schlick*.....*Schlick*.....*Schlick*........*Schlick*...*Schlick*...........*Schlick* hah..."
+    k "*Schlick*.....*Schlick*.....*Schlick*........ *Schlick*...*Schlick*...........*Schlick* hah..."
 
     k "(William..hah......)"
 
@@ -13959,7 +13957,7 @@ label kim_browsing:
 
     "William cums inside the woman...filling the condom to the brim...."
 
-    k "*Shlick*...*Shlick*..*Shlick*..*Shlick*..*Shlick*.....*Shlick*..*Shlick*...MHHHHHHHHHHHHH!!!!!!!!"
+    k "*Shlick*...*Shlick*..*Shlick*..*Shlick*.. *Shlick*.....*Shlick*.. *Shlick*... MHHHHHHHHHHHHH!!!!!!!!"
 
     stop music2
 
@@ -15174,7 +15172,7 @@ label kim_and_will_party:
 
     k "Hahhhh Oh God!!"
 
-    "*Schlick*.....*Schlick*.....*Schlick*.....*Schlick*.....*Schlick*.....*Schlick*....."
+    "*Schlick*..... *Schlick*..... *Schlick*..... *Schlick*..... *Schlick*..... *Schlick*....."
 
     w "Hehe that's right babygirl...scream for me"
 
@@ -15186,7 +15184,7 @@ label kim_and_will_party:
 
     "The sheer amount of pleasure...overriding Kim's bodily controls..."
 
-    "*Schlick*.....*Schlick*.....*Schlick*.....*Schlick*.....*Schlick*.....*Schlick*.....*Schlick*.....*Schlick*.....*Schlick*....."
+    "*Schlick*..... *Schlick*..... *Schlick*..... *Schlick*..... *Schlick*..... *Schlick*..... *Schlick*..... *Schlick*..... *Schlick*....."
 
     w "Hnnnn fuck...fuck"
 
@@ -15200,7 +15198,7 @@ label kim_and_will_party:
 
     play music2 "audio/fastf.mp3" volume 9.0
 
-    "*Schlick*...*Squelch*....*Schlick*...*Schlick*...*Schlick*...*Schlick*...*Schlick*..."
+    "*Schlick*... *Squelch*.... *Schlick*... *Schlick*... *Schlick*... *Schlick*... Schlick*..."
 
     k "Hahhh~ Wait!!"
 
@@ -15220,7 +15218,7 @@ label kim_and_will_party:
 
     "Just wild animals mating together..."
 
-    "*Squelch*....*Squelch*....*Squelch*....*Squelch*....*Squelch*....*Schlick*...*Schlick*"
+    "*Squelch*.... *Squelch*.... *Squelch*.... *Squelch*.... *Squelch*.... *Schlick*... *Schlick*"
 
     "William thrusts faster and faster....also losing control within Kim's tight pussy..."
 
@@ -15228,7 +15226,7 @@ label kim_and_will_party:
 
     "All he can think of is to fuck the shit out of Kim..."
 
-    "*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Squelch*.... *Squelch*.... *Schlick*... *Squelch*.... *Squelch*.... *Schlick*...*Squelch*....  *Squelch*.... *Schlick*... *Squelch*.... *Squelch*.... *Schlick*..."
 
     w "Grrrr!! Hnnngg!!! Gnggrrrrrrr!!"
 
@@ -15242,7 +15240,7 @@ label kim_and_will_party:
 
     "And as Willim thrusts faster and faster....Kim can feel it coming....William's seed"
 
-    "*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Squelch*.... *Squelch*.... *Schlick*... *Squelch*.... *Squelch*.... *Schlick*... *Squelch*.... *Squelch*.... *Schlick*... *Squelch*.... *Squelch*.... *Schlick*..."
 
     k  "Ohhhh!! ohhhhh God!!! fuck!!!!!"
 
@@ -15264,7 +15262,7 @@ label kim_and_will_party:
 
     w "Fuck!!! Kim I''m gonna cum!!"
 
-    "*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Squelch*.... *Squelch*.... *Schlick*... *Squelch*.... *Squelch*.... *Schlick*... *Squelch*.... *Squelch*.... *Schlick*... *Squelch*.... *Squelch*.... *Schlick*..."
 
     "William thrusts himself one last time....this time forcing it inside Kim with power..."
 
@@ -15330,7 +15328,7 @@ label kim_and_will_party:
 
     play sound "audio/squirt.mp3" volume 0.5
 
-    k "Ohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    k "Ohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
     k "OHhhohhhhhhhh....hohhhhh.....oh god!"
 
@@ -15390,7 +15388,7 @@ label kim_and_will_party:
 
     k "Ohoooooooo ohohhhh!!!!"
 
-    "*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Squelch*.... *Squelch*.... *Schlick*... *Squelch*.... *Squelch*.... *Schlick*... *Squelch*.... *Squelch*.... *Schlick*..."
 
     "Kim is on all fours getting fucked by William..."
 
@@ -15400,7 +15398,7 @@ label kim_and_will_party:
 
     k "Y-yessss hahhh!!"
 
-    "*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Squelch*.... *Squelch*.... *Schlick*... *Squelch*.... *Squelch*....*Schlick*..."
 
     w "Damn you're so tight!!"
 
@@ -15408,7 +15406,7 @@ label kim_and_will_party:
 
     w "Fuck...your ass is so damn perfect...urngh!!"
 
-    "*Schlick*...*Squelch*....*Schlick*...*Squelch*....*Schlick*...*Squelch*....*Schlick*...*Squelch*....*Schlick*...*Squelch*...."
+    "*Schlick*... *Squelch*.... *Schlick*... *Squelch*.... *Schlick*... *Squelch*.... *Schlick*... *Squelch*.... *Schlick*... *Squelch*...."
 
     w "How does this dick feel?"
 
@@ -15420,9 +15418,9 @@ label kim_and_will_party:
 
     k "Yes hahhh!! I love your big black dick!!  hahhhnnnn!!"
 
-    "*Schlick*...*Schlick*...*Schlick*...*Schlick*...*Schlick*...*Schlick*...*Schlick*...*Schlick*...*Schlick*..."
+    "*Schlick*... *Schlick*... *Schlick*... *Schlick*... *Schlick*... *Schlick*... *Schlick*... *Schlick*... *Schlick*..."
 
-    "*Schlick*...*Schlick*...*Squelch*....*Schlick*...*Squelch*....*Schlick*..."
+    "*Schlick*... *Schlick*... *Squelch*.... *Schlick*... *Squelch*.... *Schlick*..."
 
     k "Hahhhh hahh!!"
 
@@ -15434,17 +15432,17 @@ label kim_and_will_party:
 
     w "Hah....hah...you  slut!"
 
-    "*Schlick*...*Schlick*...*Squelch*....*Schlick*...*Squelch*....*Schlick*...*Schlick*...*Schlick*...*Squelch*....*Schlick*...*Squelch*....*Schlick*..."
+    "*Schlick*... *Schlick*... *Squelch*.... *Schlick*... *Squelch*.... *Schlick*... *Schlick*... *Schlick*... *Squelch*.... *Schlick*... *Squelch*.... *Schlick*..."
 
     k "Ohhhhh yes~ Itsh shoooo deep~"
 
     k "(My mind is in a fog....I've been fucked for hours now....I can't think straight..)"
 
-    "*Schlick*...*Schlick*...*Squelch*....*Schlick*...*Squelch*....*Schlick*...*Schlick*...*Schlick*...*Squelch*....*Schlick*...*Squelch*....*Schlick*..."
+    "*Schlick*... *Schlick*... *Squelch*.... *Schlick*... *Squelch*.... *Schlick*... *Schlick*... *Schlick*... *Squelch*.... *Schlick*... *Squelch*.... *Schlick*..."
 
     k "Fuckkkkk fuckkk hahhhh hahh~"
 
-    "*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Squelch*.... *Squelch*.... *Schlick*... *Squelch*.... *Squelch*.... *Schlick*... *Squelch*.... *Squelch*.... *Schlick*..."
 
     k "Ohhhhh ohhhhhh!! hahhhh!!! hahn!!"
 
@@ -15461,11 +15459,11 @@ label kim_and_will_party:
 
     "3:57 AM"
 
-    k "*Gawk*...*Suck*.......*Suck*.......*Suck*....*Suck*..."
+    k "*Gawk*... *Suck*....... *Suck*....... *Suck*.... *Suck*..."
 
     w "Yeahhh...you're doing great baby...that's it~"
 
-    k "*Gawk*...*Suck*.......*Suck*....*Gawk*...*Suck*.......*Suck*"
+    k "*Gawk*... *Suck*....... *Suck*.... *Gawk*... *Suck*....... *Suck*"
 
     w "Fuck....that feels fucking good"
 
@@ -15475,7 +15473,7 @@ label kim_and_will_party:
 
     "Hearing William call her a good girl makes her happy...Kim sucks William's dick as eagerly as she can..."
 
-    k "*Gawk*...*Gawk*........*Gawk*...*Gawk*......*Gawk*"
+    k "*Gawk*... *Gawk*........ *Gawk*... *Gawk*...... *Gawk*"
 
     k "MMfffffff!! hnnnggg Chu!"
 
@@ -15487,7 +15485,7 @@ label kim_and_will_party:
 
     "Kim smiles while having a massive black cock in her mouth..."
 
-    k "*Chu* .....*Suck*....*Gawk*...*Suck*.......*Suck*......"
+    k "*Chu* ..... *Suck*.... *Gawk*... *Suck*....... *Suck*......"
 
     k "(Damn.... how many times havve i came cuz uhf thiss dick)"
 
@@ -15495,7 +15493,7 @@ label kim_and_will_party:
 
     w "Yeah....that's right...use that tongue properly baby..."
 
-    k "*Suck*....*Gawk*...*Suck*.......*Suck*.....*Suck*....*Gawk*...*Suck*.......*Suck*..*Lick*...*Lick"
+    k "*Suck*.... *Gawk*... *Suck*....... *Suck*..... *Suck*.... *Gawk*... *Suck*....... *Suck*.. *Lick*... *Lick"
 
     w "fuck...hah...hah....damn.."
 
@@ -15520,7 +15518,7 @@ label kim_and_will_party:
 
     "Loud moans escape from Kim's mouth....unable to control her reaction as she's being pounded by William...."
 
-    "*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Squelch*.... *Squelch*.... *Schlick*... *Squelch*.... *Squelch*.... *Schlick*... *Squelch*.... *Squelch*.... *Schlick*..."
 
     w "Fuck yeah...damn..."
 
@@ -15536,7 +15534,7 @@ label kim_and_will_party:
 
     k "Ohhhhhh hahhh!"
 
-    "*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Schlick*... *Squelch*.... *Squelch*.... *Schlick*... *Schlick*... *Squelch*.... *Squelch*.... *Schlick*..."
 
     k "Shit!! hahhh~ hah~"
 
@@ -15556,7 +15554,7 @@ label kim_and_will_party:
 
     k "Yeshhhhh fuck me~"
 
-    "*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Schlick*... *Squelch*.... *Squelch*.... *Schlick*... *Schlick*... *Squelch*.... *Squelch*.... *Schlick*..."
 
     k "(He's sooo heavy. hah~)"
 
@@ -15588,7 +15586,7 @@ label kim_and_will_party:
 
     scene kim and will mating press 2
 
-    "*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Schlick*...*Squelch*.... *Squelch*....*Schlick*..."
 
     "Kim thinks to herself...but deep deep inside...she doesn't care anymore..."
 
@@ -15614,7 +15612,7 @@ label kim_and_will_party:
 
     "*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
 
-    "*Squelch*....*Squelch*....*Squelch*....*Squelch*....*Squelch*....*Squelch*....*Squelch*....*Squelch*....*Squelch*....*Squelch*...."
+    "*Squelch*.... *Squelch*.... *Squelch*.... *Squelch*.... *Squelch*.... *Squelch*.... *Squelch*.... *Squelch*.... *Squelch*.... *Squelch*...."
 
     k "Ohhhhhhhhh!!!!!!!!"
 
@@ -15626,7 +15624,7 @@ label kim_and_will_party:
 
     "*Spluuuuuuuuuuuuuuuuuuuuurt*.....*Spluuuuurt*"
 
-    "*Spluuuuuuuuuuuuuuuuuuuuurt*...*Spluuuuuuuuuuuuuuuuuuuuurt*...."
+    "*Spluuuuuuuuuuuuuuuuuuuuurt*... *Spluuuuuuuuuuuuuuuuuuuuurt*...."
 
     k "Ohhhhhhhhhh!!!! oh!!!!!!!! ohhhhhhhhh!!!"
 
@@ -15664,7 +15662,7 @@ label kim_and_will_party:
 
     w "But don't you have somewhere to go after this?"
 
-    k "Hnng.....I.....donnooooooooww....haehhhhh...haeh..."
+    k "Hnng.....I.....donnooooooooww.... haehhhhh...haeh..."
 
     w "Hahaha...Looks like I fucked your brain into mush...anyways...we need to scram soon, or we'll get scolded"
 
@@ -15804,7 +15802,7 @@ label kim_and_will_party:
 
     w "Yeahhhh that's it baby, you're doing great...good girl....hah..."
 
-    "*Squelch*.....*Schlick*....*Squelch*.....*Schlick*....*Squelch*.....*Schlick*....*Squelch*.....*Schlick*...."
+    "*Squelch*..... *Schlick*.... *Squelch*..... *Schlick*.... *Squelch*..... *Schlick*.... *Squelch*..... *Schlick*...."
 
     "William thrusts faster..."
 
@@ -15848,19 +15846,19 @@ label kim_and_will_party:
 
     w "Nahh...you can't stop the train baby!"
 
-    "*Squelch*.....*Schlick*....*Squelch*.....*Schlick*....*Squelch*.....*Schlick*....*Squelch*.....*Schlick*...."
+    "*Squelch*..... *Schlick*.... *Squelch*..... *Schlick*.... *Squelch*..... *Schlick*.... *Squelch*..... *Schlick*...."
 
     k "Oh God hahhh hahh~"
 
     b "Uh-uhmm yeah...uh...I'm here to clean the room...uhmmm"
 
-    "*Squelch*.....*Schlick*....*Squelch*.....*Schlick*...."
+    "*Squelch*..... *Schlick*.... *Squelch*..... *Schlick*...."
 
     b "Y-you don't mind if I like...start cleaning the mess right?"
 
     w "Yeah it's all good man! sorry for the mess by the way hahahaha! had a wild night!"
 
-    "*Squelch*.....*Schlick*....*Squelch*.....*Schlick*....*Squelch*.....*Schlick*....*Squelch*.....*Schlick*...."
+    "*Squelch*..... *Schlick*....  *Squelch*.....*Schlick*.... *Squelch*.....*Schlick*.... *Squelch*....."
 
     k "Ohhhh Ohhhh!!"
 
@@ -15874,7 +15872,7 @@ label kim_and_will_party:
 
     k "Hooohhhhhh Hooohhhh!!"
 
-    "*Squelch*.....*Schlick*....*Squelch*.....*Schlick*....*Squelch*.....*Schlick*....*Squelch*.....*Schlick*....*Squelch*.....*Schlick*....*Squelch*.....*Schlick*...."
+    "*Squelch*..... *Schlick*.... *Squelch*..... *Schlick*.... *Squelch*..... *Schlick*.... *Squelch*..... *Schlick*.... *Squelch*..... *Schlick*.... *Squelch*..... *Schlick*...."
 
     k "Yess!! hahhh!! I can't resist your big black cock!! hahh!!"
 
@@ -15886,7 +15884,7 @@ label kim_and_will_party:
 
     w "It's all good man...just clean all of it and uh......were gonna be a while in here anyway..."
 
-    "*Squelch*.....*Schlick*....*Squelch*.....*Schlick*...."
+    "*Squelch*..... *Schlick*.... *Squelch*..... *Schlick*...."
 
     "Kim continues getting pounded in the shower while  someone is cleaning the mess they made outside..."
 
@@ -15920,11 +15918,11 @@ label kim_and_will_party:
 
     w "I just can't get enough of you!! fuckkk!"
 
-    "*Squelch*.....*Schlick*....*Squelch*.....*Schlick*...."
+    "*Squelch*..... *Schlick*.... *Squelch*..... *Schlick*...."
 
     "Williams is almost gonna cum...and so is Kim..."
 
-    "*Squelch*.....*Schlick*....*Squelch*.....*Schlick*...."
+    "*Squelch*..... *Schlick*.... *Squelch*..... *Schlick*...."
 
     "Willams increases the speed more and more...each thrust more intense than the last..."
 
@@ -15932,7 +15930,7 @@ label kim_and_will_party:
 
     "Kim's moans sound like a pig squealing...reflecting her current animalistic state.."
 
-    "*Squelch*.....*Schlick*....*Squelch*.....*Schlick*....*Squelch*.....*Schlick*....*Squelch*.....*Schlick*...."
+    "*Squelch*..... *Schlick*.... *Squelch*..... *Schlick*.... *Squelch*..... *Schlick*.... *Squelch*..... *Schlick*...."
 
     w "Here it comes!! RAHHHHHHHHHHHH!!!!"
 
@@ -17384,7 +17382,7 @@ label jamie_peek:
 
     b "Hey man! you here to clean the room?"
 
-    "*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Schlick*...*Squelch*....*Squelch*.... *Schlick*...*Schlick*... *Squelch*.... *Squelch*....*Schlick*..."
 
     b "Ahhh~ fuck...s-stop for a second!"
 
@@ -17426,15 +17424,15 @@ label jamie_peek:
 
     j  "Y-yeah..I uhmmm...I can se- i mean hear that...."
 
-    "*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Schlick*...*Squelch*....*Squelch*....*Schlick*... *Schlick*...*Squelch*....*Squelch*....*Schlick*..."
 
     b "This nympho right here can't resist my black ass dick, isn't that right baby?"
 
     b "Hooohhhhhh Hooohhhh!!"
 
-    "*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Schlick*... *Squelch*....*Squelch*....*Schlick*... *Schlick*...*Squelch*....*Squelch*....*Schlick*..."
 
-    "*Schlick*...*Squelch*....*Squelch*....*Schlick*"
+    "*Schlick*...*Squelch*.... *Squelch*....*Schlick*"
 
     b "Yess!! hahhh!! I can't resist your big black cock!! hahh!!"
 
@@ -17446,7 +17444,7 @@ label jamie_peek:
 
     b "It's all good man...just clean all of it and uh......were gonna be a while in here anyway..."
 
-    "*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Schlick*...*Squelch*.... *Squelch*....*Schlick*...*Schlick*... *Squelch*.... *Squelch*....*Schlick*... *Schlick*...*Squelch*....*Squelch*.... *Schlick*...*Schlick*... *Squelch*....*Squelch*....*Schlick*..."
 
     play music2 "audio/fastf muffled.mp3" volume 5.0
 
@@ -18646,7 +18644,7 @@ label will_and_diane_date:
 
     d "10....9.....8.....7.....6"
 
-    "*Schlick*...*Schlick*...*Schlick*...*Schlick*...*Schlick*...*Schlick*"
+    "*Schlick*...*Schlick*... *Schlick*... *Schlick*... *Schlick*... *Schlick*"
 
     w "Hnghhh....fuck..."
 
@@ -18864,7 +18862,7 @@ label will_and_diane_date:
 
     play music3 "audio/diane clenched moan.mp3" volume 1.0
 
-    "*Squelch*.....*Squelch*.....*Squelch*.....*Squelch*.....*Squelch*.....*Squelch*....."
+    "*Squelch*..... *Squelch*..... *Squelch*..... *Squelch*..... *Squelch*..... *Squelch*....."
 
     "Diane slowly but surely goes up dand down William's cock"
 
@@ -18892,7 +18890,7 @@ label will_and_diane_date:
 
     d "Hah...I feel so full...hohhh...hoh..."
 
-    "*Squelch*.....*Squelch*.....*Squelch*.....*Squelch*.....*Squelch*.....*Squelch*....."
+    "*Squelch*..... *Squelch*..... *Squelch*..... *Squelch*..... *Squelch*..... *Squelch*....."
 
     w "Hahahaha hurry up and speed up already! I'm getting really bored!"
 
@@ -19614,7 +19612,7 @@ label kim_jamie_room:
 
     play music3 "audio/kim jamie moan.mp3" volume 1.0
 
-    "*Plap*.......*Plap*.......*Plap*.......*Plap*......."
+    "*Plap*.......*Plap*....... *Plap*.......*Plap*......."
 
     "Fuck..Kim's words are so comforting...even when she's inviting me for something as lewd as sex"
 

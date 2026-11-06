@@ -13,33 +13,33 @@ transform face_zoom:
     xalign 0.5
     yalign 0.2
 
-define j = Character(_("Jamie"), color="#05f7ff77")
-define k = Character(_("Kim"), color="#feffae")
-define d = Character(_("Diane"), color="#892d2d")
-define w = Character(_("William"), color="#61486d")
-define a = Character(_("Alex"), color="#ff5cec")
-define s = Character(_("Sophia"), color="#572dff")
-define l = Character(_("Lily"), color="#2dff5a")
-define t = Character(_("Thug"), color="#fd1e4782")
-define b = Character(_("???"), color="#ffffffdc")
-define o = Character(_("M"), color="#ffffffdc")
-define r = Character(_("Reporter"), color="#f1ff59dc")
-define q = Character(_("Quinn"), color="#63ffbbdc")
-define y = Character(_("Yelena"), color="#63ffbbdc")
-define c = Character(_("Cassandra"), color="#ffe5cddc")
-define f = Character(_("Fiona"), color="#23abffdc")
-define m = Character(_("Carl"), color="#ffe5cddc")
-define e = Character(_("Tony"), color="#fd1e4782")
-define i = Character(_("Ivan"), color="#fd1e4782")
-define v = Character(_("Svetlana"), color="#dfe0caa4")
-define g = Character(_("Yliana"), color="#c9ff26fe")
-define z = Character(_("Valeria"), color="#ffdd00fb")
-define h = Character(_("Millie"), color="#fb0000fe")
-define sa = Character(_("Millie"), color="#fb0000fe")
-define go = Character(_("BodyGuard"), color="#fb0000fe")
-define couple = Character(_("Couple"), color="#fb0000fe")
-define fr = Character(_("Olivier"), color="#bd54ff7d")
-define yn = Character(_("Yana"), color="#bd54ff7d")
+# define j = Character(_("Jamie"), color="#05f7ff77")
+# define k = Character(_("Kim"), color="#feffae")
+# define d = Character(_("Diane"), color="#892d2d")
+# define w = Character(_("William"), color="#61486d")
+# define a = Character(_("Alex"), color="#ff5cec")
+# define s = Character(_("Sophia"), color="#572dff")
+# define l = Character(_("Lily"), color="#2dff5a")
+# define t = Character(_("Thug"), color="#fd1e4782")
+# define b = Character(_("???"), color="#ffffffdc")
+# define o = Character(_("M"), color="#ffffffdc")
+# define r = Character(_("Reporter"), color="#f1ff59dc")
+# define q = Character(_("Quinn"), color="#63ffbbdc")
+# define y = Character(_("Yelena"), color="#63ffbbdc")
+# define c = Character(_("Cassandra"), color="#ffe5cddc")
+# define f = Character(_("Fiona"), color="#23abffdc")
+# define m = Character(_("Carl"), color="#ffe5cddc")
+# define e = Character(_("Tony"), color="#fd1e4782")
+# define i = Character(_("Ivan"), color="#fd1e4782")
+# define v = Character(_("Svetlana"), color="#dfe0caa4")
+# define g = Character(_("Yliana"), color="#c9ff26fe")
+# define z = Character(_("Valeria"), color="#ffdd00fb")
+# define h = Character(_("Millie"), color="#fb0000fe")
+# define sa = Character(_("Millie"), color="#fb0000fe")
+# define go = Character(_("BodyGuard"), color="#fb0000fe")
+# define couple = Character(_("Couple"), color="#fb0000fe")
+# define fr = Character(_("Olivier"), color="#bd54ff7d")
+# define yn = Character(_("Yana"), color="#bd54ff7d")
 
 label animated_2:
     image kim and will mating press dream 1:
@@ -1822,7 +1822,7 @@ label morning:
 
     k "A perverted one that's what fufu~"
 
-    "*Squelch*.....*Squelch*.....*Squelch*.....*Squelch*.....*Squelch*.....*Squelch*....."
+    "*Squelch*.....*Squelch*.....*Squelch*.....*Squelch*..... *Squelch*.....*Squelch*....."
 
     j "Kim...hah...I'm close!"
 
@@ -2871,7 +2871,7 @@ label will_and_diane_date2:
 
     d "Up and down, up and down...."
 
-    "*Squelch*.....*Squelch*.....*Slush*.....*Schlick*.....*Squelch*.....*Squelch*....."
+    "*Squelch*.....*Squelch*.....*Slush*..... *Schlick*.....*Squelch*.....*Squelch*....."
 
     w "Ahhhh fuck...just like that..."
 
@@ -2893,7 +2893,7 @@ label will_and_diane_date2:
 
     w "Damnnnnn....that's crazy"
 
-    "*Squelch*.....*Squelch*.....*Slush*.....*Schlick*.....*Squelch*.....*Squelch*.....*Slush*.....*Schlick*....."
+    "*Squelch*..... *Squelch*.....*Slush*.....  *Schlick*.....*Squelch*..... *Squelch*.....*Slush*..... *Schlick*....."
 
     d "But to be fair though...this thing is absurdly massive..."
 
@@ -2919,7 +2919,7 @@ label will_and_diane_date2:
 
     scene diane and will handjob 5
 
-    "*Squelch*.....*Squelch*.....*Slush*.....*Schlick*.....*Squelch*.....*Squelch*.....*Slush*.....*Schlick*....."
+    "*Squelch*..... *Squelch*..... *Slush*..... *Schlick*..... *Squelch*.....*Squelch*..... *Slush*..... *Schlick*....."
 
     d "Ohhhh....are you close to cumming already? fufu~"
 
@@ -2933,7 +2933,7 @@ label will_and_diane_date2:
 
     d "Well....say \"yes mommy\" for me then"
 
-    "*Schlick*.....*Squelch*.....*Squelch*.....*Schlick*.....*Squelch*.....*Squelch*....."
+    "*Schlick*..... *Squelch*.....*Squelch*..... *Schlick*.....*Squelch*.....*Squelch*....."
 
     w "Y-yes mommy, please make me cum!"
 
@@ -2941,7 +2941,7 @@ label will_and_diane_date2:
 
     d "MMnnnghhh...fuck...."
 
-    "*Schlick*.....*Squelch*.....*Squelch*.....*Schlick*.....*Squelch*.....*Squelch*.....*Schlick*.....*Squelch*.....*Squelch*....."
+    "*Schlick*..... *Squelch*.....*Squelch*..... *Schlick*..... *Squelch*..... *Squelch*.....*Schlick*..... *Squelch*.....*Squelch*....."
 
     scene diane hj4
 
@@ -2949,7 +2949,7 @@ label will_and_diane_date2:
 
     play sound "audio/spurt.mp3" volume 0.5
 
-    "*Spuuuuuuuuuuuuuuuuuurttt!!*....*Spuuuuuuuuuuuuuuuuuurt!!*.....*Spuuurt!!* *Spuuuurt!!*"
+    "*Spuuuuuuuuuuuuuuuuuurttt!!*.... *Spuuuuuuuuuuuuuuuuuurt!!*..... *Spuuurt!!* *Spuuuurt!!*"
 
     w "Nghhh Raghhhhh!!!"
 
@@ -3063,7 +3063,7 @@ label will_and_diane_date2:
 
     "He slams it down her wet slit..."
 
-    d "NGHOOOOOOHOOOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    d "NGHOOOOOOHOOOOOOOOOOOO OOOOOOOOOOOOOO !!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!"
 
     w "Ahhhhhhh fuck.....this pussy is too fucking good...."
 
@@ -3169,7 +3169,7 @@ label will_and_diane_date2:
 
     d "Oghhhh hohhhhh!!"
 
-    "*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Squelch*....*Squelch*.... *Schlick*...*Squelch*.... *Squelch*....*Schlick*..."
 
     "Her animalistic moans fill the expensive hotel room..."
 
@@ -3187,7 +3187,7 @@ label will_and_diane_date2:
 
     play music2 "audio/fastf.mp3" volume 9.0
 
-    "*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Squelch*....*Squelch*.... *Schlick*...*Squelch*.... *Squelch*....*Schlick*..."
 
     "Diane's legs lock behind William....her primal instinct also kicks in..."
 
@@ -3197,7 +3197,7 @@ label will_and_diane_date2:
 
     d "Hghhhh hahhhh hahhh!!!"
 
-    "*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Squelch*.... *Squelch*....*Schlick*... *Squelch*....*Squelch*....*Schlick*..."
 
     "Their sweaty bodies collide aggressively as they mix each other's bodily fluids with their animalistic mating"
 
@@ -3215,7 +3215,7 @@ label will_and_diane_date2:
 
     d "G-give it to me William...give it to me!!!"
 
-    "*Schlick*...*Schlick*...*Squelch*....*Schlick*...*Squelch*....*Schlick*...*Schlick*...*Squelch*....*Schlick*...*Squelch*...."
+    "*Schlick*... *Schlick*... *Squelch*....*Schlick*... *Squelch*....*Schlick*...*Schlick*... *Squelch*.... *Schlick*...*Squelch*...."
 
     "William's thrusts grow more erratic and intense"
 
@@ -3227,7 +3227,7 @@ label will_and_diane_date2:
 
     "With each thrust, the pressure builds and builds to its peak...."
 
-    "*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*...."
+    "*Schlick*...*Squelch*.... *Squelch*....*Schlick*... *Squelch*....*Squelch*...."
 
     "*Schlick!*...*Squelch!*....*Squelch!*...."
 
@@ -3245,9 +3245,9 @@ label will_and_diane_date2:
 
     play sound "audio/spurt.mp3" volume 0.5
 
-    "*Spluuuuuuuuuuuuuuuuuuuuurt*.....*Spluuuuurt*"
+    "*Spluuuuuuuuuuuuuuuuuuuuurt*..... *Spluuuuurt*"
 
-    "*Spluuuuuuuuuuuuuuuuuuuuurt*...*Spluuuuuuuuuuuuuuuuuuuuurt*...."
+    "*Spluuuuuuuuuuuuuuuuuuuuurt*... *Spluuuuuuuuuuuuuuuuuuuuurt*...."
 
     "Both scream at the top of their lungs from the overwhelming pleasure....as both reach their climax"
 
@@ -3328,7 +3328,7 @@ label will_and_diane_date2:
 
     play mar "audio/diane cum 1.mp3" volume 1.0
 
-    "*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*...."
+    "*Schlick*...*Squelch*.... *Squelch*....*Schlick*... *Squelch*....*Squelch*...."
 
     d "Aghhh haghhhhh!! haghhh!!!!!"
 
@@ -3338,9 +3338,9 @@ label will_and_diane_date2:
 
     play sound "audio/spurt.mp3" volume 0.5
 
-    "*Spluuuuuuuuuuuuuuuuuuuuurt*.....*Spluuuuurt*"
+    "*Spluuuuuuuuuuuuuuuuuuuuurt*..... *Spluuuuurt*"
 
-    "*Spluuuuuuuuuuuuuuuuuuuuurt*...*Spluuuuuuuuuuuuuuuuuuuuurt*...."
+    "*Spluuuuuuuuuuuuuuuuuuuuurt*... *Spluuuuuuuuuuuuuuuuuuuuurt*...."
 
     "Diane and Will spend an hour more just having pure animalistic sex...."
 
@@ -3524,7 +3524,7 @@ label jamie_diane:
 
     b "Up and down, up and down...."
 
-    "*Squelch*.....*Squelch*.....*Slush*.....*Schlick*.....*Squelch*.....*Squelch*....."
+    "*Squelch*..... *Squelch*..... *Slush*.....*Schlick*..... *Squelch*.....*Squelch*....."
 
     w "Ahhhh fuck...just like that..."
 
@@ -3546,7 +3546,7 @@ label jamie_diane:
 
     w "Damnnnnn....that's crazy"
 
-    "*Squelch*.....*Squelch*.....*Slush*.....*Schlick*.....*Squelch*.....*Squelch*.....*Slush*.....*Schlick*....."
+    "*Squelch*..... *Squelch*.....*Slush*..... *Schlick*..... *Squelch*.....*Squelch*..... *Slush*.....*Schlick*....."
 
     b "But to be fair though...this thing is absurdly massive..."
 
@@ -3572,7 +3572,7 @@ label jamie_diane:
 
     scene diane and will handjob alt 2
 
-    "*Squelch*.....*Squelch*.....*Slush*.....*Schlick*.....*Squelch*.....*Squelch*.....*Slush*.....*Schlick*....."
+    "*Squelch*..... *Squelch*..... *Slush*..... *Schlick*.....*Squelch*..... *Squelch*.....*Slush*..... *Schlick*....."
 
     b "Ohhhh....are you close to cumming already? fufu~"
 
@@ -3586,7 +3586,7 @@ label jamie_diane:
 
     b "Well....say \"yes mommy\" for me then"
 
-    "*Schlick*.....*Squelch*.....*Squelch*.....*Schlick*.....*Squelch*.....*Squelch*....."
+    "*Schlick*..... *Squelch*..... *Squelch*.....*Schlick*..... *Squelch*..... Squelch*....."
 
     w "Y-yes mommy, please make me cum!"
 
@@ -3594,7 +3594,7 @@ label jamie_diane:
 
     b "MMnnnghhh...fuck...."
 
-    "*Schlick*.....*Squelch*.....*Squelch*.....*Schlick*.....*Squelch*.....*Squelch*.....*Schlick*.....*Squelch*.....*Squelch*....."
+    "*Schlick*..... *Squelch*..... *Squelch*..... *Schlick*..... *Squelch*..... *Squelch*..... *Schlick*..... *Squelch*.....*Squelch*....."
 
     scene diane hj9
 
@@ -3668,7 +3668,7 @@ label jamie_diane:
 
     "He slams it down her wet slit..."
 
-    b "NGHOOOOOOHOOOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    b "NGHOOOOOOHOOOOOOOOOOOOOOO OOOOOOOOOOO !!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!!"
 
     w "Ahhhhhhh fuck.....this pussy is too fucking good...."
 
@@ -3748,13 +3748,13 @@ label jamie_diane:
 
     w "Urgghhhhh! urghhh!!"
 
-    "*Schlick*...*Squelch*....*Schlick*...*Squelch*....*Schlick*...*Squelch*"
+    "*Schlick*... *Squelch*....*Schlick*... *Squelch*.... *Schlick*... *Squelch*"
 
     "Williams plows the woman intensely, slamming his entire body weight into every sensitive spot in her..."
 
     b "Oghhhh hohhhhh!!"
 
-    "*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Squelch*.... *Squelch*....*Schlick*... *Squelch*.... *Squelch*....*Schlick*..."
 
     "Her animalistic moans fill the expensive hotel room..."
 
@@ -3770,7 +3770,7 @@ label jamie_diane:
 
     play music2 "audio/fastf.mp3" volume 9.0
 
-    "*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Squelch*....*Squelch*.... *Schlick*...*Squelch*.... *Squelch*....*Schlick*..."
 
     "Her legs lock behind William....her primal instinct also kicks in..."
 
@@ -3778,7 +3778,7 @@ label jamie_diane:
 
     b "Hghhhh hahhhh hahhh!!!"
 
-    "*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*....*Schlick*..."
+    "*Squelch*.... *Squelch*.... *Schlick*... *Squelch*.... *Squelch*....*Schlick*..."
 
     "Their sweaty bodies collide aggressively as they mix each other's bodily fluids with their animalistic mating"
 
@@ -3792,7 +3792,7 @@ label jamie_diane:
 
     b "G-give it to me William...give it to me!!!"
 
-    "*Schlick*...*Schlick*...*Squelch*....*Schlick*...*Squelch*....*Schlick*...*Schlick*...*Squelch*....*Schlick*...*Squelch*...."
+    "*Schlick*...*Schlick*...*Squelch*.... *Schlick*...*Squelch*.... *Schlick*...*Schlick*... *Squelch*....*Schlick*...*Squelch*...."
 
     "William's thrusts grow more erratic and intense"
 
@@ -3804,13 +3804,13 @@ label jamie_diane:
 
     "With each thrust, the pressure builds and builds to its peak...."
 
-    "*Schlick*...*Squelch*....*Squelch*....*Schlick*...*Squelch*....*Squelch*...."
+    "*Schlick*...*Squelch*.... *Squelch*....*Schlick*... *Squelch*....*Squelch*...."
 
     "*Schlick!*...*Squelch!*....*Squelch!*...."
 
     w "NGHHHHAHGHHHH!!!!"
 
-    b "OHOHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!!!!!!!"
+    b "OHOHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH HHHH!!!!!!!"
 
     scene diane mating press 9
 
@@ -3822,9 +3822,9 @@ label jamie_diane:
 
     play sound "audio/spurt.mp3" volume 0.5
 
-    "*Spluuuuuuuuuuuuuuuuuuuuurt*.....*Spluuuuurt*"
+    "*Spluuuuuuuuuuuuuuuuuuuuurt*..... *Spluuuuurt*"
 
-    "*Spluuuuuuuuuuuuuuuuuuuuurt*...*Spluuuuuuuuuuuuuuuuuuuuurt*...."
+    "*Spluuuuuuuuuuuuuuuuuuuuurt*... *Spluuuuuuuuuuuuuuuuuuuuurt *...."
 
     "Both scream at the top of their lungs from the overwhelming pleasure....as both reach their climax"
 
@@ -5320,7 +5320,7 @@ label diane_ass:
 
     d "Hnnng...how should I k-know hah!"
 
-    "*Squelch*.....*Squelch*.....*Slush*.....*Schlick*.....*Squelch*.....*Squelch*....."
+    "*Squelch*.....*Squelch*.....*Slush*..... *Schlick*..... *Squelch*.....*Squelch*....."
 
     d "It's so huge ahn!!"
 
@@ -5356,7 +5356,7 @@ label diane_ass:
 
     w "Definitely gonna destroy this in the future!"
 
-    "*Squelch*.....*Squelch*.....*Slush*.....*Schlick*.....*Squelch*.....*Squelch*.....*Slush*.....*Schlick*....."
+    "*Squelch*.....*Squelch*.....*Slush*..... *Schlick*.....*Squelch*..... *Squelch*..... *Slush*.....*Schlick*....."
 
     d "My ass is off limits!"
 
@@ -5381,7 +5381,7 @@ label diane_ass:
 
     w "Did you finally grow a conscience?"
 
-    "*Schlick*.....*Squelch*.....*Squelch*.....*Schlick*.....*Squelch*.....*Squelch*....."
+    "*Schlick*..... *Squelch*..... *Squelch*..... *Schlick*..... *Squelch*.....*Squelch*....."
 
     w "Did you finally realize how bad of a mother you are?"
 
@@ -5395,7 +5395,7 @@ label diane_ass:
 
     w "It's because you prefer this dick more than your own family!!"
 
-    "*Schlick*.....*Squelch*.....*Squelch*.....*Schlick*.....*Squelch*.....*Squelch*.....*Schlick*.....*Squelch*.....*Squelch*....."
+    "*Schlick*.....*Squelch*.....*Squelch*..... *Schlick*.....*Squelch*..... *Squelch*..... *Schlick*..... *Squelch*.....*Squelch*....."
 
     w "Isn't that right? It's because you're a whore!"
 
@@ -5417,7 +5417,7 @@ label diane_ass:
 
     w "Say it bitch, this dick or Jamie?"
 
-    "*Schlick*.....*Squelch*.....*Squelch*.....*Schlick*.....*Squelch*.....*Squelch*.....*Schlick*.....*Squelch*.....*Squelch*....."
+    "*Schlick*.....*Squelch*.....*Squelch*..... *Schlick*..... *Squelch*.....*Squelch*..... *Schlick*..... *Squelch*..... *Squelch*....."
 
     d "Yours!! Annnhh"
 
@@ -5431,7 +5431,7 @@ label diane_ass:
 
     w "Yeahhh just like that, I'm gonna fill that pussy up with this nut!"
 
-    "*Schlick*.....*Squelch*.....*Squelch*.....*Schlick*.....*Squelch*.....*Squelch*.....*Schlick*.....*Squelch*.....*Squelch*....."
+    "*Schlick*.....*Squelch*.....*Squelch*..... *Schlick*.....*Squelch*.....*Squelch*..... *Schlick*.....*Squelch*..... *Squelch*....."
 
     d "Hahh...hahhh!"
 
@@ -5443,7 +5443,7 @@ label diane_ass:
 
     w "Yeahh fuck...just like that"
 
-    "*Schlick*.....*Squelch*.....*Squelch*.....*Schlick*.....*Squelch*.....*Squelch*.....*Schlick*.....*Squelch*.....*Squelch*....."
+    "*Schlick*.....*Squelch*.....*Squelch*.....*Schlick*..... *Squelch*.....*Squelch*..... *Schlick*..... *Squelch*.....*Squelch*....."
 
     d "Mnfff I'm gonna cum...I'm gonna...gonna hahh..."
 
@@ -5459,7 +5459,7 @@ label diane_ass:
 
     play sound "audio/spurt.mp3" volume 0.5
 
-    "*Spuuuuuuuuuuuuuuuuuurttt!!*....*Spuuuuuuuuuuuuuuuuuurt!!*.....*Spuuurt!!* *Spuuuurt!!*"
+    "*Spuuuuuuuuuuuuuuuuuurttt!!*.... *Spuuuuuuuuuuuuuuuuuurt!!*..... *Spuuurt!!* *Spuuuurt!!*"
 
     "Diane's legs give up as she cums intensely"
 
@@ -7015,7 +7015,7 @@ label diane_will_tent:
 
     d "Oh God.....mnghhhh"
 
-    "*Squelch*.....*Squelch*.....*Slush*.....*Schlick*.....*Squelch*.....*Squelch*....."
+    "*Squelch*..... *Squelch*.....*Slush*..... *Schlick*..... *Squelch*.....*Squelch*....."
 
     "Diane's wet pussy fills the tent with lewd sounds..."
 
@@ -16958,7 +16958,9 @@ label kim_pissy:
     "The downsides for the second option are easy...the fact that I'm gonna have to take something that huge inside me is impossible...maybe I can do a blowjob and I'm sure she'd be down for it"
 
     "And the third option...well...it seems like she's enthusiastic about this so refusing her would make her disappointed...so...I don't know..."
+label branching:
     $persistent.unlocked_gallery_scenes.add(93)
+
     scene gelatomoosoomay
 
     "FLASHBANG!"
@@ -18378,7 +18380,7 @@ label netorase_christmas:
 
     w "And if you want it...then get this!!"
 
-    "*Plap!*....*Plap!*....*Plap!*....*Plap!*....*Plap!*....*Plap!*....*Plap!*...."
+    "*Plap!*....*Plap!*....*Plap!*.... *Plap!*....*Plap!*....*Plap!*....*Plap!*...."
 
     "William thrusts like a manic beast, her pussy clamps tighter on his cock like a wet vise"
 
@@ -18579,7 +18581,7 @@ label netorare_christmas:
 
     play moan "audio/kim moan.mp3" volume 1.0
 
-    '*Plap!*....*Plap!*....*Plap!*....*Plap!*....*Plap!*....*Plap!*....'
+    '*Plap!*....*Plap!*....*Plap!*.... *Plap!*....*Plap!*....*Plap!*....'
 
     "In a dark storage room, Will and Kim find themselves against each other...fucking like wild animals"
 
@@ -18611,7 +18613,7 @@ label netorare_christmas:
 
     w "And if you want it...then get this!!"
 
-    "*Plap!*....*Plap!*....*Plap!*....*Plap!*....*Plap!*....*Plap!*....*Plap!*...."
+    "*Plap!*....*Plap!*....*Plap!*.... *Plap!*....*Plap!*....*Plap!*....*Plap!*...."
 
     "William thrusts like a manic beast, her pussy clamps tighter on his cock like a wet vise"
 
@@ -29855,7 +29857,7 @@ label island_day_two:
 
     j "V-vanquish!? Eugh... I have a bad feeling about this"
 
-    hide bikini neutral
+    hide yelena bikini neutral
 
     "The first set was mainly just Yelena doing all the work, while I try my best defending"
 
@@ -31451,10 +31453,8 @@ label kim_nts_vacay:
     k "*chu* I love you, Jamie~"
 
     j "Mmmhmm.. I love you too"
-
-    jump island_day_four
-
     stop music
+    jump island_day_four
 
 label diane_gangbang:
 
@@ -32678,7 +32678,7 @@ label kim_island_threesome_nts:
 
     play squelch "audio/fingering1.mp3" volume 8.0
 
-    play moan "audio/kim kiss moan.mp3" volume 1.0
+    play moan "audio/kim kiss moan.wav" volume 1.0
 
     play bed "audio/bed sound.mp3" volume 0.7
 
@@ -33362,7 +33362,7 @@ label kim_island_threesome_ntr:
 
     play squelch "audio/fingering1.mp3" volume 8.0
 
-    play moan "audio/kim kiss moan.mp3" volume 1.0
+    play moan "audio/kim kiss moan.wav" volume 1.0
 
     play bed "audio/bed sound.mp3" volume 0.7
 
@@ -36756,11 +36756,8 @@ label diane_plane_bj:
     scene black
 
     "Diane and Will walk out of the toilet, and luckily there weren't any attendants lurking around"
-
-
-    jump kim_vs_yelena_plane2
-
     stop music
+    jump kim_vs_yelena_plane2
 
 
 
@@ -37279,14 +37276,10 @@ label missing_william_jamie:
 
         "Jamie POV":
             jump jamie_delivery
-            jump goodbye
 
 label missing_william:
-
     play music "audio/malicious.mp3" volume 0.3
-
     scene dianeroom
-
     show diane nflustered
 
     "Diane eyes the contents inside the box, finally opening it after waiting for house for Jamie to sleep"

@@ -306,11 +306,11 @@ label animated_shit:
 
 
 
-define n1 = Character(_("Hex"), color="#ffffffff")
-define n2 = Character(_("Twister"), color="#ffffffff")
-define n3 = Character(_("Random Worker"), color="#ffffffff")
-define n4 = Character(_("Random Person"), color="#ffffffff")
-define r1 = Character(_("Mike"), color="#39f0e7e0")
+# define n1 = Character(_("Hex"), color="#ffffffff")
+# define n2 = Character(_("Twister"), color="#ffffffff")
+# define n3 = Character(_("Random Worker"), color="#ffffffff")
+# define n4 = Character(_("Random Person"), color="#ffffffff")
+# define r1 = Character(_("Mike"), color="#39f0e7e0")
 
 
 label catselfie:
@@ -3083,7 +3083,7 @@ label yelenaignore:
 
     scene characterroom night
 
-    play music "audio/nights.mp3" volume 0.3
+    play music "audio/nights.ogg" volume 0.3
 
 
     "I get ready for bed, when I receive a call out of nowhere"
@@ -8216,7 +8216,7 @@ label jamie_finds_out:
 
     play coom "audio/cum1.mp3" volume 0.5
 
-    play climax "audio/diane open ongue cum.mp3" volume 1.0
+    play climax "audio/diane tongue cum 1.mp3" volume 1.0
 
     k "Nghhhhhh~!!!! N-nnghhh~!!!!!"
 

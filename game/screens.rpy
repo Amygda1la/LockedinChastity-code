@@ -1,10 +1,7 @@
 ﻿################################################################################
 ## Initialization
 ################################################################################
-
 init offset = -1
-
-
 ################################################################################
 ## Styles
 ################################################################################
@@ -95,44 +92,225 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 #changed. added text_hidden check
+
+
+
+
+
+############################## base say screen #################################
+################################################################################
+
+
+# default text_hidden = False
+# transform hide_say:
+#     alpha 0.0
+
+# screen say(who, what):
+#     style_prefix "say"
+
+#     window:
+#         id "window"
+
+#         if text_hidden:
+#             at hide_say
+
+#         if who is not None:
+
+#             window:
+#                 id "namebox"
+#                 style "namebox"
+#                 text who id "who"
+
+#         text what id "what"
+
+
+#     ## If there's a side image, display it above the text. Do not display on the
+#     ## phone variant - there's no room.
+#     if not renpy.variant("small"):
+#         add SideImage() xalign 0.0 yalign 1.0
+
+
+# ## Make the namebox available for styling through the Character object.
+# init python:
+#     config.character_id_prefixes.append('namebox')
+
+# style window is default
+# style say_label is default
+# style say_dialogue is default
+# style say_thought is say_dialogue
+
+# style namebox is default
+# style namebox_label is say_label
+
+
+# style window:
+#     xalign 0.5
+#     xfill True
+#     yalign gui.textbox_yalign
+#     ysize gui.textbox_height
+
+#     background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+
+# style namebox:
+#     xpos gui.name_xpos
+#     xanchor gui.name_xalign
+#     xsize gui.namebox_width
+#     ypos gui.name_ypos
+#     ysize gui.namebox_height
+
+#     background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
+#     padding gui.namebox_borders.padding
+
+# style say_label:
+#     properties gui.text_properties("name", accent=True)
+#     xalign gui.name_xalign
+#     yalign 0.5
+
+# style say_dialogue:
+#     properties gui.text_properties("dialogue")
+
+#     xpos gui.dialogue_xpos
+#     xsize gui.dialogue_width
+#     ypos gui.dialogue_ypos
+
+#     adjust_spacing False
+
+##########################################################################################################
+##########################################################################################################
+
+
+################################################# GUI BASE VARS  ####################################################
+
+# define gui.textbox_height = 370
+
+# ## The placement of the textbox vertically on the screen. 0.0 is the top, 0.5 is
+# ## center, and 1.0 is the bottom.
+# define gui.textbox_yalign = 1.0
+
+
+# ## The placement of the speaking character's name, relative to the textbox.
+# ## These can be a whole number of pixels from the left or top, or 0.5 to center.
+# define gui.name_xpos = 480
+# define gui.name_ypos = 0
+
+# ## The horizontal alignment of the character's name. This can be 0.0 for left-
+# ## aligned, 0.5 for centered, and 1.0 for right-aligned.
+# define gui.name_xalign = 0.0
+
+# ## The width, height, and borders of the box containing the character's name, or
+# ## None to automatically size it.
+# define gui.namebox_width = None
+# define gui.namebox_height = None
+
+# ## The borders of the box containing the character's name, in left, top, right,
+# ## bottom order.
+# define gui.namebox_borders = Borders(5, 5, 5, 5)
+
+# ## If True, the background of the namebox will be tiled, if False, the
+# ## background of the namebox will be scaled.
+# define gui.namebox_tile = False
+
+
+# ## The placement of dialogue relative to the textbox. These can be a whole
+# ## number of pixels relative to the left or top side of the textbox, or 0.5 to
+# ## center.
+# define gui.dialogue_xpos = 536
+# define gui.dialogue_ypos = 100
+
+# ## The maximum width of dialogue text, in pixels.
+# define gui.dialogue_width = 1488
+
+# ## The horizontal alignment of the dialogue text. This can be 0.0 for left-
+# ## aligned, 0.5 for centered, and 1.0 for right-aligned.
+# define gui.dialogue_text_xalign = 0.0
+
+################################################################################################################
+################################################################################################################
+
+
+
+
 default text_hidden = False
+
+
 transform hide_say:
-    alpha 0.0
+ alpha 0.0
 
-screen say(who, what):
+
+# transform character_outline:
+#  ypos 1050
+
+screen say(who, what, outline_color = "#000000"):
     style_prefix "say"
-
     window:
         id "window"
 
         if text_hidden:
-            at hide_say
+         at hide_say
 
         if who is not None:
-
             window:
                 id "namebox"
                 style "namebox"
-                text who id "who"
+                background Fixed(
+                 Transform(Frame("gui/in_game_gui/namebox_fill.webp", 44, 44), alpha=0.7),
+                 Frame("gui/in_game_gui/namebox_outline.webp", 44, 44))
+                text who id "who":
+                 color "#000000"
+                 kerning 1.5
 
-        text what id "what"
 
+        window:
+         style "text_outline"
+         background Transform(Frame("gui/in_game_gui/textbox_outline2.webp",44, 44, tile = True), matrixcolor=ColorizeMatrix(outline_color, outline_color))
+         # foreground backgrounTransform(Frame("gui/in_game_gui/textbox_fill_frame.webp", 44, 44), alpha = 0.7)
+         $text_len = len(renpy.filter_text_tags(what, allow=[]))
+         window:
+          xsize (gui.dialogue_width_long if text_len > 190 else gui.dialogue_width)
+
+          style "text_inline"
+          window:
+           style "text_inside"
+           text what id "what"
+        if who is not None:
+         add "gui/in_game_gui/textbox_arrow1.webp" at transform:
+          pos (365,-10)
 
     ## If there's a side image, display it above the text. Do not display on the
     ## phone variant - there's no room.
-    if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 1.0
+    # if not renpy.variant("small"):
+    #     add SideImage() xalign 0.0 yalign 1.0
+screen say(who, what, outline_color="#000000"):
+    variant "small"
+    style_prefix "say"
+
+    window:
+        id "window"
+        xfill True
+        yalign 1.0
+        if text_hidden:
+            at hide_say
+
+        if who is not None:
+            text who id "who":
+                color outline_color
+                xpos 0.07
+                ypos 0.09
+
+        text what id "what":
+            xpos 0.07
+            ypos 0.30
+            xsize int(config.screen_width * 0.86)
 
 
 ## Make the namebox available for styling through the Character object.
 init python:
-    config.character_id_prefixes.append('namebox')
+ config.character_id_prefixes.append('namebox')
 
 style window is default
 style say_label is default
 style say_dialogue is default
 style say_thought is say_dialogue
-
 style namebox is default
 style namebox_label is say_label
 
@@ -142,18 +320,34 @@ style window:
     xfill True
     yalign gui.textbox_yalign
     ysize gui.textbox_height
-
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    # background Transform(Image("gui/textbox.webp", xalign=0.5, yalign=1.0), alpha = 1)
 
 style namebox:
-    xpos gui.name_xpos
-    xanchor gui.name_xalign
-    xsize gui.namebox_width
-    ypos gui.name_ypos
-    ysize gui.namebox_height
+    xpos gui.name_xpos_pc
+    ypos gui.name_ypos_pc
+    padding gui.namebox_borders_pc.padding
+    # background Transform(Frame("gui/in_game_gui/textbox_outline2.webp",44, 44, tile = True), matrixcolor=ColorizeMatrix(outline_color, outline_color))
 
-    background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
-    padding gui.namebox_borders.padding
+
+
+# textbox styles #############################
+style arrow:
+ background "gui/in_game_gui/textbox_arrow.webp"
+
+style text_inline:
+ background Transform(Frame("gui/in_game_gui/textbox_fill2.webp", 44, 44), alpha = 0.7)
+
+style text_outline:
+ pos (gui.text_outline_xpos,gui.text_outline_ypos)
+ # background Frame("gui/textbox_outline6.webp")
+ # padding gui.text_outline_borders.padding
+
+style text_inside:
+ yalign 0.5
+ padding gui.inside_text_borders.padding
+##############################################
+
+
 
 style say_label:
     properties gui.text_properties("name", accent=True)
@@ -162,22 +356,18 @@ style say_label:
 
 style say_dialogue:
     properties gui.text_properties("dialogue")
-
-    xpos gui.dialogue_xpos
-    xsize gui.dialogue_width
-    ypos gui.dialogue_ypos
-
+    # xsize gui.dialogue_width
     adjust_spacing False
 
-## Input screen ################################################################
-##
-## This screen is used to display renpy.input. The prompt parameter is used to
-## pass a text prompt in.
-##
-## This screen must create an input displayable with id "input" to accept the
-## various input parameters.
-##
-## https://www.renpy.org/doc/html/screen_special.html#input
+# Input screen ################################################################
+#
+# This screen is used to display renpy.input. The prompt parameter is used to
+# pass a text prompt in.
+#
+# This screen must create an input displayable with id "input" to accept the
+# various input parameters.
+#
+# https://www.renpy.org/doc/html/screen_special.html#input
 
 screen input(prompt):
     style_prefix "input"
@@ -212,17 +402,84 @@ style input:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#choice
 
-screen choice(items):
-    style_prefix "choice"
 
-    vbox:
-        for i in items:
-            textbutton i.caption action i.action
+
+transform menu_item(delay = 0, x_offset = 1000):
+ alpha 0 xoffset x_offset
+ pause delay
+ easein 0.2 alpha 0.7 xoffset (-50 if x_offset > 0 else 50)
+ pause 0.05
+ easein 0.1 alpha 1 xoffset 0
+ on idle:
+  easein 0.12 xoffset 0
+ on hover:
+  easein 0.1 xoffset 15
+
+
+transform box_appear:
+ alpha 0
+ easein 0.5 alpha 1
+
+
+transform hover_fade:
+ alpha 0
+ on idle:
+  ease 0.4 alpha 0
+ on hover:
+  pause 0.1
+  ease 0.4 alpha 1
+
+
+screen choice(items):
+ style_prefix "choice"
+ $y_frame_size = len(items) * 130 + 70
+ frame:
+  background At(Frame("gui/in_game_gui/box_tall.webp", 40, 40), box_appear)
+  xsize 1150
+  ysize y_frame_size
+  yalign 0.25
+  xalign 0.5
+ vbox:
+  xalign 0.5
+  yalign 0.27
+  spacing 50
+  for n, i in enumerate(items):
+   $ offset = 1000 if n % 2 == 0 else -1000
+   # if "Kim" in i.caption:
+   #  $ art = Transform("gui/button/test_kim_choice.webp", fit="cover", align=(0.5, 0.5))
+   # else:
+   # Solid("#CF3C9B")
+   $x_text_size = len(i[0]) * 24 + 30
+   # if "Kim" in i.caption:
+   #  $hov = "gui/characters_hovers/kim_hover.webp"
+   # elif "Jamie" in i.caption:
+   #  $hov = "gui/characters_hovers/jamie_hover.webp"
+   # elif "Diane" in i.caption:
+   #  $hov = "gui/characters_hovers/diane_hover.webp"
+   # elif "Yelena" in i.caption:
+   #  $hov = "gui/characters_hovers/yelena_hover.webp"
+   # else:
+   #  $hov = "gui/characters_hovers/hover_550.webp"
+   button:
+    xalign 0.5
+    xysize (x_text_size, 80)
+    padding (0, 0)
+    background None
+    action i.action
+    at menu_item(0.1 * n, offset)
+    fixed:
+     text i.caption size 40 color "#000000" align (0.5, 0.5)
+    fixed:
+     at hover_fade
+     add Solid("#000000")
+     text i.caption size 40 color "#CF3C9B" align (0.5, 0.5)
+     add At(Transform("gui/characters_hovers/hover_550.webp", xysize=(x_text_size, 80), blur = 30))
 
 
 style choice_vbox is vbox
 style choice_button is button
 style choice_button_text is button_text
+
 
 style choice_vbox:
     xalign 0.5
@@ -243,27 +500,69 @@ style choice_button_text is default:
 ## The quick menu is displayed in-game to provide easy access to the out-of-game
 ## menus.
 
+
+
+#################################### BASE QUICK MENU #########################################################################
+
+# screen quick_menu():
+
+#     ## Ensure this appears on top of other screens.
+#     zorder 100
+
+#     if quick_menu:
+
+#         hbox:
+#             style_prefix "quick"
+
+#             xalign 0.5
+#             yalign 1.0
+
+#             textbutton _("Back") action Rollback()
+#             textbutton _("History") action ShowMenu('history')
+#             textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+#             textbutton _("Auto") action Preference("auto-forward", "toggle")
+#             textbutton _("Save") action ShowMenu('save')
+#             textbutton _("Q.Save") action QuickSave()
+#             textbutton _("Q.Load") action QuickLoad()
+#             textbutton _("Prefs") action ShowMenu('preferences')
+
+###########################################################################################################################################
+###########################################################################################################################################
+
+style quicktest_button is quick_button
+
+style quicktest_button_text is quick_button_text:
+    idle_color "#000000"
+    hover_color "#555555"
+    selected_color "#000000"
+    insensitive_color "#00000066"
+
 screen quick_menu():
-
-    ## Ensure this appears on top of other screens.
     zorder 100
-
     if quick_menu:
-
-        hbox:
-            style_prefix "quick"
-
-            xalign 0.5
-            yalign 1.0
-
-            textbutton _("Back") action Rollback()
-            textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Prefs") action ShowMenu('preferences')
+        frame:
+         background Frame("gui/in_game_gui/box_tt.webp",15, 15)
+         padding (10, 10, 10, 10)
+         yalign 1.0
+         xalign 0
+         has hbox
+         style_prefix "quicktest"
+         textbutton _("Back") action Rollback()
+         textbutton _("History") action ShowMenu('history')
+         textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+         textbutton _("Auto") action Preference("auto-forward", "toggle")
+        frame:
+         background Frame("gui/in_game_gui/box_tt_right.webp", 15, 15)
+         padding (10, 10, 10, 10)
+         xalign 1.0
+         yalign 1.0
+         has hbox
+         # style_prefix "quick"
+         style_prefix "quicktest"
+         textbutton _("Save") action ShowMenu('save')
+         textbutton _("Q.Save") action QuickSave()
+         textbutton _("Q.Load") action QuickLoad()
+         textbutton _("Prefs") action ShowMenu('preferences')
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -303,8 +602,10 @@ screen navigation():
         spacing gui.navigation_spacing
 
         if main_menu:
-
             textbutton _("Start") action Start()
+            textbutton _("New content") action Start("new_content")
+            # textbutton _("New content") action ShowMenu("latest_updates")
+            # textbutton _("Chapters") action NullAction()
 
         else:
 
@@ -582,7 +883,7 @@ style about_text is gui_text
 style about_label_text:
     size gui.label_text_size
 
-screen about_screen:
+screen about_screen():
 
         vbox:
 
@@ -771,8 +1072,13 @@ screen preferences():
                     textbutton _("Unseen Text") action Preference("skip", "toggle")
                     textbutton _("After Choices") action Preference("after choices", "toggle")
                     textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
-
-                ## Additional vboxes of type "radio_pref" or "check_pref" can be
+                # vbox:
+                #  style_prefix "radio"
+                #  label _("Font")
+                #  textbutton _("DejaVuSans") action gui.SetPreference("font", "DejaVuSans.ttf")
+                #  # textbutton _("Manga Temple") action gui.SetPreference("font", "fonts/manga_temple/mangat.ttf")
+                #  # textbutton _("Ames") action gui.SetPreference("font", "fonts/ames/Ames_R.otf")
+                # ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
 
             null height (4 * gui.pref_spacing)
