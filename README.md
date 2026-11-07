@@ -30,7 +30,7 @@ Character gallery:
  Replay menu also searches for the thumbnail in the gallery thumbnails folder, so you can just use the same thumbnail you are using in the gallery menu for the replay
  
 
-### Folder with webp images folder for the 0.57 version
+### Folder with webp images for the 0.57 version
 
 https://drive.google.com/drive/folders/1DcdzzEKdvd-6Tb8BRdW_6_U2rkKnwUvf?usp=sharing
 
