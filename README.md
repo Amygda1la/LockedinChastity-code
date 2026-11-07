@@ -1,4 +1,4 @@
-##req for images: 
+## req for images: 
 
 webp format
 
