@@ -14,7 +14,7 @@ Add GalleryItem to the gallery_items list in file gallery_setup.rpy
 
 gallery uses first element of [list of images name] and searchess the thumbnail for it in images/gallery thumbnails/ folder. So for each scene you have to add thumbnail version of the first image inside gallery thumbnails folder.
 
-# Character gallery:
+#### Character gallery:
 
  each character has his own gallery and to update it you need place a scene number inside the character list (they are at the first lines of the gallery.rpy file).
  
