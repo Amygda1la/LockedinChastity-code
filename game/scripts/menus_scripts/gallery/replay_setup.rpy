@@ -1,4 +1,3 @@
-default persistent.unlocked_replay_scenes = set()
 init python:
 
     class ReplayItem:
