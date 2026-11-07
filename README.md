@@ -11,6 +11,7 @@ Size for the thumbnails images: 550/310
 Add GalleryItem to the gallery_items list in file gallery_setup.rpy
 
 > helper for gallery:
+> 
 > gallery_items.append(GalleryItem("thumbnail_text", [list of images name]))
 
 gallery uses first element of [list of images name] and searchess the thumbnail for it in images/gallery thumbnails/ folder. So for each scene you have to add thumbnail version of the first image inside gallery thumbnails folder.
@@ -25,6 +26,7 @@ gallery uses first element of [list of images name] and searchess the thumbnail 
  
 ### For Replay:
  > helper for replay:
+>
  > Replay_items.append(ReplayItem(["the thumbnail_image"], "the_label_from_code", "brief description"))
  
  same thing with character lists. They are in  at the first line of replay.rpy file
