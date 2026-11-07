@@ -28,8 +28,10 @@ gallery uses first element of [list of images name] and searchess the thumbnail 
  > helper for replay:
 >
  > Replay_items.append(ReplayItem(["the thumbnail_image"], "the_label_from_code", "brief description"))
+
+ #### Character replays:
  
- same thing with character lists. They are in  at the first line of replay.rpy file
+ same thing with character lists. They are at the first lines of replay.rpy file
  
  Replay menu also searches for the thumbnail in the gallery thumbnails folder, so you can just use the same thumbnail you are using in the gallery menu for the replay
  
