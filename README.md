@@ -12,6 +12,6 @@ https://drive.google.com/drive/folders/1DcdzzEKdvd-6Tb8BRdW_6_U2rkKnwUvf?usp=sha
 
 just replace your images folder with this one. It has all photos converted to webp format and also hovers and thumbnails for gallery and replay menus
 
-also replay gui images folder
+also replays gui images folder with the one inside repo
 
 P.S I haven't commented anything (im sorry)
