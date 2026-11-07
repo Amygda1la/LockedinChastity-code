@@ -1,5 +1,4 @@
 #a very simple gallery
-default persistent.unlocked_gallery_scenes = set()
 init python:
 
     class GalleryItem:

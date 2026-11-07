@@ -811,7 +811,7 @@ label dianewill:
     w "Hmmm...yeah...I get you"
 
     d "Welp...enough about that..."
-    $persistent.unlocked_gallery_scenes.add(44)
+    # $persistent.unlocked_gallery_scenes.add(44)
     scene diane blanket
 
     "Diane lays down on William's bed...surprising him"
@@ -837,7 +837,7 @@ label dianewill:
     w "Dammit Diane...you're too fucking hard to resist..."
 
     d "Fufufu~ that's the goal baby~"
-    $persistent.unlocked_gallery_scenes.add(45)
+    # $persistent.unlocked_gallery_scenes.add(45)
     scene diane will missionary 0
 
     "Will then jumps under the covers...accepting Diane's invite..."
@@ -1126,7 +1126,7 @@ label morning:
     "D-Diane...K-Kim?"
 
     "Everything clicks....even as the haze obscures my vision, I can see William and Kim's naked bodies around each other..."
-    $persistent.unlocked_gallery_scenes.add(46)
+    # $persistent.unlocked_gallery_scenes.add(46)
     scene william kim mating press dream 1
     scene kim and will mating press dream 1
 
@@ -1196,7 +1196,7 @@ label morning:
     b "Jamie...wake up"
 
     "Huh?"
-    $persistent.unlocked_gallery_scenes.add(47)
+    # $persistent.unlocked_gallery_scenes.add(47)
     scene morning kim 3
 
     b "Jamie, baby...you're having a nightmare"
@@ -1564,7 +1564,7 @@ label morning:
     "Kim grabs my hand and grabs me along with her..."
 
     "She struts along and buys us both an ice-cream..."
-    $persistent.unlocked_gallery_scenes.add(48)
+    # $persistent.unlocked_gallery_scenes.add(48)
     scene ice cream 1
 
     k "Ice-cream is sooooo good...it's my favorite dessert after all!"
@@ -1767,7 +1767,7 @@ label morning:
     j "W-well...kind of yeah...being denied feels pretty good.."
 
     k "Hmmm...I-I'll try it then..."
-    $persistent.unlocked_gallery_scenes.add(49)
+    # $persistent.unlocked_gallery_scenes.add(49)
     scene kim jamie handjob 1
 
     "Kim lies beside me....and puts her fingers on my dick..."
@@ -2138,7 +2138,7 @@ label gym:
     "Ahhh stop your whining and get the fuck up!"
 
     j "Ughhhhhhhhhhhhhhhhhhhhhhhhhhh"
-    $persistent.unlocked_gallery_scenes.add(50)
+    # $persistent.unlocked_gallery_scenes.add(50)
     scene jamie bench 1
 
     "Will lays me down and sets up the weights..."
@@ -2343,7 +2343,7 @@ label kim_squat:
     w "Hey you never know? Can't be too safe"
 
     k "Yeah yeah...just watch my back fufu~"
-    $persistent.unlocked_gallery_scenes.add(51)
+    # $persistent.unlocked_gallery_scenes.add(51)
     scene kim squat 1
 
     "William positions himself behind Kim and puts his arms up"
@@ -2741,7 +2741,7 @@ label will_and_diane_date2:
     show william naked
 
     w "Really, right now you're looking mighty irresistible already..."
-    $persistent.unlocked_gallery_scenes.add(52)
+    # $persistent.unlocked_gallery_scenes.add(52)
     scene diane mirror selfie
 
     "William puts his arms around Diane and cups her breasts..."
@@ -2829,7 +2829,7 @@ label will_and_diane_date2:
     scene black
 
     "A bit later"
-    $persistent.unlocked_gallery_scenes.add(53)
+    # $persistent.unlocked_gallery_scenes.add(53)
     scene diane hj1
     scene diane and will handjob 4
 
@@ -3020,7 +3020,7 @@ label will_and_diane_date2:
     d "Nghh...s-stop complimenting me and just come here already!"
 
     w "Hahaha okay okay..."
-    $persistent.unlocked_gallery_scenes.add(54)
+    # $persistent.unlocked_gallery_scenes.add(54)
     scene diane mating press 1
 
     "William towers over Diane...having his massive muscular body loom over her..."
@@ -3435,7 +3435,7 @@ label jamie_diane:
     "Dammit...I shouldn't watch...I shouldn't think about Diane and Will together like that..."
 
     "B-but...I can't stop myself...and I can't stop watching..."
-    $persistent.unlocked_gallery_scenes.add(55)
+    # $persistent.unlocked_gallery_scenes.add(55)
     scene diane mirror selfie 2
 
     b "Mngghh!"
@@ -4131,7 +4131,7 @@ label yelena_moves:
     j "W-what?"
 
     play music "audio/smooth.ogg" volume 0.3
-    $persistent.unlocked_gallery_scenes.add(56)
+    # $persistent.unlocked_gallery_scenes.add(56)
     scene yelena kabedon 1
 
     "She sits on my waist, putting her entire body weight against me...pinning me down"
@@ -4260,7 +4260,7 @@ label kim_cow_bikini:
     "Kim finishes wearing the lingerie, and she goes to the mirror to inspect herself"
 
     k "Oh...my...God"
-    $persistent.unlocked_gallery_scenes.add(57)
+    # $persistent.unlocked_gallery_scenes.add(57)
     scene kim cow 1
 
     "As she looks into the mirror, she can see herself wearing a cow-print lingerie"
@@ -4422,7 +4422,7 @@ label diane_and_jamie_date:
     "It doesn't help that the crowd's collective body heat is making everything hotter"
 
     "I look over to Diane and she is sweating bullets..."
-    $persistent.unlocked_gallery_scenes.add(58)
+    # $persistent.unlocked_gallery_scenes.add(58)
     show diane sweat
 
     d "Fwooo...damn, I'm sweating so much!"
@@ -4646,7 +4646,7 @@ label will_and_jamie_park:
     w "I'm hanging out with my bro here, and I can't just ditch him"
 
     "William pulls me in towards him"
-    $persistent.unlocked_gallery_scenes.add(59)
+    # $persistent.unlocked_gallery_scenes.add(59)
     scene will and jamie park
 
     w "Unless you want him to come too?"
@@ -4893,7 +4893,7 @@ label kim_degrade:
     k "Hahaha let me go!!"
 
     j "Noooo, not until you- AAAAAAAAHH"
-    $persistent.unlocked_gallery_scenes.add(60)
+    # $persistent.unlocked_gallery_scenes.add(60)
     scene kim kabedon 2
 
     "Kim uses her strength to tighten her grip around my hands, crushing it with force"
@@ -4995,7 +4995,7 @@ label kim_degrade:
     k "Fufufu...your tiny body is just too cute!"
 
     k "Now come here and sit on my lap"
-    $persistent.unlocked_gallery_scenes.add(61)
+    # $persistent.unlocked_gallery_scenes.add(61)
     scene kim jamie degrade 1
 
     play music "audio/intense.ogg" volume 0.3
@@ -5207,7 +5207,7 @@ label diane_ass:
     d "N-no..."
 
     w "Good.."
-    $persistent.unlocked_gallery_scenes.add(62)
+    # $persistent.unlocked_gallery_scenes.add(62)
     scene diane cock kiss 1
 
     play music "audio/intense.ogg" volume 0.3
@@ -5281,7 +5281,7 @@ label diane_ass:
     w "Yeah yeah now turn around bitch, you can start twerking on this dick"
 
     "Diane turns around and sits on William's cock"
-    $persistent.unlocked_gallery_scenes.add(63)
+    # $persistent.unlocked_gallery_scenes.add(63)
     scene diane anal spread 1
 
     w "Mffff...fuck this ass is too good"
@@ -5526,7 +5526,7 @@ label maid:
     "As Kim thinks to herself, suddenly someone comes up behind her and puts their arms around her shoulders.."
 
     b "Hey, you really look familiar!"
-    $persistent.unlocked_gallery_scenes.add(64)
+    # $persistent.unlocked_gallery_scenes.add(64)
     scene kim harass
 
     play music "audio/malicious.mp3" volume 0.3
@@ -5860,7 +5860,7 @@ label jamie_maid:
     "She almost looks feral, her mouth might as well drool at this point..."
 
     "After wearing the stockings...I then stand and present myself to Kim..."
-    $persistent.unlocked_gallery_scenes.add(65)
+    # $persistent.unlocked_gallery_scenes.add(65)
     scene maid jamie
 
     k "......"
@@ -6976,7 +6976,7 @@ label diane_will_tent:
     "Diane struggles to put on the condom on Will"
 
     d "Okay...there....now *gulp*"
-    $persistent.unlocked_gallery_scenes.add(66)
+    # $persistent.unlocked_gallery_scenes.add(66)
     scene diane will tent 1
 
     "Diane takes off her clothes...and spreads her legs, positioning her pussy lips on William's tip"
@@ -7690,7 +7690,7 @@ label kim_pee:
     "Suddenly...something jumps out the bushes"
 
     play coom "audio/leaves rustle.mp3" volume 0.5
-    $persistent.unlocked_gallery_scenes.add(67)
+    # $persistent.unlocked_gallery_scenes.add(67)
     scene scared woods
 
     k "HYAHHH!!!!!!!"
@@ -7867,7 +7867,7 @@ label lotion:
     stop ambience
 
     play music "audio/intense.ogg" volume 0.3
-    $persistent.unlocked_gallery_scenes.add(68)
+    # $persistent.unlocked_gallery_scenes.add(68)
     scene massage
 
     "As William zips open the tent, he is greeted by two beautiful women with their naked backs faced towards him"
@@ -8117,7 +8117,7 @@ label swimming:
     d "Oh...you finally came"
 
     "Kim and Diane face me..."
-    $persistent.unlocked_gallery_scenes.add(69)
+    # $persistent.unlocked_gallery_scenes.add(69)
     scene nice view
 
     k "Fwooo, the water is so nice~"
@@ -8189,7 +8189,7 @@ label swimming:
     w "Pool toys and fishing gear"
 
     d "......"
-    $persistent.unlocked_gallery_scenes.add(70)
+    # $persistent.unlocked_gallery_scenes.add(70)
     scene potential
 
     "A couple of minutes later..."
@@ -8356,7 +8356,7 @@ label will_and_diane_forest:
     d "Hah..w-we could've been fucking like animals in the middle of the w-woods!"
 
     w "Hahahaha of course you'd like that you naughty bitch!"
-    $persistent.unlocked_gallery_scenes.add(71)
+    # $persistent.unlocked_gallery_scenes.add(71)
     scene diane forest seggs 1
     scene diane forest doggy 2
 
@@ -8791,7 +8791,7 @@ label will_fishing_1_jamie_pov:
     "Curious, I get off the path and go closer to the source of sound..."
 
     "And as I get closer, it becomes apparent what is making that noise..."
-    $persistent.unlocked_gallery_scenes.add(72)
+    # $persistent.unlocked_gallery_scenes.add(72)
     scene couple peek
 
     play music "audio/malicious.mp3" volume 0.3
@@ -9187,7 +9187,7 @@ label eat:
     w "....."
 
     "After we reunite with Will and Diane, me and Kim both cling to Will for safety"
-    $persistent.unlocked_gallery_scenes.add(73)
+    # $persistent.unlocked_gallery_scenes.add(73)
     scene scared cave
 
     k "Therewassomebodyrightthereand-"
@@ -9281,7 +9281,7 @@ label eat:
 label will_fishing_2:
 
     play music "audio/melancholy.mp3" volume 0.3
-    $persistent.unlocked_gallery_scenes.add(74)
+    # $persistent.unlocked_gallery_scenes.add(74)
     scene kim and will fishing
 
     w "You really didn't need to come Kim, I was fine fishing by myself"
@@ -9758,7 +9758,7 @@ label split_jamie_pov:
     j "\"Fine send em\""
 
     f "\"Heheheh okay!\""
-    $persistent.unlocked_gallery_scenes.add(75)
+    # $persistent.unlocked_gallery_scenes.add(75)
     scene shadow doggy
 
     "Fiona then sends two pictures...it's outside a cabin, with two silhouettes by the window....and it's clearly a couple having sex"
@@ -10109,7 +10109,7 @@ label kim_and_will_camp:
     w "O-oh shut up...I can't help it"
 
     k "Fufufu...I know, now come here..."
-    $persistent.unlocked_gallery_scenes.add(76)
+    # $persistent.unlocked_gallery_scenes.add(76)
     scene kim cabin sleep 1
 
     play music "audio/smooth.ogg" volume 0.3
@@ -10245,7 +10245,7 @@ label kim_and_will_camp:
     k "..Mnnghh..."
 
     w "Well...Jamie will have to forgive me then"
-    $persistent.unlocked_gallery_scenes.add(77)
+    # $persistent.unlocked_gallery_scenes.add(77)
     scene kim eating out 1
 
     k "Nnghh..w-wait no...Ngahh~"
@@ -10313,7 +10313,7 @@ label kim_and_will_camp:
     "Kim can taste herself on Will's tongue..."
 
     "The mix of her own juices and Will's feels like an explosion on her mouth that sends a thrill down her body and makes her aroused again..."
-    $persistent.unlocked_gallery_scenes.add(78)
+    # $persistent.unlocked_gallery_scenes.add(78)
     scene cabin missionary 1
 
     w "Fuck...you're making it hard to resist you...seeing you like this, a heaving, sweaty, beautiful mess...I just want to devour you..."
@@ -10493,7 +10493,7 @@ label kim_and_will_camp:
     "Will then comes closer..and lock their mouth in a passionate kiss one more time...exploring each other with their tongues once again...."
 
     k "*chu* Hahh...*chu*"
-    $persistent.unlocked_gallery_scenes.add(79)
+    # $persistent.unlocked_gallery_scenes.add(79)
     scene cabin doggy 2
     scene kim and will cabin doggy 1
 
@@ -10660,7 +10660,7 @@ label kim_and_will_camp:
 label cabin_timelapse:
 
     "2nd day"
-    $persistent.unlocked_gallery_scenes.add(80)
+    # $persistent.unlocked_gallery_scenes.add(80)
     scene cabin art
 
     k "......"
@@ -10784,7 +10784,7 @@ label cabin_timelapse:
     w "What? Hahahahaha! I'm just telling you how it is!"
 
     "After a couple of hours..."
-    $persistent.unlocked_gallery_scenes.add(81)
+    # $persistent.unlocked_gallery_scenes.add(81)
     scene d2 1
 
     play squelch "audio/fastf.mp3" volume 8.0
@@ -11212,7 +11212,7 @@ label cabin_timelapse:
     w "..Yes..."
 
     k "...And tonight is the last night...so.."
-    $persistent.unlocked_gallery_scenes.add(82)
+    # $persistent.unlocked_gallery_scenes.add(82)
     scene kim cabin cowgirl 1
 
     "Kim walks towards William and straddles on top of him"
@@ -12352,7 +12352,7 @@ label car_seggs:
     k "MMF!! *smooch* Willia- mmff~"
 
     "*smooch* *chu* *slurp*"
-    $persistent.unlocked_gallery_scenes.add(83)
+    # $persistent.unlocked_gallery_scenes.add(83)
     scene car seggs 1
 
     play squelch "audio/muffle bj.mp3" volume 0.5
@@ -12796,7 +12796,7 @@ label kim_bathroom_bj:
     k "*Gulp*...hah...Uhmm I'm gonna touch it..now...mmfff"
 
     "Her hands move up, trembling slightly as her fingers come into contact with his manhood"
-    $persistent.unlocked_gallery_scenes.add(84)
+    # $persistent.unlocked_gallery_scenes.add(84)
     scene kim bathroom bj1
 
     "She tries to wrap her soft  delicate hands around his massive black cock, but isn't able to"
@@ -13351,7 +13351,7 @@ label storage_love_jamie:
     "...Hmmmm"
 
     "I try peeking inside..."
-    $persistent.unlocked_gallery_scenes.add(85)
+    # $persistent.unlocked_gallery_scenes.add(85)
     scene kim storage sex 1
     scene kim storage seggs 4
 
@@ -14454,7 +14454,7 @@ label yelena_fam:
     "......."
 
     "........."
-    $persistent.unlocked_gallery_scenes.add(86)
+    # $persistent.unlocked_gallery_scenes.add(86)
     scene yelena kiss 1
 
     y "I know most of the things I say are ridiculous..."
@@ -14791,7 +14791,7 @@ label kim_love_ho:
     "Both their lips connect, and their tongues intertwine...William then pushes Kim gently unto the bed, flopping his massive cock unto her stomach"
 
     stop moan
-    $persistent.unlocked_gallery_scenes.add(87)
+    # $persistent.unlocked_gallery_scenes.add(87)
     scene kim love ho 1
 
     w "Remember this Kim? Just giving you a visual of how far it'll reach..."
@@ -15060,7 +15060,7 @@ label diane_bj:
     d "*gulp* (I...I can't believe I'm gonna do this...)"
 
     "Diane grabs a condom and rips it open with her mouth..."
-    $persistent.unlocked_gallery_scenes.add(88)
+    # $persistent.unlocked_gallery_scenes.add(88)
     scene diane first bj1
 
     "She then gets on the bed and gets on all fours...crawling towards William and maintaining eye contact..."
@@ -15284,7 +15284,7 @@ label diane_bj:
     w "GRAHHHH FUCK!"
 
     d "Oghhhh! Oghhh!!!"
-    $persistent.unlocked_gallery_scenes.add(89)
+    # $persistent.unlocked_gallery_scenes.add(89)
     scene diane will lingerie ride 3
 
     stop moan
@@ -15731,7 +15731,7 @@ label jamie_exploration:
     j "Just be gentle..."
 
     k "Fufu of course~  Now come here"
-    $persistent.unlocked_gallery_scenes.add(90)
+    # $persistent.unlocked_gallery_scenes.add(90)
     scene jamie finger 4
 
     "Kim raises my hips, and my heart beats loudly as she makes me present my sensitive area to her..."
@@ -16585,7 +16585,7 @@ label diane_party:
     d "Hmmm you have such a way with words Will, you're a real charmer you know that?"
 
     w "Oh stop being sarcastic and-"
-    $persistent.unlocked_gallery_scenes.add(91)
+    # $persistent.unlocked_gallery_scenes.add(91)
     scene will diane kiss 2
 
     "William gets stopped mid-sentence as he feels a sudden warmth on his lips..."
@@ -16633,7 +16633,7 @@ label diane_party:
     "As soon as they close the door behind them, William rushes to Diane as they both share a passionate kiss"
 
     "Their tongues play with each other as they exchange saliva...Meanwhile taking off their clothes"
-    $persistent.unlocked_gallery_scenes.add(92)
+    # $persistent.unlocked_gallery_scenes.add(92)
     scene diane afterparty 2
 
     "In a blur, Diane is already on top of William, moments before, she was kissing the top of his cock while sliding the condom on his shaft..."
@@ -16959,7 +16959,7 @@ label kim_pissy:
 
     "And the third option...well...it seems like she's enthusiastic about this so refusing her would make her disappointed...so...I don't know..."
 label branching:
-    $persistent.unlocked_gallery_scenes.add(93)
+    # $persistent.unlocked_gallery_scenes.add(93)
 
     scene gelatomoosoomay
 
@@ -17038,7 +17038,7 @@ label nts_route:
     j "Haha I know..."
 
     k "Hehehe let's start"
-    $persistent.unlocked_gallery_scenes.add(94)
+    # $persistent.unlocked_gallery_scenes.add(94)
     scene kim jamie dildo 1
 
     "As Kim says those words, I aim my cock- I mean the dildo on her entrance...her face visibly nervous from having something this big go inside her..."
@@ -17236,7 +17236,7 @@ label ntr_route:
     "Kim smiles but I can sense a hint of disappointment in her eyes..."
 
     "She lays down presenting herself to me as I put a new condom on my cock"
-    $persistent.unlocked_gallery_scenes.add(95)
+    # $persistent.unlocked_gallery_scenes.add(95)
     scene kim and jamie makeup sex 0
 
     j "Okay...h-here I go..."
@@ -17389,7 +17389,7 @@ label sissy_route:
     j "Mnngghh...okay"
 
     "I get on my knees and come face to face with a huge black cock in front of me"
-    $persistent.unlocked_gallery_scenes.add(96)
+    # $persistent.unlocked_gallery_scenes.add(96)
     scene jamie succ 1
 
     j "Mnngggh.....*gulp*"
@@ -18126,7 +18126,7 @@ label yelena_christmas:
     "I go behind Yelena and pull down the zipper...weirdly enough, the zipper isn't that hard to pull down...and I think I could even reach and grab it if I wore the suit myself..."
 
     "As I completely pull the zipper down...Yelena then turns around..."
-    $persistent.unlocked_gallery_scenes.add(97)
+    # $persistent.unlocked_gallery_scenes.add(97)
     scene yelena costume
 
     play music "audio/smooth.ogg" volume 0.3
@@ -18336,7 +18336,7 @@ label netorase_christmas:
     j "Hehe sure"
 
     "Kim kisses me as Will and her go check out the other stalls"
-    $persistent.unlocked_gallery_scenes.add(98)
+    # $persistent.unlocked_gallery_scenes.add(98)
     scene kim will christmas 1
     scene kim will christmasfuck 1
 
@@ -18558,7 +18558,7 @@ label netorase_christmas:
 
 label netorare_christmas:
 
-    $persistent.unlocked_gallery_scenes.add(98)
+    # $persistent.unlocked_gallery_scenes.add(98)
     scene christmas
 
     show will santa at right
@@ -19208,7 +19208,7 @@ label diane_christmas_seggs:
     w "Can you say \"Ho ho ho\" for me real quick?"
 
     d "*sigh* Ho ho ho... how do you like your present?"
-    $persistent.unlocked_gallery_scenes.add(99)
+    # $persistent.unlocked_gallery_scenes.add(99)
     scene diane christmas sex 1
     scene wd christmas 1
 
@@ -19739,7 +19739,7 @@ label valentines_kim_date:
     j "Woahhhhh!!"
 
     "As soon as I am about to fall, Kim catches me...."
-    $persistent.unlocked_gallery_scenes.add(100)
+    # $persistent.unlocked_gallery_scenes.add(100)
     scene kim skates smile
 
     k "Gotcha...."
@@ -19943,7 +19943,7 @@ label valentines_kim_date:
     k "I thought it would be fine!! *giggle*"
 
     "Kim and I scream silently at each other as we try to hold back from laughing out loud"
-    $persistent.unlocked_gallery_scenes.add(101)
+    # $persistent.unlocked_gallery_scenes.add(101)
     scene kim dinner grin
 
     k "Hahaha..oh man, I really need to search things up before doing it"
@@ -20268,7 +20268,7 @@ label yelena_date:
     j "Thanks, I guess...*blush*"
 
     "After Yelena chooses, they bring our food shortly after"
-    $persistent.unlocked_gallery_scenes.add(102)
+    # $persistent.unlocked_gallery_scenes.add(102)
     scene yelena dinner smile
 
     y "So how's the Golubtsi so far?"
@@ -20518,7 +20518,7 @@ label yelena_date:
     "Yelena comes closer to me"
 
     y "Give me your hand fufu~"
-    $persistent.unlocked_gallery_scenes.add(103)
+    # $persistent.unlocked_gallery_scenes.add(103)
     scene yelena skates smile
 
     "I take Yelena's hand as she guides me just like Kim did"
@@ -21059,7 +21059,7 @@ label diane_valentine_date:
     d "Ugh let's just go!"
 
     "Will then drives to their dinner reservation"
-    $persistent.unlocked_gallery_scenes.add(104)
+    # $persistent.unlocked_gallery_scenes.add(104)
     scene diane dinner smile
 
     d "This place doesn't look too bad actually"
@@ -21136,7 +21136,7 @@ label diane_valentine_date:
 
     d "Ughh shut up fufu~ *blush*"
 
-    $persistent.unlocked_gallery_scenes.add(105)
+    # $persistent.unlocked_gallery_scenes.add(105)
     scene diane dog bj 2
     scene diane dog suck 1
 
@@ -21244,7 +21244,7 @@ label diane_valentine_date:
     w "Hahaha I knew you were a freaky ass hag, now get on all fours"
 
     "Even as she gets degraded, Diane still obeys Will as if recognizing him as her new master"
-    $persistent.unlocked_gallery_scenes.add(106)
+    # $persistent.unlocked_gallery_scenes.add(106)
     scene diane degrade 1
 
     "She whimpers like a good dog as she gets on all fours, awaiting for her master's next command"
@@ -21513,7 +21513,7 @@ label kim_jamie_valentines_sex:
     k "Just do a cheer come on!!"
 
     j "Mnnnhhh...f-fine..."
-    $persistent.unlocked_gallery_scenes.add(107)
+    # $persistent.unlocked_gallery_scenes.add(107)
     scene jamie cheer shy
 
     j "G-go Pelicans..Urghh..."
@@ -21555,7 +21555,7 @@ label kim_jamie_valentines_sex:
     j "*sigh* F-Fine, but if I tell you to stop, then that's it okay?"
 
     k "Yippie!!!! Hehehehehehe I'm gonna go grab the strap!!"
-    $persistent.unlocked_gallery_scenes.add(108)
+    # $persistent.unlocked_gallery_scenes.add(108)
     scene jamie pegging 1
 
     "Kim positions herself on top while I lay down and spread my legs..."
@@ -21940,7 +21940,7 @@ label william_kim_valentines_nts:
     k "*sigh* Fine...but just this one time okay?"
 
     w "Good girl haha"
-    $persistent.unlocked_gallery_scenes.add(109)
+    # $persistent.unlocked_gallery_scenes.add(109)
     scene kim cow bj 1
 
     "Kim comes face to face with Will's cock"
@@ -22069,7 +22069,7 @@ label william_kim_valentines_nts:
 
     "Kim's pussy throbs and pulses as she hears William's vulgar words"
 
-    $persistent.unlocked_gallery_scenes.add(110)
+    # $persistent.unlocked_gallery_scenes.add(110)
     scene kim cow sex 1
     scene kimcow carry 1
 
@@ -22391,7 +22391,7 @@ label william_kim_valentines_ntr:
     k "*sigh* Fine...but just this one time okay?"
 
     w "Good girl haha"
-    $persistent.unlocked_gallery_scenes.add(109)
+    # $persistent.unlocked_gallery_scenes.add(109)
     scene kim cow bj 1
 
     "Kim comes face to face with Will's cock"
@@ -22521,7 +22521,7 @@ label william_kim_valentines_ntr:
     "Kim's pussy throbs and pulses as she hears William's vulgar words"
 
 
-    $persistent.unlocked_gallery_scenes.add(110)
+    # $persistent.unlocked_gallery_scenes.add(110)
     scene kimcow carry 1
 
     play squelch "audio/fingering1.mp3" volume 8.0
@@ -22699,7 +22699,7 @@ label diane_discovers_jamie_ntr:
     "Let me check his twitter thing..."
 
     "I scroll down his page and see a recently posted picture"
-    $persistent.unlocked_gallery_scenes.add(111)
+    # $persistent.unlocked_gallery_scenes.add(111)
     scene threesome cosplay
 
     play music "audio/malicious.mp3" fadein 1.0 volume 0.3
@@ -22717,7 +22717,7 @@ label diane_discovers_jamie_ntr:
     "But... her being late while going to Kim's place..."
 
     "And William isn't here either..."
-    $persistent.unlocked_gallery_scenes.add(112)
+    # $persistent.unlocked_gallery_scenes.add(112)
     scene nts jamie 1
     scene jamie nts pov 1
 
@@ -22782,7 +22782,7 @@ label diane_discovers_jamie_sissy:
     "Let me check his twitter thing..."
 
     "I scroll down his page and see a recently posted picture"
-    $persistent.unlocked_gallery_scenes.add(113)
+    # $persistent.unlocked_gallery_scenes.add(113)
     scene threesome cosplay
 
     play music "audio/malicious.mp3" fadein 1.0 volume 0.3
@@ -23029,7 +23029,7 @@ label diane_discovers:
     "She then proceeds to go inside, and when she does...she notices a faint sound upstairs....Creaking?"
 
     "Curious, she leaves the goodie bag on the table, and then goes upstairs...the sounds becoming louder and louder"
-    $persistent.unlocked_gallery_scenes.add(114)
+    # $persistent.unlocked_gallery_scenes.add(114)
     scene diane peek
 
     "Diane gulps as she recognizes the familiar vulgar sound...She then peeks through the door"
@@ -23749,7 +23749,7 @@ label kim_convince_sissy:
     k "Hehe okay, come here on top of me~"
 
     "I get on top of Kim, heart beating out of my chest"
-    $persistent.unlocked_gallery_scenes.add(115)
+    # $persistent.unlocked_gallery_scenes.add(115)
     scene jamie cowgirl 1
 
     j "*gulp*...D-damn, so this is how it feels huh? To ride like a c-cowgirl"
@@ -24525,7 +24525,7 @@ label fitting_room_kimdiane:
     k "Hahaha he probably is"
 
 label dinner:
-    $persistent.unlocked_gallery_scenes.add(116)
+    # $persistent.unlocked_gallery_scenes.add(116)
     scene kimdiane fit
 
     "Diane and Kim come out wearing bikinis, Kim sporting a ringed white bandeau, meanwhile Diane opted for a classic red bikini"
@@ -24781,7 +24781,7 @@ label dinner:
     "The bottle spins and spins"
 
     "I dare both of you to kiss"
-    $persistent.unlocked_gallery_scenes.add(117)
+    # $persistent.unlocked_gallery_scenes.add(117)
     scene kim diane kiss
 
     d "Mnnghh....hah..."
@@ -24885,7 +24885,7 @@ label dinner_ntr:
     d "Fine... you're on"
 
     k "I accept as well..."
-    $persistent.unlocked_gallery_scenes.add(118)
+    # $persistent.unlocked_gallery_scenes.add(118)
     scene kim diane bj 1
 
     "Kim and Diane come face to face with each other, as William's massive cock tower between them"
@@ -25059,7 +25059,7 @@ label dinner_ntr:
     d "Hmph...fine"
 
     "Diane pouts as she accepts the verdict"
-    $persistent.unlocked_gallery_scenes.add(119)
+    # $persistent.unlocked_gallery_scenes.add(119)
     scene kim diane t1
     scene diane kim missionary 1
 
@@ -25608,7 +25608,7 @@ label nts_start_jamie_pov:
     "Fuck...The wait is gonna kill me...and now I'll be hearing less and less from her?"
 
     "My heart feels like it's about to burst out of my chest, when suddenly, Kim send me a picture"
-    $persistent.unlocked_gallery_scenes.add(120)
+    # $persistent.unlocked_gallery_scenes.add(120)
     scene nts restaurant
 
     "I'm almost too scared to open it, but it's just a photo of her in the restaurant...taken by someone else not me..."
@@ -26081,7 +26081,7 @@ label nts_start_kim_pov:
     show william naked grin at left
 
     w "Haha, my pleasure"
-    $persistent.unlocked_gallery_scenes.add(121)
+    # $persistent.unlocked_gallery_scenes.add(121)
     show william kim kiss 2
 
     k "Mnnghhh..hah...hah"
@@ -26336,7 +26336,7 @@ label ntr_start_jamie_pov:
     "I text Kim and she responds back"
 
     "She says she's eating dinner with her friend, and then she sends a picture"
-    $persistent.unlocked_gallery_scenes.add(120)
+    # $persistent.unlocked_gallery_scenes.add(120)
     scene nts restaurant
 
     j "Hehe she's cute~"
@@ -26498,7 +26498,7 @@ label ntr_start:
     w "I don't know, just for fun?"
 
     k "A-alright..."
-    $persistent.unlocked_gallery_scenes.add(120)
+    # $persistent.unlocked_gallery_scenes.add(120)
     scene nts restaurant
 
     "Will snaps a photo of Kim and then sends it to Jamie"
@@ -26534,7 +26534,7 @@ label ntr_start:
     show william naked grin at left
 
     w "Haha, my pleasure"
-    $persistent.unlocked_gallery_scenes.add(121)
+    # $persistent.unlocked_gallery_scenes.add(121)
     show william kim kiss 2
 
     k "Mnnghhh..hah...hah"
@@ -26850,7 +26850,7 @@ label yelena_boxes:
     scene fitting room
 
     "I hear the ruffling sounds of Yelena changing and then..."
-    $persistent.unlocked_gallery_scenes.add(122)
+    # $persistent.unlocked_gallery_scenes.add(122)
     scene yelena fit
 
     y "So uh...how do I look?"
@@ -27211,7 +27211,7 @@ label yelena_boxes:
     "I wake up with a blurry vision as the morning lights hit my face"
 
     j "Ughh... not again"
-    $persistent.unlocked_gallery_scenes.add(123)
+    # $persistent.unlocked_gallery_scenes.add(123)
     scene yelena bed
 
     "My vision slowly clears and..."
@@ -27546,7 +27546,7 @@ label will_bonding:
     w "I think you can get it if I pick you up"
 
     j "Really? I don't think- WOAH!!"
-    $persistent.unlocked_gallery_scenes.add(124)
+    # $persistent.unlocked_gallery_scenes.add(124)
     scene jamie lift 2
 
     "Will lifts me up suddenly, manhandling me without effort"
@@ -28097,7 +28097,7 @@ label plane_bj:
     stop ambience
 
     play music "audio/malicious.mp3" volume 0.3
-    $persistent.unlocked_gallery_scenes.add(125)
+    # $persistent.unlocked_gallery_scenes.add(125)
     scene kim quickie 1
 
     "Kim takes her top off, and then pulls down William's pants for him"
@@ -29043,7 +29043,7 @@ label diane_island_night:
     j "Mom?"
 
     d "Oh shit!"
-    $persistent.unlocked_gallery_scenes.add(126)
+    # $persistent.unlocked_gallery_scenes.add(126)
     scene diane afterparty 1
 
     stop squelch
@@ -29077,7 +29077,7 @@ label diane_island_night:
     d "Fine..."
 
     "They walk to the door with Will still inside her..."
-    $persistent.unlocked_gallery_scenes.add(127)
+    # $persistent.unlocked_gallery_scenes.add(127)
     scene diane island peek 2
 
     j "M-mom are you alright?"
@@ -29187,7 +29187,7 @@ label diane_island_night_jamie:
     stop bed
 
     "I approach closer...when suddenly mom opens the door"
-    $persistent.unlocked_gallery_scenes.add(127)
+    # $persistent.unlocked_gallery_scenes.add(127)
     scene diane island peek 2
 
     j "M-mom are you alright?"
@@ -29636,7 +29636,7 @@ label island_day_two:
     "Will and Yelena look in envy"
 
     "After applying sunscreen to my body, I grab the bottle from Kim"
-    $persistent.unlocked_gallery_scenes.add(128)
+    # $persistent.unlocked_gallery_scenes.add(128)
     scene yelena lotion 0
 
     k "Hehe, can you rub it on my back?"
@@ -29952,7 +29952,7 @@ label island_day_two:
     show kim bikini2 sad at left
 
     k "Hmmm...."
-    $persistent.unlocked_gallery_scenes.add(129)
+    # $persistent.unlocked_gallery_scenes.add(129)
     scene volleyball yk
 
     "The third set is tense, both Kim and Yelena are fired up, and both give their all"
@@ -30169,7 +30169,7 @@ label island_hideaway:
     "Kim moans as William starts moving"
 
     d "T-tch..."
-    $persistent.unlocked_gallery_scenes.add(130)
+    # $persistent.unlocked_gallery_scenes.add(130)
     scene isle bathroom sex 1
     scene kim orange 1
 
@@ -30376,7 +30376,7 @@ label island_hideaway_jamie_pov_cont:
     play music "audio/malicious.mp3" volume 0.3
 
 
-    $persistent.unlocked_gallery_scenes.add(131)
+    # $persistent.unlocked_gallery_scenes.add(131)
     scene isle bathroom jamie 2
 
     j "Mom, What are you doing here? It's already lunch time"
@@ -31496,7 +31496,7 @@ label diane_gangbang:
     d "Hah....hah...t-take me"
 
     fr "As you wish"
-    $persistent.unlocked_gallery_scenes.add(132)
+    # $persistent.unlocked_gallery_scenes.add(132)
     scene french sex 1
 
     "Diane lies down, the stranger behind her, poking around her wet entrance... While Will prepares to invade her mouth"
@@ -32030,7 +32030,7 @@ label island_day_four:
     w "See you on the ground bro!"
 
     j "Y-yeah!!! See you there!!"
-    $persistent.unlocked_gallery_scenes.add(133)
+    # $persistent.unlocked_gallery_scenes.add(133)
     scene skydive
 
     play music "audio/happy jazz 2.mp3" volume 0.3
@@ -32427,7 +32427,7 @@ label kim_island_threesome_nts:
     w "I just wanted to try this sex move I saw the other day haha"
 
     k "O-okay... I'll do it"
-    $persistent.unlocked_gallery_scenes.add(134)
+    # $persistent.unlocked_gallery_scenes.add(134)
     scene island stack
 
     "Kim lies down, and Diane crawls above her... Both women spreading their legs for Will"
@@ -32673,7 +32673,7 @@ label kim_island_threesome_nts:
     d "Hah...hah...hah~"
 
     k "Mnghh~"
-    $persistent.unlocked_gallery_scenes.add(135)
+    # $persistent.unlocked_gallery_scenes.add(135)
     scene divided 1
 
     play squelch "audio/fingering1.mp3" volume 8.0
@@ -32869,7 +32869,7 @@ label kim_island_threesome_jamie_pov_nts:
 
 
     ".........."
-    $persistent.unlocked_gallery_scenes.add(137)
+    # $persistent.unlocked_gallery_scenes.add(137)
     scene divided jamie 1
 
     play moan "audio/kim muffled moan.mp3" volume 1.0
@@ -33012,7 +33012,7 @@ label kim_island_threesome_jamie_pov_ntr:
     "I can't feel Kim beside me, but she's probably taking a piss or something..."
 
     "So I then go back to sleep...."
-    $persistent.unlocked_gallery_scenes.add(138)
+    # $persistent.unlocked_gallery_scenes.add(138)
     scene divided jamie ntr 1
 
     play moan "audio/kim muffled moan.mp3" volume 1.0
@@ -33357,7 +33357,7 @@ label kim_island_threesome_ntr:
     d "Hah...hah...hah~"
 
     k "Mnghh~"
-    $persistent.unlocked_gallery_scenes.add(136)
+    # $persistent.unlocked_gallery_scenes.add(136)
     scene divided ntr 1
 
     play squelch "audio/fingering1.mp3" volume 8.0
@@ -33930,7 +33930,7 @@ label yelena_island:
     "I face her and see her full naked form"
 
     y "So...shall we go to bed?"
-    $persistent.unlocked_gallery_scenes.add(139)
+    # $persistent.unlocked_gallery_scenes.add(139)
     scene yelena davui 3
 
     stop music
@@ -34208,7 +34208,7 @@ label yelena_island:
     g "Hey there cutie~"
 
     j "Yliana? W-what are you?"
-    $persistent.unlocked_gallery_scenes.add(140)
+    # $persistent.unlocked_gallery_scenes.add(140)
     scene intimidation
 
     "Yliana then lunges forward and pushes me on the wall, making it hard for me to get away"
@@ -34357,7 +34357,7 @@ label yelena_island:
     hide yana
 
     "Yana then drags me behind the rocks"
-    $persistent.unlocked_gallery_scenes.add(141)
+    # $persistent.unlocked_gallery_scenes.add(141)
     scene yana secret 1
 
     play music "audio/malicious.mp3" volume 0.3
@@ -34866,7 +34866,7 @@ label borat:
     j "...no"
 
     k "Hehehehe~"
-    $persistent.unlocked_gallery_scenes.add(142)
+    # $persistent.unlocked_gallery_scenes.add(142)
     scene green jamie 1
 
     play ambience "audio/ambience ocean.mp3" fadein 1.0 volume 1.0
@@ -35089,7 +35089,7 @@ label party_alex_invite_nts:
     "She reads her message"
 
     a "\"What you missed out on<3\""
-    $persistent.unlocked_gallery_scenes.add(143)
+    # $persistent.unlocked_gallery_scenes.add(143)
     scene trio party 1
 
     "Kim plays the attached video and sees Millie and Quinn servicing Will"
@@ -35332,7 +35332,7 @@ label party_alex_invite_ntr:
     k "W-Will!"
 
     a "Hahaha I knew it! Now can we start? Or else I'm gonna fuck that French guy again"
-    $persistent.unlocked_gallery_scenes.add(144)
+    # $persistent.unlocked_gallery_scenes.add(144)
     scene alex sex 1
     scene kim alex threesome 1
 
@@ -35417,7 +35417,7 @@ label party_alex_invite_ntr:
     stop climax
 
     stop coom
-    $persistent.unlocked_gallery_scenes.add(145)
+    # $persistent.unlocked_gallery_scenes.add(145)
     scene kimalex kiss
 
     a "Mnnfggh, I've always wanted to know what you tasted like, you slut"
@@ -35465,7 +35465,7 @@ label party_alex_invite_ntr:
     scene black
 
     ".........."
-    $persistent.unlocked_gallery_scenes.add(146)
+    # $persistent.unlocked_gallery_scenes.add(146)
     scene couch sex 1
 
     a "So are you ready bitch?"
@@ -36128,7 +36128,7 @@ label foreign_date:
     j "Ugh..."
 
     "I get close and sit next to Will..."
-    $persistent.unlocked_gallery_scenes.add(147)
+    # $persistent.unlocked_gallery_scenes.add(147)
     scene jamie ponder 2
 
     j "So you totally knew it was me back there"
@@ -36648,7 +36648,7 @@ label diane_plane_bj:
     w "So I'll be your first time then, sweet"
 
     d "*sigh* Just take off your damn pants"
-    $persistent.unlocked_gallery_scenes.add(148)
+    # $persistent.unlocked_gallery_scenes.add(148)
     scene diane plane bj 1
 
     "Diane takes off her top, and she then comes face to face with his member"
@@ -36842,7 +36842,7 @@ label kim_vs_yelena_plane:
     "And to cleanse our palate, We watch some superhero slop"
 
     "It is kinda boring though, so it doesn't take a while before I feel like falling asleep"
-    $persistent.unlocked_gallery_scenes.add(149)
+    # $persistent.unlocked_gallery_scenes.add(149)
     scene ky plane 1
 
     "Kim tries her best to focus, her eyes betraying her as the movie goes on"
@@ -37229,7 +37229,7 @@ label missing_william_jamie:
     stop squelch
 
     "The sounds stop, and mom walks up to the door"
-    $persistent.unlocked_gallery_scenes.add(150)
+    # $persistent.unlocked_gallery_scenes.add(150)
     scene diane door mad
 
     d "W-what?"
@@ -37389,7 +37389,7 @@ label missing_william_2:
     w "Hmm?"
 
     play music "audio/sexy.mp3" volume 0.3
-    $persistent.unlocked_gallery_scenes.add(151)
+    # $persistent.unlocked_gallery_scenes.add(151)
     scene diane cook 1
 
     "Diane flips the steak while she waits for the potatoes in the oven"
@@ -37672,7 +37672,7 @@ label caging_up:
     k "Stay still baby~ aaaaand there~ *click*"
 
     j "Done~ how does it feel?"
-    $persistent.unlocked_gallery_scenes.add(152)
+    # $persistent.unlocked_gallery_scenes.add(152)
     scene kim jamie mirror 1
 
     "The chastity cage locks in place, it feels a bit heavy on my crotch"

@@ -4,7 +4,8 @@ init python:
     maxthumbx = config.screen_width / (maxnumx + 1)
     maxthumby = config.screen_height / (maxnumy + 1)
     maxperpage = maxnumx * maxnumy
-
+    replay_manager_switch = False
+    gallery_manager_switch = False
 
 
     def unlock_page_scenes_not_clickable(scenes_list, page, menu_name):
@@ -12,9 +13,14 @@ init python:
      last_elem = first_elem + 9
      page_scenes = scenes_list[first_elem:last_elem]
      if menu_name == "gallery_page":
-      for scene in page_scenes:
-       if scene not in persistent.unlocked_gallery_scenes:
-        return False
+      # for scene in page_scenes:
+      #  if scene not in persistent.unlocked_gallery_scenes:
+      #   return False
+      # return True
+      for scene_number in page_scenes:
+       if 1 <= scene_number <= len(gallery_items):
+        if not renpy.seen_image(gallery_items[scene_number - 1].images[0]):
+         return False
       return True
      else:
       for number in page_scenes:
@@ -30,9 +36,14 @@ init python:
      last_elem = first_elem + 9
      page_scenes = scenes_list[first_elem:last_elem]
      if menu_name == "gallery_page":
-      for scene in page_scenes:
-       if scene in persistent.unlocked_gallery_scenes:
-        return False
+      # for scene in page_scenes:
+      #  if scene in persistent.unlocked_gallery_scenes:
+      #   return False
+      # return True
+      for scene_number in page_scenes:
+       if 1 <= scene_number <= len(gallery_items):
+        if renpy.seen_image(gallery_items[scene_number-1].images[0]):
+         return False
       return True
      else:
       for number in page_scenes:
@@ -51,9 +62,14 @@ init python:
          return False
       return True
      else:
-      for scene in scenes_list:
-       if scene in (persistent.unlocked_gallery_scenes):
-        return False
+      # for scene in scenes_list:
+      #  if scene in (persistent.unlocked_gallery_scenes):
+      #   return False
+      # return True
+      for scene_number in scenes_list:
+       if 1 <= scene_number <= len(gallery_items):
+        if renpy.seen_image(gallery_items[scene_number - 1].images[0]):
+         return False
       return True
 
 
@@ -66,9 +82,14 @@ init python:
          return False
       return True
      else:
-      for scene in scenes_list:
-       if scene not in (persistent.unlocked_gallery_scenes):
-        return False
+      # for scene in scenes_list:
+      #  if scene not in (persistent.unlocked_gallery_scenes):
+      #   return False
+      # return True
+      for scene_number in scenes_list:
+       if 1 <= scene_number <= len(gallery_items):
+        if not renpy.seen_image(gallery_items[scene_number - 1].images[0]):
+         return False
       return True
 
 
@@ -107,14 +128,10 @@ init python:
 
 
 
-    replay_manager_switch = False
-    gallery_manager_switch = False
-
-
-
     def get_number_of_unlocked_scenes (scenes_list,menu_name):
      if menu_name == "gallery_page":
-      return len([scene for scene in scenes_list if scene in persistent.unlocked_gallery_scenes])
+      # return len([scene for scene in scenes_list if scene in persistent.unlocked_gallery_scenes])
+      return len([scene for scene in scenes_list if renpy.seen_image(gallery_items[scene - 1].images[0])])
      else:
       return len([replay for replay in scenes_list if renpy.seen_label(Replay_items[replay -1].replay)])
 
@@ -127,7 +144,8 @@ init python:
        renpy.mark_label_seen(replay_item.replay)
      else:
       for scene in scenes_list:
-       persistent.unlocked_gallery_scenes.add(scene)
+       # persistent.unlocked_gallery_scenes.add(scene)
+       renpy.mark_image_seen(gallery_items[scene -1].images[0])
 
 
 
@@ -138,7 +156,8 @@ init python:
        renpy.mark_label_unseen(replay_item.replay)
      else:
       for scene in scenes_list:
-       persistent.unlocked_gallery_scenes.discard(scene)
+       # persistent.unlocked_gallery_scenes.discard(scene)
+       renpy.mark_image_unseen(gallery_items[scene -1].images[0])
 
 
 
@@ -151,7 +170,8 @@ init python:
        renpy.mark_label_unseen(replay_item.replay)
      else:
       for scene_number in scenes_list[first_elem:last_elem]:
-       persistent.unlocked_gallery_scenes.discard(scene_number)
+       # persistent.unlocked_gallery_scenes.discard(scene_number)
+       renpy.mark_image_unseen(gallery_items[scene_number-1].images[0])
 
 
 
@@ -164,13 +184,15 @@ init python:
        renpy.mark_label_seen(replay_item.replay)
      else:
       for scene_number in scenes_list[first_elem:last_elem]:
-       persistent.unlocked_gallery_scenes.add(scene_number)
+       # persistent.unlocked_gallery_scenes.add(scene_number)
+       renpy.mark_image_seen(gallery_items[scene_number-1].images[0])
 
 
 
     def unlock_scene(scene_number,menu_name):
      if menu_name == "gallery_page":
-      persistent.unlocked_gallery_scenes.add(scene_number)
+      # persistent.unlocked_gallery_scenes.add(scene_number)
+      renpy.mark_image_seen(gallery_items[scene_number - 1].images[0])
      else:
       renpy.mark_label_seen(Replay_items[scene_number -1].replay)
 
@@ -261,6 +283,7 @@ screen gallery_closeup(images): #shows full sized image as a button on top of ev
      xalign 0.5
      yalign 0.98
      background "#fff8"
+
     #changed.  Mobile slider frame
     if renpy.variant("touch"):
      frame:

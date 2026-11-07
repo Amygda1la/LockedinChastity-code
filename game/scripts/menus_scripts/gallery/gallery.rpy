@@ -33,17 +33,19 @@ screen gallery_B():
         for scene_index, scene_number in enumerate(scenes_list[start:end]):
             $i = scene_number - 1
             $hover_image = character_properties[1]
-            $is_locked = gallery_items[i].image_number not in persistent.unlocked_gallery_scenes
-            if is_locked:
-             $gallery_idle = At(gallery_items[i].thumbnail_image, locked_blur)
-            else:
+            # $is_locked = gallery_items[i].image_number not in persistent.unlocked_gallery_scenes
+            $is_seen = renpy.seen_image(gallery_items[i].images[0])
+            if is_seen:
              $gallery_idle = gallery_items[i].thumbnail_image
+            else:
+             $gallery_idle = At(gallery_items[i].thumbnail_image, locked_blur)
             imagebutton:
              idle gallery_idle
              hover_foreground  At(hover_image, hover_blur)
              xalign 0.5
              yalign 0.5
-             action ( Show("unlock_confirmation", None, gallery_items[i].image_number,menu_name = "gallery_page") if is_locked else Show("gallery_closeup", dissolve, gallery_items[i].images))
+             # action ( Show("unlock_confirmation", None, gallery_items[i].image_number,menu_name = "gallery_page") if is_locked else Show("gallery_closeup", dissolve, gallery_items[i].images))
+             action (Show("gallery_closeup", dissolve, gallery_items[i].images) if is_seen else Show("unlock_confirmation", None, gallery_items[i].image_number,menu_name = "gallery_page"))
              hovered Show("thumbnail_info", None, gallery_items[i].name, gallery_items[i].image_number, scene_index)
              unhovered Hide("thumbnail_info")
              at imageThumb
