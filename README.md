@@ -20,7 +20,7 @@ Character gallery:
  
  It's easier to Update the character lists after you  already added all the scenes in the gallery_items list
  
- To look for each scene number you need to uncomment line 315 in screens_and_funcs_for_galleries.rpy and hover on the scene number of which you are searching for. The number will appear at the top left corner, so just Add the scene number to the right character list.
+ To look for each scene number you need to uncomment line 315 in screens_and_funcs_for_galleries.rpy and hover on the scene number of which you are searching for. The number will appear at the top left corner, so just Add the scene number to the character list this scene is appropriate.
  
 ### For Replay:
  helper for replay: Replay_items.append(ReplayItem(["the thumbnail_image"], "the_label_from_code", "brief description"))
