@@ -1,7 +1,9 @@
-req for images: 
+##req for images: 
 
 webp format
+
 thumbnails must end with _t and they must be placed inside gallery thumbnails folder. Also they also must be .webp
+
 Size for the thumbnails images: 550/310
 
 ## How to work with it
