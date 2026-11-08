@@ -8,7 +8,7 @@ Size for the thumbnails images: 550/310
 
 ## How to work with it
 ### For gallery:
-Add GalleryItem to the gallery_items list in file gallery_setup.rpy
+Add GalleryItem to the gallery_items list in file gallery_setup.rpy for each scene you are want to add
 
 > helper for gallery:
 > 
@@ -27,7 +27,7 @@ gallery uses first element of [list of images name] and searchess the thumbnail 
 ### For Replay:
  > helper for replay:
 >
- > Replay_items.append(ReplayItem(["the thumbnail_image"], "the_label_from_code", "brief description"))
+ > Replay_items.append(ReplayItem("the thumbnail_image", "the_label_from_code", "brief description"))
 
  #### Character replays:
  
