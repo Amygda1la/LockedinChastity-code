@@ -98,14 +98,13 @@ define gui.game_menu_background = "gui/game_menu.png"
 
 ##textbox style things #########################################################
 define gui.text_outline_borders =  Borders(15, 30, 30, 30)
-define gui.text_outline_xpos = 505
+define gui.text_outline_xpos = 515
 define gui.text_outline_ypos = 90
 
 define gui.inside_text_borders = Borders(30,60,30,60)
-
-define gui.namebox_borders_pc = Borders(30, 30, 30, 30)
-define gui.name_xpos_pc = 420
-define gui.name_ypos_pc = -35
+define gui.namebox_borders_pc = Borders(40, 40, 40, 40)
+define gui.name_xpos_pc = 440
+define gui.name_ypos_pc = 15
 ## Dialogue ####################################################################
 ##
 ## These variables control how dialogue is displayed on the screen one line at a
@@ -150,7 +149,7 @@ define gui.dialogue_xpos_long = 400
 define gui.dialogue_ypos = 100
 
 ## The maximum width of dialogue text, in pixels.
-define gui.dialogue_width = 1500
+define gui.dialogue_width = 1460
 define gui.dialogue_width_long = 1800
 ## The horizontal alignment of the dialogue text. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.

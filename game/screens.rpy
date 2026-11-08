@@ -237,44 +237,80 @@ transform hide_say:
  alpha 0.0
 
 
-# transform character_outline:
-#  ypos 1050
+
 
 screen say(who, what, outline_color = "#000000"):
     style_prefix "say"
     window:
         id "window"
-
         if text_hidden:
          at hide_say
-
-        if who is not None:
-            window:
-                id "namebox"
-                style "namebox"
-                background Fixed(
-                 Transform(Frame("gui/in_game_gui/namebox_fill.webp", 44, 44), alpha=0.7),
-                 Frame("gui/in_game_gui/namebox_outline.webp", 44, 44))
-                text who id "who":
-                 color "#000000"
-                 kerning 1.5
-
-
         window:
          style "text_outline"
-         background Transform(Frame("gui/in_game_gui/textbox_outline2.webp",44, 44, tile = True), matrixcolor=ColorizeMatrix(outline_color, outline_color))
+         # background Transform(Frame("gui/in_game_gui/textbox_outline1.webp",44, 44, tile = True), matrixcolor=ColorizeMatrix(outline_color, outline_color))
+         background Transform(Frame("gui/in_game_gui/textbox_outline1.webp",44, 44, tile = True))
+
          # foreground backgrounTransform(Frame("gui/in_game_gui/textbox_fill_frame.webp", 44, 44), alpha = 0.7)
          $text_len = len(renpy.filter_text_tags(what, allow=[]))
          window:
           xsize (gui.dialogue_width_long if text_len > 190 else gui.dialogue_width)
-
           style "text_inline"
           window:
            style "text_inside"
            text what id "what"
         if who is not None:
-         add "gui/in_game_gui/textbox_arrow1.webp" at transform:
-          pos (365,-10)
+         window:
+          id "namebox"
+          style "namebox"
+          padding (80, 25, 80, 25)
+          background Fixed(
+           Transform(Frame("gui/in_game_gui/namebox_fill.webp",15,15), alpha=1),
+           Frame("gui/in_game_gui/namebox_outline.webp", 15, 15))
+          text who id "who":
+           color "#000000"
+           kerning 1.5
+         # add "gui/in_game_gui/textbox_arrow1.webp" at transform:
+         #  pos (365,-10)
+
+
+        # window:
+        #  style "text_outline"
+        #  # background Transform(Frame("gui/in_game_gui/textbox_outline1.webp",44, 44, tile = True), matrixcolor=ColorizeMatrix(outline_color, outline_color))
+        #  background Transform(Frame("gui/in_game_gui/textbox_outline1.webp",44, 44, tile = True))
+
+        #  # foreground backgrounTransform(Frame("gui/in_game_gui/textbox_fill_frame.webp", 44, 44), alpha = 0.7)
+        #  $text_len = len(renpy.filter_text_tags(what, allow=[]))
+        #  window:
+        #   xsize (gui.dialogue_width_long if text_len > 190 else gui.dialogue_width)
+
+        #   style "text_inline"
+        #   window:
+        #    style "text_inside"
+        #    text what id "what"
+
+
+
+
+        ###############standart textbox########################
+        #   window:
+        #  style "text_outline"
+        #  background Transform(Frame("gui/in_game_gui/textbox_outline2.webp",44, 44, tile = False), matrixcolor=ColorizeMatrix(outline_color, outline_color))
+        #  # foreground backgrounTransform(Frame("gui/in_game_gui/textbox_fill_frame.webp", 44, 44), alpha = 0.7)
+        #  $text_len = len(renpy.filter_text_tags(what, allow=[]))
+        #  window:
+        #   xsize (gui.dialogue_width_long if text_len > 190 else gui.dialogue_width)
+
+        #   style "text_inline"
+        #   window:
+        #    style "text_inside"
+        #    text what id "what"
+        # if who is not None:
+        #  add "gui/in_game_gui/textbox_arrow1.webp" at transform:
+        #   pos (365,-10)
+        ###########################################################
+
+
+
 
     ## If there's a side image, display it above the text. Do not display on the
     ## phone variant - there's no room.
@@ -315,6 +351,7 @@ style namebox is default
 style namebox_label is say_label
 
 
+
 style window:
     xalign 0.5
     xfill True
@@ -331,11 +368,8 @@ style namebox:
 
 
 # textbox styles #############################
-style arrow:
- background "gui/in_game_gui/textbox_arrow.webp"
-
 style text_inline:
- background Transform(Frame("gui/in_game_gui/textbox_fill2.webp", 44, 44), alpha = 0.7)
+ background Transform(Frame("gui/in_game_gui/textbox_fill1.webp", 44, 44), alpha = 0.7)
 
 style text_outline:
  pos (gui.text_outline_xpos,gui.text_outline_ypos)
@@ -541,8 +575,8 @@ screen quick_menu():
     zorder 100
     if quick_menu:
         frame:
-         background Frame("gui/in_game_gui/box_tt.webp",15, 15)
-         padding (10, 10, 10, 10)
+         background Frame("gui/in_game_gui/persona_in_game_menu_box_left.webp")
+         padding (15, 15, 40, 15)
          yalign 1.0
          xalign 0
          has hbox
@@ -552,8 +586,8 @@ screen quick_menu():
          textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
          textbutton _("Auto") action Preference("auto-forward", "toggle")
         frame:
-         background Frame("gui/in_game_gui/box_tt_right.webp", 15, 15)
-         padding (10, 10, 10, 10)
+         background Frame("gui/in_game_gui/persona_in_game_menu_box_right.webp", 15, 15)
+         padding (25, 15, 40, 15)
          xalign 1.0
          yalign 1.0
          has hbox
