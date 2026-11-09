@@ -248,7 +248,7 @@ screen say(who, what, outline_color = "#000000"):
         window:
          style "text_outline"
          # background Transform(Frame("gui/in_game_gui/textbox_outline1.webp",44, 44, tile = True), matrixcolor=ColorizeMatrix(outline_color, outline_color))
-         background Transform(Frame("gui/in_game_gui/textbox_outline1.webp",44, 44, tile = True))
+         background Transform(Frame("gui/in_game_gui/textbox_outline2.webp",44, 44, tile = False))
 
          # foreground backgrounTransform(Frame("gui/in_game_gui/textbox_fill_frame.webp", 44, 44), alpha = 0.7)
          $text_len = len(renpy.filter_text_tags(what, allow=[]))
@@ -369,7 +369,7 @@ style namebox:
 
 # textbox styles #############################
 style text_inline:
- background Transform(Frame("gui/in_game_gui/textbox_fill1.webp", 44, 44), alpha = 0.7)
+ background Transform(Frame("gui/in_game_gui/textbox_fill2.webp", 44, 44), alpha = 0.7)
 
 style text_outline:
  pos (gui.text_outline_xpos,gui.text_outline_ypos)
