@@ -101,7 +101,7 @@ define gui.text_outline_borders =  Borders(15, 30, 30, 30)
 define gui.text_outline_xpos = 515
 define gui.text_outline_ypos = 90
 
-define gui.inside_text_borders = Borders(30,60,30,60)
+define gui.inside_text_borders = Borders(70,60,40,60)
 define gui.namebox_borders_pc = Borders(40, 40, 40, 40)
 define gui.name_xpos_pc = 440
 define gui.name_ypos_pc = 15
