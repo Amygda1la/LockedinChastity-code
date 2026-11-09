@@ -2,13 +2,13 @@
 
 webp format
 
-thumbnails must end with _t and they must be placed inside gallery thumbnails folder. Also they also must be .webp
+thumbnails name must end with _t and they must be placed inside gallery thumbnails folder. Also they also must be .webp
 
 Size for the thumbnails images: 550/310
 
 ## How to work with it
 ### For gallery:
-Add GalleryItem to the gallery_items list in file gallery_setup.rpy for each scene you are want to add
+Add GalleryItem to the gallery_items list in file gallery_setup.rpy for each scene you want to add
 
 > helper for gallery:
 > 
